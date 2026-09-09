@@ -73,6 +73,17 @@ export interface AboutBusinessModel {
   icon: string;
 }
 
+export interface AboutLeadershipImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+export interface AboutLeadership extends AboutStatement {
+  images: AboutLeadershipImage[];
+}
+
 export interface AboutSubSection {
   eyebrow: string;
   title: string;
@@ -144,6 +155,7 @@ export interface AboutData {
   manufacturingStrength: AboutManufacturingStrength;
   qualityPositioning: AboutQualityPositioning;
   businessPositioning: AboutBusinessPositioning;
+  leadership: AboutLeadership;
   corporateOffice: AboutCorporateOffice;
   closingStatement: AboutClosingStatement;
 }

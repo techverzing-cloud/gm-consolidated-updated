@@ -1,5 +1,7 @@
 "use server";
 
+import { Resend } from "resend";
+
 export interface EnquiryPayload {
   name: string;
   company: string;
@@ -15,16 +17,22 @@ export type EnquiryResult =
   | { ok: true }
   | { ok: false; error: "invalid" | "delivery_failed" };
 
-/**
- * Backend delivery channel for enquiry submissions.
- *
- * Point EMAIL_DELIVERY_ENDPOINT at your email provider / CRM API and POST the
- * payload there. Until then we never report a fabricated delivery — the UI
- * surfaces the unresolved channel and offers direct phone/email fallback.
- */
-const EMAIL_DELIVERY_ENDPOINT: string | null = null;
-
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+function formatEnquiry(payload: EnquiryPayload): string {
+  return [
+    `Name: ${payload.name}`,
+    `Company: ${payload.company || "-"}`,
+    `Email: ${payload.email}`,
+    `Phone: ${payload.phone || "-"}`,
+    `Enquiry type: ${payload.enquiryType}`,
+    `Product category: ${payload.productCategory || "-"}`,
+    `Quantity: ${payload.quantity || "-"}`,
+    "",
+    `Message:`,
+    payload.message,
+  ].join("\n");
+}
 
 export async function submitEnquiry(payload: EnquiryPayload): Promise<EnquiryResult> {
   const requiredMissing = [
@@ -40,16 +48,24 @@ export async function submitEnquiry(payload: EnquiryPayload): Promise<EnquiryRes
     return { ok: false, error: "invalid" };
   }
 
-  if (EMAIL_DELIVERY_ENDPOINT === null) {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from = process.env.RESEND_FROM_EMAIL;
+  const to = process.env.RESEND_TO_EMAIL;
+
+  if (!apiKey || !from || !to) {
     return { ok: false, error: "delivery_failed" };
   }
 
   try {
-    await fetch(EMAIL_DELIVERY_ENDPOINT, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+    const resend = new Resend(apiKey);
+    const { error } = await resend.emails.send({
+      from,
+      to,
+      replyTo: payload.email,
+      subject: `Enquiry from ${payload.name}${payload.company ? ` (${payload.company})` : ""}`,
+      text: formatEnquiry(payload),
     });
+    if (error) return { ok: false, error: "delivery_failed" };
     return { ok: true };
   } catch {
     return { ok: false, error: "delivery_failed" };

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "About G.M. Consolidated | Appliance Engineering & Manufacturing",
-    "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across three industrial units in Kala Amb, Himachal Pradesh."
+    "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across two industrial units in Kala Amb, Himachal Pradesh."
   },
   "hero": {
     "eyebrow": "G.M. Consolidated",
@@ -36,7 +36,7 @@
       "label": "Manufacturing Experience"
     },
     {
-      "value": "3",
+      "value": "2",
       "suffix": "",
       "label": "Industrial Units"
     },
@@ -97,7 +97,7 @@
       {
         "number": "04",
         "title": "Manufacturing",
-        "description": "Three specialized industrial units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
+        "description": "Two specialized industrial units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
         "icon": "mdi:factory"
       },
       {
@@ -110,13 +110,13 @@
   },
   "manufacturingInfrastructure": {
     "eyebrow": "Our Manufacturing Infrastructure",
-    "title": "Three Industrial Units. One Manufacturing Ecosystem.",
+    "title": "Two Industrial Units. One Manufacturing Ecosystem.",
     "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh — each unit focused on a defined part of the appliance manufacturing flow.",
     "units": [
       {
         "number": "01",
         "name": "A. R. Industries",
-        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Sirmour, Kala Amb, Himachal Pradesh – 173030.",
+        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
         "image": "/images/factory/assembly.jpg",
         "imageAlt": "Workers assembling small domestic appliances on a production line"
@@ -124,18 +124,10 @@
       {
         "number": "02",
         "name": "Rao Industries",
-        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Sirmour – 173030, Himachal Pradesh.",
+        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Distt-Sirmour – 173030 (H.P.)",
         "focus": "Water heating systems production",
         "image": "/images/factory/production-wide.jpg",
         "imageAlt": "Production floor for water heating appliance systems"
-      },
-      {
-        "number": "03",
-        "name": "G.M. Consolidated",
-        "location": "Near Petrol Pump, Kh. No. 583/452/201, Dhakwala, Village Rampur Jattan, Tehsil Nahan, Kala Amb, Sirmour, Himachal Pradesh – 173030.",
-        "focus": "Personal-care and custom tooling",
-        "image": "/images/factory/toolroom.webp",
-        "imageAlt": "Tool room with tooling and mould maintenance equipment"
       }
     ]
   },
@@ -199,7 +191,7 @@
   "manufacturingStrength": {
     "eyebrow": "Manufacturing Strength",
     "title": "Manufacturing Capabilities Built Around Integration.",
-    "description": "Three specialized industrial units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
+    "description": "Two specialized industrial units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
     "metrics": [
       {
         "value": "25",
@@ -275,6 +267,25 @@
     ],
     "ctaLabel": "Explore OEM / ODM",
     "ctaHref": "/oem-odm"
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "The People Behind the Products.",
+    "description": "G.M. Consolidated is led by a management team that keeps engineering, tooling and manufacturing working as one integrated organisation.",
+    "images": [
+      {
+        "src": "/images/about/leadership-1.jpg",
+        "alt": "Portrait of a business leader in a formal black suit",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/about/leadership-2.jpg",
+        "alt": "Portrait of a business leader in a formal black suit and cap",
+        "width": 1467,
+        "height": 1072
+      }
+    ]
   },
   "corporateOffice": {
     "eyebrow": "Corporate Head Office",

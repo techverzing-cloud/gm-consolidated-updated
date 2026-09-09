@@ -29,6 +29,8 @@ export interface QualityInspectionStep {
 export interface QualityInspectionProcess {
   eyebrow: string;
   title: string;
+  image: string;
+  imageAlt: string;
   steps: QualityInspectionStep[];
 }
 

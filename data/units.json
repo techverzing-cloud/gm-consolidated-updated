@@ -1,0 +1,62 @@
+{
+  "units": [
+    {
+      "id": "ar-industries",
+      "route": "/ar-industries",
+      "breadcrumbLabel": "A. R. Industries",
+      "eyebrow": "G.M. Consolidated · Manufacturing Unit 1",
+      "title": "A. R. Industries",
+      "intro": "A. R. Industries is manufacturing unit 1 of G.M. Consolidated in Kala Amb, Himachal Pradesh — focused on the core assembly of small domestic appliances.",
+      "paragraphs": [
+        "G.M. Consolidated is an appliance design, development and engineering manufacturer established in 1983, with over four decades of experience serving small domestic appliance and personal-care electronics programmes.",
+        "The unit operates within the company's integrated manufacturing ecosystem, combining product development, engineering, tooling, manufacturing and quality processes to move programmes from concept to commercial-ready product.",
+        "Multi-stage safety and functional inspections keep output dependable, while the company's products are engineered to export-quality baselines."
+      ],
+      "focus": {
+        "label": "Unit Focus · Small Domestic Appliances",
+        "value": "Core assembly of small domestic appliances"
+      },
+      "address": {
+        "label": "Unit Address",
+        "lines": [
+          "Mauza Rampur Jattan, Dhakwala Moginand,",
+          "Tehsil Nahan, Distt-Sirmour,",
+          "Kala Amb (HP) – 173030."
+        ]
+      },
+      "metadata": {
+        "title": "A. R. Industries — Manufacturing Unit 1",
+        "description": "Manufacturing unit 1 of G.M. Consolidated in Kala Amb, Himachal Pradesh — core assembly of small domestic appliances. A. R. Industries, Mauza Rampur Jattan, Dhakwala Moginand, Kala Amb (HP) 173030."
+      }
+    },
+    {
+      "id": "rao-industries",
+      "route": "/rao-industries",
+      "breadcrumbLabel": "Rao Industries",
+      "eyebrow": "G.M. Consolidated · Manufacturing Unit 2",
+      "title": "Rao Industries",
+      "intro": "Rao Industries is manufacturing unit 2 of G.M. Consolidated in Kala Amb, Himachal Pradesh — focused on water heating systems production.",
+      "paragraphs": [
+        "G.M. Consolidated is an appliance design, development and engineering manufacturer established in 1983, with over four decades of experience serving small domestic appliance and personal-care electronics programmes.",
+        "The unit operates within the company's integrated manufacturing ecosystem — combining product development, engineering, tooling, manufacturing and quality processes — with a dedicated focus on water heating appliance systems.",
+        "Multi-stage safety and functional inspections support dependable, commercial-ready output engineered to export-quality baselines."
+      ],
+      "focus": {
+        "label": "Unit Focus · Water Heating",
+        "value": "Production of water heating systems"
+      },
+      "address": {
+        "label": "Unit Address",
+        "lines": [
+          "Kh. No. 972/830/714/474/124, Kala Amb,",
+          "Village Moginand, Tehsil Nahan,",
+          "Distt-Sirmour – 173030 (H.P.)"
+        ]
+      },
+      "metadata": {
+        "title": "Rao Industries — Manufacturing Unit 2",
+        "description": "Manufacturing unit 2 of G.M. Consolidated in Kala Amb, Himachal Pradesh — water heating systems production. Rao Industries, Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand (HP) 173030."
+      }
+    }
+  ]
+}

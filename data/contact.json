@@ -44,8 +44,8 @@
     {
       "id": "email",
       "label": "Email",
-      "value": "enquiry@gmconsolidated.in",
-      "href": "mailto:enquiry@gmconsolidated.in",
+      "value": "ea.admin@arind.in",
+      "href": "mailto:ea.admin@arind.in",
       "icon": "mdi:email-outline",
       "description": ""
     },
@@ -122,15 +122,15 @@
   "map": {
     "eyebrow": "Our Location",
     "title": "Visit Us",
-    "name": "Poonam Industries",
-    "detail": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
-    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55954.31163055231!2d77.02178840912995!3d28.774949734059444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d07b30f35b66d%3A0xf686043ef689e938!2sPoonam%20Industries!5e0!3m2!1sen!2sin!4v1788861654977!5m2!1sen!2sin",
-    "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=28.774949734059444,77.02178840912995",
+    "name": "A. R. Industries",
+    "detail": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt. Sirmour, Kala Amb (HP) – 173030",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.225690415486!2d77.22377107527022!3d30.514656696139898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f09bd08fbeda7%3A0x57a39b1b8f837f27!2sA%20R%20industries!5e0!3m2!1sen!2sin!4v1788947139689!5m2!1sen!2sin",
+    "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=30.514656696139898,77.22377107527022",
     "directionsLabel": "Get Directions"
   },
   "primaryContact": {
     "phone": "+91 11 4185 0000",
-    "email": "enquiry@gmconsolidated.in",
+    "email": "ea.admin@arind.in",
     "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
     "addressShort": "Bawana Road, Delhi – 110042",
     "units": "Kala Amb, Himachal Pradesh"
@@ -145,7 +145,7 @@
     {
       "title": "Manufacturing Units",
       "icon": "mdi:factory",
-      "text": "Three industrial units, Kala Amb — Himachal Pradesh"
+      "text": "Two industrial units, Kala Amb — Himachal Pradesh"
     },
     {
       "title": "Tool Room",

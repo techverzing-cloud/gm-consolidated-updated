@@ -18,6 +18,8 @@
   "inspectionProcess": {
     "eyebrow": "Inspection Process",
     "title": "Six checkpoints from material to release.",
+    "image": "/images/factory/assembly.jpg",
+    "imageAlt": "Workers assembling home appliances on a production line",
     "steps": [
       {
         "number": "01",

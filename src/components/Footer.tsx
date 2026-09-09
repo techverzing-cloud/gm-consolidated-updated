@@ -14,6 +14,11 @@ const QUICK_LINKS = [
 
 const LEGAL_LINKS = ["Privacy Policy", "Terms", "Sitemap"];
 
+const BUSINESS_LINKS = [
+  { label: "A. R. Industries", href: "/ar-industries" },
+  { label: "Rao Industries", href: "/rao-industries" },
+];
+
 export function Footer() {
   const categories = getCategories();
 
@@ -85,7 +90,7 @@ export function Footer() {
                 className="h-9 w-auto"
               />
               <p className="mt-5 max-w-sm text-sm leading-relaxed text-navy-muted">
-                Three industrial units in Kala Amb, Himachal Pradesh,
+                Two industrial units in Kala Amb, Himachal Pradesh,
                 manufacturing home appliances for OEM, ODM and private-label
                 programmes since 1983.
               </p>
@@ -197,6 +202,16 @@ export function Footer() {
               &copy; 2026 G.M. Consolidated. All rights reserved.
             </p>
             <ul className="flex items-center gap-6">
+              {BUSINESS_LINKS.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    href={link.href}
+                    className="link-underline text-sm text-navy-muted transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
               {LEGAL_LINKS.map((label) => (
                 <li key={label}>
                   <Link

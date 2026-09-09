@@ -12,6 +12,7 @@ import { EngineeringStrength } from "@/components/about/engineering-strength";
 import { ManufacturingStrength } from "@/components/about/manufacturing-strength";
 import { QualityPositioning } from "@/components/about/quality-positioning";
 import { BusinessPositioning } from "@/components/about/business-positioning";
+import { LeadershipSection } from "@/components/about/leadership-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
 import { getAboutContent } from "@/lib/about";
@@ -38,6 +39,7 @@ export default function AboutPage() {
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
       <BusinessPositioning section={content.businessPositioning} />
+      <LeadershipSection section={content.leadership} />
       <CorporateOffice office={content.corporateOffice} />
       <AboutCta closing={content.closingStatement} />
     </AboutAnimations>

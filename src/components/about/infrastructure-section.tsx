@@ -29,7 +29,7 @@ export function InfrastructureSection({
           </p>
         </header>
 
-        <div className="mt-14 grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="mt-14 grid gap-10 md:grid-cols-2 lg:gap-8">
           {section.units.map((unit) => (
             <article key={unit.number} data-about-unit>
               <div
@@ -41,7 +41,7 @@ export function InfrastructureSection({
                     src={unit.image}
                     alt={unit.imageAlt}
                     fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    sizes="(min-width: 768px) 50vw, 100vw"
                     className="object-cover object-center"
                   />
                 </div>

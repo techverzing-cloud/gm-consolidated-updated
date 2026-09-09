@@ -71,7 +71,7 @@ export function OemOdm() {
             className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
           >
             Appliance design, engineering and manufacturing for OEM, ODM and
-            product-development programmes — three industrial units operating
+            product-development programmes — two industrial units operating
             as one organisation since 1983.
           </p>
         </div>

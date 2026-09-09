@@ -31,6 +31,7 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
     const engineering = scope.querySelector("#about-engineering");
     const quality = scope.querySelector("#about-quality");
     const business = scope.querySelector("#about-business");
+    const leadership = scope.querySelector("#about-leadership");
     const office = scope.querySelector("#about-office");
     const ctaSection = scope.querySelector("#about-cta");
 
@@ -322,6 +323,25 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
             ease: "power3.out",
             stagger: 0.08,
             scrollTrigger: { trigger: business, start: "top 78%", once: true },
+          },
+        );
+      }
+
+      if (leadership) {
+        gsap.fromTo(
+          "[data-about-leadership]",
+          { autoAlpha: 0, y: 24 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.6,
+            ease: "power3.out",
+            stagger: 0.1,
+            scrollTrigger: {
+              trigger: leadership,
+              start: "top 78%",
+              once: true,
+            },
           },
         );
       }
