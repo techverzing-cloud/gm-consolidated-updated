@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "title": "About G.M. Consolidated | Appliance Engineering & Manufacturing",
+    "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across three industrial units in Kala Amb, Himachal Pradesh."
+  },
+  "hero": {
+    "eyebrow": "G.M. Consolidated",
+    "title": "Engineering Excellence Since 1983.",
+    "description": "G.M. Consolidated is an appliance design, development and engineering manufacturer serving small domestic appliance and personal-care electronics programmes.",
+    "image": "/images/about-hero.jpg",
+    "imageAlt": "Wide view of the production floor at an appliance manufacturing facility"
+  },
+  "corporateStatement": {
+    "eyebrow": "Corporate Statement",
+    "title": "Setting Tomorrow's Standards. Built Beyond Expectations.",
+    "description": ""
+  },
+  "companyProfile": {
+    "eyebrow": "About G.M. Consolidated",
+    "title": "Built on Four Decades of Manufacturing Experience.",
+    "paragraphs": [
+      "Established in 1983, G.M. Consolidated is an appliance design, development and engineering manufacturer.",
+      "Over four decades of operational expertise have positioned the company as a manufacturing partner for small domestic appliances and personal-care electronics.",
+      "The company focuses on high-performance, export-quality products engineered to exceed industry baselines."
+    ]
+  },
+  "companyFacts": [
+    {
+      "value": "1983",
+      "suffix": "",
+      "label": "Established"
+    },
+    {
+      "value": "40+",
+      "suffix": " years",
+      "label": "Manufacturing Experience"
+    },
+    {
+      "value": "3",
+      "suffix": "",
+      "label": "Industrial Units"
+    },
+    {
+      "value": "Kala Amb",
+      "suffix": "",
+      "label": "Manufacturing Base"
+    }
+  ],
+  "philosophy": {
+    "eyebrow": "Our Philosophy",
+    "title": "Precision in Design. Discipline in Manufacturing.",
+    "description": "Our corporate philosophy centers around design precision, clean modern aesthetics and product durability.",
+    "principles": [
+      {
+        "number": "01",
+        "title": "Design Precision",
+        "description": "A focus on accurate product development and engineering from concept through manufacturing.",
+        "icon": "mdi:target"
+      },
+      {
+        "number": "02",
+        "title": "Modern Aesthetics",
+        "description": "Products are developed with attention to clean, contemporary form and practical usability.",
+        "icon": "mdi:shape-outline"
+      },
+      {
+        "number": "03",
+        "title": "Product Durability",
+        "description": "Engineering and quality processes are focused on dependable, commercial-ready products.",
+        "icon": "mdi:shield-check-outline"
+      }
+    ]
+  },
+  "whatWeDo": {
+    "eyebrow": "What We Do",
+    "title": "From Product Idea to Manufactured Appliance.",
+    "description": "G.M. Consolidated combines product development, engineering, tooling, manufacturing and quality processes within its operating ecosystem.",
+    "capabilities": [
+      {
+        "number": "01",
+        "title": "Product Design & Development",
+        "description": "Appliance design, development and engineering for domestic and personal-care products.",
+        "icon": "mdi:lightbulb-outline"
+      },
+      {
+        "number": "02",
+        "title": "Engineering & CAD",
+        "description": "Internal capability to move from blueprint and 3D CAD modelling toward customized tooling structures.",
+        "icon": "mdi:vector-square"
+      },
+      {
+        "number": "03",
+        "title": "Tooling",
+        "description": "In-house tooling capability supporting the transition from product development to production.",
+        "icon": "mdi:tools"
+      },
+      {
+        "number": "04",
+        "title": "Manufacturing",
+        "description": "Three specialized industrial units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
+        "icon": "mdi:factory"
+      },
+      {
+        "number": "05",
+        "title": "Quality Control",
+        "description": "Multi-stage safety and functional inspections supporting reliable commercial-ready products.",
+        "icon": "mdi:clipboard-check-outline"
+      }
+    ]
+  },
+  "manufacturingInfrastructure": {
+    "eyebrow": "Our Manufacturing Infrastructure",
+    "title": "Three Industrial Units. One Manufacturing Ecosystem.",
+    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh — each unit focused on a defined part of the appliance manufacturing flow.",
+    "units": [
+      {
+        "number": "01",
+        "name": "A. R. Industries",
+        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Sirmour, Kala Amb, Himachal Pradesh – 173030.",
+        "focus": "Small domestic appliances core assembly",
+        "image": "/images/factory/assembly.jpg",
+        "imageAlt": "Workers assembling small domestic appliances on a production line"
+      },
+      {
+        "number": "02",
+        "name": "Rao Industries",
+        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Sirmour – 173030, Himachal Pradesh.",
+        "focus": "Water heating systems production",
+        "image": "/images/factory/production-wide.jpg",
+        "imageAlt": "Production floor for water heating appliance systems"
+      },
+      {
+        "number": "03",
+        "name": "G.M. Consolidated",
+        "location": "Near Petrol Pump, Kh. No. 583/452/201, Dhakwala, Village Rampur Jattan, Tehsil Nahan, Kala Amb, Sirmour, Himachal Pradesh – 173030.",
+        "focus": "Personal-care and custom tooling",
+        "image": "/images/factory/toolroom.webp",
+        "imageAlt": "Tool room with tooling and mould maintenance equipment"
+      }
+    ]
+  },
+  "productEcosystem": {
+    "eyebrow": "Our Product Ecosystem",
+    "title": "Small Domestic Appliances & Personal Care Electronics.",
+    "description": "The company's current appliance portfolio spans garment care, water heating, heating and comfort, personal care and specialty electronics.",
+    "categories": [
+      {
+        "number": "01",
+        "name": "Garment Care",
+        "description": "Dry irons and steam irons.",
+        "icon": "mdi:iron",
+        "href": "/catalog/garment-care"
+      },
+      {
+        "number": "02",
+        "name": "Water Heating",
+        "description": "Water geysers and heating systems.",
+        "icon": "mdi:water-boiler",
+        "href": "/catalog/water-heating"
+      },
+      {
+        "number": "03",
+        "name": "Heating / Comfort",
+        "description": "Fan heater systems.",
+        "icon": "mdi:heat-wave",
+        "href": "/catalog/heating-comfort"
+      },
+      {
+        "number": "04",
+        "name": "Personal Care",
+        "description": "Hair dryer products.",
+        "icon": "mdi:hair-dryer",
+        "href": "/catalog/personal-care"
+      },
+      {
+        "number": "05",
+        "name": "Specialty Electronics",
+        "description": "Rechargeable mosquito racket products.",
+        "icon": "mdi:flash-outline",
+        "href": "/catalog/specialty-electronics"
+      }
+    ]
+  },
+  "engineeringStrength": {
+    "eyebrow": "Engineering & Tooling",
+    "title": "Localized Engineering. Integrated Tooling.",
+    "description": "The company maintains internal capability to transition from blueprint and 3D CAD modelling into customized tooling structures — keeping product development and manufacturing under one roof.",
+    "image": "/images/factory/moulding.webp",
+    "imageAlt": "Injection moulding press inside an appliance manufacturing unit",
+    "flow": ["Concept", "3D CAD", "Engineering", "Tooling", "Manufacturing"],
+    "points": [
+      "3D CAD modelling",
+      "Product development",
+      "Customized tooling",
+      "Engineering support",
+      "Production integration"
+    ]
+  },
+  "manufacturingStrength": {
+    "eyebrow": "Manufacturing Strength",
+    "title": "Manufacturing Capabilities Built Around Integration.",
+    "description": "Three specialized industrial units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
+    "metrics": [
+      {
+        "value": "25",
+        "suffix": "",
+        "label": "Injection Moulding Machines"
+      },
+      {
+        "value": "120–250",
+        "suffix": "T",
+        "label": "Pressure Die Casting Capacity"
+      },
+      {
+        "value": "4",
+        "suffix": "M",
+        "label": "Thermostat Capacity / Year"
+      },
+      {
+        "value": "20+",
+        "suffix": " years",
+        "label": "Tool Room Experience"
+      }
+    ]
+  },
+  "qualityPositioning": {
+    "eyebrow": "Quality",
+    "title": "Quality Built Into the Manufacturing Flow.",
+    "description": "Multi-stage safety and functional inspections are used to support reliable, commercial-ready products.",
+    "points": [
+      {
+        "title": "Multi-Stage Inspection",
+        "description": "Quality checks are performed across the manufacturing process.",
+        "icon": "mdi:clipboard-check-outline"
+      },
+      {
+        "title": "Safety & Functional Checks",
+        "description": "Products undergo safety and functional inspection processes.",
+        "icon": "mdi:shield-check-outline"
+      },
+      {
+        "title": "Commercial-Ready Output",
+        "description": "The quality approach is focused on dependable finished products.",
+        "icon": "mdi:check-decagram-outline"
+      }
+    ],
+    "ctaLabel": "Explore Quality",
+    "ctaHref": "/quality"
+  },
+  "businessPositioning": {
+    "eyebrow": "Built for Business",
+    "title": "A Manufacturing Partner for Appliance Programmes.",
+    "description": "G.M. Consolidated's engineering, tooling, manufacturing and quality capabilities support OEM, ODM, private-label and bulk requirements.",
+    "models": [
+      {
+        "title": "OEM",
+        "description": "Manufacturing to customer requirements and specifications.",
+        "icon": "mdi:factory"
+      },
+      {
+        "title": "ODM",
+        "description": "Product development from requirement through engineering, prototype, tooling and production.",
+        "icon": "mdi:vector-combine"
+      },
+      {
+        "title": "Private Label",
+        "description": "Appliance programmes developed for businesses operating under their own brand.",
+        "icon": "mdi:label-outline"
+      },
+      {
+        "title": "Bulk Requirements",
+        "description": "Existing catalogue ranges for distribution, retail and commercial requirements.",
+        "icon": "mdi:package-variant-closed"
+      }
+    ],
+    "ctaLabel": "Explore OEM / ODM",
+    "ctaHref": "/oem-odm"
+  },
+  "corporateOffice": {
+    "eyebrow": "Corporate Head Office",
+    "title": "Connect With G.M. Consolidated.",
+    "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042, India",
+    "phone": "+91 98110 97298",
+    "email": "ea.admin@arind.in",
+    "phoneLabel": "Direct Commercial Support",
+    "emailLabel": "Administrative Email Support"
+  },
+  "closingStatement": {
+    "eyebrow": "Established 1983",
+    "title": "Setting Tomorrow's Standards.",
+    "description": "Explore our appliance catalog or start a conversation about your next OEM / ODM programme.",
+    "image": "/images/factory/press.webp",
+    "imageAlt": "Metal pressing station at a home appliance manufacturing unit",
+    "primaryLabel": "Explore Catalog",
+    "primaryHref": "/catalog",
+    "secondaryLabel": "Start an OEM / ODM Discussion",
+    "secondaryHref": "/oem-odm"
+  }
+}

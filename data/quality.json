@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Quality & Testing | G.M. Consolidated",
+    "description": "Quality engineered into the manufacturing flow — checkpoints across production and routine testing before finished products are released."
+  },
+  "hero": {
+    "eyebrow": "QUALITY & TESTING",
+    "title": "Every Unit Is Tested. Not Just Sampled.",
+    "description": "Quality is engineered into the manufacturing flow, with checkpoints across production and routine testing before finished products are released.",
+    "image": "/images/quality-hero.jpg",
+    "imageAlt": "Production floor at the G.M. Consolidated industrial units, Kala Amb"
+  },
+  "philosophy": {
+    "eyebrow": "Quality Philosophy",
+    "title": "Quality Is Built Into the Flow.",
+    "description": "Quality is engineered into the flow, not inspected onto the end. Checkpoints run at every stage, with routine testing of finished products before packing."
+  },
+  "inspectionProcess": {
+    "eyebrow": "Inspection Process",
+    "title": "Six checkpoints from material to release.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Incoming Material Inspection",
+        "description": "Inspection of incoming materials before they enter production.",
+        "icon": "mdi:package-check"
+      },
+      {
+        "number": "02",
+        "title": "In-Process Checkpoints",
+        "description": "Quality checkpoints throughout manufacturing.",
+        "icon": "mdi:clipboard-check-outline"
+      },
+      {
+        "number": "03",
+        "title": "Electrical Type Tests",
+        "description": "Electrical testing as part of the quality process.",
+        "icon": "mdi:flash-outline"
+      },
+      {
+        "number": "04",
+        "title": "Assembly Line Checks",
+        "description": "Checks performed during appliance assembly.",
+        "icon": "mdi:factory"
+      },
+      {
+        "number": "05",
+        "title": "Routine Test",
+        "description": "Finished products undergo routine testing.",
+        "icon": "mdi:test-tube"
+      },
+      {
+        "number": "06",
+        "title": "Packing & Release",
+        "description": "Final release before packing and dispatch.",
+        "icon": "mdi:package-check"
+      }
+    ]
+  },
+  "qualitySystems": {
+    "eyebrow": "Quality Systems",
+    "title": "Standards and systems behind the process.",
+    "items": [
+      {
+        "title": "ISO 9001:2015",
+        "description": "ISO 9001:2015 group facilities.",
+        "icon": "mdi:certificate-outline"
+      },
+      {
+        "title": "BIS Licensed Product Lines",
+        "description": "BIS licensed product lines.",
+        "icon": "mdi:shield-check-outline"
+      },
+      {
+        "title": "In-House Testing Laboratory",
+        "description": "In-house testing laboratory functioning as per BIS.",
+        "icon": "mdi:flask-outline"
+      }
+    ]
+  },
+  "laboratory": {
+    "eyebrow": "Testing & Laboratory",
+    "title": "From Incoming Material to Final Release.",
+    "description": "Inspection and testing are integrated across the manufacturing process rather than being treated as a final-stage activity.",
+    "image": "/images/factory/testing.webp",
+    "imageAlt": "Routine testing line at the G.M. Consolidated factory, Kala Amb"
+  },
+  "cta": {
+    "eyebrow": "Quality & Testing",
+    "title": "Quality Built Into Every Stage.",
+    "description": "Explore how engineering, manufacturing and testing work together.",
+    "label": "Discuss Your Requirements",
+    "href": "/contact",
+    "secondaryLabel": "Explore OEM / ODM",
+    "secondaryHref": "/oem-odm",
+    "image": "/images/factory/production-wide.jpg",
+    "imageAlt": "Production floor of the G.M. Consolidated industrial units, Kala Amb"
+  }
+}

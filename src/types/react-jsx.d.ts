@@ -1,0 +1,14 @@
+import type {} from "react";
+
+declare module "react" {
+  namespace JSX {
+    interface IntrinsicElements {
+      "iconify-icon": React.HTMLAttributes<HTMLElement> & {
+        icon?: string;
+        width?: number;
+        height?: number;
+        mode?: string;
+      };
+    }
+  }
+}

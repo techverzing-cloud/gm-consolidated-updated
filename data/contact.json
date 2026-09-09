@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Contact | G.M. Consolidated",
+    "description": "Start a B2B appliance enquiry with G.M. Consolidated — OEM, ODM, private-label and bulk requirements. Talk to our team about your next appliance programme."
+  },
+  "hero": {
+    "eyebrow": "Contact G.M. Consolidated",
+    "title": "Let's Build Your Next Appliance.",
+    "description": "Have an OEM, ODM, private-label or bulk requirement? Talk to our team about your next appliance programme.",
+    "image": "/images/contact-bg.jpg",
+    "imageAlt": "Production floor of a home appliance manufacturing facility",
+    "primaryLabel": "Start an Enquiry",
+    "primaryHref": "#enquiry",
+    "secondaryLabel": "View Catalog",
+    "secondaryHref": "/catalog"
+  },
+  "intro": {
+    "eyebrow": "Start a conversation",
+    "title": "One team for engineering, manufacturing and quality.",
+    "text": "Tell us what you're looking to build. Our commercial team will come back with engineering perspective, capability fit and timelines for OEM, ODM, private-label or bulk programmes.",
+    "points": [
+      "Direct with the manufacturer — no middlemen",
+      "Tooling, production and quality in-house",
+      "Realistic timelines from day one"
+    ]
+  },
+  "contactDetails": [
+    {
+      "id": "business",
+      "label": "Business Enquiries",
+      "value": "OEM / ODM / Private Label / Bulk",
+      "description": "For OEM, ODM, private-label and bulk requirements.",
+      "icon": "mdi:briefcase-outline",
+      "href": ""
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "value": "+91 11 4185 0000",
+      "href": "tel:+911141850000",
+      "icon": "mdi:phone-outline",
+      "description": ""
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "value": "enquiry@gmconsolidated.in",
+      "href": "mailto:enquiry@gmconsolidated.in",
+      "icon": "mdi:email-outline",
+      "description": ""
+    },
+    {
+      "id": "location",
+      "label": "Location",
+      "value": "Bawana Road, Delhi – 110042",
+      "description": "Head office. Manufacturing units in Kala Amb, Himachal Pradesh.",
+      "icon": "mdi:map-marker-outline",
+      "href": ""
+    }
+  ],
+  "form": {
+    "title": "Start a Conversation",
+    "description": "Tell us what you're looking to build and our team can discuss the next steps.",
+    "enquiryTypes": ["OEM", "ODM", "Private Label", "Bulk Requirement", "General Enquiry"],
+    "submitLabel": "Send Enquiry",
+    "requiredNote": "* Required",
+    "fallbackTitle": "Enquiry channel is being connected",
+    "fallbackText": "Your details were validated but delivery isn't connected yet. Our team is wiring direct email — until then, please reach us at",
+    "invalidMessage": "Please check the highlighted fields and try again.",
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your full name",
+        "required": true,
+        "error": "Please enter your full name"
+      },
+      "company": {
+        "label": "Company Name",
+        "placeholder": "Your company",
+        "required": true,
+        "error": "Please enter your company name"
+      },
+      "email": {
+        "label": "Work Email",
+        "placeholder": "name@company.com",
+        "required": true,
+        "error": "Please enter your work email",
+        "errorInvalid": "Enter a valid email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "+91 …",
+        "required": false,
+        "error": ""
+      },
+      "enquiryType": {
+        "label": "Enquiry Type",
+        "placeholder": "Select an enquiry type",
+        "required": true,
+        "error": "Please select an enquiry type"
+      },
+      "productCategory": {
+        "label": "Product / Category",
+        "placeholder": "Select a category",
+        "required": false,
+        "error": ""
+      },
+      "quantity": {
+        "label": "Expected Requirement / Quantity",
+        "placeholder": "e.g. 5,000 units / year, phased",
+        "required": false,
+        "error": ""
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your product, target markets, volumes and timelines…",
+        "required": true,
+        "error": "Please tell us a little about your requirement"
+      }
+    }
+  },
+  "map": {
+    "eyebrow": "Our Location",
+    "title": "Visit Us",
+    "name": "Poonam Industries",
+    "detail": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55954.31163055231!2d77.02178840912995!3d28.774949734059444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d07b30f35b66d%3A0xf686043ef689e938!2sPoonam%20Industries!5e0!3m2!1sen!2sin!4v1788861654977!5m2!1sen!2sin",
+    "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=28.774949734059444,77.02178840912995",
+    "directionsLabel": "Get Directions"
+  },
+  "primaryContact": {
+    "phone": "+91 11 4185 0000",
+    "email": "enquiry@gmconsolidated.in",
+    "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
+    "addressShort": "Bawana Road, Delhi – 110042",
+    "units": "Kala Amb, Himachal Pradesh"
+  },
+  "note": "Official contact details to be published.",
+  "channels": [
+    {
+      "title": "Head Office",
+      "icon": "mdi:office-building-outline",
+      "text": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042"
+    },
+    {
+      "title": "Manufacturing Units",
+      "icon": "mdi:factory",
+      "text": "Three industrial units, Kala Amb — Himachal Pradesh"
+    },
+    {
+      "title": "Tool Room",
+      "icon": "mdi:wrench-outline",
+      "text": "State-of-the-art tooling facility, Delhi"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start a Conversation",
+    "title": "Have a Product in Mind?",
+    "text": "Let's discuss the engineering, manufacturing and quality requirements behind it.",
+    "image": "/images/factory/assembly.jpg",
+    "imageAlt": "Workers assembling home appliances on a production line",
+    "primaryLabel": "Start an Enquiry",
+    "primaryHref": "#enquiry",
+    "primaryVariant": "navy-solid",
+    "secondaryLabel": "Explore Catalog",
+    "secondaryHref": "/catalog",
+    "secondaryVariant": "navy-ghost"
+  }
+}

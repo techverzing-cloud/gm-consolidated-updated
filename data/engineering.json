@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "Engineering",
+    "description": "G.M. Consolidated in-house engineering and capabilities — concept, 3D modelling, prototyping, validation, tooling and production, managed under one roof."
+  },
+  "header": {
+    "eyebrow": "Engineering & Capabilities",
+    "title": "From Concept to Commercial-Ready.",
+    "intro": "Every stage of the journey — design, modelling, prototyping, validation, tooling and production — is managed in-house, so products get out first time right."
+  },
+  "process": {
+    "label": "Engineering process",
+    "title": "Six stages. One in-house journey.",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "mdi:lightbulb-outline",
+        "title": "Concept",
+        "text": "Design engineers translate complex client requirements into efficient, workable concepts — balancing function, aesthetics, ergonomics and economics."
+      },
+      {
+        "number": "02",
+        "icon": "mdi:cube-outline",
+        "title": "3D Modelling",
+        "text": "Blueprints become complete 3D CAD models with the internal capability to transition directly into customised tooling structures."
+      },
+      {
+        "number": "03",
+        "icon": "mdi:flask-outline",
+        "title": "Prototype",
+        "text": "3D-printed components create mock samples that validate each design — put under actual tests and conditions to simulate real performance."
+      },
+      {
+        "number": "04",
+        "icon": "mdi:check-decagram-outline",
+        "title": "Validation",
+        "text": "Validation comes before any tooling activity — it is what gets products out first time right."
+      },
+      {
+        "number": "05",
+        "icon": "mdi:wrench-outline",
+        "title": "Tooling",
+        "text": "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools — repaired and maintained in-house."
+      },
+      {
+        "number": "06",
+        "icon": "mdi:factory",
+        "title": "Production",
+        "text": "Dedicated product-specific lines for dry iron, steam iron, geyser, room heater, hair dryer and electric kettle run under one roof."
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "Core in-house capabilities",
+    "title": "Mould · Metal · Assembly",
+    "items": [
+      {
+        "name": "Pressure die casting",
+        "text": "120–250 ton PDC machines producing soleplates for dry and steam irons."
+      },
+      {
+        "name": "Plastic injection moulding",
+        "text": "25 machines from 80–400 ton running PC, PA6/PA66, PBT, ABS and PP engineering plastics, including insert moulding."
+      },
+      {
+        "name": "Press shop",
+        "text": "Automatic sheet feeders and progressive tooling for high-volume components."
+      },
+      {
+        "name": "Tool room",
+        "text": "CNC vertical machining (BFW) and EDM for world-class moulds — serving domestic and export markets for 20+ years."
+      },
+      {
+        "name": "PTFE coating",
+        "text": "In-house non-stick surface processing for superior soleplate performance."
+      },
+      {
+        "name": "Thermostat manufacturing",
+        "text": "Snap-action thermostats built in-house to a manufacturing capacity of 4 million."
+      },
+      {
+        "name": "Heating elements",
+        "text": "Resistance wire, MGO filling, spot welding, plus SS304 instant water heater plates with argon welding."
+      },
+      {
+        "name": "Steam iron pump kits",
+        "text": "The first manufacturer of steam iron pumps in India — produced entirely in-house."
+      }
+    ]
+  },
+  "supportingOperationsLabel": "Supporting operations",
+  "supportingOperations": ["Riveting", "Laser & pad printing", "Painting", "Auto-conveyorised assembly"],
+  "cta": {
+    "title": "Planning a new product line?",
+    "text": "Bring the requirement — we will come back with engineering perspective, capability fit and next steps.",
+    "links": [
+      { "label": "Discuss Your Project", "href": "/contact", "variant": "navy-solid" },
+      { "label": "Explore Manufacturing", "href": "/manufacturing", "variant": "navy-ghost" }
+    ]
+  }
+}

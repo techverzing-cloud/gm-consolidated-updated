@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "Manufacturing Infrastructure | G.M. Consolidated",
+    "description": "Three industrial units in Kala Amb, Himachal Pradesh supporting integrated appliance engineering, die casting, injection moulding, tooling, finishing, assembly and routine testing."
+  },
+  "hero": {
+    "eyebrow": "Manufacturing Infrastructure",
+    "title": "From Material to Finished Product.",
+    "description": "Three industrial units in Kala Amb, Himachal Pradesh, supporting integrated appliance engineering, manufacturing, finishing, assembly and testing.",
+    "image": "/images/manufacturing-hero.jpg",
+    "imageAlt": "Production floor of the G.M. Consolidated industrial units, Kala Amb"
+  },
+  "intro": {
+    "eyebrow": "Our Manufacturing Strength",
+    "title": "Built Around Integrated Manufacturing.",
+    "description": "G.M. Consolidated operates across three specialized industrial units in Kala Amb, with capabilities spanning tooling, forming, moulding, component manufacturing, finishing, assembly and routine testing."
+  },
+  "metrics": [
+    {
+      "value": "3",
+      "suffix": "",
+      "label": "Industrial Units"
+    },
+    {
+      "value": "25",
+      "suffix": "",
+      "label": "Injection Moulding Machines"
+    },
+    {
+      "value": "120–250",
+      "suffix": "T",
+      "label": "Pressure Die Casting Capacity"
+    },
+    {
+      "value": "4M",
+      "suffix": "",
+      "label": "Thermostat Capacity / Year"
+    },
+    {
+      "value": "20+",
+      "suffix": " years",
+      "label": "Tool Room Experience"
+    }
+  ],
+  "productionFlow": {
+    "eyebrow": "The Production Line",
+    "title": "Nine Stages. One Finished Product.",
+    "description": "From die casting and injection moulding to thermostat production and conveyorised assembly, every stage of the manufacturing sequence runs in-house across the three units.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Pressure Die Casting",
+        "description": "120–250 ton pressure die casting capability supporting component and soleplate manufacturing."
+      },
+      {
+        "number": "02",
+        "title": "Plastic Injection Moulding",
+        "description": "25 injection moulding machines ranging from 80–400 ton, supporting engineering plastics and insert moulding."
+      },
+      {
+        "number": "03",
+        "title": "Press Shop",
+        "description": "Automatic sheet feeding and progressive tooling for formed components."
+      },
+      {
+        "number": "04",
+        "title": "Tool Room",
+        "description": "CNC vertical machining and EDM capability supporting in-house tooling requirements."
+      },
+      {
+        "number": "05",
+        "title": "PTFE Coating",
+        "description": "Specialized PTFE coating operations supporting appliance components."
+      },
+      {
+        "number": "06",
+        "title": "Thermostat Manufacturing",
+        "description": "Dedicated thermostat manufacturing capability with approximately 4 million annual capacity."
+      },
+      {
+        "number": "07",
+        "title": "Heating Elements",
+        "description": "In-house heating element manufacturing supporting appliance production."
+      },
+      {
+        "number": "08",
+        "title": "Conveyorised Assembly",
+        "description": "Auto-conveyorised assembly operations for finished appliance production."
+      },
+      {
+        "number": "09",
+        "title": "Routine Testing",
+        "description": "Finished products undergo routine testing before release."
+      }
+    ]
+  },
+  "coreCapabilities": {
+    "eyebrow": "Core Capabilities",
+    "title": "Technical Capability Across the Manufacturing Flow.",
+    "description": "A deeper look at the production technologies and materials handled across the three units.",
+    "groups": [
+      {
+        "number": "01",
+        "title": "Pressure Die Casting",
+        "icon": "mdi:factory",
+        "details": ["120–250 ton PDC machines", "Soleplate manufacturing"]
+      },
+      {
+        "number": "02",
+        "title": "Plastic Injection Moulding",
+        "icon": "mdi:tune",
+        "details": ["25 machines, 80–400 ton range", "PC", "PA6 / PA66", "PBT", "ABS", "PP", "Insert moulding"]
+      },
+      {
+        "number": "03",
+        "title": "Press Shop",
+        "icon": "mdi:hammer",
+        "details": ["Automatic sheet feeders", "Progressive tooling"]
+      },
+      {
+        "number": "04",
+        "title": "Tool Room",
+        "icon": "mdi:cog-outline",
+        "details": ["CNC vertical machining", "EDM", "20+ years of experience"]
+      },
+      {
+        "number": "05",
+        "title": "Thermostat Manufacturing",
+        "icon": "mdi:thermometer-lines",
+        "details": ["4 million annual capacity"]
+      },
+      {
+        "number": "06",
+        "title": "Supporting Operations",
+        "icon": "mdi:tools",
+        "details": ["Riveting", "Laser / pad printing", "Painting", "Auto-conveyorised assembly"]
+      }
+    ]
+  },
+  "integration": {
+    "eyebrow": "Integrated Operations",
+    "title": "Engineering, Tooling and Production Working Together.",
+    "description": "The manufacturing ecosystem brings product development, tooling, component manufacturing, finishing, assembly and testing into a coordinated production flow.",
+    "note": "The strength is not individual machines — it is the integration of every manufacturing stage under one roof.",
+    "stages": [
+      {
+        "title": "Engineering",
+        "icon": "mdi:vector-square"
+      },
+      {
+        "title": "Tooling",
+        "icon": "mdi:tools"
+      },
+      {
+        "title": "Component Manufacturing",
+        "icon": "mdi:factory"
+      },
+      {
+        "title": "Finishing",
+        "icon": "mdi:spray"
+      },
+      {
+        "title": "Assembly",
+        "icon": "mdi:robot-industrial"
+      },
+      {
+        "title": "Testing",
+        "icon": "mdi:test-tube"
+      }
+    ]
+  },
+  "units": {
+    "eyebrow": "Three Industrial Units",
+    "title": "One Manufacturing Ecosystem.",
+    "description": "Three specialized industrial units in Kala Amb, Himachal Pradesh — each focused on a defined part of the appliance manufacturing flow.",
+    "units": [
+      {
+        "number": "01",
+        "name": "A. R. Industries",
+        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Sirmour, Kala Amb (Himachal Pradesh) – 173030.",
+        "focus": "Small domestic appliances core assembly",
+        "image": "/images/factory/assembly.jpg",
+        "imageAlt": "Workers assembling small domestic appliances on a production line"
+      },
+      {
+        "number": "02",
+        "name": "Rao Industries",
+        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Sirmour – 173030 (Himachal Pradesh).",
+        "focus": "Water heating systems production",
+        "image": "/images/factory/production-wide.jpg",
+        "imageAlt": "Production floor for water heating appliance systems"
+      },
+      {
+        "number": "03",
+        "name": "G.M. Consolidated",
+        "location": "Near Petrol Pump, Kh. No. 583/452/201, Dhakwala, Village Rampur Jattan, Tehsil Nahan, Kala Amb, Sirmour (HP) – 173030.",
+        "focus": "Personal care and custom tooling",
+        "image": "/images/factory/toolroom.webp",
+        "imageAlt": "Tool room with tooling and mould maintenance equipment"
+      }
+    ]
+  },
+  "qualityBridge": {
+    "eyebrow": "Manufacturing → Quality",
+    "title": "Manufacturing Is Only Half the Process.",
+    "text": "Finished products move into inspection and routine testing — every unit is tested before release, not just sampled.",
+    "ctaLabel": "Explore Quality",
+    "ctaHref": "/quality"
+  },
+  "closing": {
+    "eyebrow": "Manufacturing Partnership",
+    "title": "Built to Support Your Appliance Programme.",
+    "description": "From tooling and component manufacturing to assembly and testing, our integrated capabilities support OEM, ODM, private-label and bulk manufacturing requirements.",
+    "primaryLabel": "Explore OEM / ODM",
+    "primaryHref": "/oem-odm",
+    "secondaryLabel": "Explore Products",
+    "secondaryHref": "/catalog"
+  }
+}

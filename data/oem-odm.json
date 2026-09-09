@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "OEM / ODM Manufacturing | G.M. Consolidated",
+    "description": "Appliance design, engineering and manufacturing for OEM, ODM, private-label and product-development programmes — from brief to your brand."
+  },
+  "hero": {
+    "eyebrow": "OEM / ODM MANUFACTURING",
+    "title": "From Brief to Your Brand.",
+    "description": "Appliance design, engineering and manufacturing for OEM, ODM, private-label and product-development programmes.",
+    "image": "/images/factory/assembly.jpg",
+    "imageAlt": "Assembly line at the G.M. Consolidated industrial units, Kala Amb"
+  },
+  "engagementModels": {
+    "eyebrow": "Engagement Models",
+    "title": "Four ways to work with G.M. Consolidated.",
+    "models": [
+      {
+        "number": "01",
+        "title": "OEM",
+        "description": "Manufacture to customer specifications with in-house forming, tooling, processing, finishing, assembly and testing.",
+        "icon": "mdi:factory"
+      },
+      {
+        "number": "02",
+        "title": "ODM",
+        "description": "From requirement and product direction through 3D modelling, prototype, validation, tooling and production.",
+        "icon": "mdi:vector-combine"
+      },
+      {
+        "number": "03",
+        "title": "Private Label",
+        "description": "Use an existing catalogue range or develop a custom product through the same in-house manufacturing system.",
+        "icon": "mdi:label-outline"
+      },
+      {
+        "number": "04",
+        "title": "Bulk Requirements",
+        "description": "Existing catalogue ranges available for distribution, retail and commercial requirements.",
+        "icon": "mdi:package-variant-closed"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "Partnership Journey",
+    "title": "One brief. Nine stages.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Brief",
+        "description": "Requirement"
+      },
+      {
+        "number": "02",
+        "title": "Concept",
+        "description": "Product direction"
+      },
+      {
+        "number": "03",
+        "title": "CAD",
+        "description": "3D modelling"
+      },
+      {
+        "number": "04",
+        "title": "Sample",
+        "description": "Prototype"
+      },
+      {
+        "number": "05",
+        "title": "Testing",
+        "description": "Validation"
+      },
+      {
+        "number": "06",
+        "title": "Moulds & Tools",
+        "description": "Tooling"
+      },
+      {
+        "number": "07",
+        "title": "Production",
+        "description": "Manufacturing"
+      },
+      {
+        "number": "08",
+        "title": "Inspection",
+        "description": "Quality"
+      },
+      {
+        "number": "09",
+        "title": "Packing & Release",
+        "description": "Release"
+      }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "title": "Product development, in-house.",
+    "items": [
+      {
+        "title": "Engineering & Product Development",
+        "description": "Product development from requirement through engineering and prototype.",
+        "icon": "mdi:vector-square"
+      },
+      {
+        "title": "Tooling",
+        "description": "In-house tooling supporting product development and production.",
+        "icon": "mdi:tools"
+      },
+      {
+        "title": "Manufacturing",
+        "description": "Integrated manufacturing across three industrial units in Kala Amb.",
+        "icon": "mdi:factory"
+      },
+      {
+        "title": "Quality",
+        "description": "Inspection and routine testing throughout the manufacturing process.",
+        "icon": "mdi:shield-check-outline"
+      }
+    ]
+  },
+  "whoWeWorkWith": {
+    "eyebrow": "Who We Work With",
+    "title": "Brands, distributors and commercial projects.",
+    "items": [
+      "OEM / ODM Brands",
+      "Private-Label Businesses",
+      "Distributors",
+      "Dealers",
+      "Commercial / Project Buyers"
+    ]
+  },
+  "brandProcess": {
+    "eyebrow": "Brand Process",
+    "words": ["Design", "Engineer", "Build", "Your Brand"]
+  },
+  "cta": {
+    "eyebrow": "OEM / ODM Manufacturing",
+    "title": "Build Your Next Appliance With Us.",
+    "description": "Start a conversation about your OEM, ODM, private-label or bulk requirement.",
+    "label": "Start an OEM / ODM Discussion",
+    "href": "/contact",
+    "secondaryLabel": "Explore Manufacturing",
+    "secondaryHref": "/manufacturing",
+    "image": "/images/factory/production-wide.jpg",
+    "imageAlt": "Production floor of the G.M. Consolidated industrial units, Kala Amb"
+  }
+}
