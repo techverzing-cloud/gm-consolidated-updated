@@ -28,7 +28,7 @@ export function Manufacturing() {
       aria-labelledby="manufacturing-heading"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-        <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-4">
             <div data-reveal data-reveal-stagger>
               <p
@@ -98,7 +98,7 @@ export function Manufacturing() {
                 <div
                   key={metric.label}
                   data-reveal-child
-                  className="bg-white px-6 py-6"
+                  className="bg-white px-4 py-6 sm:px-6"
                 >
                   <dt
                     data-count

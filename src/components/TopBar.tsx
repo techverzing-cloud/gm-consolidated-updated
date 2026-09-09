@@ -8,14 +8,14 @@ export function TopBar() {
         <div className="flex items-center gap-5 sm:gap-7">
           <a
             href={`tel:${SITE_INFO.phone.replace(/[^+\d]/g, "")}`}
-            className="flex items-center gap-2 text-[13px] font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white"
+            className="flex items-center gap-2 text-xs font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white sm:text-[13px]"
           >
             <Icon icon="mdi:phone-outline" size={16} />
             {SITE_INFO.phone}
           </a>
           <a
             href={`mailto:${SITE_INFO.email}`}
-            className="flex items-center gap-2 text-[13px] font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white"
+            className="flex items-center gap-2 text-xs font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white sm:text-sm"
           >
             <Icon icon="mdi:email-outline" size={16} />
             {SITE_INFO.email}

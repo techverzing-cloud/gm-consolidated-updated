@@ -296,7 +296,7 @@ export function EnquiryForm({
             onSubmit={handleSubmit}
             className="rounded-sm border border-card-border bg-card p-6 shadow-sm sm:p-8"
           >
-            <div className="grid gap-x-5 gap-y-6 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-x-5 gap-y-6 sm:grid-cols-2">
               {FIELD_ORDER.map((key) =>
                 renderField(key, key === "quantity" || key === "message"),
               )}

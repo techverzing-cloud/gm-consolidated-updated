@@ -22,8 +22,8 @@ export function EngineeringStrength({
       aria-labelledby="engineering-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-        <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
-          <div className="relative h-[280px] overflow-hidden rounded-sm lg:col-span-5 lg:h-auto lg:min-h-[420px]">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-sm lg:col-span-5 lg:aspect-auto lg:min-h-[420px]">
             <div data-about-parallax className="absolute inset-0">
               <Image
                 src={section.image}

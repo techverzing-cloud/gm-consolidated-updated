@@ -14,7 +14,7 @@ export function MapSection({ map, channels }: MapSectionProps) {
       aria-labelledby="map-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-        <div className="grid gap-8 lg:grid-cols-5 lg:gap-10">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-10">
           <div data-map-media className="lg:col-span-3">
             <div
               data-map-frame
@@ -23,8 +23,6 @@ export function MapSection({ map, channels }: MapSectionProps) {
               <iframe
                 src={map.embedUrl}
                 title="G.M. Consolidated location map"
-                width="600"
-                height="450"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="strict-origin-when-cross-origin"

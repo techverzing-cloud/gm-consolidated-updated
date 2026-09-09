@@ -18,7 +18,7 @@ export function Philosophy({
           </p>
           <h2
             id="quality-philosophy-title"
-            className="mt-5 text-balance text-3xl font-semibold leading-[1.1] text-foreground sm:text-4xl lg:text-[44px]"
+            className="mt-5 text-balance text-3xl font-semibold leading-[1.1] text-foreground sm:text-4xl lg:text-5xl"
           >
             {section.title}
           </h2>

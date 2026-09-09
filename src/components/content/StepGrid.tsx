@@ -20,7 +20,7 @@ export function StepGrid({
 }) {
   if (variant === "checklist") {
     return (
-      <ol className="grid gap-x-8 gap-y-5 sm:grid-cols-2">
+      <ol className="grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2">
         {items.map((item) => (
           <li key={item.number} className="flex gap-3">
             <span
@@ -50,7 +50,7 @@ export function StepGrid({
 
   return (
     <ol
-      className={`grid gap-px overflow-hidden rounded-sm border border-border bg-border ${
+      className={`grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-border bg-border ${
         CARD_COLS[cols] ?? "sm:grid-cols-2 lg:grid-cols-3"
       }`}
     >

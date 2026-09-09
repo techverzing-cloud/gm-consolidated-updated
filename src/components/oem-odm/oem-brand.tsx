@@ -19,30 +19,31 @@ export function BrandProcess({
 
         <p
           id="odm-brand-title"
-          className="mt-8 text-balance text-center text-4xl font-semibold leading-[1.12] sm:text-5xl lg:text-[56px]"
+          className="mt-8 text-balance text-center text-4xl font-semibold leading-[1.12] sm:text-5xl lg:text-6xl"
         >
-          {section.words.map((word, index) => (
-            <span key={word} className="inline-flex items-center">
-              <span
-                data-odm-brand-word
-                className={
-                  index === section.words.length - 1
-                    ? "text-accent"
-                    : "text-foreground"
-                }
-              >
-                {word}
-              </span>
-              {index < section.words.length - 1 && (
+          {section.words.map((word, index) => {
+            const isLast = index === section.words.length - 1;
+            return (
+              <span key={word} className="whitespace-nowrap">
                 <span
-                  aria-hidden="true"
-                  className="mx-3 inline-flex text-accent sm:mx-5"
+                  data-odm-brand-word
+                  className={
+                    isLast ? "text-accent" : "text-foreground"
+                  }
                 >
-                  <Icon icon="mdi:arrow-right" size={26} className="shrink-0" />
+                  {word}
                 </span>
-              )}
-            </span>
-          ))}
+                {!isLast && (
+                  <span
+                    aria-hidden="true"
+                    className="mx-2 inline-flex text-accent sm:mx-4"
+                  >
+                    <Icon icon="mdi:arrow-right" size={22} className="shrink-0" />
+                  </span>
+                )}
+              </span>
+            );
+          })}
         </p>
       </div>
     </section>

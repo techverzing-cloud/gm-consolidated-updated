@@ -25,7 +25,7 @@ export function Capabilities({
           </h2>
         </header>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
           {section.items.map((item) => (
             <article
               key={item.title}

@@ -76,8 +76,8 @@ export function Footer() {
 
       <footer className="border-t border-navy-border bg-navy">
         <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
-          <div
-            className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.3fr] lg:gap-12"
+            <div
+              className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.3fr] lg:gap-12"
             data-reveal
             data-reveal-stagger
           >
@@ -201,7 +201,7 @@ export function Footer() {
             <p className="text-sm text-navy-muted">
               &copy; 2026 G.M. Consolidated. All rights reserved.
             </p>
-            <ul className="flex items-center gap-6">
+            <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-6">
               {BUSINESS_LINKS.map((link) => (
                 <li key={link.label}>
                   <Link

@@ -26,7 +26,7 @@ export function InspectionProcess({
           </h2>
         </header>
 
-        <div className="mt-16 grid gap-12 lg:grid-cols-5 lg:gap-10">
+        <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-10">
           <div className="lg:col-span-2">
             <div className="relative">
               {/* Vertical connector (drawn top → bottom) */}

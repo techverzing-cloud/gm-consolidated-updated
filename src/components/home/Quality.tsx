@@ -60,7 +60,7 @@ export function Quality() {
       aria-labelledby="quality-heading"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-14">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-14">
           <div data-reveal>
             <div
               data-clip-reveal
@@ -107,7 +107,7 @@ export function Quality() {
             </div>
 
             <ol
-              className="mt-8 grid gap-x-8 gap-y-5 sm:grid-cols-2"
+              className="mt-8 grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2"
               data-quality-list
             >
               {CHECKPOINTS.map((item) => (
@@ -133,7 +133,7 @@ export function Quality() {
           </div>
         </div>
 
-        <ul className="mt-14 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-3">
+        <ul className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-3">
           {TRUST_INDICATORS.map((indicator) => (
             <li
               key={indicator.label}

@@ -16,7 +16,7 @@ export function UnitPage({ unit }: { unit: Unit }) {
       />
       <section className="bg-white">
         <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
-          <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
             <div className="lg:col-span-7">
               <div className="space-y-5">
                 {unit.paragraphs.map((paragraph) => (

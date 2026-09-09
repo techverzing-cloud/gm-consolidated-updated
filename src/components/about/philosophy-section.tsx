@@ -28,7 +28,7 @@ export function PhilosophySection({
           </p>
         </header>
 
-        <div className="mt-14 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {philosophy.principles.map((principle) => (
             <div
               key={principle.title}

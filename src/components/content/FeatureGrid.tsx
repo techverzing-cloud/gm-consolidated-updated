@@ -2,7 +2,7 @@ import type { FeatureItem } from "@/lib/content";
 
 export function FeatureGrid({ items }: { items: FeatureItem[] }) {
   return (
-    <dl className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
+    <dl className="grid grid-cols-1 gap-x-10 gap-y-8 sm:grid-cols-2">
       {items.map((item, index) => (
         <div key={item.name ?? item.title ?? index}>
           <p className="text-sm font-semibold tabular-nums text-accent">

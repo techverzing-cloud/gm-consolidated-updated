@@ -25,12 +25,12 @@ export function IndustrialUnits({ section }: { section: ManufacturingUnits }) {
           </p>
         </header>
 
-        <div className="mt-14 grid gap-10 md:grid-cols-2 lg:gap-8">
+        <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-8">
           {section.units.map((unit) => (
             <article key={unit.number} data-mfg-unit>
               <div
                 data-mfg-unit-image
-                className="relative h-[260px] overflow-hidden rounded-sm"
+                className="relative aspect-[4/3] overflow-hidden rounded-sm"
               >
                 <div data-mfg-parallax className="absolute inset-0">
                   <Image

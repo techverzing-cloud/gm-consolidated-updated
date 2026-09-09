@@ -41,7 +41,7 @@ export function Catalog() {
         </div>
 
         <div
-          className="mt-14 flex flex-wrap justify-center gap-6"
+          className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
           data-reveal
           data-reveal-stagger
         >
@@ -49,7 +49,7 @@ export function Catalog() {
             <article
               key={category.id}
               data-reveal-child
-              className="group w-full overflow-hidden rounded-sm border border-border bg-white shadow-none transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
+              className="group overflow-hidden rounded-sm border border-border bg-white shadow-none transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg"
             >
               <div className="flex items-center justify-center overflow-hidden bg-white px-6 py-8">
                 <Image

@@ -38,7 +38,7 @@ export function QualityHero({ hero }: { hero: QualityHeroContent }) {
           <h1
             id="quality-hero-title"
             data-quality-hero-title
-            className="mt-5 text-balance text-4xl font-semibold leading-[1.08] text-foreground sm:text-5xl lg:text-[56px]"
+            className="mt-5 text-balance text-4xl font-semibold leading-[1.08] text-foreground sm:text-5xl lg:text-6xl"
           >
             {hero.title}
           </h1>

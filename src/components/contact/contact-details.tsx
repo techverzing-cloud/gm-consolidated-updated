@@ -17,7 +17,7 @@ export function ContactDetails({ intro, details, note }: ContactDetailsProps) {
         aria-label="About starting an enquiry"
       >
         <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-          <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
             <div className="lg:col-span-7">
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
                 {intro.eyebrow}
@@ -53,7 +53,7 @@ export function ContactDetails({ intro, details, note }: ContactDetailsProps) {
         aria-label="Ways to contact G.M. Consolidated"
       >
         <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {details.map((detail) => {
               const cardClass =
                 "group flex h-full flex-col rounded-sm border border-card-border bg-card p-6 transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-md";

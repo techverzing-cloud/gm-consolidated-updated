@@ -188,7 +188,7 @@ export function Hero() {
                 {item.eyebrow}
               </p>
 
-              <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.08] text-foreground sm:text-5xl lg:text-[56px]">
+              <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.08] text-foreground sm:text-5xl lg:text-6xl">
                 {item.titleLines.map((line, lineIndex) => (
                   <span key={lineIndex} data-slide-line className="block">
                     {line}
@@ -246,21 +246,25 @@ export function Hero() {
                   aria-label={`Go to slide ${index + 1}`}
                   aria-current={index === active}
                   onClick={() => goTo(index)}
-                  className={`relative h-[3px] origin-left cursor-pointer overflow-hidden rounded-full transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
-                    index === active
-                      ? "w-8 bg-foreground/10"
-                      : "w-5 bg-foreground/15 hover:bg-foreground/30"
-                  }`}
+                  className="group relative cursor-pointer p-1.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
-                  {index === active && (
-                    <span
-                      className="carousel-rail-fill block h-full w-full origin-left rounded-full bg-accent"
-                      style={{
-                        animationDuration: `${AUTOPLAY_MS}ms`,
-                        animationPlayState: paused ? "paused" : "running",
-                      }}
-                    />
-                  )}
+                  <span
+                    className={`block origin-left rounded-full transition-all duration-300 ${
+                      index === active
+                        ? "h-[3px] w-8 bg-foreground/10"
+                        : "h-[3px] w-5 bg-foreground/15 group-hover:bg-foreground/30"
+                    }`}
+                  >
+                    {index === active && (
+                      <span
+                        className="carousel-rail-fill block h-full w-full origin-left rounded-full bg-accent"
+                        style={{
+                          animationDuration: `${AUTOPLAY_MS}ms`,
+                          animationPlayState: paused ? "paused" : "running",
+                        }}
+                      />
+                    )}
+                  </span>
                 </button>
               ))}
             </div>

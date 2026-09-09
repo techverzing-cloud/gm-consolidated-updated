@@ -13,7 +13,7 @@ export function Laboratory({
       aria-labelledby="quality-laboratory-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-20 sm:px-6 lg:px-8 lg:py-24">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div
             data-quality-lab-image
             className="relative aspect-[4/3] overflow-hidden rounded-sm"

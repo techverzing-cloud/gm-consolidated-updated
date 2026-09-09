@@ -15,7 +15,7 @@ export function CapabilitiesSection({
       aria-labelledby="capabilities-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-        <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-4">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
               {capabilities.eyebrow}

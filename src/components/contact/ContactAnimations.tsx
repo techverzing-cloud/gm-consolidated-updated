@@ -149,7 +149,7 @@ export function ContactAnimations({ children }: { children: ReactNode }) {
         );
         gsap.fromTo(
           "[data-map-panel]",
-          { autoAlpha: 0, x: 32 },
+          { autoAlpha: 0, y: 24 },
           {
             autoAlpha: 1,
             x: 0,

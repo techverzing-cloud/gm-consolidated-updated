@@ -24,7 +24,7 @@ export function LeadershipSection({ section }: { section: AboutLeadership }) {
           </p>
         </header>
 
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:gap-10">
+        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:gap-10">
           {section.images.map((image) => (
             <figure
               key={image.src}

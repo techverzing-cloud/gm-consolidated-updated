@@ -10,7 +10,7 @@ export function CorporateOffice({ office }: { office: AboutCorporateOffice }) {
       aria-labelledby="office-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-6">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
               {office.eyebrow}

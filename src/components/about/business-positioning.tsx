@@ -29,7 +29,7 @@ export function BusinessPositioning({
           </p>
         </header>
 
-        <div className="mt-14 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {section.models.map((model) => (
             <div
               key={model.title}

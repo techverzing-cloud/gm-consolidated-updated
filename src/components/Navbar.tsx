@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "@/components/ui/Icon";
 import { getCategories } from "@/lib/catalog";
+import { SITE_INFO } from "@/data/site";
 
 const NAV_LINKS = [
   { label: "Manufacturing", href: "/manufacturing" },
@@ -88,7 +89,7 @@ export function Navbar() {
     >
       <div
         className={`mx-auto flex max-w-[1320px] items-center justify-between px-4 transition-[height] duration-300 sm:px-6 lg:px-8 ${
-          scrolled ? "h-14 sm:h-16" : "h-16 sm:h-[72px]"
+          scrolled ? "h-14 sm:h-16" : "h-16 sm:h-18"
         }`}
       >
         <Link
@@ -296,6 +297,13 @@ export function Navbar() {
           >
             Request Enquiry
           </Link>
+          <a
+            href={`tel:${SITE_INFO.phone.replace(/[^+\d]/g, "")}`}
+            className="mt-3 flex items-center justify-center gap-2 px-3 py-2 text-center text-sm font-semibold text-accent transition-colors hover:text-accent-hover"
+          >
+            <Icon icon="mdi:phone-outline" size={16} />
+            {SITE_INFO.phone}
+          </a>
         </nav>
       )}
     </header>

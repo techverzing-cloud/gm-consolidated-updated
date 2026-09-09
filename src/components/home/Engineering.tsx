@@ -94,7 +94,7 @@ export function Engineering() {
         </div>
 
         <ol
-          className="mt-14 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-6"
+                className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2 lg:grid-cols-6"
           data-engineering
         >
           {PROCESS_STEPS.map((item) => (
@@ -147,12 +147,12 @@ export function Engineering() {
           </p>
           <ul
             data-reveal-child
-            className="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4"
+                className="mt-5 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4"
           >
             {CAPABILITIES.map((capability) => (
               <li
                 key={capability}
-                className="flex items-center gap-3 text-[15px] font-medium text-foreground"
+                className="flex items-center gap-3 text-sm font-medium text-foreground"
               >
                 <span
                   aria-hidden="true"

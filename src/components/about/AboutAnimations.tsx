@@ -287,7 +287,7 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
       if (quality) {
         gsap.fromTo(
           "[data-about-quality-item]",
-          { autoAlpha: 0, x: 20 },
+          { autoAlpha: 0, y: 20 },
           {
             autoAlpha: 1,
             x: 0,

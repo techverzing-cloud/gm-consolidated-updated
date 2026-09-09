@@ -33,7 +33,7 @@ export function IntegratedOperations({
             <span
               data-flow-line-x
               aria-hidden="true"
-              className="absolute left-[9%] right-[9%] top-[31px] h-px bg-navy-border"
+              className="absolute left-[9%] right-[9%] top-8 h-px bg-navy-border"
             />
             {section.stages.map((stage) => (
               <li
