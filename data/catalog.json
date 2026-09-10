@@ -7,10 +7,10 @@
       "slug": "garment-care",
       "number": "01",
       "tag": "Ironing systems",
-      "range": "GM-02 – GM-38",
+      "range": "GM-02 – GM-30",
       "shortDescription": "Dry and steam ironing systems.",
       "description": "Dry and steam irons engineered for reliable heating, performance and everyday use — with non-stick soleplate coating, snap-action thermostats, fast and uniform heat distribution and 360° swivel cords.",
-      "image": "/images/products/garment-care/gm38.jpg",
+      "image": "/images/products/garment-care/gm28.jpg",
       "imageAlt": "G.M. Consolidated dry iron",
       "featured": true,
       "products": [
@@ -127,10 +127,10 @@
           "enquiry": {
             "title": "Discuss the GM-02 Dry Iron",
             "description": "Talk to our team about the GM-02 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -197,7 +197,7 @@
           "image": "/images/products/garment-care/gm3.jpg",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -259,7 +259,7 @@
           "image": "/images/products/garment-care/gm4.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -326,7 +326,7 @@
           "image": "/images/products/garment-care/gm5.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -388,7 +388,7 @@
           "image": "/images/products/garment-care/gm6.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -450,7 +450,7 @@
           "image": "/images/products/garment-care/gm7.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -512,7 +512,7 @@
           "image": "/images/products/garment-care/gm8.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -579,7 +579,7 @@
           "image": "/images/products/garment-care/gm9.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -646,7 +646,7 @@
           "image": "/images/products/garment-care/gm10.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -708,7 +708,7 @@
           "image": "/images/products/garment-care/gm11.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -770,7 +770,7 @@
           "image": "/images/products/garment-care/gm12.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -832,7 +832,7 @@
           "image": "/images/products/garment-care/gm13.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -894,7 +894,7 @@
           "image": "/images/products/garment-care/gm14.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -956,7 +956,7 @@
           "image": "/images/products/garment-care/gm15.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1018,7 +1018,7 @@
           "image": "/images/products/garment-care/gm16.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1078,9 +1078,19 @@
             "Dual-Insulated Structural Wire Lines"
           ],
           "image": "/images/products/garment-care/gm17.png",
+          "images": [
+            {
+              "src": "/images/products/garment-care/gm17.png",
+              "alt": "GM-17 Comfort Premium dry iron — side profile"
+            },
+            {
+              "src": "/images/products/garment-care/gm17-2.png",
+              "alt": "GM-17 Comfort Premium dry iron — detailed view with model label"
+            }
+          ],
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1144,13 +1154,23 @@
             "Ultra-Light Build Reduces User Arm Strain",
             "Dual-Insulated Structural Wire Lines"
           ],
-          "image": "/images/products/garment-care/gm17-2.png",
+          "image": "/images/products/garment-care/gm18.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
+          ],
+          "images": [
+            {
+              "src": "/images/products/garment-care/gm18.png",
+              "alt": "GM-18 Comfort Premium dry iron — side profile"
+            },
+            {
+              "src": "/images/products/garment-care/gm18-2.png",
+              "alt": "GM-18 Comfort Premium dry iron — detailed view with model label"
+            }
           ]
         },
         {
@@ -1194,10 +1214,10 @@
             "Soft Touch Thermal-Insulated Handle",
             "2 Years Product Warranty"
           ],
-          "image": "/images/products/garment-care/gm18.png",
+          "image": "/images/products/garment-care/gm37.jpg",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1247,7 +1267,7 @@
           "image": "/images/products/garment-care/gm20.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1295,10 +1315,442 @@
             "Soft Touch Thermal-Insulated Handle",
             "2 Years Product Warranty"
           ],
-          "image": "/images/products/garment-care/gm18-2.png",
+          "image": "/images/products/garment-care/gm35.jpg",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
+            "gm-43",
+            "gm-44",
+            "gm-45"
+          ]
+        },
+        {
+          "id": "gm-22",
+          "slug": "gm-22",
+          "name": "Dry Iron",
+          "code": "GM-22",
+          "categorySlug": "garment-care",
+          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-22 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "image": "/images/products/garment-care/gm22.jpg",
+          "highlights": [
+            {
+              "title": "Snap-action thermostat",
+              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
+              "icon": "mdi:thermometer"
+            },
+            {
+              "title": "Non-stick soleplate finish",
+              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
+              "icon": "mdi:shape-outline"
+            },
+            {
+              "title": "360° swivel cord",
+              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
+              "icon": "mdi:cable-data"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Classic Elite"
+            },
+            {
+              "label": "Power",
+              "value": "1100W"
+            },
+            {
+              "label": "Soleplate",
+              "value": "Double WeilBurger Layer"
+            },
+            {
+              "label": "Thermostat contacts",
+              "value": "Silver-Layered Thermostat Contacts"
+            },
+            {
+              "label": "Body",
+              "value": "Durable Metal Body Construction"
+            },
+            {
+              "label": "Heat distribution",
+              "value": "Fast & Uniform Heat Distribution"
+            }
+          ],
+          "features": [
+            "German Weilburger Non-Stick Soleplate Coating",
+            "Snap Action Thermostat",
+            "Durable Metal Body Construction",
+            "High Power Heating (1100W)",
+            "Silver-Layered Thermostat Contacts",
+            "360° Swivel Cord",
+            "Fast & Uniform Heat Distribution",
+            "2 Years Warranty",
+            "Elegant Contrasting Two-Tone Design Styling",
+            "Tapered Button-Groove Nose Structure",
+            "High Heat Retention Internal Base Cast",
+            "2 Years Product Warranty"
+          ],
+          "applications": [
+            "Commercial laundry and ironing services",
+            "Garment manufacturing and tailoring lines",
+            "Hotels and hospitality housekeeping",
+            "Household and wholesale retail channels"
+          ],
+          "manufacturingNotes": [
+            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
+            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
+            "Every iron is run through an end-of-line electrical safety check before packing"
+          ],
+          "qualityNotes": [
+            "Incoming material inspection on soleplates and electrical components",
+            "In-process checks on thermostat calibration and cord termination",
+            "Sampled units are verified against the mechanical and electrical test plan"
+          ],
+          "packaging": {
+            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
+            "options": [
+              "Standard colour box",
+              "Retail / gift box",
+              "Bulk master carton",
+              "Custom OEM packaging"
+            ]
+          },
+          "customization": [
+            "Body colour, finish and printed branding for private-label programmes",
+            "Cord length and plug configuration for the destination market",
+            "Carton design, unboxing and labelling to retailer requirements"
+          ],
+          "enquiry": {
+            "title": "Discuss the GM-22 Dry Iron",
+            "description": "Talk to our team about the GM-22 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "href": "/contact#enquiry"
+          },
+          "relatedProducts": [
+            "gm-28",
+            "gm-43",
+            "gm-44",
+            "gm-45"
+          ]
+        },
+        {
+          "id": "gm-23",
+          "slug": "gm-23",
+          "name": "Dry Iron",
+          "code": "GM-23",
+          "categorySlug": "garment-care",
+          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-23 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "image": "/images/products/garment-care/gm23.jpg",
+          "highlights": [
+            {
+              "title": "Snap-action thermostat",
+              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
+              "icon": "mdi:thermometer"
+            },
+            {
+              "title": "Non-stick soleplate finish",
+              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
+              "icon": "mdi:shape-outline"
+            },
+            {
+              "title": "360° swivel cord",
+              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
+              "icon": "mdi:cable-data"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Classic Elite"
+            },
+            {
+              "label": "Power",
+              "value": "1100W"
+            },
+            {
+              "label": "Soleplate",
+              "value": "Double WeilBurger Layer"
+            },
+            {
+              "label": "Thermostat contacts",
+              "value": "Silver-Layered Thermostat Contacts"
+            },
+            {
+              "label": "Body",
+              "value": "Durable Metal Body Construction"
+            },
+            {
+              "label": "Heat distribution",
+              "value": "Fast & Uniform Heat Distribution"
+            }
+          ],
+          "features": [
+            "German Weilburger Non-Stick Soleplate Coating",
+            "Snap Action Thermostat",
+            "Durable Metal Body Construction",
+            "High Power Heating (1100W)",
+            "Silver-Layered Thermostat Contacts",
+            "360° Swivel Cord",
+            "Fast & Uniform Heat Distribution",
+            "2 Years Warranty",
+            "Elegant Contrasting Two-Tone Design Styling",
+            "Tapered Button-Groove Nose Structure",
+            "High Heat Retention Internal Base Cast",
+            "2 Years Product Warranty"
+          ],
+          "applications": [
+            "Commercial laundry and ironing services",
+            "Garment manufacturing and tailoring lines",
+            "Hotels and hospitality housekeeping",
+            "Household and wholesale retail channels"
+          ],
+          "manufacturingNotes": [
+            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
+            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
+            "Every iron is run through an end-of-line electrical safety check before packing"
+          ],
+          "qualityNotes": [
+            "Incoming material inspection on soleplates and electrical components",
+            "In-process checks on thermostat calibration and cord termination",
+            "Sampled units are verified against the mechanical and electrical test plan"
+          ],
+          "packaging": {
+            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
+            "options": [
+              "Standard colour box",
+              "Retail / gift box",
+              "Bulk master carton",
+              "Custom OEM packaging"
+            ]
+          },
+          "customization": [
+            "Body colour, finish and printed branding for private-label programmes",
+            "Cord length and plug configuration for the destination market",
+            "Carton design, unboxing and labelling to retailer requirements"
+          ],
+          "enquiry": {
+            "title": "Discuss the GM-23 Dry Iron",
+            "description": "Talk to our team about the GM-23 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "href": "/contact#enquiry"
+          },
+          "relatedProducts": [
+            "gm-28",
+            "gm-43",
+            "gm-44",
+            "gm-45"
+          ]
+        },
+        {
+          "id": "gm-24",
+          "slug": "gm-24",
+          "name": "Dry Iron",
+          "code": "GM-24",
+          "categorySlug": "garment-care",
+          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-24 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "image": "/images/products/garment-care/gm24.jpg",
+          "highlights": [
+            {
+              "title": "Snap-action thermostat",
+              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
+              "icon": "mdi:thermometer"
+            },
+            {
+              "title": "Non-stick soleplate finish",
+              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
+              "icon": "mdi:shape-outline"
+            },
+            {
+              "title": "360° swivel cord",
+              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
+              "icon": "mdi:cable-data"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Classic Elite"
+            },
+            {
+              "label": "Power",
+              "value": "1100W"
+            },
+            {
+              "label": "Soleplate",
+              "value": "Double WeilBurger Layer"
+            },
+            {
+              "label": "Thermostat contacts",
+              "value": "Silver-Layered Thermostat Contacts"
+            },
+            {
+              "label": "Body",
+              "value": "Durable Metal Body Construction"
+            },
+            {
+              "label": "Heat distribution",
+              "value": "Fast & Uniform Heat Distribution"
+            }
+          ],
+          "features": [
+            "German Weilburger Non-Stick Soleplate Coating",
+            "Snap Action Thermostat",
+            "Durable Metal Body Construction",
+            "High Power Heating (1100W)",
+            "Silver-Layered Thermostat Contacts",
+            "360° Swivel Cord",
+            "Fast & Uniform Heat Distribution",
+            "2 Years Warranty",
+            "Elegant Contrasting Two-Tone Design Styling",
+            "Tapered Button-Groove Nose Structure",
+            "High Heat Retention Internal Base Cast",
+            "2 Years Product Warranty"
+          ],
+          "applications": [
+            "Commercial laundry and ironing services",
+            "Garment manufacturing and tailoring lines",
+            "Hotels and hospitality housekeeping",
+            "Household and wholesale retail channels"
+          ],
+          "manufacturingNotes": [
+            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
+            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
+            "Every iron is run through an end-of-line electrical safety check before packing"
+          ],
+          "qualityNotes": [
+            "Incoming material inspection on soleplates and electrical components",
+            "In-process checks on thermostat calibration and cord termination",
+            "Sampled units are verified against the mechanical and electrical test plan"
+          ],
+          "packaging": {
+            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
+            "options": [
+              "Standard colour box",
+              "Retail / gift box",
+              "Bulk master carton",
+              "Custom OEM packaging"
+            ]
+          },
+          "customization": [
+            "Body colour, finish and printed branding for private-label programmes",
+            "Cord length and plug configuration for the destination market",
+            "Carton design, unboxing and labelling to retailer requirements"
+          ],
+          "enquiry": {
+            "title": "Discuss the GM-24 Dry Iron",
+            "description": "Talk to our team about the GM-24 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "href": "/contact#enquiry"
+          },
+          "relatedProducts": [
+            "gm-28",
+            "gm-43",
+            "gm-44",
+            "gm-45"
+          ]
+        },
+        {
+          "id": "gm-25",
+          "slug": "gm-25",
+          "name": "Dry Iron",
+          "code": "GM-25",
+          "categorySlug": "garment-care",
+          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-25 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "image": "/images/products/garment-care/gm25.jpg",
+          "highlights": [
+            {
+              "title": "Snap-action thermostat",
+              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
+              "icon": "mdi:thermometer"
+            },
+            {
+              "title": "Non-stick soleplate finish",
+              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
+              "icon": "mdi:shape-outline"
+            },
+            {
+              "title": "360° swivel cord",
+              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
+              "icon": "mdi:cable-data"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Classic Elite"
+            },
+            {
+              "label": "Power",
+              "value": "1100W"
+            },
+            {
+              "label": "Soleplate",
+              "value": "Double WeilBurger Layer"
+            },
+            {
+              "label": "Thermostat contacts",
+              "value": "Silver-Layered Thermostat Contacts"
+            },
+            {
+              "label": "Body",
+              "value": "Durable Metal Body Construction"
+            },
+            {
+              "label": "Heat distribution",
+              "value": "Fast & Uniform Heat Distribution"
+            }
+          ],
+          "features": [
+            "German Weilburger Non-Stick Soleplate Coating",
+            "Snap Action Thermostat",
+            "Durable Metal Body Construction",
+            "High Power Heating (1100W)",
+            "Silver-Layered Thermostat Contacts",
+            "360° Swivel Cord",
+            "Fast & Uniform Heat Distribution",
+            "2 Years Warranty",
+            "Elegant Contrasting Two-Tone Design Styling",
+            "Tapered Button-Groove Nose Structure",
+            "High Heat Retention Internal Base Cast",
+            "2 Years Product Warranty"
+          ],
+          "applications": [
+            "Commercial laundry and ironing services",
+            "Garment manufacturing and tailoring lines",
+            "Hotels and hospitality housekeeping",
+            "Household and wholesale retail channels"
+          ],
+          "manufacturingNotes": [
+            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
+            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
+            "Every iron is run through an end-of-line electrical safety check before packing"
+          ],
+          "qualityNotes": [
+            "Incoming material inspection on soleplates and electrical components",
+            "In-process checks on thermostat calibration and cord termination",
+            "Sampled units are verified against the mechanical and electrical test plan"
+          ],
+          "packaging": {
+            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
+            "options": [
+              "Standard colour box",
+              "Retail / gift box",
+              "Bulk master carton",
+              "Custom OEM packaging"
+            ]
+          },
+          "customization": [
+            "Body colour, finish and printed branding for private-label programmes",
+            "Cord length and plug configuration for the destination market",
+            "Carton design, unboxing and labelling to retailer requirements"
+          ],
+          "enquiry": {
+            "title": "Discuss the GM-25 Dry Iron",
+            "description": "Talk to our team about the GM-25 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "href": "/contact#enquiry"
+          },
+          "relatedProducts": [
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1403,10 +1855,10 @@
           "enquiry": {
             "title": "Discuss the GM-26 Dry Iron",
             "description": "Talk to our team about the GM-26 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1511,10 +1963,10 @@
           "enquiry": {
             "title": "Discuss the GM-27 Dry Iron",
             "description": "Talk to our team about the GM-27 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1619,10 +2071,10 @@
           "enquiry": {
             "title": "Discuss the GM-28 Dry Iron",
             "description": "Talk to our team about the GM-28 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1727,10 +2179,10 @@
           "enquiry": {
             "title": "Discuss the GM-29 Dry Iron",
             "description": "Talk to our team about the GM-29 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1835,874 +2287,10 @@
           "enquiry": {
             "title": "Discuss the GM-30 Dry Iron",
             "description": "Talk to our team about the GM-30 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-31",
-          "slug": "gm-31",
-          "name": "Dry Iron",
-          "code": "GM-31",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-31 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm31.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-31 Dry Iron",
-            "description": "Talk to our team about the GM-31 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-32",
-          "slug": "gm-32",
-          "name": "Dry Iron",
-          "code": "GM-32",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-32 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm32.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-32 Dry Iron",
-            "description": "Talk to our team about the GM-32 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-33",
-          "slug": "gm-33",
-          "name": "Dry Iron",
-          "code": "GM-33",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-33 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm33.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-33 Dry Iron",
-            "description": "Talk to our team about the GM-33 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-34",
-          "slug": "gm-34",
-          "name": "Dry Iron",
-          "code": "GM-34",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-34 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm34.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-34 Dry Iron",
-            "description": "Talk to our team about the GM-34 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-35",
-          "slug": "gm-35",
-          "name": "Dry Iron",
-          "code": "GM-35",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-35 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm35.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-35 Dry Iron",
-            "description": "Talk to our team about the GM-35 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-36",
-          "slug": "gm-36",
-          "name": "Dry Iron",
-          "code": "GM-36",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-36 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm36.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-36 Dry Iron",
-            "description": "Talk to our team about the GM-36 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-37",
-          "slug": "gm-37",
-          "name": "Dry Iron",
-          "code": "GM-37",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-37 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm37.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-37 Dry Iron",
-            "description": "Talk to our team about the GM-37 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-38",
-          "slug": "gm-38",
-          "name": "Dry Iron",
-          "code": "GM-38",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-38 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm38.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-38 Dry Iron",
-            "description": "Talk to our team about the GM-38 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
-          },
-          "relatedProducts": [
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2855,7 +2443,7 @@
           "enquiry": {
             "title": "Discuss the GM-22 Storage Geyser",
             "description": "Talk to our team about the GM-22 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -2931,7 +2519,7 @@
           "image": "/images/products/water-heating/gm33.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2999,7 +2587,7 @@
           "image": "/images/products/water-heating/gm34.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -3067,7 +2655,7 @@
           "image": "/images/products/water-heating/gm37.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -3187,7 +2775,7 @@
           "enquiry": {
             "title": "Discuss the GM-39 Storage Geyser",
             "description": "Talk to our team about the GM-39 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -3310,7 +2898,7 @@
           "enquiry": {
             "title": "Discuss the GM-40 Storage Geyser",
             "description": "Talk to our team about the GM-40 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -3433,7 +3021,7 @@
           "enquiry": {
             "title": "Discuss the GM-41 Storage Geyser",
             "description": "Talk to our team about the GM-41 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -3556,7 +3144,7 @@
           "enquiry": {
             "title": "Discuss the GM-42 Storage Geyser",
             "description": "Talk to our team about the GM-42 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -3679,7 +3267,7 @@
           "enquiry": {
             "title": "Discuss the GM-48 Storage Geyser",
             "description": "Talk to our team about the GM-48 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
@@ -3832,11 +3420,11 @@
           "enquiry": {
             "title": "Discuss the GM-43 Fan Heater",
             "description": "Talk to our team about the GM-43 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-44",
             "gm-45"
           ]
@@ -3909,7 +3497,7 @@
           "image": "/images/products/heating/gm46.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -4030,11 +3618,11 @@
           "enquiry": {
             "title": "Discuss the GM-49 Fan Heater",
             "description": "Talk to our team about the GM-49 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-44",
             "gm-45"
           ]
@@ -4154,11 +3742,11 @@
           "enquiry": {
             "title": "Discuss the GM-50 Fan Heater",
             "description": "Talk to our team about the GM-50 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-44",
             "gm-45"
           ]
@@ -4278,11 +3866,11 @@
           "enquiry": {
             "title": "Discuss the GM-51 Fan Heater",
             "description": "Talk to our team about the GM-51 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-44",
             "gm-45"
           ]
@@ -4402,11 +3990,11 @@
           "enquiry": {
             "title": "Discuss the GM-52 Fan Heater",
             "description": "Talk to our team about the GM-52 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-44",
             "gm-45"
           ]
@@ -4556,11 +4144,11 @@
           "enquiry": {
             "title": "Discuss the GM-44 Hair Dryer",
             "description": "Talk to our team about the GM-44 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-45"
           ]
@@ -4633,7 +4221,7 @@
           "image": "/images/products/personal-care/gm47.png",
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -4755,11 +4343,11 @@
           "enquiry": {
             "title": "Discuss the GM-53 Hair Dryer",
             "description": "Talk to our team about the GM-53 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-45"
           ]
@@ -4880,11 +4468,11 @@
           "enquiry": {
             "title": "Discuss the GM-54 Hair Dryer",
             "description": "Talk to our team about the GM-54 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-45"
           ]
@@ -5005,11 +4593,11 @@
           "enquiry": {
             "title": "Discuss the GM-55 Hair Dryer",
             "description": "Talk to our team about the GM-55 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-45"
           ]
@@ -5130,11 +4718,11 @@
           "enquiry": {
             "title": "Discuss the GM-56 Hair Dryer",
             "description": "Talk to our team about the GM-56 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-45"
           ]
@@ -5280,11 +4868,11 @@
           "enquiry": {
             "title": "Discuss the GM-45 Mosquito Racket",
             "description": "Talk to our team about the GM-45 Rechargeable Mosquito Racket — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44"
           ]
@@ -5401,11 +4989,11 @@
           "enquiry": {
             "title": "Discuss the GM-57 Mosquito Racket",
             "description": "Talk to our team about the GM-57 Rechargeable Mosquito Racket — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact"
+            "href": "/contact#enquiry"
           },
           "relatedProducts": [
             "gm-02",
-            "gm-32",
+            "gm-28",
             "gm-43",
             "gm-44"
           ]

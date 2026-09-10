@@ -84,7 +84,7 @@
     "eyebrow": "Testing & Laboratory",
     "title": "From Incoming Material to Final Release.",
     "description": "Inspection and testing are integrated across the manufacturing process rather than being treated as a final-stage activity.",
-    "image": "/images/factory/testing.webp",
+    "image": "/images/quality-lab.jpg",
     "imageAlt": "Routine testing line at the G.M. Consolidated factory, Kala Amb"
   },
   "cta": {
@@ -92,7 +92,7 @@
     "title": "Quality Built Into Every Stage.",
     "description": "Explore how engineering, manufacturing and testing work together.",
     "label": "Discuss Your Requirements",
-    "href": "/contact",
+    "href": "/contact#enquiry",
     "secondaryLabel": "Explore OEM / ODM",
     "secondaryHref": "/oem-odm",
     "image": "/images/factory/production-wide.jpg",

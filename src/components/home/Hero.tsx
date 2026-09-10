@@ -29,7 +29,7 @@ const SLIDES: HeroSlide[] = [
     titleLines: ["Your Partner in", "Home Appliance Manufacturing."],
     copy: "From product development to manufacturing and quality control, we build reliable home appliances for brands and businesses.",
     meta: "Engineering • Manufacturing • Quality",
-    primary: { label: "Request Enquiry", href: "/contact" },
+    primary: { label: "Request Enquiry", href: "/contact#enquiry" },
     secondary: { label: "Explore Catalogue", href: "/catalog" },
   },
   {
@@ -41,7 +41,7 @@ const SLIDES: HeroSlide[] = [
     copy: "Every G.M. Consolidated product is designed, tooled and built in-house — across OEM, ODM and private-label programmes.",
     meta: "OEM • ODM • Private label",
     primary: { label: "Explore Catalogue", href: "/catalog" },
-    secondary: { label: "Request Enquiry", href: "/contact" },
+    secondary: { label: "Request Enquiry", href: "/contact#enquiry" },
   },
   {
     id: "in-house-manufacturing",
@@ -51,7 +51,7 @@ const SLIDES: HeroSlide[] = [
     titleLines: ["Designed, Tooled", "and Built In-House."],
     copy: "From toolroom, press and moulding to assembly and testing, our facility keeps the entire process under one roof.",
     meta: "Tooling • Moulding • Assembly",
-    primary: { label: "Request Enquiry", href: "/contact" },
+    primary: { label: "Request Enquiry", href: "/contact#enquiry" },
     secondary: { label: "Explore Catalogue", href: "/catalog" },
   },
 ];

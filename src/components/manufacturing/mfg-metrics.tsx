@@ -24,7 +24,7 @@ export function ManufacturingMetrics({
             const parts = parseMetric(metric.value, metric.suffix);
             return (
               <div key={metric.label} data-mfg-metric className="flex flex-col">
-                <dd className="order-1 text-5xl font-semibold leading-none tracking-tight text-white sm:text-6xl">
+                <dd className="order-1 text-5xl font-semibold leading-none tracking-tight text-white sm:text-3xl">
                   {parts ? (
                     <span
                       data-mfg-count

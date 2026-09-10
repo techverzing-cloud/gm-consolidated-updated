@@ -94,7 +94,7 @@
     "title": "Planning a new product line?",
     "text": "Bring the requirement — we will come back with engineering perspective, capability fit and next steps.",
     "links": [
-      { "label": "Discuss Your Project", "href": "/contact", "variant": "navy-solid" },
+      { "label": "Discuss Your Project", "href": "/contact#enquiry", "variant": "navy-solid" },
       { "label": "Explore Manufacturing", "href": "/manufacturing", "variant": "navy-ghost" }
     ]
   }

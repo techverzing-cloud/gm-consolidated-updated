@@ -197,7 +197,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            href="/contact"
+            href="/contact#enquiry"
             className="btn-primary hidden px-5 py-2.5 text-sm lg:inline-flex"
           >
             Request Enquiry
@@ -291,7 +291,7 @@ export function Navbar() {
             ))}
           </ul>
           <Link
-            href="/contact"
+            href="/contact#enquiry"
             onClick={() => setMobileOpen(false)}
             className="btn-primary mt-4 w-full px-5 py-3 text-base"
           >

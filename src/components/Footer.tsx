@@ -35,7 +35,6 @@ export function Footer() {
             alt=""
             fill
             sizes="100vw"
-            data-parallax="26"
             className="scale-110 object-cover object-center opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/55" />
@@ -43,7 +42,6 @@ export function Footer() {
 
         <div
           className="relative mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24"
-          data-reveal
         >
           <div className="max-w-xl">
             <h2
@@ -78,10 +76,8 @@ export function Footer() {
         <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
             <div
               className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.3fr] lg:gap-12"
-            data-reveal
-            data-reveal-stagger
-          >
-            <div data-reveal-child>
+            >
+            <div>
               <Image
                 src="/logo/gm-logo-light.png"
                 alt="G.M. Consolidated logo"
@@ -111,7 +107,7 @@ export function Footer() {
               </div>
             </div>
 
-            <div data-reveal-child>
+            <div>
               <h3 className="text-sm font-semibold uppercase tracking-[0.14em] text-white">
                 Quick Links
               </h3>
@@ -130,7 +126,7 @@ export function Footer() {
               </ul>
             </div>
 
-            <div data-reveal-child>
+            <div>
               <h3 className="text-sm font-semibold uppercase tracking-[0.14em] text-white">
                 Catalog
               </h3>
@@ -149,7 +145,7 @@ export function Footer() {
               </ul>
             </div>
 
-            <div data-reveal-child>
+            <div>
               <h3 className="text-sm font-semibold uppercase tracking-[0.14em] text-white">
                 Contact
               </h3>
@@ -186,7 +182,7 @@ export function Footer() {
                 </li>
               </ul>
               <Link
-                href="/contact"
+                href="/contact#enquiry"
                 className="btn-navy-ghost mt-7 px-5 py-2.5 text-sm"
               >
                 Request a business enquiry
@@ -196,7 +192,6 @@ export function Footer() {
 
           <div
             className="mt-14 flex flex-col items-center gap-4 border-t border-navy-border pt-6 sm:flex-row sm:justify-between"
-            data-reveal
           >
             <p className="text-sm text-navy-muted">
               &copy; 2026 G.M. Consolidated. All rights reserved.
@@ -223,6 +218,23 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+        <div className="border-t border-navy-border">
+          <div className="mx-auto flex max-w-[1320px] justify-center px-4 py-5 text-center text-sm text-navy-muted sm:px-6 lg:px-8">
+            <p>
+              <a
+                href="https://www.techverzing.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block transition-transform duration-200 hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Developed By{" "}
+                <span className="link-underline inline-block text-[#ff8c42] hover:text-[#ff8c42]">
+                  Techverzing Technologies
+                </span>
+              </a>
+            </p>
           </div>
         </div>
       </footer>

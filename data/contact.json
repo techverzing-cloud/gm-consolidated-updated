@@ -36,8 +36,8 @@
     {
       "id": "phone",
       "label": "Phone",
-      "value": "+91 11 4185 0000",
-      "href": "tel:+911141850000",
+      "value": "+91 99711 88883",
+      "href": "tel:+919971188883",
       "icon": "mdi:phone-outline",
       "description": ""
     },
@@ -129,7 +129,7 @@
     "directionsLabel": "Get Directions"
   },
   "primaryContact": {
-    "phone": "+91 11 4185 0000",
+    "phone": "+91 99711 88883",
     "email": "ea.admin@arind.in",
     "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
     "addressShort": "Bawana Road, Delhi – 110042",

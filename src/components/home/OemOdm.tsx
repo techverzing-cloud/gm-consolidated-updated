@@ -159,7 +159,7 @@ export function OemOdm() {
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/contact"
+              href="/contact#enquiry"
               className="btn-navy-solid btn-pulse-hover px-6 py-3 text-base"
             >
               Discuss Your Requirement

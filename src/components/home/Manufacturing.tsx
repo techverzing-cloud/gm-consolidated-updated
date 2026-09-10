@@ -57,7 +57,7 @@ export function Manufacturing() {
                 data-reveal-child
                 className="mt-7 flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-start"
               >
-                <Link href="/contact" className="btn-primary px-6 py-3 text-base">
+                <Link href="/contact#enquiry" className="btn-primary px-6 py-3 text-base">
                   Discuss Your Project
                 </Link>
                 <Link href="/oem-odm" className="btn-secondary px-6 py-3 text-base">

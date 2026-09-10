@@ -38,7 +38,7 @@ export function LeadershipSection({ section }: { section: AboutLeadership }) {
                   width={image.width}
                   height={image.height}
                   sizes="(min-width: 640px) 50vw, 100vw"
-                  className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="h-90 w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
             </figure>

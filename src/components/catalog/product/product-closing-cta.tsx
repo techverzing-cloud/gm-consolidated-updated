@@ -30,7 +30,7 @@ export function ProductClosingCta({ product }: { product: CatalogProduct }) {
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href={product.enquiry?.href ?? "/contact"}
+              href={product.enquiry?.href ?? "/contact#enquiry"}
               className="btn-navy-solid w-full px-6 py-3 text-base sm:w-auto"
             >
               Request Product Enquiry

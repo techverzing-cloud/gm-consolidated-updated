@@ -12,7 +12,10 @@ export function ProductHero({
   category: CatalogCategory;
   product: CatalogProduct;
 }) {
-  const galleryImages = [{ src: product.image, alt: product.name }];
+  const galleryImages =
+    product.images && product.images.length > 0
+      ? product.images
+      : [{ src: product.image, alt: product.name }];
 
   return (
     <section
@@ -93,7 +96,7 @@ export function ProductHero({
               className="mt-9 flex flex-col gap-3 sm:flex-row"
             >
               <Link
-                href={product.enquiry?.href ?? "/contact"}
+                href={product.enquiry?.href ?? "/contact#enquiry"}
                 className="btn-primary px-6 py-3 text-base"
               >
                 Request Product Enquiry

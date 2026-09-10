@@ -92,7 +92,7 @@ export function ProductCustomisation({
               <Icon icon="mdi:arrow-right" size={16} />
             </Link>
             <Link
-              href={product.enquiry?.href ?? "/contact"}
+              href={product.enquiry?.href ?? "/contact#enquiry"}
               className="btn-navy-ghost px-6 py-3 text-sm"
             >
               Discuss your variant
