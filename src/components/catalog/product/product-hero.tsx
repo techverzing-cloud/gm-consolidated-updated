@@ -12,10 +12,7 @@ export function ProductHero({
   category: CatalogCategory;
   product: CatalogProduct;
 }) {
-  const galleryImages =
-    product.images && product.images.length > 0
-      ? product.images
-      : [{ src: product.image, alt: product.name }];
+  const galleryImages = [{ src: product.image, alt: product.name }];
 
   return (
     <section
@@ -102,15 +99,6 @@ export function ProductHero({
                 Request Product Enquiry
                 <Icon icon="mdi:arrow-right" size={16} />
               </Link>
-              <button
-                type="button"
-                disabled
-                title="Specification sheets are being prepared"
-                className="btn-secondary cursor-not-allowed px-6 py-3 text-base opacity-60"
-              >
-                <Icon icon="mdi:file-download" size={16} />
-                Download Specification
-              </button>
             </div>
 
             <p
