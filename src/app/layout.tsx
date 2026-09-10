@@ -8,7 +8,7 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
-
+{/**added layout.tsx file for metadata and viewport configuration */}
 export const metadata: Metadata = {
   title: {
     default: "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer",
