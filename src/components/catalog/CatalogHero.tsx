@@ -31,38 +31,13 @@ const SLIDES: Slide[] = [
   },
   {
     id: "in-house-manufacturing",
-    image: "/images/catalog-carousel/slide-2.jpg",
+    image: "/images/catalog-carousel/slide-4.jpg",
     imageAlt: "G.M. Consolidated home appliance product showcase",
   },
   {
     id: "engineered-ranges",
-    image: "/images/catalog-carousel/slide-3.jpg",
-    imageAlt: "G.M. Consolidated engineered range showcase",
-  },
-  {
-    id: "product-showcase",
-    image: "/images/catalog-carousel/slide-4.jpg",
-    imageAlt: "G.M. Consolidated in-house product showcase",
-  },
-  {
-    id: "range-highlight",
-    image: "/images/catalog-carousel/slide-5.jpg",
-    imageAlt: "G.M. Consolidated product range highlight",
-  },
-  {
-    id: "appliance-showcase",
-    image: "/images/catalog-carousel/slide-6.jpg",
-    imageAlt: "G.M. Consolidated appliance showcase",
-  },
-  {
-    id: "product-photography",
     image: "/images/catalog-carousel/slide-7.png",
-    imageAlt: "G.M. Consolidated product photography showcase",
-  },
-  {
-    id: "range-showcase",
-    image: "/images/catalog-carousel/slide-8.jpg",
-    imageAlt: "G.M. Consolidated range showcase",
+    imageAlt: "G.M. Consolidated engineered range showcase",
   },
 ];
 
@@ -71,7 +46,6 @@ const AUTOPLAY_MS = 6000;
 export function CatalogHero() {
   const reduced = usePrefersReducedMotion();
   const [active, setActive] = useState(0);
-  const [paused, setPaused] = useState(false);
   const slideRef = useRef<HTMLDivElement>(null);
 
   const goTo = useCallback((index: number) => {
@@ -82,10 +56,10 @@ export function CatalogHero() {
   const prev = useCallback(() => goTo(active - 1), [active, goTo]);
 
   useEffect(() => {
-    if (reduced || paused) return;
+    if (reduced) return;
     const id = window.setTimeout(() => goTo(active + 1), AUTOPLAY_MS);
     return () => window.clearTimeout(id);
-  }, [active, reduced, paused, goTo]);
+  }, [active, reduced, goTo]);
 
   useEffect(() => {
     const scope = slideRef.current;
@@ -145,10 +119,6 @@ export function CatalogHero() {
         aria-roledescription="carousel"
         aria-label="Featured highlights"
         className="bg-white"
-        onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-        onFocus={() => setPaused(true)}
-        onBlur={() => setPaused(false)}
       >
         <div className="mx-auto max-w-[1320px] px-4 pb-14 pt-6 sm:px-6 sm:pb-20 lg:px-8">
           <div className="relative isolate overflow-hidden rounded-2xl border border-border/60">
@@ -208,13 +178,12 @@ export function CatalogHero() {
                     }`}
                   >
                     {index === active && (
-                      <span
-                        className="carousel-rail-fill block h-full w-full origin-left rounded-full bg-accent"
-                        style={{
-                          animationDuration: `${AUTOPLAY_MS}ms`,
-                          animationPlayState: paused ? "paused" : "running",
-                        }}
-                      />
+<span
+                          className="carousel-rail-fill block h-full w-full origin-left rounded-full bg-accent"
+                          style={{
+                            animationDuration: `${AUTOPLAY_MS}ms`,
+                          }}
+                        />
                     )}
                   </span>
                 </button>
