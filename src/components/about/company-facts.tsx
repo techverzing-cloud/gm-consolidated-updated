@@ -8,7 +8,7 @@ export function CompanyFacts({ facts }: { facts: AboutFact[] }) {
       aria-label="Key company facts"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-        <dl className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+        <dl className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {facts.map((fact) => {
             const parts = parseMetric(fact.value, fact.suffix);
             return (

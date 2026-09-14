@@ -13,15 +13,15 @@
   "corporateStatement": {
     "eyebrow": "Corporate Statement",
     "title": "Setting Tomorrow's Standards. Built Beyond Expectations.",
-    "description": ""
+    "description": "Since 1983, G.M. Consolidated has evolved from a pioneer in aluminum pressure die casting into a leading OEM provider of domestic appliances, grooming kits and heating appliances — delivering superior products that consistently exceed customer expectations."
   },
   "companyProfile": {
     "eyebrow": "About G.M. Consolidated",
     "title": "Built on Four Decades of Manufacturing Experience.",
     "paragraphs": [
-      "Established in 1983, G.M. Consolidated is an appliance design, development and engineering manufacturer.",
-      "Over four decades of operational expertise have positioned the company as a manufacturing partner for small domestic appliances and personal-care electronics.",
-      "The company focuses on high-performance, export-quality products engineered to exceed industry baselines."
+      "Established in 1983, G.M. Consolidated began as a pioneer in aluminum pressure die casting, transforming into a leading OEM provider of innovative solutions for domestic home appliances, grooming kits and heating appliances.",
+      "By seamlessly integrating advanced tooling and plastic injection moulding, we deliver superior products that consistently exceed customer expectations — a preferred OEM partner for leading brands across India.",
+      "With a strong foundation in quality, innovation and customer satisfaction, the company offers a one-stop solution for domestic appliance and personal-care programmes, engineered to export-quality baselines."
     ]
   },
   "companyFacts": [
@@ -41,11 +41,98 @@
       "label": "Industrial Units"
     },
     {
+      "value": "500+",
+      "suffix": "",
+      "label": "Team Members"
+    },
+    {
+      "value": "20+",
+      "suffix": "",
+      "label": "Brand Partners"
+    },
+    {
       "value": "Kala Amb",
       "suffix": "",
       "label": "Manufacturing Base"
     }
   ],
+  "timeline": {
+    "eyebrow": "Our Journey",
+    "title": "Four Decades of Milestones.",
+    "description": "From casting and coating in 1983 to India's first fully indigenous steam iron, every milestone has built toward the manufacturing ecosystem G.M. Consolidated operates today.",
+    "events": [
+      {
+        "year": "1983",
+        "title": "Casting and coating",
+        "description": "Founded with aluminum pressure die casting and coating for the automobile and appliance sector."
+      },
+      {
+        "year": "1994",
+        "title": "Dryers and thermostats",
+        "description": "Developed dryers and precision thermostats — the foundation of the component capability still used today."
+      },
+      {
+        "year": "1996",
+        "title": "Small domestic appliances",
+        "description": "Started manufacturing small domestic appliances in Delhi."
+      },
+      {
+        "year": "1998",
+        "title": "Iron production plant",
+        "description": "Set up a dedicated plant for irons, pioneering the use of conveyor belts in production.",
+        "featured": true
+      },
+      {
+        "year": "2000",
+        "title": "Kitchen appliances",
+        "description": "Diversified into kitchen appliances with sandwich toasters and hand toasters."
+      },
+      {
+        "year": "2004",
+        "title": "Kala Amb plants",
+        "description": "Set up plants in Kala Amb with complete backward integration for greater quality control.",
+        "featured": true
+      },
+      {
+        "year": "2007",
+        "title": "Steam iron assembly",
+        "description": "Expanded into steam iron assembly."
+      },
+      {
+        "year": "2012",
+        "title": "R&D for ODM",
+        "description": "Established an R&D department for design and development, operating as an ODM.",
+        "featured": true
+      },
+      {
+        "year": "2016",
+        "title": "Rao Industries",
+        "description": "Established Rao Industries to meet increasing demand.",
+        "featured": true
+      },
+      {
+        "year": "2019",
+        "title": "Multi-line expansion",
+        "description": "Added multiple assembly lines for products such as water heaters, room heaters and injection moulding."
+      },
+      {
+        "year": "2021",
+        "title": "Varied product range",
+        "description": "Introduced a varied product range across the appliance portfolio."
+      },
+      {
+        "year": "2022",
+        "title": "Indigenous steam iron",
+        "description": "Launched India's first fully indigenous steam iron.",
+        "featured": true
+      },
+      {
+        "year": "2024",
+        "title": "Personal care appliances",
+        "description": "Expanded into personal care appliances."
+      }
+    ]
+  },
   "philosophy": {
     "eyebrow": "Our Philosophy",
     "title": "Precision in Design. Discipline in Manufacturing.",

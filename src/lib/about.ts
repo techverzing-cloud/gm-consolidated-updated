@@ -29,6 +29,20 @@ export interface AboutFact {
   label: string;
 }
 
+export interface AboutTimelineEvent {
+  year: string;
+  title: string;
+  description: string;
+  featured?: boolean;
+}
+
+export interface AboutTimeline {
+  eyebrow: string;
+  title: string;
+  description: string;
+  events: AboutTimelineEvent[];
+}
+
 export interface AboutPrinciple {
   number: string;
   title: string;
@@ -155,6 +169,7 @@ export interface AboutData {
   corporateStatement: AboutStatement;
   companyProfile: AboutCompanyProfile;
   companyFacts: AboutFact[];
+  timeline: AboutTimeline;
   philosophy: AboutSubSection & { principles: AboutPrinciple[] };
   whatWeDo: AboutSubSection & { capabilities: AboutCapability[] };
   manufacturingInfrastructure: AboutManufacturingInfrastructure;

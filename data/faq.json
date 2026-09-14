@@ -1,0 +1,31 @@
+{
+  "eyebrow": "FAQ Of Customers",
+  "title": "Questions We Get Asked Most.",
+  "description": "If you have any questions, please ask us and we will answer as quickly as possible — or make a question now.",
+  "items": [
+    {
+      "question": "What is G.M. Consolidated's specialty in the manufacturing industry?",
+      "answer": "Since 1983, G.M. Consolidated has specialized in aluminum pressure die casting and has evolved into a leading Original Equipment Manufacturer (OEM) of dry irons, steam irons and related accessories for well-known global brands in India."
+    },
+    {
+      "question": "What technologies does G.M. Consolidated incorporate in its manufacturing process?",
+      "answer": "The company integrates advanced tooling and plastic injection moulding technologies to produce superior quality products. This approach allows us to exceed customer expectations consistently by delivering durable and efficient products."
+    },
+    {
+      "question": "What sets G.M. Consolidated apart from other manufacturers in the industry?",
+      "answer": "Our deep understanding of consumer needs and our ability to translate them into practical, efficient solutions set us apart. We focus on innovation, quality and customer satisfaction, driving us to the forefront of the home appliance industry."
+    },
+    {
+      "question": "Can you describe G.M. Consolidated's facilities?",
+      "answer": "G.M. Consolidated operates two state-of-the-art industrial units in Kala Amb, Himachal Pradesh, each equipped with the latest technologies and operated by highly skilled professionals. These facilities contribute significantly to our capacity to handle large-scale production demands efficiently."
+    },
+    {
+      "question": "What types of products does G.M. Consolidated manufacture?",
+      "answer": "We manufacture a wide range of products, primarily focusing on dry irons, steam irons and various accessories. Additionally, we provide comprehensive solutions for domestic appliance and grooming kit projects."
+    },
+    {
+      "question": "Who are G.M. Consolidated's typical clients?",
+      "answer": "Our client base mainly includes leading brands within the domestic appliance and grooming kit sectors in India, looking for reliable, innovative OEM and ODM solutions."
+    }
+  ]
+}

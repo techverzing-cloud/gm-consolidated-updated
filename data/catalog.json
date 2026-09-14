@@ -194,7 +194,7 @@
             "Ultra-Light Build Reduces User Arm Strain",
             "Dual-Insulated Structural Wire Lines"
           ],
-          "image": "/images/products/garment-care/gm3.jpg",
+          "image": "/images/products/garment-care/gm3.png",
           "relatedProducts": [
             "gm-02",
             "gm-28",
@@ -4738,7 +4738,7 @@
       "range": "GM-45 – GM-57",
       "shortDescription": "Rechargeable mosquito rackets.",
       "description": "Rechargeable mosquito rackets with a Li-Ion battery, manual and auto-kill modes and UV light attraction.",
-      "image": "/images/products/specialty/gm57.jpg",
+      "image": "/images/products/specialty/gm57.png",
       "imageAlt": "G.M. Consolidated rechargeable mosquito racket",
       "featured": false,
       "products": [
@@ -4885,7 +4885,7 @@
           "categorySlug": "specialty-electronics",
           "shortDescription": "Rechargeable mosquito racket with manual and auto-kill modes.",
           "description": "The GM-57 is a rechargeable mosquito racket with a rechargeable li-ion battery (1200mAh). Manual & Auto-Kill Modes and uv light attraction technology work together for indoor and outdoor protection, with usb type-c fast charging through auto mode charging stand.",
-          "image": "/images/products/specialty/gm57.jpg",
+          "image": "/images/products/specialty/gm57.png",
           "highlights": [
             {
               "title": "Rechargeable Li-Ion battery",

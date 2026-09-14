@@ -23,6 +23,7 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
     if (!scope || reduced) return;
 
     const factStrip = scope.querySelector("#about-facts");
+    const timeline = scope.querySelector("#about-timeline");
     const stats = scope.querySelector("#about-metrics");
     const philosophy = scope.querySelector("#about-philosophy");
     const capabilities = scope.querySelector("#about-capabilities");
@@ -32,6 +33,8 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
     const quality = scope.querySelector("#about-quality");
     const business = scope.querySelector("#about-business");
     const leadership = scope.querySelector("#about-leadership");
+    const clients = scope.querySelector("#about-clients");
+    const faq = scope.querySelector("#about-faq");
     const office = scope.querySelector("#about-office");
     const ctaSection = scope.querySelector("#about-cta");
 
@@ -121,6 +124,57 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
             ease: "power3.out",
             stagger: 0.08,
             scrollTrigger: { trigger: factStrip, start: "top 80%", once: true },
+          },
+        );
+      }
+
+      if (timeline) {
+        const timelineSpine = timeline.querySelector(
+          "[data-about-timeline-spine]",
+        );
+
+        if (timelineSpine) {
+          gsap.fromTo(
+            timelineSpine,
+            { scaleY: 0 },
+            {
+              scaleY: 1,
+              duration: 1.4,
+              ease: "power3.inOut",
+              transformOrigin: "top",
+              scrollTrigger: {
+                trigger: timeline,
+                start: "top 74%",
+                once: true,
+              },
+            },
+          );
+        }
+
+        gsap.fromTo(
+          "[data-about-timeline-item]",
+          {
+            autoAlpha: 0,
+            y: 28,
+            x: (i, target) => {
+              const side = (target as HTMLElement).dataset.aboutTimelineSide;
+              if (side === "left") return -36;
+              if (side === "right") return 36;
+              return 0;
+            },
+          },
+          {
+            autoAlpha: 1,
+            y: 0,
+            x: 0,
+            duration: 0.7,
+            ease: "power3.out",
+            stagger: 0.09,
+            scrollTrigger: {
+              trigger: timeline,
+              start: "top 74%",
+              once: true,
+            },
           },
         );
       }
@@ -357,6 +411,40 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
             ease: "power3.out",
             stagger: 0.1,
             scrollTrigger: { trigger: office, start: "top 80%", once: true },
+          },
+        );
+      }
+
+      if (clients) {
+        gsap.fromTo(
+          "[data-about-client-logo]",
+          { autoAlpha: 0, y: 16 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.5,
+            ease: "power3.out",
+            stagger: 0.04,
+            scrollTrigger: {
+              trigger: clients,
+              start: "top 78%",
+              once: true,
+            },
+          },
+        );
+      }
+
+      if (faq) {
+        gsap.fromTo(
+          "[data-about-faq-item]",
+          { autoAlpha: 0, y: 20 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.55,
+            ease: "power3.out",
+            stagger: 0.07,
+            scrollTrigger: { trigger: faq, start: "top 78%", once: true },
           },
         );
       }

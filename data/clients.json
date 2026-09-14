@@ -1,0 +1,28 @@
+{
+  "dataNote": "Placeholder client marks. Replace each entry's logo path with the real brand logo when assets are available — 20 logos matching the legacy site's client carousel.",
+  "eyebrow": "Our Clients",
+  "title": "Trusted by Leading Brands.",
+  "description": "Nearly all leading brands in the domestic appliance and grooming kit sectors rely on G.M. Consolidated for reliable, innovative OEM and ODM manufacturing.",
+  "logos": [
+    { "name": "Client 01", "logo": "/images/clients/client-01.png" },
+    { "name": "Client 02", "logo": "/images/clients/client-02.png" },
+    { "name": "Client 03", "logo": "/images/clients/client-03.png" },
+    { "name": "Client 04", "logo": "/images/clients/client-04.png" },
+    { "name": "Client 05", "logo": "/images/clients/client-05.png" },
+    { "name": "Client 06", "logo": "/images/clients/client-06.png" },
+    { "name": "Client 07", "logo": "/images/clients/client-07.png" },
+    { "name": "Client 08", "logo": "/images/clients/client-08.png" },
+    { "name": "Client 09", "logo": "/images/clients/client-09.png" },
+    { "name": "Client 10", "logo": "/images/clients/client-10.png" },
+    { "name": "Client 11", "logo": "/images/clients/client-11.png" },
+    { "name": "Client 12", "logo": "/images/clients/client-12.png" },
+    { "name": "Client 13", "logo": "/images/clients/client-13.png" },
+    { "name": "Client 14", "logo": "/images/clients/client-14.png" },
+    { "name": "Client 15", "logo": "/images/clients/client-15.png" },
+    { "name": "Client 16", "logo": "/images/clients/client-16.png" },
+    { "name": "Client 17", "logo": "/images/clients/client-17.png" },
+    { "name": "Client 18", "logo": "/images/clients/client-18.png" },
+    { "name": "Client 19", "logo": "/images/clients/client-19.png" },
+    { "name": "Client 20", "logo": "/images/clients/client-20.png" }
+  ]
+}

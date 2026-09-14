@@ -13,11 +13,18 @@ import { ManufacturingStrength } from "@/components/about/manufacturing-strength
 import { QualityPositioning } from "@/components/about/quality-positioning";
 import { BusinessPositioning } from "@/components/about/business-positioning";
 import { LeadershipSection } from "@/components/about/leadership-section";
+import { TimelineSection } from "@/components/about/about-timeline";
+import { ClientsLogos } from "@/components/about/clients-logos";
+import { FaqSection } from "@/components/about/faq-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
 import { getAboutContent } from "@/lib/about";
+import { getClientsContent } from "@/lib/clients";
+import { getFaqContent } from "@/lib/faq";
 
 const content = getAboutContent();
+const clients = getClientsContent();
+const faq = getFaqContent();
 
 export const metadata: Metadata = {
   title: content.metadata.title,
@@ -31,6 +38,7 @@ export default function AboutPage() {
       <CorporateStatement statement={content.corporateStatement} />
       <CompanyProfile profile={content.companyProfile} facts={content.companyFacts} />
       <CompanyFacts facts={content.companyFacts} />
+      <TimelineSection timeline={content.timeline} />
       <PhilosophySection philosophy={content.philosophy} />
       <CapabilitiesSection capabilities={content.whatWeDo} />
       <InfrastructureSection section={content.manufacturingInfrastructure} />
@@ -39,8 +47,10 @@ export default function AboutPage() {
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
       <BusinessPositioning section={content.businessPositioning} />
+      <ClientsLogos content={clients} />
       <LeadershipSection section={content.leadership} />
       <CorporateOffice office={content.corporateOffice} />
+      <FaqSection content={faq} />
       <AboutCta closing={content.closingStatement} />
     </AboutAnimations>
   );
