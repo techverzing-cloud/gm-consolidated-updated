@@ -4,6 +4,7 @@ const contact = contactData as {
   primaryContact: {
     phone: string;
     email: string;
+    supportEmail: string;
     address: string;
     addressShort: string;
     units: string;
@@ -13,6 +14,7 @@ const contact = contactData as {
 export const SITE_INFO = {
   phone: contact.primaryContact.phone,
   email: contact.primaryContact.email,
+  supportEmail: contact.primaryContact.supportEmail,
   address: contact.primaryContact.address,
   addressShort: contact.primaryContact.addressShort,
   units: contact.primaryContact.units,

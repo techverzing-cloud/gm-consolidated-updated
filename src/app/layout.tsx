@@ -31,7 +31,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "G.M. Consolidated",
+    images: ["/fav/android-chrome-512x512.png"],
   },
+  icons: {
+    icon: [
+      { url: "/fav/favicon.ico", sizes: "any" },
+      { url: "/fav/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/fav/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/fav/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
+  manifest: "/fav/site.webmanifest",
 };
 
 export const viewport: Viewport = {

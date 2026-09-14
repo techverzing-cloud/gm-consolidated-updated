@@ -272,18 +272,38 @@
     "eyebrow": "Leadership",
     "title": "The People Behind the Products.",
     "description": "G.M. Consolidated is led by a management team that keeps engineering, tooling and manufacturing working as one integrated organisation.",
-    "images": [
+    "members": [
       {
-        "src": "/images/about/leadership-1.jpg",
-        "alt": "Portrait of a business leader in a formal black suit",
-        "width": 1086,
-        "height": 1448
+        "name": "Rajesh Aggarwal",
+        "title": "Director",
+        "image": {
+          "src": "/images/about/leadership-1.jpg",
+          "alt": "Portrait of Rajesh Aggarwal, Director of G.M. Consolidated",
+          "width": 1086,
+          "height": 1448
+        },
+        "bio": "Rajesh Aggarwal leads day-to-day operations at G.M. Consolidated, steering product development, commercial strategy and supplier partnerships. With over three decades in the appliance industry, he keeps the organisation focused on dependable delivery and manufacturing excellence.",
+        "points": [
+          "Steers OEM / ODM programme planning and commercial strategy",
+          "Oversees toolroom development and new product launches",
+          "Champions long standing partnerships with brands across India and export markets"
+        ]
       },
       {
-        "src": "/images/about/leadership-2.jpg",
-        "alt": "Portrait of a business leader in a formal black suit and cap",
-        "width": 1467,
-        "height": 1072
+        "name": "Kunal Aggarwal",
+        "title": "Chief Director",
+        "image": {
+          "src": "/images/about/leadership-2.jpg",
+          "alt": "Portrait of Kunal Aggarwal, Chief Director of G.M. Consolidated",
+          "width": 1467,
+          "height": 1072
+        },
+        "bio": "Kunal Aggarwal provides strategic direction across G.M. Consolidated's manufacturing units at Kala Amb, Himachal Pradesh. He drives capability building, quality systems and the long term roadmap that keeps the group integrated from tooling to finished goods.",
+        "points": [
+          "Sets the strategic roadmap for the group's manufacturing units",
+          "Drives quality systems, process discipline and continuous improvement",
+          "Guides capacity planning and capital investment across facilities"
+        ]
       }
     ]
   },
@@ -292,7 +312,7 @@
     "title": "Connect With G.M. Consolidated.",
     "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042, India",
     "phone": "+91 99711 88883",
-    "email": "ea.admin@arind.in",
+    "email": "delhiho@arind.in",
     "phoneLabel": "Direct Commercial Support",
     "emailLabel": "Administrative Email Support"
   },

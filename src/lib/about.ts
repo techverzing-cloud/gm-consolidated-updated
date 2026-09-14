@@ -80,8 +80,16 @@ export interface AboutLeadershipImage {
   height: number;
 }
 
+export interface AboutLeader {
+  name: string;
+  title: string;
+  image: AboutLeadershipImage;
+  bio: string;
+  points: string[];
+}
+
 export interface AboutLeadership extends AboutStatement {
-  images: AboutLeadershipImage[];
+  members: AboutLeader[];
 }
 
 export interface AboutSubSection {

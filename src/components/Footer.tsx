@@ -157,7 +157,12 @@ export function Footer() {
                       size={18}
                       className="mt-0.5 shrink-0 text-white/80"
                     />
-                    {SITE_INFO.phone}
+                    <a
+                      href={`tel:${SITE_INFO.phone.replace(/[^+\d]/g, "")}`}
+                      className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    >
+                      {SITE_INFO.phone}
+                    </a>
                   </p>
                 </li>
                 <li>
@@ -167,7 +172,20 @@ export function Footer() {
                       size={18}
                       className="mt-0.5 shrink-0 text-white/80"
                     />
-                    {SITE_INFO.email}
+                    <span className="flex flex-col items-start gap-1">
+                      <a
+                        href={`mailto:${SITE_INFO.email}`}
+                        className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                      >
+                        {SITE_INFO.email}
+                      </a>
+                      <a
+                        href={`mailto:${SITE_INFO.supportEmail}`}
+                        className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                      >
+                        {SITE_INFO.supportEmail}
+                      </a>
+                    </span>
                   </p>
                 </li>
                 <li>

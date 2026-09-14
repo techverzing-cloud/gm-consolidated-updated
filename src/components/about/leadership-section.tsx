@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Icon } from "@/components/ui/Icon";
 import type { AboutLeadership } from "@/lib/about";
 
 export function LeadershipSection({ section }: { section: AboutLeadership }) {
@@ -24,25 +25,57 @@ export function LeadershipSection({ section }: { section: AboutLeadership }) {
           </p>
         </header>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:gap-10">
-          {section.images.map((image) => (
-            <figure
-              key={image.src}
-              data-about-leadership
-              className="overflow-hidden rounded-sm border border-border bg-background-alt"
-            >
-              <div className="relative">
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  width={image.width}
-                  height={image.height}
-                  sizes="(min-width: 640px) 50vw, 100vw"
-                  className="h-90 w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                />
+        <div className="mt-14 space-y-16 lg:space-y-20">
+          {section.members.map((member, index) => {
+            const flipped = index % 2 === 1;
+            return (
+              <div
+                key={member.name}
+                data-about-leadership
+                className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-16"
+              >
+                <div className={flipped ? "lg:order-2" : undefined}>
+                  <div className="relative overflow-hidden rounded-sm border border-border bg-background-alt">
+                    <Image
+                      src={member.image.src}
+                      alt={member.image.alt}
+                      width={member.image.width}
+                      height={member.image.height}
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="aspect-4/3 w-full object-cover object-top"
+                    />
+                  </div>
+                </div>
+
+                <div className={flipped ? "lg:order-1" : undefined}>
+                  <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+                    {member.title}
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold text-foreground sm:text-3xl">
+                    {member.name}
+                  </h3>
+                  <p className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary">
+                    {member.bio}
+                  </p>
+                  <ul className="mt-7 space-y-3">
+                    {member.points.map((point) => (
+                      <li
+                        key={point}
+                        className="flex items-start gap-3 text-sm leading-relaxed text-foreground sm:text-base"
+                      >
+                        <Icon
+                          icon="mdi:check-circle-outline"
+                          size={20}
+                          className="mt-0.5 shrink-0 text-accent"
+                        />
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </figure>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

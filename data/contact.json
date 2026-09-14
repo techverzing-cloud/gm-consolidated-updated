@@ -43,7 +43,15 @@
     },
     {
       "id": "email",
-      "label": "Email",
+      "label": "Official Email",
+      "value": "delhiho@arind.in",
+      "href": "mailto:delhiho@arind.in",
+      "icon": "mdi:email-outline",
+      "description": ""
+    },
+    {
+      "id": "support-email",
+      "label": "Support Email",
       "value": "ea.admin@arind.in",
       "href": "mailto:ea.admin@arind.in",
       "icon": "mdi:email-outline",
@@ -130,7 +138,8 @@
   },
   "primaryContact": {
     "phone": "+91 99711 88883",
-    "email": "ea.admin@arind.in",
+    "email": "delhiho@arind.in",
+    "supportEmail": "ea.admin@arind.in",
     "address": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
     "addressShort": "Bawana Road, Delhi – 110042",
     "units": "Kala Amb, Himachal Pradesh"
