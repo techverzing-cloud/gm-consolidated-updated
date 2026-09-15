@@ -37,6 +37,11 @@
       "label": "Thermostat Capacity / Year"
     },
     {
+      "value": "4M",
+      "suffix": "",
+      "label": "Heating Element Capacity / Year"
+    },
+    {
       "value": "20+",
       "suffix": " years",
       "label": "Tool Room Experience"
@@ -181,7 +186,7 @@
         "number": "05",
         "title": "Thermostat Manufacturing",
         "icon": "mdi:thermometer-lines",
-        "details": ["4 million annual capacity"]
+        "details": ["4 million annual capacity", "Semi-automatic riveting lines", "Hydro-pneumatic riveting presses", "Brass terminals"]
       },
       {
         "number": "06",

@@ -36,7 +36,7 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
             <SectionHeading
               eyebrow="Manufacturing & Quality"
               title="Designed, tooled and built in-house."
-              description="The product is produced on G.M. Consolidated's own lines in Noida - giving you control over tooling, quality and lead time from a single source."
+              description="The product is produced on G.M. Consolidated's own lines in its Kala Amb units - giving you control over tooling, quality and lead time from a single source."
             />
 
             <div className="mt-8 space-y-7">

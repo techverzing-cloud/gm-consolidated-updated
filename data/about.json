@@ -296,6 +296,11 @@
         "label": "Thermostat Capacity / Year"
       },
       {
+        "value": "4",
+        "suffix": "M",
+        "label": "Heating Element Capacity / Year"
+      },
+      {
         "value": "20+",
         "suffix": " years",
         "label": "Tool Room Experience"

@@ -25,8 +25,9 @@ export function ProductOverview({ product }: { product: CatalogProduct }) {
             </p>
             <p className="mt-5 max-w-2xl border-l-2 border-accent pl-4 text-sm leading-relaxed text-foreground-secondary">
               G.M. Consolidated designs, tools and builds every product
-              in-house in Noida - from first tooling to end-of-line testing -
-              so your specification is controlled at every stage.
+              in-house across its units in Kala Amb, Himachal Pradesh - from
+              first tooling to end-of-line testing - so your specification is
+              controlled at every stage.
             </p>
           </div>
         </div>

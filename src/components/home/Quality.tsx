@@ -38,7 +38,7 @@ const TRUST_INDICATORS = [
   {
     icon: "mdi:check-decagram-outline",
     label: "ISO 9001:2015",
-    text: "Group facilities certified to the ISO 9001:2015 quality-management standard.",
+    text: "A.R. Industries and Rao Industries certified to the ISO 9001:2015 quality-management standard.",
   },
   {
     icon: "mdi:shield-check-outline",
