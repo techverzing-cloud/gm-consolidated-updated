@@ -50,47 +50,101 @@
       {
         "number": "01",
         "title": "Pressure Die Casting",
-        "description": "120–250 ton pressure die casting capability supporting component and soleplate manufacturing."
+        "description": "120–250 ton pressure die casting capability supporting component and soleplate manufacturing.",
+        "images": [
+          "/manufacturing/pressure-die-casting/pressure-die-casting-1.jpg",
+          "/manufacturing/pressure-die-casting/pressure-die-casting-2.jpg",
+          "/manufacturing/pressure-die-casting/pressure-die-casting-3.jpg"
+        ]
       },
       {
         "number": "02",
         "title": "Plastic Injection Moulding",
-        "description": "25 injection moulding machines ranging from 80–400 ton, supporting engineering plastics and insert moulding."
+        "description": "25 injection moulding machines ranging from 80–400 ton, supporting engineering plastics and insert moulding.",
+        "images": [
+          "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-1.jpg",
+          "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-3.jpg"
+        ]
       },
       {
         "number": "03",
         "title": "Press Shop",
-        "description": "Automatic sheet feeding and progressive tooling for formed components."
+        "description": "Automatic sheet feeding and progressive tooling for formed components.",
+        "images": [
+          "/manufacturing/press-shop/press-shop-1.jpg"
+        ]
       },
       {
         "number": "04",
         "title": "Tool Room",
-        "description": "CNC vertical machining and EDM capability supporting in-house tooling requirements."
+        "description": "CNC vertical machining and EDM capability supporting in-house tooling requirements.",
+        "images": [
+          "/manufacturing/tool-room/tool-room-1.jpg",
+          "/manufacturing/tool-room/tool-room-2.jpg",
+          "/manufacturing/tool-room/tool-room-5.jpg",
+          "/manufacturing/tool-room/tool-room-7.jpg",
+          "/manufacturing/tool-room/tool-room-8.jpg"
+        ]
       },
       {
         "number": "05",
         "title": "PTFE Coating",
-        "description": "Specialized PTFE coating operations supporting appliance components."
+        "description": "Specialized PTFE coating operations supporting appliance components.",
+        "images": [
+          "/manufacturing/ptfe-coating/ptfe-coating-1.jpg",
+          "/manufacturing/ptfe-coating/ptfe-coating-2.jpg",
+          "/manufacturing/ptfe-coating/ptfe-coating-3.jpg"
+        ]
       },
       {
         "number": "06",
         "title": "Thermostat Manufacturing",
-        "description": "Dedicated thermostat manufacturing capability with approximately 4 million annual capacity."
+        "description": "Dedicated thermostat manufacturing capability with approximately 4 million annual capacity.",
+        "images": [
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-1.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-2.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-3.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-4.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-5.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-6.jpg",
+          "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-7.jpg"
+        ]
       },
       {
         "number": "07",
         "title": "Heating Elements",
-        "description": "In-house heating element manufacturing supporting appliance production."
+        "description": "In-house heating element manufacturing supporting appliance production.",
+        "images": [
+          "/manufacturing/heating-elements/heating-elements-1.jpg",
+          "/manufacturing/heating-elements/heating-elements-2.jpg",
+          "/manufacturing/heating-elements/heating-elements-3.jpg",
+          "/manufacturing/heating-elements/heating-elements-4.jpg",
+          "/manufacturing/heating-elements/heating-elements-5.jpg",
+          "/manufacturing/heating-elements/heating-elements-6.jpg"
+        ]
       },
       {
         "number": "08",
         "title": "Conveyorised Assembly",
-        "description": "Auto-conveyorised assembly operations for finished appliance production."
+        "description": "Auto-conveyorised assembly operations for finished appliance production.",
+        "images": [
+          "/manufacturing/conveyorised-assembly/conveyorised-assembly-1.jpg",
+          "/manufacturing/conveyorised-assembly/conveyorised-assembly-2.jpg",
+          "/manufacturing/conveyorised-assembly/conveyorised-assembly-3.jpg",
+          "/manufacturing/conveyorised-assembly/conveyorised-assembly-4.jpg",
+          "/manufacturing/conveyorised-assembly/conveyorised-assembly-5.jpg"
+        ]
       },
       {
         "number": "09",
         "title": "Routine Testing",
-        "description": "Finished products undergo routine testing before release."
+        "description": "Finished products undergo routine testing before release.",
+        "images": [
+          "/manufacturing/routine-testing/routine-testing-1.jpg",
+          "/manufacturing/routine-testing/routine-testing-2.jpg",
+          "/manufacturing/routine-testing/routine-testing-3.jpg",
+          "/manufacturing/routine-testing/routine-testing-4.jpg"
+        ]
       }
     ]
   },
@@ -141,7 +195,7 @@
     "eyebrow": "Integrated Operations",
     "title": "Engineering, Tooling and Production Working Together.",
     "description": "The manufacturing ecosystem brings product development, tooling, component manufacturing, finishing, assembly and testing into a coordinated production flow.",
-    "note": "The strength is not individual machines — it is the integration of every manufacturing stage under one roof.",
+    "note": "The strength is not individual machines - it is the integration of every manufacturing stage under one roof.",
     "stages": [
       {
         "title": "Engineering",
@@ -172,30 +226,30 @@
   "units": {
     "eyebrow": "Two Industrial Units",
     "title": "One Manufacturing Ecosystem.",
-    "description": "Two specialized industrial units in Kala Amb, Himachal Pradesh — each focused on a defined part of the appliance manufacturing flow.",
+    "description": "Two specialized industrial units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
     "units": [
       {
         "number": "01",
         "name": "A. R. Industries",
         "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
-        "image": "/images/factory/assembly.jpg",
-        "imageAlt": "Workers assembling small domestic appliances on a production line"
+        "image": "/images/factory/ar-industry.jpg",
+        "imageAlt": "A. R. Industries production line inside the G.M. Consolidated Kala Amb unit"
       },
       {
         "number": "02",
         "name": "Rao Industries",
         "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Distt-Sirmour – 173030 (H.P.)",
         "focus": "Water heating systems production",
-        "image": "/images/factory/production-wide.jpg",
-        "imageAlt": "Production floor for water heating appliance systems"
+        "image": "/images/factory/rao-industry.jpg",
+        "imageAlt": "Rao Industries production floor for water heating appliance systems"
       }
     ]
   },
   "qualityBridge": {
     "eyebrow": "Manufacturing → Quality",
     "title": "Manufacturing Is Only Half the Process.",
-    "text": "Finished products move into inspection and routine testing — every unit is tested before release, not just sampled.",
+    "text": "Finished products move into inspection and routine testing - every unit is tested before release, not just sampled.",
     "ctaLabel": "Explore Quality",
     "ctaHref": "/quality"
   },

@@ -76,7 +76,7 @@ export function Quality() {
               />
             </div>
             <p className="mt-3 text-sm font-medium text-foreground-secondary">
-              Routine test line — Kala Amb • Seven
+              Routine test line - Kala Amb • Seven
               checkpoints, one released product
             </p>
           </div>
@@ -101,7 +101,7 @@ export function Quality() {
                 className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
               >
                 Quality is engineered into the flow, not inspected onto the end.
-                Checkpoints run at every stage — and every single finished
+                Checkpoints run at every stage - and every single finished
                 product is routine-tested before it is packed.
               </p>
             </div>

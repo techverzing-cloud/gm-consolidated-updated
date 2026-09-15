@@ -69,7 +69,7 @@ function TodayCopy() {
         The next milestone is being written with you.
       </h3>
       <p className="mt-3 max-w-[46ch] text-pretty text-base leading-relaxed text-foreground-secondary">
-        Four decades of landmarks behind us — bring your next appliance
+        Four decades of landmarks behind us - bring your next appliance
         programme and start the next chapter together.
       </p>
       <Link
@@ -122,14 +122,14 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
           </span>
         </header>
 
-        {/* Desktop — alternating editorial timeline around a central spine */}
+        {/* Desktop - alternating editorial timeline around a central spine */}
         <div className="relative mt-20 hidden lg:block">
           <span
             data-about-timeline-spine
             aria-hidden="true"
             className="absolute bottom-10 left-1/2 top-2 w-px -translate-x-1/2 bg-gradient-to-b from-accent/40 via-accent/20 to-accent/40"
           />
-          <ol data-about-timeline className="relative">
+          <ol data-about-timeline className="relative space-y-8">
             {events.map((event, index) => {
               const left = index % 2 === 0;
               return (
@@ -169,7 +169,7 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
           </ol>
         </div>
 
-        {/* Mobile — left-aligned spine timeline */}
+        {/* Mobile - left-aligned spine timeline */}
         <div className="mt-14 lg:hidden">
           <ol
             data-about-timeline

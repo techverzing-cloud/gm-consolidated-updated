@@ -39,7 +39,7 @@ export function ManufacturingStrength({
                 <dt className="order-2 mt-4 text-sm font-medium text-foreground-secondary">
                   {metric.label}
                 </dt>
-                <dd className="order-1 text-5xl font-semibold leading-none tracking-tight text-accent sm:text-6xl">
+                <dd className="order-1 text-2xl font-semibold leading-none tracking-tight text-accent sm:text-3xl">
                   {parts ? (
                     <span
                       data-about-count

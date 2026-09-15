@@ -6,25 +6,25 @@ const ENGAGEMENT_MODELS = [
     icon: "mdi:wrench-outline",
     title: "OEM",
     tagline: "Manufacture to specification",
-    text: "Bring the specification — the in-house system runs it: die casting, moulding, press work, coating, thermostat manufacturing and auto-conveyorised assembly. Every unit routine-tested.",
+    text: "Bring the specification - the in-house system runs it: die casting, moulding, press work, coating, thermostat manufacturing and auto-conveyorised assembly. Every unit routine-tested.",
   },
   {
     icon: "mdi:pencil-ruler",
     title: "ODM",
     tagline: "Designed & manufactured",
-    text: "Bring the requirement — design engineers take it through concept, 3D CAD and prototype, validating it before any tooling activity.",
+    text: "Bring the requirement - design engineers take it through concept, 3D CAD and prototype, validating it before any tooling activity.",
   },
   {
     icon: "mdi:package-variant-closed",
     title: "Private label",
     tagline: "Your brand, our system",
-    text: "An existing catalogue model — or one developed to your requirement — built under your brand with the same engineering and testing discipline.",
+    text: "An existing catalogue model - or one developed to your requirement - built under your brand with the same engineering and testing discipline.",
   },
   {
     icon: "mdi:truck-fast",
     title: "Bulk requirements",
     tagline: "Existing models, in volume",
-    text: "Source the catalogue range at volume for distribution and retail — every unit built to the same standard and routine-tested before packing.",
+    text: "Source the catalogue range at volume for distribution and retail - every unit built to the same standard and routine-tested before packing.",
   },
 ];
 
@@ -71,7 +71,7 @@ export function OemOdm() {
             className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
           >
             Appliance design, engineering and manufacturing for OEM, ODM and
-            product-development programmes — two industrial units operating
+            product-development programmes - two industrial units operating
             as one organisation since 1983.
           </p>
         </div>
@@ -152,7 +152,7 @@ export function OemOdm() {
               Bring us the brief.
             </h3>
             <p className="mt-3 max-w-xl text-pretty text-base leading-relaxed text-white/80">
-              Share a requirement — we will come back with engineering
+              Share a requirement - we will come back with engineering
               perspective, capability fit and next steps. No middlemen, no
               layers.
             </p>

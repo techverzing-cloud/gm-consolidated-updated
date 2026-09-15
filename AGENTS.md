@@ -2,24 +2,24 @@
 
 # This is NOT the Next.js you know
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+This version has breaking changes - APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
 
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+This block is written and re-added by `next dev` - verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
 
 # Project notes
 
 ## Toolchain
-- Package manager is **pnpm** (v11.25.0, pinned via `packageManager`). Install with `pnpm install` — do not use npm/yarn.
+- Package manager is **pnpm** (v11.25.0, pinned via `packageManager`). Install with `pnpm install` - do not use npm/yarn.
 - Scripts: `pnpm dev`, `pnpm build`, `pnpm start`, `pnpm lint` (runs `eslint`).
 - There is **no `typecheck` script**; run `tsc --noEmit` directly to typecheck. No test runner is configured.
 - Path alias `@/*` maps to the **repo root** (`tsconfig.json:21`), NOT `./src/*`. To import a `src/` file you must write `@/src/...` (e.g. `@/src/shared/components/Button`), not `@/shared/...`
 
 ## Framework / styling quirks
 - Next.js **16.3.4** with React 19. The breaking-change warning above applies; consult `node_modules/next/dist/docs/` before writing code.
-- The App Router tree lives under `src/app/` (currently scaffold `page.tsx` / `layout.tsx`). Root `src/app/layout.tsx` uses an ambient `LayoutProps<"/">` type — globally provided by this Next version, no import needed.
-- Tailwind **v4**: configured via `@import "tailwindcss"` and `@theme` in `src/app/globals.css` — there is no `tailwind.config` file.
+- The App Router tree lives under `src/app/` (currently scaffold `page.tsx` / `layout.tsx`). Root `src/app/layout.tsx` uses an ambient `LayoutProps<"/">` type - globally provided by this Next version, no import needed.
+- Tailwind **v4**: configured via `@import "tailwindcss"` and `@theme` in `src/app/globals.css` - there is no `tailwind.config` file.
 - `pnpm-workspace.yaml` sets `allowBuilds` to skip postinstall builds for `sharp` and `unrs-resolver`.
 
 ## Tailwind CSS v4 Conventions
@@ -44,7 +44,7 @@ We use **Tailwind CSS v4**. Always prefer native Tailwind utilities/scales over 
 - Follow existing project conventions consistently.
 - Treat Tailwind **v4 syntax and utilities** as authoritative; do not apply outdated v3 conventions blindly.
 
-Before adding any arbitrary class, check whether Tailwind v4 already provides an equivalent. The goal is clean, idiomatic Tailwind v4—not eliminating arbitrary values at all costs.
+Before adding any arbitrary class, check whether Tailwind v4 already provides an equivalent. The goal is clean, idiomatic Tailwind v4-not eliminating arbitrary values at all costs.
 
 # Engineering Rules
 

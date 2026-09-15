@@ -49,7 +49,7 @@ export function Manufacturing() {
                 className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
               >
                 Two industrial units in Kala Amb, Himachal Pradesh, house
-                dedicated product-specific lines — from die casting and
+                dedicated product-specific lines - from die casting and
                 injection moulding to in-house tooling, thermostat
                 manufacturing, finishing and auto-conveyorised assembly.
               </p>
@@ -73,10 +73,10 @@ export function Manufacturing() {
               className="relative overflow-hidden rounded-sm border border-border"
             >
               <Image
-                src="/images/factory/production-wide.jpg"
+                src="/images/home-manufacturing.jpg"
                 alt="Production floor of the G.M. Consolidated industrial units, Kala Amb"
                 width={926}
-                height={359}
+                height={617}
                 data-parallax="16"
                 className="aspect-[21/9] w-full object-cover"
               />

@@ -47,7 +47,7 @@ export default function AboutPage() {
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
       <BusinessPositioning section={content.businessPositioning} />
-      <ClientsLogos content={clients} />
+      {/* <ClientsLogos content={clients} /> */}
       <LeadershipSection section={content.leadership} />
       <CorporateOffice office={content.corporateOffice} />
       <FaqSection content={faq} />

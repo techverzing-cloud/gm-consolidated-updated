@@ -1,4 +1,4 @@
-# GM Consolidated — AR | RAO | GM Industries
+# GM Consolidated - AR | RAO | GM Industries
 
 ## Website Knowledge Base
 

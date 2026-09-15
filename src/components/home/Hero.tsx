@@ -38,7 +38,7 @@ const SLIDES: HeroSlide[] = [
     imageAlt: "Wide view of the G.M. Consolidated manufacturing plant floor",
     eyebrow: "Five Engineered Ranges",
     titleLines: ["One Ecosystem,", "Five Engineered Ranges."],
-    copy: "Every G.M. Consolidated product is designed, tooled and built in-house — across OEM, ODM and private-label programmes.",
+    copy: "Every G.M. Consolidated product is designed, tooled and built in-house - across OEM, ODM and private-label programmes.",
     meta: "OEM • ODM • Private label",
     primary: { label: "Explore Catalogue", href: "/catalog" },
     secondary: { label: "Request Enquiry", href: "/contact#enquiry" },

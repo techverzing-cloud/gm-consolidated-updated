@@ -381,7 +381,7 @@ export function EnquiryForm({
                 />
                 <div>
                   <p className="font-semibold text-foreground">
-                    Thanks — your enquiry is with our team.
+                    Thanks - your enquiry is with our team.
                   </p>
                   <p className="mt-1 text-sm leading-relaxed text-foreground-secondary">
                     We usually come back within one working day.

@@ -32,7 +32,6 @@ export function ManufacturingAnimations({
     const capabilities = scope.querySelector("#mfg-capabilities");
     const units = scope.querySelector("#mfg-units");
     const ctaSection = scope.querySelector("#mfg-cta");
-    const teardowns: Array<() => void> = [];
 
     const context = gsap.context(() => {
       gsap
@@ -94,156 +93,73 @@ export function ManufacturingAnimations({
 
       if (flow) {
         const desktopFlow = flow.querySelector<HTMLElement>("[data-mfg-flow-desktop]");
-        const serpentTop = flow.querySelector<HTMLElement>("[data-serpent-top]");
-        const serpentRight = flow.querySelector<HTMLElement>("[data-serpent-right]");
-        const serpentBottom = flow.querySelector<HTMLElement>("[data-serpent-bottom]");
+        const spine = flow.querySelector<HTMLElement>("[data-mfg-flow-spine]");
 
-        const positionSerpent = () => {
-          if (
-            !desktopFlow ||
-            desktopFlow.offsetWidth === 0 ||
-            !serpentTop ||
-            !serpentRight ||
-            !serpentBottom
-          ) {
-            return;
-          }
-          const markers = gsap.utils.toArray<HTMLElement>(
-            "[data-mfg-flow-marker]",
-            desktopFlow,
+        if (spine) {
+          gsap.fromTo(
+            spine,
+            { scaleY: 0 },
+            {
+              scaleY: 1,
+              duration: 1.4,
+              ease: "power3.inOut",
+              transformOrigin: "top",
+              scrollTrigger: {
+                trigger: flow,
+                start: "top 70%",
+                once: true,
+              },
+            },
           );
-          if (markers.length < 9) return;
-          const flowRect = desktopFlow.getBoundingClientRect();
-          const center = (el: HTMLElement) => {
-            const r = el.getBoundingClientRect();
-            return {
-              x: r.left + r.width / 2 - flowRect.left,
-              y: r.top + r.height / 2 - flowRect.top,
-            };
-          };
-          const p = markers.map(center);
-          const set = (el: HTMLElement, top: number, left: number, w: number, h: number) => {
-            el.style.top = `${top}px`;
-            el.style.left = `${left}px`;
-            el.style.width = `${w}px`;
-            el.style.height = `${h}px`;
-          };
-          set(serpentTop, p[0].y, p[0].x, p[4].x - p[0].x, 1);
-          set(serpentRight, p[4].y, p[4].x, 1, p[5].y - p[4].y);
-          set(serpentBottom, p[5].y, p[8].x, p[5].x - p[8].x, 1);
-          serpentBottom.style.transformOrigin = "100% 50%";
-          serpentTop.style.transformOrigin = "0% 50%";
-          serpentRight.style.transformOrigin = "50% 0%";
-        };
-
-        positionSerpent();
-        const refreshSerpent = () => {
-          positionSerpent();
-          ScrollTrigger.refresh();
-        };
-        const flowResizeObserver = new ResizeObserver(() =>
-          window.requestAnimationFrame(refreshSerpent),
-        );
-        if (desktopFlow) flowResizeObserver.observe(desktopFlow);
-        ScrollTrigger.addEventListener("refreshInit", positionSerpent);
-        teardowns.push(() => {
-          flowResizeObserver.disconnect();
-          ScrollTrigger.removeEventListener("refreshInit", positionSerpent);
-        });
-
-        const markersRowOne = gsap.utils.toArray<HTMLElement>(
-          '[data-mfg-flow-row="1"] [data-mfg-flow-marker]',
-          flow,
-        );
-        const markersRowTwo = gsap.utils.toArray<HTMLElement>(
-          '[data-mfg-flow-row="2"] [data-mfg-flow-marker]',
-          flow,
-        );
-        const copiesRowOne = gsap.utils.toArray<HTMLElement>(
-          '[data-mfg-flow-row="1"] [data-mfg-flow-copy]',
-          flow,
-        );
-        const copiesRowTwo = gsap.utils.toArray<HTMLElement>(
-          '[data-mfg-flow-row="2"] [data-mfg-flow-copy]',
-          flow,
-        );
-
-        /* Desktop / tablet — serpentine: draw the route, then reveal
-           stations in production order (row 1 left→right, row 2 right→left). */
-        if (serpentTop && serpentRight && serpentBottom) {
-          gsap
-            .timeline({
-              scrollTrigger: { trigger: flow, start: "top 68%", once: true },
-            })
-            .fromTo(
-              serpentTop,
-              { scaleX: 0 },
-              { scaleX: 1, duration: 0.8, ease: "power2.inOut" },
-              0,
-            )
-            .fromTo(
-              serpentRight,
-              { scaleY: 0 },
-              { scaleY: 1, duration: 0.5, ease: "power2.inOut" },
-              0.6,
-            )
-            .fromTo(
-              serpentBottom,
-              { scaleX: 0 },
-              { scaleX: 1, duration: 0.8, ease: "power2.inOut" },
-              0.9,
-            )
-            .fromTo(
-              markersRowOne,
-              { autoAlpha: 0, scale: 0.6 },
-              {
-                autoAlpha: 1,
-                scale: 1,
-                duration: 0.45,
-                stagger: 0.08,
-                ease: "back.out(1.7)",
-              },
-              1.3,
-            )
-            .fromTo(
-              markersRowTwo,
-              { autoAlpha: 0, scale: 0.6 },
-              {
-                autoAlpha: 1,
-                scale: 1,
-                duration: 0.45,
-                stagger: 0.08,
-                ease: "back.out(1.7)",
-              },
-              1.4,
-            )
-            .fromTo(
-              copiesRowOne,
-              { autoAlpha: 0, y: 16 },
-              {
-                autoAlpha: 1,
-                y: 0,
-                duration: 0.5,
-                stagger: 0.08,
-                ease: "power3.out",
-              },
-              2,
-            )
-            .fromTo(
-              copiesRowTwo,
-              { autoAlpha: 0, y: 16 },
-              {
-                autoAlpha: 1,
-                y: 0,
-                duration: 0.5,
-                stagger: 0.08,
-                ease: "power3.out",
-              },
-              2.1,
-            );
         }
 
-        /* Mobile — vertical timeline */
+        gsap.utils
+          .toArray<HTMLElement>("[data-mfg-flow-item]", flow)
+          .forEach((el) => {
+            const side = el.dataset.mfgFlowSide;
+            const xStart =
+              side === "left" ? -36 : side === "right" ? 36 : 0;
+
+            gsap.fromTo(
+              el,
+              { autoAlpha: 0, y: 28, x: xStart },
+              {
+                autoAlpha: 1,
+                y: 0,
+                x: 0,
+                duration: 0.7,
+                ease: "power3.out",
+                scrollTrigger: {
+                  trigger: el,
+                  start: "top 78%",
+                  once: true,
+                },
+              },
+            );
+          });
+
+        if (desktopFlow) {
+          gsap.utils
+            .toArray<HTMLElement>("[data-mfg-flow-media]", desktopFlow)
+            .forEach((el) => {
+              gsap.fromTo(
+                el,
+                { clipPath: "inset(0% 0% 100% 0%)" },
+                {
+                  clipPath: "inset(0% 0% 0% 0%)",
+                  duration: 0.9,
+                  ease: "power3.inOut",
+                  scrollTrigger: {
+                    trigger: el,
+                    start: "top 85%",
+                    once: true,
+                  },
+                },
+              );
+            });
+        }
+
+        /* Mobile - vertical timeline */
         gsap.fromTo(
           "[data-mfg-flow-step]",
           { autoAlpha: 0, y: 24 },
@@ -256,19 +172,6 @@ export function ManufacturingAnimations({
             scrollTrigger: { trigger: flow, start: "top 74%", once: true },
           },
         );
-        const lineY = flow.querySelector("[data-flow-line-y]");
-        if (lineY) {
-          gsap.fromTo(
-            lineY,
-            { scaleY: 0 },
-            {
-              scaleY: 1,
-              duration: 1,
-              ease: "power3.inOut",
-              scrollTrigger: { trigger: flow, start: "top 70%", once: true },
-            },
-          );
-        }
       }
 
       if (capabilities) {
@@ -476,7 +379,6 @@ export function ManufacturingAnimations({
     ScrollTrigger.refresh();
 
     return () => {
-      teardowns.forEach((fn) => fn());
       context.revert();
     };
   }, [reduced]);

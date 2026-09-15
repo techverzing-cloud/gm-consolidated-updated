@@ -36,7 +36,7 @@ export function Catalog() {
             className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
           >
             Every G.M. Consolidated product is designed, tooled and built
-            in-house — across OEM, ODM and private-label programmes.
+            in-house - across OEM, ODM and private-label programmes.
           </p>
         </div>
 

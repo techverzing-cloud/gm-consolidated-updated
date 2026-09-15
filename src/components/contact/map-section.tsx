@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import { Icon } from "@/components/ui/Icon";
+import { Carousel, type CarouselItem } from "@/components/ui/Carousel";
 import type { ContactChannel, ContactMap } from "@/lib/content";
 
 interface MapSectionProps {
@@ -7,6 +11,22 @@ interface MapSectionProps {
 }
 
 export function MapSection({ map, channels }: MapSectionProps) {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const slides: CarouselItem[] = map.locations.map((location) => ({
+    id: location.id,
+    content: (
+      <iframe
+        src={location.embedUrl}
+        title={`${location.name} location map`}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="strict-origin-when-cross-origin"
+        className="absolute inset-0 h-full w-full border-0"
+      />
+    ),
+  }));
+
   return (
     <section
       id="map-section"
@@ -14,71 +34,80 @@ export function MapSection({ map, channels }: MapSectionProps) {
       aria-labelledby="map-title"
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-10">
-          <div data-map-media className="lg:col-span-3">
-            <div
-              data-map-frame
-              className="relative h-[320px] overflow-hidden rounded-sm shadow-sm sm:h-[420px] lg:h-full lg:min-h-[460px]"
-            >
-              <iframe
-                src={map.embedUrl}
-                title="G.M. Consolidated location map"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
-                className="absolute inset-0 h-full w-full border-0"
-              />
-            </div>
-          </div>
+        <div className="text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+            {map.eyebrow}
+          </p>
+          <h2
+            id="map-title"
+            className="mt-4 text-2xl font-semibold leading-[1.2] text-foreground sm:text-3xl"
+          >
+            {map.title}
+          </h2>
+        </div>
 
-          <div data-map-panel className="lg:col-span-2">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
-              {map.eyebrow}
-            </p>
-            <h2
-              id="map-title"
-              className="mt-4 text-2xl font-semibold leading-[1.2] text-foreground sm:text-3xl"
-            >
-              {map.title}
-            </h2>
-            <p className="mt-5 text-lg font-semibold text-foreground">
-              {map.name}
-            </p>
-            <p className="mt-2 max-w-md text-pretty text-base leading-relaxed text-foreground-secondary">
-              {map.detail}
-            </p>
-            <a
-              href={map.directionsHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-underline mt-6 inline-flex w-fit items-center gap-2 font-semibold text-accent"
-            >
-              {map.directionsLabel}
-              <Icon icon="mdi:arrow-right" size={18} />
-            </a>
-
-            <ul className="mt-9 space-y-5 border-t border-border pt-8">
-              {channels.map((channel) => (
-                <li key={channel.title} className="flex items-start gap-3">
-                  <span
-                    aria-hidden="true"
-                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-border bg-background-alt text-accent"
-                  >
-                    <Icon icon={channel.icon} size={18} />
-                  </span>
-                  <div>
-                    <h3 className="text-sm font-semibold text-foreground">
-                      {channel.title}
-                    </h3>
-                    <p className="mt-1 text-sm leading-relaxed text-foreground-secondary">
-                      {channel.text}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+        <div data-map-media className="mt-8">
+          <div data-map-frame>
+            <Carousel
+              items={slides}
+              active={activeIndex}
+              onSlideChange={setActiveIndex}
+              ariaLabel="G.M. Consolidated locations"
+              frameClassName="h-[320px] rounded-sm shadow-sm sm:h-[420px] lg:h-[520px]"
+              autoplayMs={7000}
+            />
           </div>
         </div>
+
+        <div data-map-panel className="mt-6">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {map.locations.map((location, index) => (
+              <button
+                key={location.id}
+                type="button"
+                onClick={() => setActiveIndex(index)}
+                aria-pressed={index === activeIndex}
+                className={`cursor-pointer rounded-sm border p-5 text-left transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                  index === activeIndex
+                    ? "border-accent bg-accent/5"
+                    : "border-border bg-white hover:border-accent"
+                }`}
+              >
+                <h3 className="mt-3 text-lg font-semibold text-foreground">
+                  {location.name}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                  {location.detail}
+                </p>
+                <span className="link-underline mt-4 inline-flex items-center gap-2 font-semibold text-accent">
+                  {location.directionsLabel}
+                  <Icon icon="mdi:arrow-right" size={16} />
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <ul className="mt-10 grid grid-cols-1 gap-5 border-t border-border pt-8 sm:grid-cols-2 lg:grid-cols-3">
+          {channels.map((channel) => (
+            <li key={channel.title} className="flex items-start gap-3">
+              <span
+                aria-hidden="true"
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-border bg-background-alt text-accent"
+              >
+                <Icon icon={channel.icon} size={18} />
+              </span>
+              <div>
+                <h3 className="text-sm font-semibold text-foreground">
+                  {channel.title}
+                </h3>
+                <p className="mt-1 text-sm leading-relaxed text-foreground-secondary">
+                  {channel.text}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

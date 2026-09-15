@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Quality & Testing | G.M. Consolidated",
-    "description": "Quality engineered into the manufacturing flow — checkpoints across production and routine testing before finished products are released."
+    "description": "Quality engineered into the manufacturing flow - checkpoints across production and routine testing before finished products are released."
   },
   "hero": {
     "eyebrow": "QUALITY & TESTING",
@@ -18,8 +18,8 @@
   "inspectionProcess": {
     "eyebrow": "Inspection Process",
     "title": "Six checkpoints from material to release.",
-    "image": "/images/factory/assembly.jpg",
-    "imageAlt": "Workers assembling home appliances on a production line",
+    "image": "/images/quality-inspection.jpg",
+    "imageAlt": "Quality inspection process at the G.M. Consolidated industrial units, Kala Amb",
     "steps": [
       {
         "number": "01",

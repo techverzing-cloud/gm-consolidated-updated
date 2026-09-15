@@ -24,7 +24,7 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
             className="relative aspect-[4/3] overflow-hidden rounded-sm border border-border bg-background-alt"
           >
             <Image
-              src="/images/factory/assembly.jpg"
+              src="/images/oem-odm-hero.jpg"
               alt="G.M. Consolidated in-house assembly line"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
@@ -36,7 +36,7 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
             <SectionHeading
               eyebrow="Manufacturing & Quality"
               title="Designed, tooled and built in-house."
-              description="The product is produced on G.M. Consolidated's own lines in Noida — giving you control over tooling, quality and lead time from a single source."
+              description="The product is produced on G.M. Consolidated's own lines in Noida - giving you control over tooling, quality and lead time from a single source."
             />
 
             <div className="mt-8 space-y-7">

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Icon } from "@/components/ui/Icon";
 import { getCategories } from "@/lib/catalog";
 import { SITE_INFO } from "@/data/site";
@@ -15,6 +16,7 @@ const NAV_LINKS = [
 ];
 
 export function Navbar() {
+  const pathname = usePathname();
   const categories = getCategories();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -78,6 +80,9 @@ export function Navbar() {
     };
   }, [catalogOpen]);
 
+  const isActive = (href: string) =>
+    pathname === href || pathname.startsWith(href + "/");
+
   return (
     <header
       id="site-navbar"
@@ -94,7 +99,7 @@ export function Navbar() {
       >
         <Link
           href="/"
-          aria-label="G.M. Consolidated — Home"
+          aria-label="G.M. Consolidated - Home"
           className="flex items-center rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           <Image
@@ -113,7 +118,11 @@ export function Navbar() {
         >
           <Link
             href="/about"
-            className="nav-underline text-sm font-medium text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className={`nav-underline text-sm font-medium transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+              isActive("/about")
+                ? "is-active text-accent"
+                : "text-foreground"
+            }`}
           >
             About
           </Link>
@@ -131,7 +140,11 @@ export function Navbar() {
               aria-controls="catalog-menu"
               onFocus={() => setCatalogOpen(true)}
               onClick={() => setCatalogOpen(false)}
-              className="nav-underline inline-flex items-center gap-1 text-sm font-medium text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              className={`nav-underline inline-flex items-center gap-1 text-sm font-medium transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                isActive("/catalog")
+                  ? "is-active text-accent"
+                  : "text-foreground"
+              }`}
             >
               Catalog
               <Icon
@@ -159,12 +172,22 @@ export function Navbar() {
                     <Link
                       href={`/catalog/${category.slug}`}
                       onClick={() => setCatalogOpen(false)}
-                      className="group flex items-center gap-3 rounded-sm px-3 py-2.5 transition-colors hover:bg-background-alt focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                      className={`group flex items-center gap-3 rounded-sm px-3 py-2.5 transition-colors hover:bg-background-alt focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                        pathname.startsWith(`/catalog/${category.slug}`)
+                          ? "bg-background-alt"
+                          : ""
+                      }`}
                     >
                       <span className="text-xs font-semibold tabular-nums text-accent">
                         {category.number}
                       </span>
-                      <span className="text-sm font-medium text-foreground transition-colors group-hover:text-accent">
+                      <span
+                        className={`text-sm font-medium transition-colors group-hover:text-accent ${
+                          pathname.startsWith(`/catalog/${category.slug}`)
+                            ? "text-accent"
+                            : "text-foreground"
+                        }`}
+                      >
                         {category.name}
                       </span>
                     </Link>
@@ -188,7 +211,11 @@ export function Navbar() {
             <Link
               key={link.label}
               href={link.href}
-              className="nav-underline text-sm font-medium text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              className={`nav-underline text-sm font-medium transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                isActive(link.href)
+                  ? "is-active text-accent"
+                  : "text-foreground"
+              }`}
             >
               {link.label}
             </Link>
@@ -248,7 +275,9 @@ export function Navbar() {
               <Link
                 href="/about"
                 onClick={() => setMobileOpen(false)}
-                className="block border-b border-border-light py-3 text-base text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                className={`block border-b border-border-light py-3 text-base transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                  isActive("/about") ? "text-accent font-semibold" : "text-foreground"
+                }`}
               >
                 About
               </Link>
@@ -257,7 +286,9 @@ export function Navbar() {
               <Link
                 href="/catalog"
                 onClick={() => setMobileOpen(false)}
-                className="block py-3 text-base font-semibold text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                className={`block py-3 text-base font-semibold transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                  isActive("/catalog") ? "text-accent" : "text-foreground"
+                }`}
               >
                 Catalog
               </Link>
@@ -267,7 +298,11 @@ export function Navbar() {
                     <Link
                       href={`/catalog/${category.slug}`}
                       onClick={() => setMobileOpen(false)}
-                      className="flex items-center gap-2 border-b border-border-light py-2.5 pl-5 text-sm text-foreground-secondary transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                      className={`flex items-center gap-2 border-b border-border-light py-2.5 pl-5 text-sm transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                        pathname.startsWith(`/catalog/${category.slug}`)
+                          ? "text-accent"
+                          : "text-foreground-secondary"
+                      }`}
                     >
                       <span className="text-xs font-semibold tabular-nums text-accent">
                         {category.number}
@@ -283,7 +318,11 @@ export function Navbar() {
                 <Link
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block border-b border-border-light py-3 text-base text-foreground transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                  className={`block border-b border-border-light py-3 text-base transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                    isActive(link.href)
+                      ? "text-accent font-semibold"
+                      : "text-foreground"
+                  }`}
                 >
                   {link.label}
                 </Link>

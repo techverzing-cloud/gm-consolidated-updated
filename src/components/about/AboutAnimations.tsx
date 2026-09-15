@@ -151,32 +151,30 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
           );
         }
 
-        gsap.fromTo(
-          "[data-about-timeline-item]",
-          {
-            autoAlpha: 0,
-            y: 28,
-            x: (i, target) => {
-              const side = (target as HTMLElement).dataset.aboutTimelineSide;
-              if (side === "left") return -36;
-              if (side === "right") return 36;
-              return 0;
-            },
-          },
-          {
-            autoAlpha: 1,
-            y: 0,
-            x: 0,
-            duration: 0.7,
-            ease: "power3.out",
-            stagger: 0.09,
-            scrollTrigger: {
-              trigger: timeline,
-              start: "top 74%",
-              once: true,
-            },
-          },
-        );
+        gsap.utils
+          .toArray<HTMLElement>("[data-about-timeline-item]", timeline)
+          .forEach((el) => {
+            const side = el.dataset.aboutTimelineSide;
+            const xStart =
+              side === "left" ? -36 : side === "right" ? 36 : 0;
+
+            gsap.fromTo(
+              el,
+              { autoAlpha: 0, y: 28, x: xStart },
+              {
+                autoAlpha: 1,
+                y: 0,
+                x: 0,
+                duration: 0.7,
+                ease: "power3.out",
+                scrollTrigger: {
+                  trigger: el,
+                  start: "top 80%",
+                  once: true,
+                },
+              },
+            );
+          });
       }
 
       if (philosophy) {

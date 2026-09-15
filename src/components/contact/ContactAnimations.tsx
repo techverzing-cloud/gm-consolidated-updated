@@ -10,7 +10,7 @@ import { usePrefersReducedMotion } from "@/hooks/useReducedMotion";
  * Implemented at page level (not the shared layout) so the entrance
  * sequences also run after client-side navigation, when the shared
  * SiteAnimations effect has already played. Motion is skipped entirely under
- * `prefers-reduced-motion` — content is never hidden by inline styles.
+ * `prefers-reduced-motion` - content is never hidden by inline styles.
  */
 export function ContactAnimations({ children }: { children: ReactNode }) {
   const scopeRef = useRef<HTMLDivElement>(null);

@@ -24,7 +24,7 @@ export function PartnershipJourney({
           </h2>
         </header>
 
-        {/* Desktop / tablet — two-row serpentine layout */}
+        {/* Desktop / tablet - two-row serpentine layout */}
         <div data-odm-journey-desktop className="relative mt-16 hidden lg:block">
           {/* Continuous serpentine connector (drawn left→right, down, right→left) */}
           <span
@@ -43,7 +43,7 @@ export function PartnershipJourney({
             className="absolute bottom-[calc(50%-2.5rem)] left-[30%] right-[10%] z-0 h-px bg-accent/25"
           />
 
-          {/* Row 1 — 01 → 05 · Row 2 — 09 ← 08 ← 07 ← 06 */}
+          {/* Row 1 - 01 → 05 · Row 2 - 09 ← 08 ← 07 ← 06 */}
           <ol
             aria-label="Partnership journey, stages one to nine"
             className="relative z-10 grid grid-cols-5 gap-y-16"
@@ -81,7 +81,7 @@ export function PartnershipJourney({
           </ol>
         </div>
 
-        {/* Mobile — clean vertical timeline */}
+        {/* Mobile - clean vertical timeline */}
         <div data-odm-journey-mobile className="mt-12 lg:hidden">
           <ol className="relative space-y-10">
             <span

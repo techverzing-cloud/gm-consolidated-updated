@@ -45,7 +45,7 @@ export function IndustrialUnits({ section }: { section: ManufacturingUnits }) {
 
               <div className="mt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.14em] text-accent">
-                  Unit — {unit.number}
+                  Unit - {unit.number}
                 </p>
                 <h3 className="mt-2 text-2xl font-semibold text-foreground">
                   {unit.name}

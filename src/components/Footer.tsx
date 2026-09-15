@@ -51,7 +51,7 @@ export function Footer() {
               Let&apos;s Build Your Next Appliance.
             </h2>
             <p className="mt-4 text-pretty text-base leading-relaxed text-white/80 sm:text-lg">
-              From a single model to a full product line — engineering,
+              From a single model to a full product line - engineering,
               tooling, manufacturing and testing under one roof.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -208,13 +208,8 @@ export function Footer() {
             </div>
           </div>
 
-          <div
-            className="mt-14 flex flex-col items-center gap-4 border-t border-navy-border pt-6 sm:flex-row sm:justify-between"
-          >
-            <p className="text-sm text-navy-muted">
-              &copy; 2026 G.M. Consolidated. All rights reserved.
-            </p>
-            <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-6">
+          <div className="mt-14 flex flex-col border-t border-navy-border pt-6 sm:flex-row sm:items-center sm:justify-between">
+            <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:justify-start sm:gap-6">
               {BUSINESS_LINKS.map((link) => (
                 <li key={link.label}>
                   <Link
@@ -225,6 +220,8 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+            <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-6">
               {LEGAL_LINKS.map((label) => (
                 <li key={label}>
                   <Link
@@ -239,7 +236,10 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-navy-border">
-          <div className="mx-auto flex max-w-[1320px] justify-center px-4 py-5 text-center text-sm text-navy-muted sm:px-6 lg:px-8">
+          <div className="mx-auto flex max-w-[1320px] flex-col items-center gap-1 px-4 py-5 text-center text-sm text-navy-muted sm:flex-row sm:justify-between sm:px-6 sm:text-left lg:px-8">
+            <p className="text-sm text-navy-muted">
+              &copy; 2026 G.M. Consolidated. All rights reserved.
+            </p>
             <p>
               <a
                 href="https://www.techverzing.com/"

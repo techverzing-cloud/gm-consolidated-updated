@@ -34,7 +34,7 @@ export function QualityPositioning({
             <span
               data-about-quality-line
               aria-hidden="true"
-              className="absolute bottom-33 left-[5px] top-4 w-px bg-accent"
+              className="absolute bottom-28 left-1.25 top-8 w-px bg-accent"
             />
             <ol className="space-y-10 pl-5">
               {section.points.map((point, index) => (

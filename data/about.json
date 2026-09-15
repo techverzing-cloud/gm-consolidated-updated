@@ -13,14 +13,14 @@
   "corporateStatement": {
     "eyebrow": "Corporate Statement",
     "title": "Setting Tomorrow's Standards. Built Beyond Expectations.",
-    "description": "Since 1983, G.M. Consolidated has evolved from a pioneer in aluminum pressure die casting into a leading OEM provider of domestic appliances, grooming kits and heating appliances — delivering superior products that consistently exceed customer expectations."
+    "description": "Since 1983, G.M. Consolidated has evolved from a pioneer in aluminum pressure die casting into a leading OEM provider of domestic appliances, grooming kits and heating appliances - delivering superior products that consistently exceed customer expectations."
   },
   "companyProfile": {
     "eyebrow": "About G.M. Consolidated",
     "title": "Built on Four Decades of Manufacturing Experience.",
     "paragraphs": [
       "Established in 1983, G.M. Consolidated began as a pioneer in aluminum pressure die casting, transforming into a leading OEM provider of innovative solutions for domestic home appliances, grooming kits and heating appliances.",
-      "By seamlessly integrating advanced tooling and plastic injection moulding, we deliver superior products that consistently exceed customer expectations — a preferred OEM partner for leading brands across India.",
+      "By seamlessly integrating advanced tooling and plastic injection moulding, we deliver superior products that consistently exceed customer expectations - a preferred OEM partner for leading brands across India.",
       "With a strong foundation in quality, innovation and customer satisfaction, the company offers a one-stop solution for domestic appliance and personal-care programmes, engineered to export-quality baselines."
     ]
   },
@@ -69,7 +69,7 @@
       {
         "year": "1994",
         "title": "Dryers and thermostats",
-        "description": "Developed dryers and precision thermostats — the foundation of the component capability still used today."
+        "description": "Developed dryers and precision thermostats - the foundation of the component capability still used today."
       },
       {
         "year": "1996",
@@ -198,14 +198,14 @@
   "manufacturingInfrastructure": {
     "eyebrow": "Our Manufacturing Infrastructure",
     "title": "Two Industrial Units. One Manufacturing Ecosystem.",
-    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh — each unit focused on a defined part of the appliance manufacturing flow.",
+    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow.",
     "units": [
       {
         "number": "01",
         "name": "A. R. Industries",
         "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
-        "image": "/images/factory/assembly.jpg",
+        "image": "/images/oem-odm-hero.jpg",
         "imageAlt": "Workers assembling small domestic appliances on a production line"
       },
       {
@@ -263,7 +263,7 @@
   "engineeringStrength": {
     "eyebrow": "Engineering & Tooling",
     "title": "Localized Engineering. Integrated Tooling.",
-    "description": "The company maintains internal capability to transition from blueprint and 3D CAD modelling into customized tooling structures — keeping product development and manufacturing under one roof.",
+    "description": "The company maintains internal capability to transition from blueprint and 3D CAD modelling into customized tooling structures - keeping product development and manufacturing under one roof.",
     "image": "/images/factory/moulding.webp",
     "imageAlt": "Injection moulding press inside an appliance manufacturing unit",
     "flow": ["Concept", "3D CAD", "Engineering", "Tooling", "Manufacturing"],

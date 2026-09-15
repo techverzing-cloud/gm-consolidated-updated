@@ -160,7 +160,7 @@ export function OemOdmAnimations({
           journey,
         );
 
-        /* Desktop / tablet — serpentine: draw the route, then reveal
+        /* Desktop / tablet - serpentine: draw the route, then reveal
            stations in production order (row 1 left→right, row 2 right→left). */
         if (serpentTop && serpentRight && serpentBottom) {
           gsap
@@ -235,7 +235,7 @@ export function OemOdmAnimations({
             );
         }
 
-        /* Mobile — vertical timeline */
+        /* Mobile - vertical timeline */
         gsap.fromTo(
           "[data-odm-journey-step]",
           { autoAlpha: 0, y: 24 },

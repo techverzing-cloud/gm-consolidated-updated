@@ -7,26 +7,26 @@
       "slug": "garment-care",
       "number": "01",
       "tag": "Ironing systems",
-      "range": "GM-02 – GM-30",
+      "range": "GM-01 – GM-26",
       "shortDescription": "Dry and steam ironing systems.",
-      "description": "Dry and steam irons engineered for reliable heating, performance and everyday use — with non-stick soleplate coating, snap-action thermostats, fast and uniform heat distribution and 360° swivel cords.",
+      "description": "Dry and steam irons engineered for reliable heating, performance and everyday use - with non-stick soleplate coating, snap-action thermostats, fast and uniform heat distribution and 360° swivel cords.",
       "image": "/images/products/garment-care/gm28.jpg",
       "imageAlt": "G.M. Consolidated dry iron",
       "featured": true,
       "products": [
         {
-          "id": "gm-02",
-          "slug": "gm-02",
+          "id": "gm-01",
+          "slug": "gm-01",
           "name": "Dry Iron",
-          "code": "GM-02",
+          "code": "GM-01",
           "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-02 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Classic Elite series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-01 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "image": "/images/products/garment-care/gm2.png",
           "images": [
             {
               "src": "/images/products/garment-care/gm2.png",
-              "alt": "G.M. Consolidated GM-02 Dry Iron - product photo"
+              "alt": "G.M. Consolidated GM-01 Dry Iron - product photo"
             },
             {
               "src": "/images/products/garment-care/dry-iron-ironing.webp",
@@ -125,25 +125,24 @@
             "Carton design, unboxing and labelling to retailer requirements"
           ],
           "enquiry": {
-            "title": "Discuss the GM-02 Dry Iron",
-            "description": "Talk to our team about the GM-02 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "title": "Discuss the GM-01 Dry Iron",
+            "description": "Talk to our team about the GM-01 Dry Iron - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-03",
-          "slug": "gm-03",
+          "id": "gm-02",
+          "slug": "gm-02",
           "name": "Dry Iron",
-          "code": "GM-03",
+          "code": "GM-02",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-03 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-02 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -196,21 +195,20 @@
           ],
           "image": "/images/products/garment-care/gm3.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-04",
-          "slug": "gm-04",
+          "id": "gm-03",
+          "slug": "gm-03",
           "name": "Dry Iron",
-          "code": "GM-04",
+          "code": "GM-03",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-04 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output and thermal fuse protection bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-03 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output and thermal fuse protection bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -258,21 +256,20 @@
           ],
           "image": "/images/products/garment-care/gm4.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-05",
-          "slug": "gm-05",
+          "id": "gm-04",
+          "slug": "gm-04",
           "name": "Dry Iron",
-          "code": "GM-05",
+          "code": "GM-04",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-05 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-04 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -325,21 +322,20 @@
           ],
           "image": "/images/products/garment-care/gm5.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-06",
-          "slug": "gm-06",
+          "id": "gm-05",
+          "slug": "gm-05",
           "name": "Dry Iron",
-          "code": "GM-06",
+          "code": "GM-05",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-06 from the Comfort Premium series is a dry iron rated at 1100W, built around heavy gauge non-stick on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-05 from the Comfort Premium series is a dry iron rated at 1100W, built around heavy gauge non-stick on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -387,21 +383,20 @@
           ],
           "image": "/images/products/garment-care/gm6.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-07",
-          "slug": "gm-07",
+          "id": "gm-06",
+          "slug": "gm-06",
           "name": "Dry Iron",
-          "code": "GM-07",
+          "code": "GM-06",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-07 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-06 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -449,21 +444,20 @@
           ],
           "image": "/images/products/garment-care/gm7.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-08",
-          "slug": "gm-08",
+          "id": "gm-07",
+          "slug": "gm-07",
           "name": "Dry Iron",
-          "code": "GM-08",
+          "code": "GM-07",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-08 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-07 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -511,21 +505,20 @@
           ],
           "image": "/images/products/garment-care/gm8.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-09",
-          "slug": "gm-09",
+          "id": "gm-08",
+          "slug": "gm-08",
           "name": "Dry Iron",
-          "code": "GM-09",
+          "code": "GM-08",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-09 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and uniform heat output and thermal fuse protection bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-08 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and uniform heat output and thermal fuse protection bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -578,21 +571,20 @@
           ],
           "image": "/images/products/garment-care/gm9.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-10",
-          "slug": "gm-10",
+          "id": "gm-09",
+          "slug": "gm-09",
           "name": "Dry Iron",
-          "code": "GM-10",
+          "code": "GM-09",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-10 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-09 from the Comfort Premium series is a dry iron rated at 1000W, built around german weilburger non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -645,21 +637,20 @@
           ],
           "image": "/images/products/garment-care/gm10.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-11",
-          "slug": "gm-11",
+          "id": "gm-10",
+          "slug": "gm-10",
           "name": "Dry Iron",
-          "code": "GM-11",
+          "code": "GM-10",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-11 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-10 from the Comfort Premium series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a cool-touch plastic body. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -707,21 +698,20 @@
           ],
           "image": "/images/products/garment-care/gm11.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-12",
-          "slug": "gm-12",
+          "id": "gm-11",
+          "slug": "gm-11",
           "name": "Dry Iron",
-          "code": "GM-12",
+          "code": "GM-11",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-12 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-11 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -769,21 +759,20 @@
           ],
           "image": "/images/products/garment-care/gm12.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-13",
-          "slug": "gm-13",
+          "id": "gm-12",
+          "slug": "gm-12",
           "name": "Dry Iron",
-          "code": "GM-13",
+          "code": "GM-12",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-13 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-12 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -831,21 +820,20 @@
           ],
           "image": "/images/products/garment-care/gm13.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-14",
-          "slug": "gm-14",
+          "id": "gm-13",
+          "slug": "gm-13",
           "name": "Dry Iron",
-          "code": "GM-14",
+          "code": "GM-13",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-14 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-13 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating. A snap-action thermostat keeps heat steady, while the 360° swivel cord and uniform heat output bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -893,21 +881,20 @@
           ],
           "image": "/images/products/garment-care/gm14.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-15",
-          "slug": "gm-15",
+          "id": "gm-14",
+          "slug": "gm-14",
           "name": "Dry Iron",
-          "code": "GM-15",
+          "code": "GM-14",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-15 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-14 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -955,21 +942,20 @@
           ],
           "image": "/images/products/garment-care/gm15.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-16",
-          "slug": "gm-16",
+          "id": "gm-15",
+          "slug": "gm-15",
           "name": "Dry Iron",
-          "code": "GM-16",
+          "code": "GM-15",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-16 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-15 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -1017,21 +1003,20 @@
           ],
           "image": "/images/products/garment-care/gm16.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-17",
-          "slug": "gm-17",
+          "id": "gm-16",
+          "slug": "gm-16",
           "name": "Dry Iron",
-          "code": "GM-17",
+          "code": "GM-16",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-17 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-16 from the Comfort Premium series is a dry iron rated at 1000W / 1100W, built around german weilburger non-stick soleplate coating on a durable metal / cool-touch body. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -1081,29 +1066,28 @@
           "images": [
             {
               "src": "/images/products/garment-care/gm17.png",
-              "alt": "GM-17 Comfort Premium dry iron — side profile"
+              "alt": "GM-16 Comfort Premium dry iron - side profile"
             },
             {
               "src": "/images/products/garment-care/gm17-2.png",
-              "alt": "GM-17 Comfort Premium dry iron — detailed view with model label"
+              "alt": "GM-16 Comfort Premium dry iron - detailed view with model label"
             }
           ],
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-18",
-          "slug": "gm-18",
+          "id": "gm-17",
+          "slug": "gm-17",
           "name": "Dry Iron",
-          "code": "GM-18",
+          "code": "GM-17",
           "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-18 from the Comfort Premium series is a dry iron rated at 1100W, built around a heavy gauge non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Comfort Premium series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-17 from the Comfort Premium series is a dry iron rated at 1100W, built around a heavy gauge non-stick soleplate on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "specifications": [
             {
               "label": "Series",
@@ -1156,8 +1140,7 @@
           ],
           "image": "/images/products/garment-care/gm18.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1165,22 +1148,22 @@
           "images": [
             {
               "src": "/images/products/garment-care/gm18.png",
-              "alt": "GM-18 Comfort Premium dry iron — side profile"
+              "alt": "GM-17 Comfort Premium dry iron - side profile"
             },
             {
               "src": "/images/products/garment-care/gm18-2.png",
-              "alt": "GM-18 Comfort Premium dry iron — detailed view with model label"
+              "alt": "GM-17 Comfort Premium dry iron - detailed view with model label"
             }
           ]
         },
         {
-          "id": "gm-19",
-          "slug": "gm-19",
+          "id": "gm-18",
+          "slug": "gm-18",
           "name": "Steam Iron",
-          "code": "GM-19",
+          "code": "GM-18",
           "categorySlug": "garment-care",
           "shortDescription": "HydroBurst Pro steam iron with burst steam and self-clean care for effortless crease removal.",
-          "description": "The GM-19 is a 1250W - 1600W rated steam iron. Vertical Steam Burst and Horizontal Steam Burst help handle everything from light touch-ups to heavier creases, with a self-flushing design that keeps performance consistent between sessions.",
+          "description": "The GM-18 is a 1250W - 1600W rated steam iron. Vertical Steam Burst and Horizontal Steam Burst help handle everything from light touch-ups to heavier creases, with a self-flushing design that keeps performance consistent between sessions.",
           "specifications": [
             {
               "label": "Series",
@@ -1216,21 +1199,20 @@
           ],
           "image": "/images/products/garment-care/gm37.jpg",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-20",
-          "slug": "gm-20",
+          "id": "gm-19",
+          "slug": "gm-19",
           "name": "Steam Iron",
-          "code": "GM-20",
+          "code": "GM-19",
           "categorySlug": "garment-care",
           "shortDescription": "HydroBurst Pro steam iron with burst steam and self-clean care for effortless crease removal.",
-          "description": "The GM-20 is a 1250W - 1600W rated steam iron built around self-clean core / anti-drip. Continuous Steam Output and Steam Boost Technology help handle everything from light touch-ups to heavier creases, with a self-flushing design that keeps performance consistent between sessions.",
+          "description": "The GM-19 is a 1250W - 1600W rated steam iron built around self-clean core / anti-drip. Continuous Steam Output and Steam Boost Technology help handle everything from light touch-ups to heavier creases, with a self-flushing design that keeps performance consistent between sessions.",
           "specifications": [
             {
               "label": "Series",
@@ -1266,167 +1248,7 @@
           ],
           "image": "/images/products/garment-care/gm20.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-21",
-          "slug": "gm-21",
-          "name": "Steam Iron",
-          "code": "GM-21",
-          "categorySlug": "garment-care",
-          "shortDescription": "HydroBurst Pro steam iron with anti-calc scaling flush and self-clean care for effortless crease removal.",
-          "description": "The GM-21 is a 1250W - 1600W rated steam iron built around an anti-calc / self-clean valve. Continuous Steam Output and Steam Boost Technology help handle everything from light touch-ups to heavier creases, with an anti-calc scaling flush system that keeps performance consistent between sessions.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "HydroBurst Pro"
-            },
-            {
-              "label": "Power",
-              "value": "1250W - 1600W"
-            },
-            {
-              "label": "Technology",
-              "value": "Anti-Calc / Self-Clean Valve"
-            }
-          ],
-          "features": [
-            "Continuous Steam Output",
-            "Steam Boost Technology",
-            "Anti-Calc Protection",
-            "Fine Mist Spray",
-            "Premium Non-Stick Soleplate",
-            "Transparent Water Tank",
-            "Fast Heat-Up Technology",
-            "High Volume Micro-Vents for Deep Penetration",
-            "Integrated Anti-Calc Scaling Flush System",
-            "Ultra-Durable Ceramic-Coated Soleplate",
-            "Vibrant Clear-View Violet Body",
-            "Translucent Water Viewing Reservoir",
-            "Advanced Micro-Flow Steam Channels",
-            "Precision-Engineered Tip Steam Vents",
-            "Ergonomic Continuous Steam Trigger",
-            "Bi-Metal Automated Thermal Shutdown",
-            "Soft Touch Thermal-Insulated Handle",
-            "2 Years Product Warranty"
-          ],
-          "image": "/images/products/garment-care/gm35.jpg",
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-22",
-          "slug": "gm-22",
-          "name": "Dry Iron",
-          "code": "GM-22",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-22 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm22.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-22 Dry Iron",
-            "description": "Talk to our team about the GM-22 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -1438,116 +1260,8 @@
           "name": "Dry Iron",
           "code": "GM-23",
           "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
+          "shortDescription": "Classic Elite series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
           "description": "The GM-23 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm23.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-23 Dry Iron",
-            "description": "Talk to our team about the GM-23 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-24",
-          "slug": "gm-24",
-          "name": "Dry Iron",
-          "code": "GM-24",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-24 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "image": "/images/products/garment-care/gm24.jpg",
           "highlights": [
             {
@@ -1637,25 +1351,24 @@
             "Carton design, unboxing and labelling to retailer requirements"
           ],
           "enquiry": {
-            "title": "Discuss the GM-24 Dry Iron",
-            "description": "Talk to our team about the GM-24 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "title": "Discuss the GM-23 Dry Iron",
+            "description": "Talk to our team about the GM-23 Dry Iron - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-25",
-          "slug": "gm-25",
+          "id": "gm-24",
+          "slug": "gm-24",
           "name": "Dry Iron",
-          "code": "GM-25",
+          "code": "GM-24",
           "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-25 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Classic Elite series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-24 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "image": "/images/products/garment-care/gm25.jpg",
           "highlights": [
             {
@@ -1745,25 +1458,24 @@
             "Carton design, unboxing and labelling to retailer requirements"
           ],
           "enquiry": {
-            "title": "Discuss the GM-25 Dry Iron",
-            "description": "Talk to our team about the GM-25 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "title": "Discuss the GM-24 Dry Iron",
+            "description": "Talk to our team about the GM-24 Dry Iron - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-26",
-          "slug": "gm-26",
+          "id": "gm-25",
+          "slug": "gm-25",
           "name": "Dry Iron",
-          "code": "GM-26",
+          "code": "GM-25",
           "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-26 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Classic Elite series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-25 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "image": "/images/products/garment-care/gm26.jpg",
           "highlights": [
             {
@@ -1853,25 +1565,24 @@
             "Carton design, unboxing and labelling to retailer requirements"
           ],
           "enquiry": {
-            "title": "Discuss the GM-26 Dry Iron",
-            "description": "Talk to our team about the GM-26 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "title": "Discuss the GM-25 Dry Iron",
+            "description": "Talk to our team about the GM-25 Dry Iron - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
           ]
         },
         {
-          "id": "gm-27",
-          "slug": "gm-27",
+          "id": "gm-26",
+          "slug": "gm-26",
           "name": "Dry Iron",
-          "code": "GM-27",
+          "code": "GM-26",
           "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-27 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
+          "shortDescription": "Classic Elite series dry iron - steady temperature and a smooth non-stick glide for everyday ironing.",
+          "description": "The GM-26 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
           "image": "/images/products/garment-care/gm27.jpg",
           "highlights": [
             {
@@ -1961,336 +1672,11 @@
             "Carton design, unboxing and labelling to retailer requirements"
           ],
           "enquiry": {
-            "title": "Discuss the GM-27 Dry Iron",
-            "description": "Talk to our team about the GM-27 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
+            "title": "Discuss the GM-26 Dry Iron",
+            "description": "Talk to our team about the GM-26 Dry Iron - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-28",
-          "slug": "gm-28",
-          "name": "Dry Iron",
-          "code": "GM-28",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-28 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm28.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-28 Dry Iron",
-            "description": "Talk to our team about the GM-28 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-29",
-          "slug": "gm-29",
-          "name": "Dry Iron",
-          "code": "GM-29",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-29 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm29.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-29 Dry Iron",
-            "description": "Talk to our team about the GM-29 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-28",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-30",
-          "slug": "gm-30",
-          "name": "Dry Iron",
-          "code": "GM-30",
-          "categorySlug": "garment-care",
-          "shortDescription": "Classic Elite series dry iron — steady temperature and a smooth non-stick glide for everyday ironing.",
-          "description": "The GM-30 from the Classic Elite series is a dry iron rated at 1100W, built around german weilburger non-stick soleplate coating on a durable metal body construction. A snap-action thermostat, silver-layered thermostat contacts, keeps heat steady, while the 360° swivel cord and fast & uniform heat distribution bring reliable, everyday ironing for domestic and commercial use.",
-          "image": "/images/products/garment-care/gm30.jpg",
-          "highlights": [
-            {
-              "title": "Snap-action thermostat",
-              "description": "A snap-action thermostat holds a reliable set temperature for consistent, repeatable ironing results.",
-              "icon": "mdi:thermometer"
-            },
-            {
-              "title": "Non-stick soleplate finish",
-              "description": "A durable non-stick soleplate coating gives a smooth glide across most fabric groups.",
-              "icon": "mdi:shape-outline"
-            },
-            {
-              "title": "360° swivel cord",
-              "description": "A swivel cord that follows natural hand movement to reduce pull on the iron during use.",
-              "icon": "mdi:cable-data"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Classic Elite"
-            },
-            {
-              "label": "Power",
-              "value": "1100W"
-            },
-            {
-              "label": "Soleplate",
-              "value": "Double WeilBurger Layer"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating (1100W)",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Elegant Contrasting Two-Tone Design Styling",
-            "Tapered Button-Groove Nose Structure",
-            "High Heat Retention Internal Base Cast",
-            "2 Years Product Warranty"
-          ],
-          "applications": [
-            "Commercial laundry and ironing services",
-            "Garment manufacturing and tailoring lines",
-            "Hotels and hospitality housekeeping",
-            "Household and wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and handles are tooled and moulded in-house in the G.M. tool room",
-            "Soleplate and heating element sub-assemblies are fitted on dedicated assembly stations",
-            "Every iron is run through an end-of-line electrical safety check before packing"
-          ],
-          "qualityNotes": [
-            "Incoming material inspection on soleplates and electrical components",
-            "In-process checks on thermostat calibration and cord termination",
-            "Sampled units are verified against the mechanical and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Individually boxed with a soleplate cover and stabilised base insert, then shipped in master cartons.",
-            "options": [
-              "Standard colour box",
-              "Retail / gift box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Cord length and plug configuration for the destination market",
-            "Carton design, unboxing and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-30 Dry Iron",
-            "description": "Talk to our team about the GM-30 Dry Iron — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-28",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2304,7 +1690,7 @@
       "slug": "water-heating",
       "number": "02",
       "tag": "Storage geysers",
-      "range": "GM-32 – GM-48",
+      "range": "GM-32 – GM-39",
       "shortDescription": "Storage water geysers.",
       "description": "Storage geysers engineered with SS304 stainless steel tanks, copper heating elements and triple safety protection.",
       "image": "/images/products/water-heating/gm41.jpg",
@@ -2442,11 +1828,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-22 Storage Geyser",
-            "description": "Talk to our team about the GM-22 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-22 Storage Geyser - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2518,8 +1904,7 @@
           ],
           "image": "/images/products/water-heating/gm33.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2586,8 +1971,7 @@
           ],
           "image": "/images/products/water-heating/gm34.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2654,8 +2038,7 @@
           ],
           "image": "/images/products/water-heating/gm37.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -2774,503 +2157,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-39 Storage Geyser",
-            "description": "Talk to our team about the GM-39 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-39 Storage Geyser - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-40",
-          "slug": "gm-40",
-          "name": "Water Geyser",
-          "code": "GM-40",
-          "categorySlug": "water-heating",
-          "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
-          "description": "The GM-40 is a 3L storage geyser with a ss304 stainless steel tank tank. Triple Safety Protection guards the unit during operation, while export-quality thermal insulation holds heat for up to 24 hours.",
-          "image": "/images/products/water-heating/gm40.jpg",
-          "highlights": [
-            {
-              "title": "SS304 stainless steel tank",
-              "description": "A stainless steel tank is selected for corrosion resistance across the water contact surface.",
-              "icon": "mdi:water"
-            },
-            {
-              "title": "Copper heating element",
-              "description": "A copper heating element delivers efficient heat-up of stored water.",
-              "icon": "mdi:flash-outline"
-            },
-            {
-              "title": "Triple safety protection",
-              "description": "Multiple built-in safety mechanisms guard against overheat and unsafe operating conditions.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Elite Capsule Series"
-            },
-            {
-              "label": "Capacity",
-              "value": "3L"
-            },
-            {
-              "label": "Body",
-              "value": "Engineering Grade Plastic Body"
-            },
-            {
-              "label": "Tank",
-              "value": "SS304 Stainless Steel Tank"
-            },
-            {
-              "label": "Heating element",
-              "value": "Copper Heating Element"
-            },
-            {
-              "label": "Safety",
-              "value": "Triple Safety Protection"
-            },
-            {
-              "label": "Body protection",
-              "value": "Rust Resistant Body"
-            },
-            {
-              "label": "Indicator",
-              "value": "Power Indicator"
-            },
-            {
-              "label": "Water protection",
-              "value": "Backflow Water Protection"
-            },
-            {
-              "label": "Warranty",
-              "value": "2 Year Product Warranty"
-            }
-          ],
-          "features": [
-            "SS304 Stainless Steel Tank",
-            "Copper Heating Element",
-            "Triple Safety Protection",
-            "Engineering Grade Plastic Body",
-            "Power Indicator",
-            "Backflow Water Protection",
-            "3L",
-            "2 Years Product Warranty",
-            "Export Quality Thermal Insulation",
-            "Heat retention up to 24 hours",
-            "8-Bar Rated Hydrostatic Pressure",
-            "Deep PUF Extreme Heat Insulation Jacket"
-          ],
-          "applications": [
-            "Residential bathrooms and kitchens",
-            "Commercial kitchens and cafés",
-            "Salons and public washrooms",
-            "Hospitality and staff facilities"
-          ],
-          "manufacturingNotes": [
-            "Tank fabrication and seam welding are carried out in-house",
-            "Heating element and thermostat sub-assemblies are fitted on the production line",
-            "Every geyser is pressure-tested and passed end-of-line electrical safety before packing"
-          ],
-          "qualityNotes": [
-            "Weld and seam inspection during tank fabrication",
-            "Incoming inspection of heating elements and safety controls",
-            "Sampled units verified against the pressure and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Each geyser is cartoned with a fittings kit, mounting hardware and installation documentation.",
-            "options": [
-              "Standard carton with EPS protection",
-              "Fittings and mounting hardware kit included",
-              "Custom OEM carton and branding"
-            ]
-          },
-          "customization": [
-            "Capacity and mounting configuration for model variants",
-            "Body colour and printed branding for private-label programmes",
-            "Inlet, outlet and electrical configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-40 Storage Geyser",
-            "description": "Talk to our team about the GM-40 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-41",
-          "slug": "gm-41",
-          "name": "Water Geyser",
-          "code": "GM-41",
-          "categorySlug": "water-heating",
-          "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
-          "description": "The GM-41 is a 3L storage geyser with a ss304 stainless steel tank tank. Triple Safety Protection guards the unit during operation, while export-quality thermal insulation holds heat for up to 24 hours.",
-          "image": "/images/products/water-heating/gm41.jpg",
-          "highlights": [
-            {
-              "title": "SS304 stainless steel tank",
-              "description": "A stainless steel tank is selected for corrosion resistance across the water contact surface.",
-              "icon": "mdi:water"
-            },
-            {
-              "title": "Copper heating element",
-              "description": "A copper heating element delivers efficient heat-up of stored water.",
-              "icon": "mdi:flash-outline"
-            },
-            {
-              "title": "Triple safety protection",
-              "description": "Multiple built-in safety mechanisms guard against overheat and unsafe operating conditions.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Elite Capsule Series"
-            },
-            {
-              "label": "Capacity",
-              "value": "3L"
-            },
-            {
-              "label": "Body",
-              "value": "Engineering Grade Plastic Body"
-            },
-            {
-              "label": "Tank",
-              "value": "SS304 Stainless Steel Tank"
-            },
-            {
-              "label": "Heating element",
-              "value": "Copper Heating Element"
-            },
-            {
-              "label": "Safety",
-              "value": "Triple Safety Protection"
-            },
-            {
-              "label": "Body protection",
-              "value": "Rust Resistant Body"
-            },
-            {
-              "label": "Indicator",
-              "value": "Power Indicator"
-            },
-            {
-              "label": "Water protection",
-              "value": "Backflow Water Protection"
-            },
-            {
-              "label": "Warranty",
-              "value": "2 Year Product Warranty"
-            }
-          ],
-          "features": [
-            "SS304 Stainless Steel Tank",
-            "Copper Heating Element",
-            "Triple Safety Protection",
-            "Engineering Grade Plastic Body",
-            "Power Indicator",
-            "Backflow Water Protection",
-            "3L",
-            "2 Years Product Warranty",
-            "Export Quality Thermal Insulation",
-            "Heat retention up to 24 hours",
-            "8-Bar Rated Hydrostatic Pressure",
-            "Deep PUF Extreme Heat Insulation Jacket"
-          ],
-          "applications": [
-            "Residential bathrooms and kitchens",
-            "Commercial kitchens and cafés",
-            "Salons and public washrooms",
-            "Hospitality and staff facilities"
-          ],
-          "manufacturingNotes": [
-            "Tank fabrication and seam welding are carried out in-house",
-            "Heating element and thermostat sub-assemblies are fitted on the production line",
-            "Every geyser is pressure-tested and passed end-of-line electrical safety before packing"
-          ],
-          "qualityNotes": [
-            "Weld and seam inspection during tank fabrication",
-            "Incoming inspection of heating elements and safety controls",
-            "Sampled units verified against the pressure and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Each geyser is cartoned with a fittings kit, mounting hardware and installation documentation.",
-            "options": [
-              "Standard carton with EPS protection",
-              "Fittings and mounting hardware kit included",
-              "Custom OEM carton and branding"
-            ]
-          },
-          "customization": [
-            "Capacity and mounting configuration for model variants",
-            "Body colour and printed branding for private-label programmes",
-            "Inlet, outlet and electrical configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-41 Storage Geyser",
-            "description": "Talk to our team about the GM-41 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-42",
-          "slug": "gm-42",
-          "name": "Water Geyser",
-          "code": "GM-42",
-          "categorySlug": "water-heating",
-          "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
-          "description": "The GM-42 is a 3L storage geyser with a ss304 stainless steel tank tank. Triple Safety Protection guards the unit during operation, while export-quality thermal insulation holds heat for up to 24 hours.",
-          "image": "/images/products/water-heating/gm42.jpg",
-          "highlights": [
-            {
-              "title": "SS304 stainless steel tank",
-              "description": "A stainless steel tank is selected for corrosion resistance across the water contact surface.",
-              "icon": "mdi:water"
-            },
-            {
-              "title": "Copper heating element",
-              "description": "A copper heating element delivers efficient heat-up of stored water.",
-              "icon": "mdi:flash-outline"
-            },
-            {
-              "title": "Triple safety protection",
-              "description": "Multiple built-in safety mechanisms guard against overheat and unsafe operating conditions.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Elite Capsule Series"
-            },
-            {
-              "label": "Capacity",
-              "value": "3L"
-            },
-            {
-              "label": "Body",
-              "value": "Engineering Grade Plastic Body"
-            },
-            {
-              "label": "Tank",
-              "value": "SS304 Stainless Steel Tank"
-            },
-            {
-              "label": "Heating element",
-              "value": "Copper Heating Element"
-            },
-            {
-              "label": "Safety",
-              "value": "Triple Safety Protection"
-            },
-            {
-              "label": "Body protection",
-              "value": "Rust Resistant Body"
-            },
-            {
-              "label": "Indicator",
-              "value": "Power Indicator"
-            },
-            {
-              "label": "Water protection",
-              "value": "Backflow Water Protection"
-            },
-            {
-              "label": "Warranty",
-              "value": "2 Year Product Warranty"
-            }
-          ],
-          "features": [
-            "SS304 Stainless Steel Tank",
-            "Copper Heating Element",
-            "Triple Safety Protection",
-            "Engineering Grade Plastic Body",
-            "Power Indicator",
-            "Backflow Water Protection",
-            "3L",
-            "2 Years Product Warranty",
-            "Export Quality Thermal Insulation",
-            "Heat retention up to 24 hours",
-            "8-Bar Rated Hydrostatic Pressure",
-            "Deep PUF Extreme Heat Insulation Jacket"
-          ],
-          "applications": [
-            "Residential bathrooms and kitchens",
-            "Commercial kitchens and cafés",
-            "Salons and public washrooms",
-            "Hospitality and staff facilities"
-          ],
-          "manufacturingNotes": [
-            "Tank fabrication and seam welding are carried out in-house",
-            "Heating element and thermostat sub-assemblies are fitted on the production line",
-            "Every geyser is pressure-tested and passed end-of-line electrical safety before packing"
-          ],
-          "qualityNotes": [
-            "Weld and seam inspection during tank fabrication",
-            "Incoming inspection of heating elements and safety controls",
-            "Sampled units verified against the pressure and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Each geyser is cartoned with a fittings kit, mounting hardware and installation documentation.",
-            "options": [
-              "Standard carton with EPS protection",
-              "Fittings and mounting hardware kit included",
-              "Custom OEM carton and branding"
-            ]
-          },
-          "customization": [
-            "Capacity and mounting configuration for model variants",
-            "Body colour and printed branding for private-label programmes",
-            "Inlet, outlet and electrical configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-42 Storage Geyser",
-            "description": "Talk to our team about the GM-42 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-48",
-          "slug": "gm-48",
-          "name": "Water Geyser",
-          "code": "GM-48",
-          "categorySlug": "water-heating",
-          "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
-          "description": "The GM-48 is a 3L storage geyser with a ss304 stainless steel tank tank. Triple Safety Protection guards the unit during operation, while export-quality thermal insulation holds heat for up to 24 hours.",
-          "image": "/images/products/water-heating/gm48.jpg",
-          "highlights": [
-            {
-              "title": "SS304 stainless steel tank",
-              "description": "A stainless steel tank is selected for corrosion resistance across the water contact surface.",
-              "icon": "mdi:water"
-            },
-            {
-              "title": "Copper heating element",
-              "description": "A copper heating element delivers efficient heat-up of stored water.",
-              "icon": "mdi:flash-outline"
-            },
-            {
-              "title": "Triple safety protection",
-              "description": "Multiple built-in safety mechanisms guard against overheat and unsafe operating conditions.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Elite Capsule Series"
-            },
-            {
-              "label": "Capacity",
-              "value": "3L"
-            },
-            {
-              "label": "Body",
-              "value": "Engineering Grade Plastic Body"
-            },
-            {
-              "label": "Tank",
-              "value": "SS304 Stainless Steel Tank"
-            },
-            {
-              "label": "Heating element",
-              "value": "Copper Heating Element"
-            },
-            {
-              "label": "Safety",
-              "value": "Triple Safety Protection"
-            },
-            {
-              "label": "Body protection",
-              "value": "Rust Resistant Body"
-            },
-            {
-              "label": "Indicator",
-              "value": "Power Indicator"
-            },
-            {
-              "label": "Water protection",
-              "value": "Backflow Water Protection"
-            },
-            {
-              "label": "Warranty",
-              "value": "2 Year Product Warranty"
-            }
-          ],
-          "features": [
-            "SS304 Stainless Steel Tank",
-            "Copper Heating Element",
-            "Triple Safety Protection",
-            "Engineering Grade Plastic Body",
-            "Power Indicator",
-            "Backflow Water Protection",
-            "3L",
-            "2 Years Product Warranty",
-            "Export Quality Thermal Insulation",
-            "Heat retention up to 24 hours",
-            "8-Bar Rated Hydrostatic Pressure",
-            "Deep PUF Extreme Heat Insulation Jacket"
-          ],
-          "applications": [
-            "Residential bathrooms and kitchens",
-            "Commercial kitchens and cafés",
-            "Salons and public washrooms",
-            "Hospitality and staff facilities"
-          ],
-          "manufacturingNotes": [
-            "Tank fabrication and seam welding are carried out in-house",
-            "Heating element and thermostat sub-assemblies are fitted on the production line",
-            "Every geyser is pressure-tested and passed end-of-line electrical safety before packing"
-          ],
-          "qualityNotes": [
-            "Weld and seam inspection during tank fabrication",
-            "Incoming inspection of heating elements and safety controls",
-            "Sampled units verified against the pressure and electrical test plan"
-          ],
-          "packaging": {
-            "description": "Each geyser is cartoned with a fittings kit, mounting hardware and installation documentation.",
-            "options": [
-              "Standard carton with EPS protection",
-              "Fittings and mounting hardware kit included",
-              "Custom OEM carton and branding"
-            ]
-          },
-          "customization": [
-            "Capacity and mounting configuration for model variants",
-            "Body colour and printed branding for private-label programmes",
-            "Inlet, outlet and electrical configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-48 Storage Geyser",
-            "description": "Talk to our team about the GM-48 Storage Geyser — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -3284,7 +2175,7 @@
       "slug": "heating-comfort",
       "number": "03",
       "tag": "Fan heaters",
-      "range": "GM-43 – GM-52",
+      "range": "GM-43 – GM-50",
       "shortDescription": "Fan heaters for room comfort.",
       "description": "Fan heaters built with 100% copper motors, dual heating modes plus fan mode, and 4-level safety protection.",
       "image": "/images/products/heating/gm52.jpg",
@@ -3419,12 +2310,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-43 Fan Heater",
-            "description": "Talk to our team about the GM-43 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-43 Fan Heater - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-44",
             "gm-45"
           ]
@@ -3496,8 +2386,7 @@
           ],
           "image": "/images/products/heating/gm46.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
             "gm-45"
@@ -3617,12 +2506,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-49 Fan Heater",
-            "description": "Talk to our team about the GM-49 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-49 Fan Heater - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-44",
             "gm-45"
           ]
@@ -3741,260 +2629,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-50 Fan Heater",
-            "description": "Talk to our team about the GM-50 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-50 Fan Heater - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-51",
-          "slug": "gm-51",
-          "name": "Fan Heater",
-          "code": "GM-51",
-          "categorySlug": "heating-comfort",
-          "shortDescription": "Copper-motor fan heater with dual heating modes for fast room comfort.",
-          "description": "The GM-51 is a fan heater built on 100% copper motor with dual heating modes + fan mode. It supports horizontal & vertical placement, and 4-level safety protection plus quick heating technology make it a dependable choice for quick room comfort.",
-          "image": "/images/products/heating/gm51.jpg",
-          "highlights": [
-            {
-              "title": "100% copper motor",
-              "description": "A full copper motor is used for reliable, fan-forced airflow.",
-              "icon": "mdi:fan"
-            },
-            {
-              "title": "Dual heating + fan mode",
-              "description": "Two heating modes plus a separate fan mode for use across seasons.",
-              "icon": "mdi:weather-windy"
-            },
-            {
-              "title": "4-level safety protection",
-              "description": "A layered safety package guards the unit during everyday operation.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Fan Heater Series"
-            },
-            {
-              "label": "Motor",
-              "value": "100% Copper Motor"
-            },
-            {
-              "label": "Modes",
-              "value": "Dual Heating Modes + Fan Mode"
-            },
-            {
-              "label": "Placement",
-              "value": "Horizontal & Vertical Placement"
-            },
-            {
-              "label": "Heating",
-              "value": "Quick Heating Technology"
-            },
-            {
-              "label": "Safety",
-              "value": "4-Level Safety Protection"
-            },
-            {
-              "label": "Body",
-              "value": "High Temperature Resistant Body"
-            },
-            {
-              "label": "Design",
-              "value": "Compact Design with Carry Handle"
-            },
-            {
-              "label": "Cord",
-              "value": "Long Power Cord"
-            },
-            {
-              "label": "Power",
-              "value": "1000W / 2000W Adjustable"
-            }
-          ],
-          "features": [
-            "100% Copper Motor",
-            "Dual Heating Modes + Fan Mode",
-            "Horizontal & Vertical Placement",
-            "4-Level Safety Protection",
-            "Quick Heating Technology",
-            "High Temperature Resistant Body",
-            "Compact Design with Carry Handle",
-            "Long Power Cord",
-            "Dual Power Control Rotational Dials",
-            "Integrated Security Mesh Guard",
-            "Automatic Safety Tip-Over Cutoff",
-            "Thermal Overload Fuse",
-            "1 Year Core Warranty"
-          ],
-          "applications": [
-            "Bedrooms and living rooms",
-            "Offices and cabins",
-            "Retail counters and showrooms",
-            "Seasonal heating in commercial buildings"
-          ],
-          "manufacturingNotes": [
-            "Motor winding and assembly are carried out in-house",
-            "Heating element and fan sub-assemblies are built on dedicated stations",
-            "Every heater is electrically tested and run before packing"
-          ],
-          "qualityNotes": [
-            "Incoming checks on motors, elements and thermal controls",
-            "Airflow and temperature-rise sampling during production",
-            "End-of-line verification against the electrical safety plan"
-          ],
-          "packaging": {
-            "description": "Each heater is boxed with its fixed power cord and an instruction leaflet for retail or bulk shipment.",
-            "options": [
-              "Retail colour box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Control panel layout, colour and branding for private-label programmes",
-            "Power cord and plug configuration for the destination market",
-            "Carton design and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-51 Fan Heater",
-            "description": "Talk to our team about the GM-51 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-52",
-          "slug": "gm-52",
-          "name": "Fan Heater",
-          "code": "GM-52",
-          "categorySlug": "heating-comfort",
-          "shortDescription": "Copper-motor fan heater with dual heating modes for fast room comfort.",
-          "description": "The GM-52 is a fan heater built on 100% copper motor with dual heating modes + fan mode. It supports horizontal & vertical placement, and 4-level safety protection plus quick heating technology make it a dependable choice for quick room comfort.",
-          "image": "/images/products/heating/gm52.jpg",
-          "highlights": [
-            {
-              "title": "100% copper motor",
-              "description": "A full copper motor is used for reliable, fan-forced airflow.",
-              "icon": "mdi:fan"
-            },
-            {
-              "title": "Dual heating + fan mode",
-              "description": "Two heating modes plus a separate fan mode for use across seasons.",
-              "icon": "mdi:weather-windy"
-            },
-            {
-              "title": "4-level safety protection",
-              "description": "A layered safety package guards the unit during everyday operation.",
-              "icon": "mdi:shield-check-outline"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Fan Heater Series"
-            },
-            {
-              "label": "Motor",
-              "value": "100% Copper Motor"
-            },
-            {
-              "label": "Modes",
-              "value": "Dual Heating Modes + Fan Mode"
-            },
-            {
-              "label": "Placement",
-              "value": "Horizontal & Vertical Placement"
-            },
-            {
-              "label": "Heating",
-              "value": "Quick Heating Technology"
-            },
-            {
-              "label": "Safety",
-              "value": "4-Level Safety Protection"
-            },
-            {
-              "label": "Body",
-              "value": "High Temperature Resistant Body"
-            },
-            {
-              "label": "Design",
-              "value": "Compact Design with Carry Handle"
-            },
-            {
-              "label": "Cord",
-              "value": "Long Power Cord"
-            },
-            {
-              "label": "Power",
-              "value": "1000W / 2000W Adjustable"
-            }
-          ],
-          "features": [
-            "100% Copper Motor",
-            "Dual Heating Modes + Fan Mode",
-            "Horizontal & Vertical Placement",
-            "4-Level Safety Protection",
-            "Quick Heating Technology",
-            "High Temperature Resistant Body",
-            "Compact Design with Carry Handle",
-            "Long Power Cord",
-            "Dual Power Control Rotational Dials",
-            "Integrated Security Mesh Guard",
-            "Automatic Safety Tip-Over Cutoff",
-            "Thermal Overload Fuse",
-            "1 Year Core Warranty"
-          ],
-          "applications": [
-            "Bedrooms and living rooms",
-            "Offices and cabins",
-            "Retail counters and showrooms",
-            "Seasonal heating in commercial buildings"
-          ],
-          "manufacturingNotes": [
-            "Motor winding and assembly are carried out in-house",
-            "Heating element and fan sub-assemblies are built on dedicated stations",
-            "Every heater is electrically tested and run before packing"
-          ],
-          "qualityNotes": [
-            "Incoming checks on motors, elements and thermal controls",
-            "Airflow and temperature-rise sampling during production",
-            "End-of-line verification against the electrical safety plan"
-          ],
-          "packaging": {
-            "description": "Each heater is boxed with its fixed power cord and an instruction leaflet for retail or bulk shipment.",
-            "options": [
-              "Retail colour box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Control panel layout, colour and branding for private-label programmes",
-            "Power cord and plug configuration for the destination market",
-            "Carton design and labelling to retailer requirements"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-52 Fan Heater",
-            "description": "Talk to our team about the GM-52 Fan Heater — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-44",
             "gm-45"
           ]
@@ -4007,7 +2646,7 @@
       "slug": "personal-care",
       "number": "04",
       "tag": "Hair dryers",
-      "range": "GM-44 – GM-56",
+      "range": "GM-44 – GM-55",
       "shortDescription": "Hair dryers for everyday grooming.",
       "description": "Hair dryers built with 1200W motors, a cool shot function and adjustable heat and speed for everyday grooming.",
       "image": "/images/products/personal-care/gm56.jpg",
@@ -4143,12 +2782,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-44 Hair Dryer",
-            "description": "Talk to our team about the GM-44 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-44 Hair Dryer - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-45"
           ]
@@ -4220,260 +2858,9 @@
           ],
           "image": "/images/products/personal-care/gm47.png",
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-53",
-          "slug": "gm-53",
-          "name": "Hair Dryer",
-          "code": "GM-53",
-          "categorySlug": "personal-care",
-          "shortDescription": "Everyday hair dryer with adjustable heat, speed and a cool shot.",
-          "description": "The GM-53 hair dryer runs on powerful 1200w motor with adjustable heat & speed and a cool shot function. A foldable design, lightweight construction and removable concentrator nozzle make it easy to handle for home and salon routines.",
-          "image": "/images/products/personal-care/gm53.jpg",
-          "highlights": [
-            {
-              "title": "1200W drying motor",
-              "description": "A 1200W motor delivers everyday drying airflow for home and salon use.",
-              "icon": "mdi:hair-dryer"
-            },
-            {
-              "title": "Adjustable heat & speed",
-              "description": "Separate heat and speed settings let the user tune airflow to the job.",
-              "icon": "mdi:weather-windy"
-            },
-            {
-              "title": "Cool shot function",
-              "description": "A cool-shot setting helps set the finish after styling.",
-              "icon": "mdi:snowflake"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Special Range"
-            },
-            {
-              "label": "Motor",
-              "value": "Powerful 1200W Motor"
-            },
-            {
-              "label": "Controls",
-              "value": "Adjustable Heat & Speed"
-            },
-            {
-              "label": "Cool shot",
-              "value": "Yes"
-            },
-            {
-              "label": "Design",
-              "value": "Foldable Design"
-            },
-            {
-              "label": "Weight",
-              "value": "Lightweight Construction"
-            },
-            {
-              "label": "Nozzle",
-              "value": "Removable Concentrator Nozzle"
-            },
-            {
-              "label": "Safety",
-              "value": "Overheat Protection"
-            },
-            {
-              "label": "Air intake",
-              "value": "Honeycomb Air Inlet Design"
-            },
-            {
-              "label": "Power Input",
-              "value": "1200W / 1400W Rating"
-            },
-            {
-              "label": "Body Material",
-              "value": "Cool-Touch Premium Resin"
-            }
-          ],
-          "features": [
-            "Powerful 1200W Motor",
-            "Adjustable Heat & Speed",
-            "Cool Shot Function",
-            "Foldable Design",
-            "Lightweight Construction",
-            "Removable Concentrator Nozzle",
-            "Overheat Protection",
-            "Honeycomb Air Inlet Design",
-            "1 Year Core Warranty"
-          ],
-          "applications": [
-            "Home grooming and family use",
-            "Salons and professional styling",
-            "Hospitality and guest amenities",
-            "Wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and nozzle tooling are made in the in-house G.M. tool room",
-            "Motor, heating element and switch sub-assemblies are built on dedicated stations",
-            "Every dryer is electrically tested and run-checked before packing"
-          ],
-          "qualityNotes": [
-            "Incoming inspection of motors, elements and switches",
-            "In-process airflow and temperature checks",
-            "End-of-line verification against the electrical safety plan"
-          ],
-          "packaging": {
-            "description": "Each dryer is boxed with its fixed cord, concentrator nozzle and an instruction leaflet for retail or bulk shipment.",
-            "options": [
-              "Retail colour box",
-              "Gift / branded box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Heat, speed and cool-shot control layout for model variants",
-            "Power cord and plug configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-53 Hair Dryer",
-            "description": "Talk to our team about the GM-53 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-43",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-54",
-          "slug": "gm-54",
-          "name": "Hair Dryer",
-          "code": "GM-54",
-          "categorySlug": "personal-care",
-          "shortDescription": "Everyday hair dryer with adjustable heat, speed and a cool shot.",
-          "description": "The GM-54 hair dryer runs on powerful 1200w motor with adjustable heat & speed and a cool shot function. A foldable design, lightweight construction and removable concentrator nozzle make it easy to handle for home and salon routines.",
-          "image": "/images/products/personal-care/gm54.jpg",
-          "highlights": [
-            {
-              "title": "1200W drying motor",
-              "description": "A 1200W motor delivers everyday drying airflow for home and salon use.",
-              "icon": "mdi:hair-dryer"
-            },
-            {
-              "title": "Adjustable heat & speed",
-              "description": "Separate heat and speed settings let the user tune airflow to the job.",
-              "icon": "mdi:weather-windy"
-            },
-            {
-              "title": "Cool shot function",
-              "description": "A cool-shot setting helps set the finish after styling.",
-              "icon": "mdi:snowflake"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Special Range"
-            },
-            {
-              "label": "Motor",
-              "value": "Powerful 1200W Motor"
-            },
-            {
-              "label": "Controls",
-              "value": "Adjustable Heat & Speed"
-            },
-            {
-              "label": "Cool shot",
-              "value": "Yes"
-            },
-            {
-              "label": "Design",
-              "value": "Foldable Design"
-            },
-            {
-              "label": "Weight",
-              "value": "Lightweight Construction"
-            },
-            {
-              "label": "Nozzle",
-              "value": "Removable Concentrator Nozzle"
-            },
-            {
-              "label": "Safety",
-              "value": "Overheat Protection"
-            },
-            {
-              "label": "Air intake",
-              "value": "Honeycomb Air Inlet Design"
-            },
-            {
-              "label": "Power Input",
-              "value": "1200W / 1400W Rating"
-            },
-            {
-              "label": "Body Material",
-              "value": "Cool-Touch Premium Resin"
-            }
-          ],
-          "features": [
-            "Powerful 1200W Motor",
-            "Adjustable Heat & Speed",
-            "Cool Shot Function",
-            "Foldable Design",
-            "Lightweight Construction",
-            "Removable Concentrator Nozzle",
-            "Overheat Protection",
-            "Honeycomb Air Inlet Design",
-            "1 Year Core Warranty"
-          ],
-          "applications": [
-            "Home grooming and family use",
-            "Salons and professional styling",
-            "Hospitality and guest amenities",
-            "Wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and nozzle tooling are made in the in-house G.M. tool room",
-            "Motor, heating element and switch sub-assemblies are built on dedicated stations",
-            "Every dryer is electrically tested and run-checked before packing"
-          ],
-          "qualityNotes": [
-            "Incoming inspection of motors, elements and switches",
-            "In-process airflow and temperature checks",
-            "End-of-line verification against the electrical safety plan"
-          ],
-          "packaging": {
-            "description": "Each dryer is boxed with its fixed cord, concentrator nozzle and an instruction leaflet for retail or bulk shipment.",
-            "options": [
-              "Retail colour box",
-              "Gift / branded box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Heat, speed and cool-shot control layout for model variants",
-            "Power cord and plug configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-54 Hair Dryer",
-            "description": "Talk to our team about the GM-54 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-43",
             "gm-45"
           ]
         },
@@ -4592,137 +2979,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-55 Hair Dryer",
-            "description": "Talk to our team about the GM-55 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-55 Hair Dryer - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
-            "gm-43",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-56",
-          "slug": "gm-56",
-          "name": "Hair Dryer",
-          "code": "GM-56",
-          "categorySlug": "personal-care",
-          "shortDescription": "Everyday hair dryer with adjustable heat, speed and a cool shot.",
-          "description": "The GM-56 hair dryer runs on powerful 1200w motor with adjustable heat & speed and a cool shot function. A foldable design, lightweight construction and removable concentrator nozzle make it easy to handle for home and salon routines.",
-          "image": "/images/products/personal-care/gm56.jpg",
-          "highlights": [
-            {
-              "title": "1200W drying motor",
-              "description": "A 1200W motor delivers everyday drying airflow for home and salon use.",
-              "icon": "mdi:hair-dryer"
-            },
-            {
-              "title": "Adjustable heat & speed",
-              "description": "Separate heat and speed settings let the user tune airflow to the job.",
-              "icon": "mdi:weather-windy"
-            },
-            {
-              "title": "Cool shot function",
-              "description": "A cool-shot setting helps set the finish after styling.",
-              "icon": "mdi:snowflake"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Special Range"
-            },
-            {
-              "label": "Motor",
-              "value": "Powerful 1200W Motor"
-            },
-            {
-              "label": "Controls",
-              "value": "Adjustable Heat & Speed"
-            },
-            {
-              "label": "Cool shot",
-              "value": "Yes"
-            },
-            {
-              "label": "Design",
-              "value": "Foldable Design"
-            },
-            {
-              "label": "Weight",
-              "value": "Lightweight Construction"
-            },
-            {
-              "label": "Nozzle",
-              "value": "Removable Concentrator Nozzle"
-            },
-            {
-              "label": "Safety",
-              "value": "Overheat Protection"
-            },
-            {
-              "label": "Air intake",
-              "value": "Honeycomb Air Inlet Design"
-            },
-            {
-              "label": "Power Input",
-              "value": "1200W / 1400W Rating"
-            },
-            {
-              "label": "Body Material",
-              "value": "Cool-Touch Premium Resin"
-            }
-          ],
-          "features": [
-            "Powerful 1200W Motor",
-            "Adjustable Heat & Speed",
-            "Cool Shot Function",
-            "Foldable Design",
-            "Lightweight Construction",
-            "Removable Concentrator Nozzle",
-            "Overheat Protection",
-            "Honeycomb Air Inlet Design",
-            "1 Year Core Warranty"
-          ],
-          "applications": [
-            "Home grooming and family use",
-            "Salons and professional styling",
-            "Hospitality and guest amenities",
-            "Wholesale retail channels"
-          ],
-          "manufacturingNotes": [
-            "Bodies and nozzle tooling are made in the in-house G.M. tool room",
-            "Motor, heating element and switch sub-assemblies are built on dedicated stations",
-            "Every dryer is electrically tested and run-checked before packing"
-          ],
-          "qualityNotes": [
-            "Incoming inspection of motors, elements and switches",
-            "In-process airflow and temperature checks",
-            "End-of-line verification against the electrical safety plan"
-          ],
-          "packaging": {
-            "description": "Each dryer is boxed with its fixed cord, concentrator nozzle and an instruction leaflet for retail or bulk shipment.",
-            "options": [
-              "Retail colour box",
-              "Gift / branded box",
-              "Bulk master carton",
-              "Custom OEM packaging"
-            ]
-          },
-          "customization": [
-            "Body colour, finish and printed branding for private-label programmes",
-            "Heat, speed and cool-shot control layout for model variants",
-            "Power cord and plug configuration for the destination market"
-          ],
-          "enquiry": {
-            "title": "Discuss the GM-56 Hair Dryer",
-            "description": "Talk to our team about the GM-56 Hair Dryer — trading stock, private-label programmes, or a configured variant for your market.",
-            "href": "/contact#enquiry"
-          },
-          "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-45"
           ]
@@ -4867,12 +3128,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-45 Mosquito Racket",
-            "description": "Talk to our team about the GM-45 Rechargeable Mosquito Racket — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-45 Rechargeable Mosquito Racket - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44"
           ]
@@ -4988,12 +3248,11 @@
           ],
           "enquiry": {
             "title": "Discuss the GM-57 Mosquito Racket",
-            "description": "Talk to our team about the GM-57 Rechargeable Mosquito Racket — trading stock, private-label programmes, or a configured variant for your market.",
+            "description": "Talk to our team about the GM-57 Rechargeable Mosquito Racket - trading stock, private-label programmes, or a configured variant for your market.",
             "href": "/contact#enquiry"
           },
           "relatedProducts": [
-            "gm-02",
-            "gm-28",
+            "gm-01",
             "gm-43",
             "gm-44"
           ]

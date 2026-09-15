@@ -108,14 +108,19 @@ export interface ContactForm {
   fields: Record<string, ContactFormField>;
 }
 
-export interface ContactMap {
-  eyebrow: string;
-  title: string;
+export interface ContactMapLocation {
+  id: string;
   name: string;
   detail: string;
   embedUrl: string;
   directionsHref: string;
   directionsLabel: string;
+}
+
+export interface ContactMap {
+  eyebrow: string;
+  title: string;
+  locations: ContactMapLocation[];
 }
 
 export interface ContactCta {

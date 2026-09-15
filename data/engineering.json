@@ -1,12 +1,12 @@
 {
   "metadata": {
     "title": "Engineering",
-    "description": "G.M. Consolidated in-house engineering and capabilities — concept, 3D modelling, prototyping, validation, tooling and production, managed under one roof."
+    "description": "G.M. Consolidated in-house engineering and capabilities - concept, 3D modelling, prototyping, validation, tooling and production, managed under one roof."
   },
   "header": {
     "eyebrow": "Engineering & Capabilities",
     "title": "From Concept to Commercial-Ready.",
-    "intro": "Every stage of the journey — design, modelling, prototyping, validation, tooling and production — is managed in-house, so products get out first time right."
+    "intro": "Every stage of the journey - design, modelling, prototyping, validation, tooling and production - is managed in-house, so products get out first time right."
   },
   "process": {
     "label": "Engineering process",
@@ -16,7 +16,7 @@
         "number": "01",
         "icon": "mdi:lightbulb-outline",
         "title": "Concept",
-        "text": "Design engineers translate complex client requirements into efficient, workable concepts — balancing function, aesthetics, ergonomics and economics."
+        "text": "Design engineers translate complex client requirements into efficient, workable concepts - balancing function, aesthetics, ergonomics and economics."
       },
       {
         "number": "02",
@@ -28,19 +28,19 @@
         "number": "03",
         "icon": "mdi:flask-outline",
         "title": "Prototype",
-        "text": "3D-printed components create mock samples that validate each design — put under actual tests and conditions to simulate real performance."
+        "text": "3D-printed components create mock samples that validate each design - put under actual tests and conditions to simulate real performance."
       },
       {
         "number": "04",
         "icon": "mdi:check-decagram-outline",
         "title": "Validation",
-        "text": "Validation comes before any tooling activity — it is what gets products out first time right."
+        "text": "Validation comes before any tooling activity - it is what gets products out first time right."
       },
       {
         "number": "05",
         "icon": "mdi:wrench-outline",
         "title": "Tooling",
-        "text": "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools — repaired and maintained in-house."
+        "text": "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools - repaired and maintained in-house."
       },
       {
         "number": "06",
@@ -68,7 +68,7 @@
       },
       {
         "name": "Tool room",
-        "text": "CNC vertical machining (BFW) and EDM for world-class moulds — serving domestic and export markets for 20+ years."
+        "text": "CNC vertical machining (BFW) and EDM for world-class moulds - serving domestic and export markets for 20+ years."
       },
       {
         "name": "PTFE coating",
@@ -84,7 +84,7 @@
       },
       {
         "name": "Steam iron pump kits",
-        "text": "The first manufacturer of steam iron pumps in India — produced entirely in-house."
+        "text": "The first manufacturer of steam iron pumps in India - produced entirely in-house."
       }
     ]
   },
@@ -92,7 +92,7 @@
   "supportingOperations": ["Riveting", "Laser & pad printing", "Painting", "Auto-conveyorised assembly"],
   "cta": {
     "title": "Planning a new product line?",
-    "text": "Bring the requirement — we will come back with engineering perspective, capability fit and next steps.",
+    "text": "Bring the requirement - we will come back with engineering perspective, capability fit and next steps.",
     "links": [
       { "label": "Discuss Your Project", "href": "/contact#enquiry", "variant": "navy-solid" },
       { "label": "Explore Manufacturing", "href": "/manufacturing", "variant": "navy-ghost" }

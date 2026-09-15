@@ -8,7 +8,7 @@ Start from the product, not from a style trend. Read the brief, existing compone
 - Choose one coherent visual direction that fits the product. Do not present style menus or invent novelty for its own sake.
 - Establish a clear reading order: orientation, primary content, primary action, then secondary detail.
 - Reuse the existing design system when one exists. Extend it only where the requested work genuinely needs something new.
-- Keep familiar controls familiar. Distinction should come from the product's content, structure, typography, imagery, and interaction—not from making standard controls strange.
+- Keep familiar controls familiar. Distinction should come from the product's content, structure, typography, imagery, and interaction-not from making standard controls strange.
 
 ## Build the complete state
 

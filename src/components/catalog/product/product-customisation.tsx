@@ -34,7 +34,7 @@ export function ProductCustomisation({
             </h2>
             <p className="mt-4 text-pretty text-base leading-relaxed text-navy-muted sm:text-lg">
               The {product.code} can be configured for OEM, ODM and
-              private-label programmes — branding, finishes and market-specific
+              private-label programmes - branding, finishes and market-specific
               details. All customisation is subject to engineering and
               production feasibility.
             </p>

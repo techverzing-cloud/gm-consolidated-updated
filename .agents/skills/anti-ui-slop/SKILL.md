@@ -23,7 +23,7 @@ Use the product brief, existing UI, components, and local design system to make 
 
 ## Prerequisites
 
-- A screen or component to build, redesign, or review — a file path or a short description.
+- A screen or component to build, redesign, or review - a file path or a short description.
 - The product's existing components, design tokens, and visual language, so the build extends them instead of inventing a new system.
 - Optional access to the paid Uizze MCP for focused references and hosted materials.
 

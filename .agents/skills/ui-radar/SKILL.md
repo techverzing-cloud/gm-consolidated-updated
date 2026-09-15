@@ -18,7 +18,7 @@ UI Radar answers one focused question with visible evidence. It does not choose 
 ## Find Only What Matters
 
 1. Identify the platform, screen job, and one unresolved decision.
-2. Search by product job, object, state, or interaction—not by a predetermined style.
+2. Search by product job, object, state, or interaction-not by a predetermined style.
 3. Keep zero to three strong references. One can be enough.
 4. Inspect the screenshots. Metadata and OCR only locate candidates.
 5. State the visible fact and the decision it informs. If nothing useful appears, say so and stop.

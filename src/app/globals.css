@@ -141,6 +141,9 @@ body {
 .nav-underline:focus-visible::after {
   transform: translateX(-50%) scaleX(1);
 }
+.nav-underline.is-active::after {
+  transform: translateX(-50%) scaleX(1);
+}
 
 .animate-spin-slow {
   animation: gmc-spin 42s linear infinite;

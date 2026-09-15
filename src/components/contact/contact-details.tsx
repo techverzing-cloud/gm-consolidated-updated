@@ -9,6 +9,17 @@ interface ContactDetailsProps {
 }
 
 export function ContactDetails({ intro, details, note }: ContactDetailsProps) {
+  const [feature, ...channels] = details;
+
+  const iconMark = (icon: string, size = 18) => (
+    <span
+      aria-hidden="true"
+      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm border border-border bg-background-alt text-accent"
+    >
+      <Icon icon={icon} size={size} />
+    </span>
+  );
+
   return (
     <>
       <section
@@ -53,50 +64,60 @@ export function ContactDetails({ intro, details, note }: ContactDetailsProps) {
         aria-label="Ways to contact G.M. Consolidated"
       >
         <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {details.map((detail) => {
-              const cardClass =
-                "group flex h-full flex-col rounded-sm border border-card-border bg-card p-6 transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-md";
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-12 lg:gap-10">
+            <div className="lg:col-span-5">
+              <div
+                data-contact-card
+                className="flex h-full flex-col rounded-sm border border-card-border bg-card p-8 shadow-sm"
+              >
+                {iconMark(feature.icon)}
+                <p className="mt-6 text-sm font-medium text-foreground-secondary">
+                  {feature.label}
+                </p>
+                <p className="mt-2 text-balance text-2xl font-semibold leading-[1.2] text-foreground">
+                  {feature.value}
+                </p>
+                {feature.description ? (
+                  <p className="mt-4 max-w-md text-pretty text-base leading-relaxed text-foreground-secondary">
+                    {feature.description}
+                  </p>
+                ) : null}
+              </div>
+            </div>
 
-              const iconMark = (
-                <span
-                  aria-hidden="true"
-                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm border border-border bg-background-alt text-accent transition-[transform] duration-300 group-hover:-rotate-3 group-hover:scale-110"
-                >
-                  <Icon icon={detail.icon} size={22} />
-                </span>
-              );
-
-              return (
-                <div
-                  key={detail.id}
+            <ul className="divide-y divide-border rounded-sm border border-card-border bg-card shadow-sm lg:col-span-7">
+              {channels.map((channel) => (
+                <li
+                  key={channel.id}
                   data-contact-card
-                  className={cardClass}
+                  className="flex items-center gap-4 p-6 sm:px-8"
                 >
-                  {iconMark}
-                  <span className="mt-5 block text-sm font-medium text-foreground-secondary">
-                    {detail.label}
-                  </span>
-                  {detail.href ? (
-                    <Link
-                      href={detail.href}
-                      className="link-underline mt-1 block w-fit text-base font-semibold text-foreground transition-colors duration-200 group-hover:text-accent"
-                    >
-                      {detail.value}
-                    </Link>
-                  ) : (
-                    <span className="mt-1 block text-base font-semibold text-foreground transition-colors duration-200 group-hover:text-accent">
-                      {detail.value}
-                    </span>
-                  )}
-                  {detail.description ? (
-                    <span className="mt-2 block text-sm leading-relaxed text-foreground-secondary">
-                      {detail.description}
-                    </span>
-                  ) : null}
-                </div>
-              );
-            })}
+                  {iconMark(channel.icon)}
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-medium text-foreground-secondary">
+                      {channel.label}
+                    </p>
+                    {channel.href ? (
+                      <Link
+                        href={channel.href}
+                        className="link-underline mt-0.5 block w-fit truncate text-lg font-semibold text-foreground transition-colors duration-200 hover:text-accent"
+                      >
+                        {channel.value}
+                      </Link>
+                    ) : (
+                      <p className="mt-0.5 text-lg font-semibold text-foreground">
+                        {channel.value}
+                      </p>
+                    )}
+                    {channel.description ? (
+                      <p className="mt-1 text-sm leading-relaxed text-foreground-secondary">
+                        {channel.description}
+                      </p>
+                    ) : null}
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <p className="mt-8 text-sm text-foreground-secondary">{note}</p>

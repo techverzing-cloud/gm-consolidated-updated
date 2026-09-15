@@ -5,7 +5,7 @@ const PROCESS_STEPS = [
     step: "01",
     icon: "mdi:lightbulb-outline",
     title: "Concept",
-    text: "Design engineers translate complex client requirements into efficient, workable concepts — balancing function, aesthetics, ergonomics and economics.",
+    text: "Design engineers translate complex client requirements into efficient, workable concepts - balancing function, aesthetics, ergonomics and economics.",
   },
   {
     step: "02",
@@ -17,19 +17,19 @@ const PROCESS_STEPS = [
     step: "03",
     icon: "mdi:flask-outline",
     title: "Prototype",
-    text: "3D-printed components create mock samples that validate each design — put under actual tests and conditions to simulate real performance.",
+    text: "3D-printed components create mock samples that validate each design - put under actual tests and conditions to simulate real performance.",
   },
   {
     step: "04",
     icon: "mdi:check-decagram-outline",
     title: "Validation",
-    text: "Validation comes before any tooling activity — it is what gets products out first time right.",
+    text: "Validation comes before any tooling activity - it is what gets products out first time right.",
   },
   {
     step: "05",
     icon: "mdi:wrench-outline",
     title: "Tooling",
-    text: "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools — repaired and maintained in-house.",
+    text: "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools - repaired and maintained in-house.",
   },
   {
     step: "06",
@@ -87,8 +87,8 @@ export function Engineering() {
             data-reveal-child
             className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
           >
-            Every stage of the journey — design, modelling, prototyping,
-            validation, tooling and production — is managed in-house, so
+            Every stage of the journey - design, modelling, prototyping,
+            validation, tooling and production - is managed in-house, so
             products get out first time right.
           </p>
         </div>

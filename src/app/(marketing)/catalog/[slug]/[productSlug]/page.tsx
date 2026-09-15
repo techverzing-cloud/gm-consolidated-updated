@@ -33,7 +33,7 @@ export async function generateMetadata({
     return { title: "Catalog" };
   }
   return {
-    title: `${product.name} (${product.code}) — ${category.name}`,
+    title: `${product.name} (${product.code}) - ${category.name}`,
     description: `${product.shortDescription} Explore the ${product.code} ${product.name} and the ${category.name} range from G.M. Consolidated.`,
   };
 }
