@@ -23,7 +23,7 @@ export function ProductHero({
       className="bg-background-alt"
       aria-labelledby="product-hero-title"
     >
-      <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-330 px-4 py-14 sm:px-6 lg:px-8 lg:py-24">
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
@@ -109,7 +109,7 @@ export function ProductHero({
               className="mt-6 text-sm text-foreground-secondary"
             >
               Model code {product.code} &nbsp;&middot;&nbsp; Part of the{" "}
-              {category.name} range ({category.range})
+              {category.name} 
             </p>
           </div>
         </div>

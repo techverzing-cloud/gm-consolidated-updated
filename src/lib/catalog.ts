@@ -55,7 +55,6 @@ export interface CatalogCategory {
   slug: string;
   number: string;
   tag: string;
-  range: string;
   shortDescription: string;
   description: string;
   image: string;

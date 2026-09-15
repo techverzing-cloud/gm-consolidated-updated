@@ -68,7 +68,7 @@ export function Catalog() {
                   {category.name}
                 </h3>
                 <p className="mt-1 text-sm font-medium text-foreground-secondary">
-                  {category.tag} • {category.range}
+                  {category.tag}
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
                   {category.shortDescription}

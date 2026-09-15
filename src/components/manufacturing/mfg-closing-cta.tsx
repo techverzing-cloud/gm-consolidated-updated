@@ -13,8 +13,8 @@ export function ClosingCta({ closing }: { closing: ManufacturingClosing }) {
       <div data-mfg-cta-media className="absolute inset-0">
         <div data-mfg-parallax className="absolute inset-0">
           <Image
-            src="/images/factory/pdc.webp"
-            alt="Pressure die casting machines on the G.M. Consolidated factory floor"
+            src="/images/mfg-closing-cta.jpg"
+            alt="Manufacturing floor of the G.M. Consolidated industrial units"
             fill
             sizes="100vw"
             className="object-cover object-center"
