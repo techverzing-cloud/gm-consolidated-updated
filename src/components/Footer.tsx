@@ -73,7 +73,7 @@ export function Footer() {
       </section>
 
       <footer className="border-t border-navy-border bg-navy">
-        <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
+        <div className="mx-auto max-w-[1320px] px-4 pt-14 sm:px-6 sm:pt-16 lg:px-8 pb-6">
             <div
               className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.3fr] lg:gap-12"
             >
@@ -173,12 +173,12 @@ export function Footer() {
                       className="mt-0.5 shrink-0 text-white/80"
                     />
                     <span className="flex flex-col items-start gap-1">
-                      <a
+                      {/* <a
                         href={`mailto:${SITE_INFO.email}`}
                         className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                       >
                         {SITE_INFO.email}
-                      </a>
+                      </a> */}
                       <a
                         href={`mailto:${SITE_INFO.supportEmail}`}
                         className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"

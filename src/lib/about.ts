@@ -1,4 +1,9 @@
 import aboutData from "../../data/about.json";
+import manufacturingData from "../../data/manufacturing.json";
+import type { ManufacturingUnit } from "./manufacturing";
+
+const getManufacturingUnits = (): ManufacturingUnit[] =>
+  (manufacturingData as { units: { units: ManufacturingUnit[] } }).units.units;
 
 export interface AboutMetadata {
   title: string;
@@ -183,7 +188,15 @@ export interface AboutData {
   closingStatement: AboutClosingStatement;
 }
 
-const about = aboutData as unknown as AboutData;
+const aboutRaw = aboutData as unknown as AboutData;
+
+const about: AboutData = {
+  ...aboutRaw,
+  manufacturingInfrastructure: {
+    ...aboutRaw.manufacturingInfrastructure,
+    units: getManufacturingUnits() as AboutUnit[],
+  },
+};
 
 export function getAboutContent(): AboutData {
   return about;

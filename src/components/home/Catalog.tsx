@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import { getCategories } from "@/lib/catalog";
+import { CatalogCarousel } from "@/components/catalog/CatalogCarousel";
 
 export function Catalog() {
   const categories = getCategories();
@@ -38,6 +39,10 @@ export function Catalog() {
             Every G.M. Consolidated product is designed, tooled and built
             in-house - across OEM, ODM and private-label programmes.
           </p>
+        </div>
+
+        <div className="mt-14" data-reveal>
+          <CatalogCarousel />
         </div>
 
         <div

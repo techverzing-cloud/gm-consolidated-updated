@@ -198,25 +198,7 @@
   "manufacturingInfrastructure": {
     "eyebrow": "Our Manufacturing Infrastructure",
     "title": "Two Industrial Units. One Manufacturing Ecosystem.",
-    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow.",
-    "units": [
-      {
-        "number": "01",
-        "name": "A. R. Industries",
-        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
-        "focus": "Small domestic appliances core assembly",
-        "image": "/images/oem-odm-hero.jpg",
-        "imageAlt": "Workers assembling small domestic appliances on a production line"
-      },
-      {
-        "number": "02",
-        "name": "Rao Industries",
-        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Distt-Sirmour – 173030 (H.P.)",
-        "focus": "Water heating systems production",
-        "image": "/images/factory/production-wide.jpg",
-        "imageAlt": "Production floor for water heating appliance systems"
-      }
-    ]
+    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow."
   },
   "productEcosystem": {
     "eyebrow": "Our Product Ecosystem",
@@ -284,11 +266,6 @@
         "value": "25",
         "suffix": "",
         "label": "Injection Moulding Machines"
-      },
-      {
-        "value": "120–250",
-        "suffix": "T",
-        "label": "Pressure Die Casting Capacity"
       },
       {
         "value": "4",
@@ -366,15 +343,15 @@
     "description": "G.M. Consolidated is led by a management team that keeps engineering, tooling and manufacturing working as one integrated organisation.",
     "members": [
       {
-        "name": "Rajesh Aggarwal",
-        "title": "Director",
+        "name": "Tushar Gupta",
+        "title": "Managing Director",
         "image": {
           "src": "/images/about/leadership-1.jpg",
-          "alt": "Portrait of Rajesh Aggarwal, Director of G.M. Consolidated",
+          "alt": "Portrait of Tushar Gupta, Managing Director of G.M. Consolidated",
           "width": 1086,
           "height": 1448
         },
-        "bio": "Rajesh Aggarwal leads day-to-day operations at G.M. Consolidated, steering product development, commercial strategy and supplier partnerships. With over three decades in the appliance industry, he keeps the organisation focused on dependable delivery and manufacturing excellence.",
+        "bio": "Tushar Gupta leads day-to-day operations at G.M. Consolidated, steering product development, commercial strategy and supplier partnerships. With over three decades in the appliance industry, he keeps the organisation focused on dependable delivery and manufacturing excellence.",
         "points": [
           "Steers OEM / ODM programme planning and commercial strategy",
           "Oversees toolroom development and new product launches",
@@ -382,15 +359,15 @@
         ]
       },
       {
-        "name": "Kunal Aggarwal",
-        "title": "Chief Director",
+        "name": "Rajan Gupta",
+        "title": "Chief Managing Director",
         "image": {
           "src": "/images/about/leadership-2.jpg",
-          "alt": "Portrait of Kunal Aggarwal, Chief Director of G.M. Consolidated",
+          "alt": "Portrait of Rajan Gupta, Chief Managing Director of G.M. Consolidated",
           "width": 1467,
           "height": 1072
         },
-        "bio": "Kunal Aggarwal provides strategic direction across G.M. Consolidated's manufacturing units at Kala Amb, Himachal Pradesh. He drives capability building, quality systems and the long term roadmap that keeps the group integrated from tooling to finished goods.",
+        "bio": "Rajan Gupta provides strategic direction across G.M. Consolidated's manufacturing units at Kala Amb, Himachal Pradesh. He drives capability building, quality systems and the long term roadmap that keeps the group integrated from tooling to finished goods.",
         "points": [
           "Sets the strategic roadmap for the group's manufacturing units",
           "Drives quality systems, process discipline and continuous improvement",

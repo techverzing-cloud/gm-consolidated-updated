@@ -22,11 +22,6 @@
       "label": "Industrial Units"
     },
     {
-      "value": "25",
-      "suffix": "",
-      "label": "Injection Moulding Machines"
-    },
-    {
       "value": "120–250",
       "suffix": "T",
       "label": "Pressure Die Casting Capacity"
@@ -244,7 +239,7 @@
       {
         "number": "02",
         "name": "Rao Industries",
-        "location": "Kh. No. 972/830/714/474/124, Kala Amb, Village Moginand, Tehsil Nahan, Distt-Sirmour – 173030 (H.P.)",
+        "location": "Mogi Nand, Himachal Pradesh 173030",
         "focus": "Water heating systems production",
         "image": "/images/factory/rao-industry.jpg",
         "imageAlt": "Rao Industries production floor for water heating appliance systems"

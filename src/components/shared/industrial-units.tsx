@@ -1,21 +1,51 @@
 import Image from "next/image";
 import { Icon } from "@/components/ui/Icon";
-import type { ManufacturingUnits } from "@/lib/manufacturing";
 
-export function IndustrialUnits({ section }: { section: ManufacturingUnits }) {
+export interface IndustrialUnit {
+  number: string;
+  name: string;
+  location: string;
+  focus: string;
+  image: string;
+  imageAlt: string;
+}
+
+export interface IndustrialUnitsSection {
+  eyebrow: string;
+  title: string;
+  description: string;
+  units: IndustrialUnit[];
+}
+
+const scopeIds = {
+  about: {
+    section: "about-infrastructure",
+    title: "infrastructure-title",
+  },
+  mfg: {
+    section: "mfg-units",
+    title: "units-title",
+  },
+} as const;
+
+export function IndustrialUnits({
+  section,
+  scope,
+}: {
+  section: IndustrialUnitsSection;
+  scope: keyof typeof scopeIds;
+}) {
+  const ids = scopeIds[scope];
+
   return (
-    <section
-      id="mfg-units"
-      className="bg-white"
-      aria-labelledby="units-title"
-    >
+    <section id={ids.section} className="bg-white" aria-labelledby={ids.title}>
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <header className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
             {section.eyebrow}
           </p>
           <h2
-            id="units-title"
+            id={ids.title}
             className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
           >
             {section.title}
@@ -27,12 +57,18 @@ export function IndustrialUnits({ section }: { section: ManufacturingUnits }) {
 
         <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-8">
           {section.units.map((unit) => (
-            <article key={unit.number} data-mfg-unit>
+            <article
+              key={unit.number}
+              {...{ [`data-${scope}-unit`]: true }}
+            >
               <div
-                data-mfg-unit-image
+                {...{ [`data-${scope}-unit-image`]: true }}
                 className="relative aspect-[4/3] overflow-hidden rounded-sm"
               >
-                <div data-mfg-parallax className="absolute inset-0">
+                <div
+                  {...{ [`data-${scope}-parallax`]: true }}
+                  className="absolute inset-0"
+                >
                   <Image
                     src={unit.image}
                     alt={unit.imageAlt}

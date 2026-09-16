@@ -6,7 +6,6 @@ import { CompanyProfile } from "@/components/about/company-profile";
 import { CompanyFacts } from "@/components/about/company-facts";
 import { PhilosophySection } from "@/components/about/philosophy-section";
 import { CapabilitiesSection } from "@/components/about/capabilities-section";
-import { InfrastructureSection } from "@/components/about/infrastructure-section";
 import { ProductEcosystem } from "@/components/about/product-ecosystem";
 import { EngineeringStrength } from "@/components/about/engineering-strength";
 import { ManufacturingStrength } from "@/components/about/manufacturing-strength";
@@ -18,6 +17,7 @@ import { ClientsLogos } from "@/components/about/clients-logos";
 import { FaqSection } from "@/components/about/faq-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
+import { IndustrialUnits } from "@/components/shared/industrial-units";
 import { getAboutContent } from "@/lib/about";
 import { getClientsContent } from "@/lib/clients";
 import { getFaqContent } from "@/lib/faq";
@@ -36,19 +36,19 @@ export default function AboutPage() {
     <AboutAnimations>
       <AboutHero hero={content.hero} />
       <CorporateStatement statement={content.corporateStatement} />
+      <LeadershipSection section={content.leadership} />
       <CompanyProfile profile={content.companyProfile} facts={content.companyFacts} />
       <CompanyFacts facts={content.companyFacts} />
       <TimelineSection timeline={content.timeline} />
       <PhilosophySection philosophy={content.philosophy} />
       <CapabilitiesSection capabilities={content.whatWeDo} />
-      <InfrastructureSection section={content.manufacturingInfrastructure} />
+      <IndustrialUnits section={content.manufacturingInfrastructure} scope="about" />
       <ProductEcosystem section={content.productEcosystem} />
       <EngineeringStrength section={content.engineeringStrength} />
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
       <BusinessPositioning section={content.businessPositioning} />
       {/* <ClientsLogos content={clients} /> */}
-      <LeadershipSection section={content.leadership} />
       <CorporateOffice office={content.corporateOffice} />
       <FaqSection content={faq} />
       <AboutCta closing={content.closingStatement} />

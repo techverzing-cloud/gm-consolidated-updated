@@ -125,7 +125,7 @@
     "locations": [
       {
         "id": "head-office",
-        "name": "Head Office - A.R. Industries",
+        "name": "Head Office - G.M. Consolidated",
         "detail": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042",
         "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.0443326955415!2d77.08510679999999!3d28.748093299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d07a7356582ff%3A0x15bcc9223bac6133!2sA.R.INDUSTRIES!5e0!3m2!1sen!2sin!4v1789458533625!5m2!1sen!2sin",
         "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=28.7480933,77.0851068",
@@ -142,7 +142,7 @@
       {
         "id": "rao-industries-kala-amb",
         "name": "Rao Industries - Manufacturing Unit",
-        "detail": "Industrial unit, Kala Amb - Himachal Pradesh",
+        "detail": "Mogi Nand, Himachal Pradesh 173030",
         "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1843171455685!2d77.2439638!3d30.515826800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f09bf2dd23457%3A0x6a214f0ccd7c6f07!2sRao%20industries!5e0!3m2!1sen!2sin!4v1789458556408!5m2!1sen!2sin",
         "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=30.5158268,77.2439638",
         "directionsLabel": "Get Directions"

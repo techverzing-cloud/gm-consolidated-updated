@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Engineering />
       <Catalog />
+      <Engineering />
       <Manufacturing />
       <Quality />
       <OemOdm />

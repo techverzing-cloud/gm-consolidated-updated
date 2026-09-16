@@ -6,9 +6,9 @@ import { ManufacturingMetrics } from "@/components/manufacturing/mfg-metrics";
 import { ProductionFlow } from "@/components/manufacturing/mfg-production-flow";
 import { CoreCapabilities } from "@/components/manufacturing/mfg-core-capabilities";
 import { IntegratedOperations } from "@/components/manufacturing/mfg-integrated-operations";
-import { IndustrialUnits } from "@/components/manufacturing/mfg-units";
 import { QualityBridge } from "@/components/manufacturing/mfg-quality-bridge";
 import { ClosingCta } from "@/components/manufacturing/mfg-closing-cta";
+import { IndustrialUnits } from "@/components/shared/industrial-units";
 import { getManufacturingContent } from "@/lib/manufacturing";
 
 const content = getManufacturingContent();
@@ -27,7 +27,7 @@ export default function ManufacturingPage() {
       <ProductionFlow section={content.productionFlow} />
       <CoreCapabilities section={content.coreCapabilities} />
       <IntegratedOperations section={content.integration} />
-      <IndustrialUnits section={content.units} />
+      <IndustrialUnits section={content.units} scope="mfg" />
       <QualityBridge bridge={content.qualityBridge} />
       <ClosingCta closing={content.closing} />
     </ManufacturingAnimations>
