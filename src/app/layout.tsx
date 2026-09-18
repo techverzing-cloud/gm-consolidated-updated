@@ -11,7 +11,8 @@ const inter = Inter({
 {/**added layout.tsx file for metadata and viewport configuration */}
 {/**added layout.tsx file for metadata and viewport configuration */}
 {/**added layout.tsx file for metadata and viewport configuration */}
-{/**added layout.tsx file for metadata and viewport configuration */}{/**added layout.tsx file for metadata and viewport configuration */}
+{/**added layout.tsx file for metadata and viewport configuration */}
+{/**added layout.tsx file for metadata and viewport configuration */}
 export const metadata: Metadata = {
   title: {
     default: "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer",
