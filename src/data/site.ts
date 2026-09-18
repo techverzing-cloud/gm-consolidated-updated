@@ -11,6 +11,8 @@ const contact = contactData as {
   };
 };
 
+export const BASE_URL = "https://arind.in";
+
 export const SITE_INFO = {
   phone: contact.primaryContact.phone,
   email: contact.primaryContact.email,

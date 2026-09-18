@@ -12,7 +12,11 @@ const QUICK_LINKS = [
   { label: "OEM / ODM", href: "/oem-odm" },
 ];
 
-const LEGAL_LINKS = ["Privacy Policy", "Terms", "Sitemap"];
+const LEGAL_LINKS = [
+  { label: "Privacy Policy", href: "#" },
+  { label: "Terms", href: "#" },
+  { label: "Sitemap", href: "/sitemap.xml" },
+];
 
 const BUSINESS_LINKS = [
   { label: "A. R. Industries", href: "/ar-industries" },
@@ -222,13 +226,13 @@ export function Footer() {
               ))}
             </ul>
             <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-6">
-              {LEGAL_LINKS.map((label) => (
-                <li key={label}>
+              {LEGAL_LINKS.map((link) => (
+                <li key={link.label}>
                   <Link
-                    href="#"
+                    href={link.href}
                     className="link-underline text-sm text-navy-muted transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   >
-                    {label}
+                    {link.label}
                   </Link>
                 </li>
               ))}

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { BASE_URL } from "@/data/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -14,6 +15,7 @@ const inter = Inter({
 {/**added layout.tsx file for metadata and viewport configuration */}
 {/**added layout.tsx file for metadata and viewport configuration */}
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: {
     default: "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer",
     template: "%s | G.M. Consolidated",
