@@ -9,10 +9,7 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
-{/**added layout.tsx file for metadata and viewport configuration */}
-{/**added layout.tsx file for metadata and viewport configuration */}
-{/**added layout.tsx file for metadata and viewport configuration */}
-{/**added layout.tsx file for metadata and viewport configuration */}
+
 {/**added layout.tsx file for metadata and viewport configuration */}
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
