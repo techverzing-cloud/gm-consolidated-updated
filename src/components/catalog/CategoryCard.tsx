@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { CatalogCategory } from "@/lib/catalog";
@@ -31,7 +31,7 @@ export function CategoryCard({ category }: { category: CatalogCategory }) {
         <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-accent transition-colors group-hover:text-accent-hover">
           Explore {category.name}
           <span className="transition-transform duration-300 ease-out group-hover:translate-x-1">
-            <Icon icon="mdi:arrow-right" size={16} />
+            <Icon icon="lucide:arrow-right" size={16} />
           </span>
         </span>
       </div>

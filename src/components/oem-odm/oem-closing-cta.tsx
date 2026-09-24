@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { OemOdmClosing } from "@/lib/oem-odm";
@@ -44,7 +44,7 @@ export function ClosingCta({ closing }: { closing: OemOdmClosing }) {
               className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"
             >
               {closing.label}
-              <Icon icon="mdi:arrow-right" size={16} />
+              <Icon icon="lucide:arrow-right" size={16} />
             </Link>
             <Link
               href={closing.secondaryHref}

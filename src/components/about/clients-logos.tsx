@@ -15,20 +15,20 @@ export function ClientsLogos({ content }: { content: ClientsContent }) {
         >
           <p
             data-reveal-child
-            className="text-sm font-semibold uppercase tracking-[0.16em] text-accent"
+            className="text-base font-semibold uppercase tracking-[0.16em] text-accent"
           >
             {content.eyebrow}
           </p>
           <h2
             id="clients-title"
             data-reveal-child
-            className="mt-4 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+            className="mt-4 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
           >
             {content.title}
           </h2>
           <p
             data-reveal-child
-            className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
+            className="mt-5 text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl"
           >
             {content.description}
           </p>
@@ -44,7 +44,7 @@ export function ClientsLogos({ content }: { content: ClientsContent }) {
               data-about-client-logo
               className="flex h-20 items-center justify-center bg-white px-4 transition-colors duration-300 hover:bg-background-alt"
             >
-              <span className="text-center text-sm font-semibold uppercase tracking-[0.12em] text-foreground/45">
+              <span className="text-center text-base font-semibold uppercase tracking-[0.12em] text-foreground/45">
                 {client.name}
               </span>
             </li>

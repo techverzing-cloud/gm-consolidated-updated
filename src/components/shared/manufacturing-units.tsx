@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Icon } from "@/components/ui/Icon";
 
-export interface IndustrialUnit {
+export interface ManufacturingUnit {
   number: string;
   name: string;
   location: string;
@@ -10,11 +10,11 @@ export interface IndustrialUnit {
   imageAlt: string;
 }
 
-export interface IndustrialUnitsSection {
+export interface ManufacturingUnitsSection {
   eyebrow: string;
   title: string;
   description: string;
-  units: IndustrialUnit[];
+  units: ManufacturingUnit[];
 }
 
 const scopeIds = {
@@ -28,11 +28,11 @@ const scopeIds = {
   },
 } as const;
 
-export function IndustrialUnits({
+export function ManufacturingUnits({
   section,
   scope,
 }: {
-  section: IndustrialUnitsSection;
+  section: ManufacturingUnitsSection;
   scope: keyof typeof scopeIds;
 }) {
   const ids = scopeIds[scope];
@@ -41,16 +41,16 @@ export function IndustrialUnits({
     <section id={ids.section} className="bg-white" aria-labelledby={ids.title}>
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <header className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+          <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
             {section.eyebrow}
           </p>
           <h2
             id={ids.title}
-            className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+            className="mt-5 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
           >
             {section.title}
           </h2>
-          <p className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
+          <p className="mt-5 text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl">
             {section.description}
           </p>
         </header>
@@ -80,25 +80,25 @@ export function IndustrialUnits({
               </div>
 
               <div className="mt-6">
-                <p className="text-sm font-semibold uppercase tracking-[0.14em] text-accent">
+                <p className="text-base font-semibold uppercase tracking-[0.14em] text-accent">
                   Unit - {unit.number}
                 </p>
-                <h3 className="mt-2 text-2xl font-semibold text-foreground">
+                <h3 className="mt-2 text-3xl font-semibold text-foreground">
                   {unit.name}
                 </h3>
 
-                <p className="mt-4 flex items-start gap-2.5 text-sm leading-relaxed text-foreground-secondary">
+                <p className="mt-4 flex items-start gap-2.5 text-base leading-relaxed text-foreground-secondary">
                   <Icon
-                    icon="mdi:map-marker-outline"
+                    icon="lucide:map-pin"
                     size={18}
                     className="mt-0.5 shrink-0 text-accent"
                   />
                   <span className="text-pretty">{unit.location}</span>
                 </p>
 
-                <p className="mt-2 flex items-start gap-2.5 text-sm leading-relaxed text-foreground-secondary">
+                <p className="mt-2 flex items-start gap-2.5 text-base leading-relaxed text-foreground-secondary">
                   <Icon
-                    icon="mdi:factory"
+                    icon="lucide:factory"
                     size={18}
                     className="mt-0.5 shrink-0 text-accent"
                   />

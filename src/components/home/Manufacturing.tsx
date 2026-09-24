@@ -48,7 +48,7 @@ export function Manufacturing() {
                 data-reveal-child
                 className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
               >
-                Two industrial units in Kala Amb, Himachal Pradesh, house
+                Two manufacturing units in Kala Amb, Himachal Pradesh, house
                 dedicated product-specific lines - from die casting and
                 injection moulding to in-house tooling, thermostat
                 manufacturing, finishing and auto-conveyorised assembly.
@@ -74,7 +74,7 @@ export function Manufacturing() {
             >
               <Image
                 src="/images/home-manufacturing.jpg"
-                alt="Production floor of the G.M. Consolidated industrial units, Kala Amb"
+                alt="Production floor of the G.M. Consolidated manufacturing units, Kala Amb"
                 width={926}
                 height={617}
                 data-parallax="16"

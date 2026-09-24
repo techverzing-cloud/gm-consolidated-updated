@@ -1,4 +1,4 @@
-import { PageHeader } from "@/components/content/PageHeader";
+﻿import { PageHeader } from "@/components/content/PageHeader";
 import { Icon } from "@/components/ui/Icon";
 import type { Unit } from "@/lib/units";
 
@@ -31,24 +31,24 @@ export function UnitPage({ unit }: { unit: Unit }) {
             </div>
             <aside className="lg:col-span-5">
               <div className="rounded-sm border border-border bg-background-alt p-7 sm:p-8">
-                <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
                   {unit.focus.label}
-                </h2>
+                </p>
                 <p className="mt-3 flex items-start gap-3 text-pretty text-base leading-relaxed text-foreground sm:text-lg">
                   <Icon
-                    icon="mdi:factory"
+                    icon="lucide:factory"
                     size={20}
                     className="mt-1 shrink-0 text-accent"
                   />
                   {unit.focus.value}
                 </p>
                 <div className="my-6 h-px bg-border" />
-                <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
                   {unit.address.label}
-                </h2>
+                </p>
                 <p className="mt-3 flex items-start gap-3 text-pretty text-base leading-relaxed text-foreground sm:text-lg">
                   <Icon
-                    icon="mdi:map-marker-outline"
+                    icon="lucide:map-pin"
                     size={20}
                     className="mt-1 shrink-0 text-accent"
                   />

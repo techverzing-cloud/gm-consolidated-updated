@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, type ChangeEvent, type FocusEvent, type FormEvent } from "react";
 import { Icon } from "@/components/ui/Icon";
@@ -199,7 +199,7 @@ export function EnquiryForm({
               ))}
             </select>
             <Icon
-              icon="mdi:chevron-down"
+              icon="lucide:chevron-down"
               size={20}
               className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-foreground-secondary"
             />
@@ -226,7 +226,7 @@ export function EnquiryForm({
               <option value="Other">Other / Not sure</option>
             </select>
             <Icon
-              icon="mdi:chevron-down"
+              icon="lucide:chevron-down"
               size={20}
               className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-foreground-secondary"
             />
@@ -328,7 +328,7 @@ export function EnquiryForm({
                 ) : (
                   <>
                     {form.submitLabel}
-                    <Icon icon="mdi:arrow-right" size={20} />
+                    <Icon icon="lucide:arrow-right" size={20} />
                   </>
                 )}
               </button>
@@ -340,7 +340,7 @@ export function EnquiryForm({
                 className="mt-6 flex items-start gap-3 rounded-sm border border-danger/30 bg-danger/5 p-5"
               >
                 <Icon
-                  icon="mdi:alert-circle-outline"
+                  icon="lucide:circle-alert"
                   size={22}
                   className="mt-0.5 shrink-0 text-danger"
                 />
@@ -375,7 +375,7 @@ export function EnquiryForm({
                 className="mt-6 flex items-start gap-3 rounded-sm border border-accent/30 bg-accent/5 p-5"
               >
                 <Icon
-                  icon="mdi:check-circle-outline"
+                  icon="lucide:circle-check-big"
                   size={22}
                   className="mt-0.5 shrink-0 text-accent"
                 />

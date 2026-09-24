@@ -14,37 +14,37 @@
     "steps": [
       {
         "number": "01",
-        "icon": "mdi:lightbulb-outline",
+        "icon": "lucide:lightbulb",
         "title": "Concept",
         "text": "Design engineers translate complex client requirements into efficient, workable concepts - balancing function, aesthetics, ergonomics and economics."
       },
       {
         "number": "02",
-        "icon": "mdi:cube-outline",
+        "icon": "lucide:box",
         "title": "3D Modelling",
         "text": "Blueprints become complete 3D CAD models with the internal capability to transition directly into customised tooling structures."
       },
       {
         "number": "03",
-        "icon": "mdi:flask-outline",
+        "icon": "lucide:flask-conical",
         "title": "Prototype",
         "text": "3D-printed components create mock samples that validate each design - put under actual tests and conditions to simulate real performance."
       },
       {
         "number": "04",
-        "icon": "mdi:check-decagram-outline",
+        "icon": "lucide:badge-check",
         "title": "Validation",
         "text": "Validation comes before any tooling activity - it is what gets products out first time right."
       },
       {
         "number": "05",
-        "icon": "mdi:wrench-outline",
+        "icon": "lucide:wrench",
         "title": "Tooling",
         "text": "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools - repaired and maintained in-house."
       },
       {
         "number": "06",
-        "icon": "mdi:factory",
+        "icon": "lucide:factory",
         "title": "Production",
         "text": "Dedicated product-specific lines for dry iron, steam iron, geyser, room heater, hair dryer and electric kettle run under one roof."
       }

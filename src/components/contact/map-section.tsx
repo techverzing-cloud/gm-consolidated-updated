@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Icon } from "@/components/ui/Icon";
@@ -73,15 +73,15 @@ export function MapSection({ map, channels }: MapSectionProps) {
                     : "border-border bg-white hover:border-accent"
                 }`}
               >
-                <h3 className="mt-3 text-lg font-semibold text-foreground">
+                <p className="mt-3 text-lg font-semibold text-foreground">
                   {location.name}
-                </h3>
+                </p>
                 <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                   {location.detail}
                 </p>
                 <span className="link-underline mt-4 inline-flex items-center gap-2 font-semibold text-accent">
                   {location.directionsLabel}
-                  <Icon icon="mdi:arrow-right" size={16} />
+                  <Icon icon="lucide:arrow-right" size={16} />
                 </span>
               </button>
             ))}
@@ -98,9 +98,9 @@ export function MapSection({ map, channels }: MapSectionProps) {
                 <Icon icon={channel.icon} size={18} />
               </span>
               <div>
-                <h3 className="text-sm font-semibold text-foreground">
+                <p className="text-sm font-semibold text-foreground">
                   {channel.title}
-                </h3>
+                </p>
                 <p className="mt-1 text-sm leading-relaxed text-foreground-secondary">
                   {channel.text}
                 </p>

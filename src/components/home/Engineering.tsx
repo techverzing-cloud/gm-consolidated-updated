@@ -1,39 +1,39 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 
 const PROCESS_STEPS = [
   {
     step: "01",
-    icon: "mdi:lightbulb-outline",
+    icon: "lucide:lightbulb",
     title: "Concept",
     text: "Design engineers translate complex client requirements into efficient, workable concepts - balancing function, aesthetics, ergonomics and economics.",
   },
   {
     step: "02",
-    icon: "mdi:cube-outline",
+    icon: "lucide:box",
     title: "3D Modelling",
     text: "Blueprints become complete 3D CAD models with the internal capability to transition directly into customised tooling structures.",
   },
   {
     step: "03",
-    icon: "mdi:flask-outline",
+    icon: "lucide:flask-conical",
     title: "Prototype",
     text: "3D-printed components create mock samples that validate each design - put under actual tests and conditions to simulate real performance.",
   },
   {
     step: "04",
-    icon: "mdi:check-decagram-outline",
+    icon: "lucide:badge-check",
     title: "Validation",
     text: "Validation comes before any tooling activity - it is what gets products out first time right.",
   },
   {
     step: "05",
-    icon: "mdi:wrench-outline",
+    icon: "lucide:wrench",
     title: "Tooling",
     text: "A state-of-the-art tool room manufactures plastic injection moulds, die-casting moulds and press tools - repaired and maintained in-house.",
   },
   {
     step: "06",
-    icon: "mdi:factory",
+    icon: "lucide:factory",
     title: "Production",
     text: "Dedicated product-specific lines for dry iron, steam iron, geyser, room heater, hair dryer and electric kettle run under one roof.",
   },
@@ -61,7 +61,7 @@ export function Engineering() {
         aria-hidden="true"
         className="animate-spin-slow pointer-events-none absolute -right-24 top-8 hidden text-accent/[0.05] lg:block"
       >
-        <Icon icon="mdi:cog-outline" size={300} />
+        <Icon icon="lucide:cog" size={300} />
       </div>
 
       <div className="relative mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">

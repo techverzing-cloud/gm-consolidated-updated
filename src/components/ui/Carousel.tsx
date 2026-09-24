@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState, type ReactNode } from "react";
 import { Icon } from "@/components/ui/Icon";
@@ -68,7 +68,7 @@ export function Carousel({
             aria-label="Previous slide"
             className="grid h-10 w-10 cursor-pointer place-items-center rounded-full border border-border/80 bg-white text-foreground transition-all duration-200 hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
-            <Icon icon="mdi:chevron-left" size={20} />
+            <Icon icon="lucide:chevron-left" size={20} />
           </button>
 
           <div
@@ -111,7 +111,7 @@ export function Carousel({
             aria-label="Next slide"
             className="grid h-10 w-10 cursor-pointer place-items-center rounded-full border border-border/80 bg-white text-foreground transition-all duration-200 hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
-            <Icon icon="mdi:chevron-right" size={20} />
+            <Icon icon="lucide:chevron-right" size={20} />
           </button>
         </div>
       )}

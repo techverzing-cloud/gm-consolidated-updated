@@ -1,14 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Icon } from "@/components/ui/Icon";
 import type { CatalogCategory, CatalogProduct } from "@/lib/catalog";
 
 export function ProductCard({
   category,
   product,
+  headingLevel = "h2",
 }: {
   category: CatalogCategory;
   product: CatalogProduct;
+  headingLevel?: "h2" | "h3";
 }) {
+  const Heading = headingLevel;
+
   return (
     <Link
       href={`/catalog/${category.slug}/${product.slug}`}
@@ -25,12 +30,18 @@ export function ProductCard({
       </div>
       <div className="flex flex-1 flex-col border-t border-border p-6">
         <p className="text-sm font-semibold text-accent">{product.code}</p>
-        <h2 className="mt-1 text-xl font-semibold text-foreground">
+        <Heading className="mt-1 text-xl font-semibold text-foreground">
           {product.name}
-        </h2>
+        </Heading>
         <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
           {product.shortDescription}
         </p>
+        <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-sm font-semibold text-accent transition-colors group-hover:text-accent-hover">
+          View details
+          <span className="transition-transform duration-300 ease-out group-hover:translate-x-1">
+            <Icon icon="lucide:arrow-right" size={16} />
+          </span>
+        </span>
       </div>
     </Link>
   );

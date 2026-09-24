@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import { SectionHeading } from "@/components/catalog/product/section-heading";
 import type { CatalogProduct } from "@/lib/catalog";
 
@@ -31,7 +31,7 @@ export function ProductApplications({ product }: { product: CatalogProduct }) {
               className="flex items-start gap-3 rounded-sm border border-border bg-white p-4"
             >
               <Icon
-                icon="mdi:check-circle-outline"
+                icon="lucide:circle-check-big"
                 size={18}
                 className="mt-0.5 shrink-0 text-accent"
               />

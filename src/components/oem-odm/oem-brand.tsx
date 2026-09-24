@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import type { OemOdmBrandProcess } from "@/lib/oem-odm";
 
 export function BrandProcess({
@@ -17,7 +17,7 @@ export function BrandProcess({
           {section.eyebrow}
         </p>
 
-        <p
+        <h2
           id="odm-brand-title"
           className="mt-8 text-balance text-center text-4xl font-semibold leading-[1.12] sm:text-5xl lg:text-6xl"
         >
@@ -38,13 +38,13 @@ export function BrandProcess({
                     aria-hidden="true"
                     className="mx-2 inline-flex text-accent sm:mx-4"
                   >
-                    <Icon icon="mdi:arrow-right" size={22} className="shrink-0" />
+                    <Icon icon="lucide:arrow-right" size={22} className="shrink-0" />
                   </span>
                 )}
               </span>
             );
           })}
-        </p>
+        </h2>
       </div>
     </section>
   );

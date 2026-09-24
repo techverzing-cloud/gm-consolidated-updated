@@ -31,7 +31,11 @@ export function ProductRelated({ product }: { product: CatalogProduct }) {
         >
           {related.map(({ product: relatedProduct, category }) => (
             <li key={relatedProduct.id} data-product-stagger-item>
-              <ProductCard category={category} product={relatedProduct} />
+              <ProductCard
+                category={category}
+                product={relatedProduct}
+                headingLevel="h3"
+              />
             </li>
           ))}
         </ul>

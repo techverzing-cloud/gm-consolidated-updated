@@ -7,7 +7,7 @@ export function CTASection({ cta }: { cta: ContentCTA }) {
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div className="flex flex-col items-start gap-8 rounded-sm bg-accent px-8 py-10 sm:px-12 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <h2 className="text-balance text-2xl font-semibold leading-tight text-white sm:text-3xl">
+            <h2 className="text-balance text-3xl font-semibold leading-tight text-white sm:text-4xl">
               {cta.title}
               {cta.highlight && (
                 <span className="block">{cta.highlight}</span>

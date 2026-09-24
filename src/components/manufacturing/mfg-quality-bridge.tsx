@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { ManufacturingQualityBridge } from "@/lib/manufacturing";
 
@@ -35,7 +35,7 @@ export function QualityBridge({ bridge }: { bridge: ManufacturingQualityBridge }
           >
             {bridge.ctaLabel}
             <Icon
-              icon="mdi:arrow-right"
+              icon="lucide:arrow-right"
               size={16}
               className="text-accent-tint transition-transform duration-300 group-hover:translate-x-1"
             />

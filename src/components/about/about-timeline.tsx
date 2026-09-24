@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { AboutTimeline, AboutTimelineEvent } from "@/lib/about";
 
@@ -12,16 +12,16 @@ function TimelineCard({
   if (featured) {
     return (
       <div className="max-w-md rounded-sm bg-navy p-6 shadow-sm sm:p-7">
-        <p className="text-3xl font-semibold tabular-nums tracking-tight text-accent-tint sm:text-4xl">
+        <p className="text-4xl font-semibold tabular-nums tracking-tight text-accent-tint sm:text-5xl">
           {event.year}
         </p>
-        <h3 className="mt-3 text-lg font-semibold leading-snug text-white sm:text-xl">
+        <h3 className="mt-3 text-xl font-semibold leading-snug text-white sm:text-2xl">
           {event.title}
         </h3>
-        <p className="mt-2 max-w-[40ch] text-pretty text-sm leading-relaxed text-navy-muted sm:text-base">
+        <p className="mt-2 max-w-[40ch] text-pretty text-base leading-relaxed text-navy-muted sm:text-lg">
           {event.description}
         </p>
-        <span className="mt-5 inline-flex items-center gap-2.5 text-xs font-semibold uppercase tracking-[0.14em] text-accent-tint">
+        <span className="mt-5 inline-flex items-center gap-2.5 text-sm font-semibold uppercase tracking-[0.14em] text-accent-tint">
           <span aria-hidden="true" className="h-px w-5 bg-accent-tint/60" />
           Milestone
         </span>
@@ -31,13 +31,13 @@ function TimelineCard({
 
   return (
     <div>
-      <p className="text-3xl font-semibold tabular-nums tracking-tight text-accent sm:text-4xl">
+      <p className="text-4xl font-semibold tabular-nums tracking-tight text-accent sm:text-5xl">
         {event.year}
       </p>
-      <h3 className="mt-3 text-lg font-semibold leading-snug text-foreground sm:text-xl">
+      <h3 className="mt-3 text-xl font-semibold leading-snug text-foreground sm:text-2xl">
         {event.title}
       </h3>
-      <p className="mt-2 max-w-[40ch] text-pretty text-sm leading-relaxed text-foreground-secondary sm:text-base">
+      <p className="mt-2 max-w-[40ch] text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
         {event.description}
       </p>
     </div>
@@ -62,13 +62,13 @@ function Marker({ featured }: { featured: boolean }) {
 function TodayCopy() {
   return (
     <>
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">
+      <p className="text-sm font-semibold uppercase tracking-[0.14em] text-accent">
         Today · 2026
       </p>
-      <h3 className="mt-2 text-balance text-2xl font-semibold leading-[1.15] tracking-tight text-foreground sm:text-3xl">
+      <h3 className="mt-2 text-balance text-3xl font-semibold leading-[1.15] tracking-tight text-foreground sm:text-4xl">
         The next milestone is being written with you.
       </h3>
-      <p className="mt-3 max-w-[46ch] text-pretty text-base leading-relaxed text-foreground-secondary">
+      <p className="mt-3 max-w-[46ch] text-pretty text-lg leading-relaxed text-foreground-secondary">
         Four decades of landmarks behind us - bring your next appliance
         programme and start the next chapter together.
       </p>
@@ -95,29 +95,29 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
         <header className="max-w-2xl" data-reveal data-reveal-stagger>
           <p
             data-reveal-child
-            className="text-sm font-semibold uppercase tracking-[0.16em] text-accent"
+            className="text-base font-semibold uppercase tracking-[0.16em] text-accent"
           >
             {timeline.eyebrow}
           </p>
           <h2
             id="timeline-title"
             data-reveal-child
-            className="mt-5 text-balance text-3xl font-semibold leading-[1.1] text-foreground sm:text-4xl"
+            className="mt-5 text-balance text-4xl font-semibold leading-[1.1] text-foreground sm:text-5xl"
           >
             {timeline.title}
           </h2>
           <p
             data-reveal-child
-            className="mt-5 max-w-[60ch] text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
+            className="mt-5 max-w-[60ch] text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl"
           >
             {timeline.description}
           </p>
           <span
             data-reveal-child
-            className="mt-7 inline-flex items-center gap-3 rounded-full border border-accent/25 bg-background-alt px-4 py-2 text-sm font-semibold tabular-nums tracking-tight text-accent"
+            className="mt-7 inline-flex items-center gap-3 rounded-full border border-accent/25 bg-background-alt px-4 py-2 text-base font-semibold tabular-nums tracking-tight text-accent"
           >
             1983
-            <Icon icon="mdi:arrow-right" size={16} className="text-accent/50" />
+            <Icon icon="lucide:arrow-right" size={16} className="text-accent/50" />
             2024
           </span>
         </header>

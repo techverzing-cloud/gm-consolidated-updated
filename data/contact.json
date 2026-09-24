@@ -30,7 +30,7 @@
       "label": "Business Enquiries",
       "value": "OEM / ODM / Private Label / Bulk",
       "description": "For OEM, ODM, private-label and bulk requirements.",
-      "icon": "mdi:briefcase-outline",
+      "icon": "lucide:briefcase",
       "href": ""
     },
     {
@@ -38,7 +38,7 @@
       "label": "Phone",
       "value": "+91 99711 88883",
       "href": "tel:+919971188883",
-      "icon": "mdi:phone-outline",
+      "icon": "lucide:phone",
       "description": ""
     },
     {
@@ -46,7 +46,7 @@
       "label": "Support Email",
       "value": "delhiho@arind.in",
       "href": "mailto:delhiho@arind.in",
-      "icon": "mdi:email-outline",
+      "icon": "lucide:mail",
       "description": ""
     },
     {
@@ -54,7 +54,7 @@
       "label": "Location",
       "value": "Bawana Road, Delhi – 110042",
       "description": "Head office. Manufacturing units in Kala Amb, Himachal Pradesh.",
-      "icon": "mdi:map-marker-outline",
+      "icon": "lucide:map-pin",
       "href": ""
     }
   ],
@@ -161,17 +161,17 @@
   "channels": [
     {
       "title": "Head Office",
-      "icon": "mdi:office-building-outline",
+      "icon": "lucide:building-2",
       "text": "52/7, Plot No. 6, Master Bijender Singh Lane, Vill. Pehladpur Bangar, Bawana Road, Delhi – 110042"
     },
     {
       "title": "Manufacturing Units",
-      "icon": "mdi:factory",
-      "text": "Two industrial units, Kala Amb - Himachal Pradesh"
+      "icon": "lucide:factory",
+      "text": "Two manufacturing units, Kala Amb - Himachal Pradesh"
     },
     {
       "title": "Tool Room",
-      "icon": "mdi:wrench-outline",
+      "icon": "lucide:wrench",
       "text": "State-of-the-art tooling facility, Delhi"
     }
   ],

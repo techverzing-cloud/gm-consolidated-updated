@@ -17,7 +17,7 @@ import { ClientsLogos } from "@/components/about/clients-logos";
 import { FaqSection } from "@/components/about/faq-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
-import { IndustrialUnits } from "@/components/shared/industrial-units";
+import { ManufacturingUnits } from "@/components/shared/manufacturing-units";
 import { getAboutContent } from "@/lib/about";
 import { getClientsContent } from "@/lib/clients";
 import { getFaqContent } from "@/lib/faq";
@@ -36,13 +36,14 @@ export default function AboutPage() {
     <AboutAnimations>
       <AboutHero hero={content.hero} />
       <CorporateStatement statement={content.corporateStatement} />
-      <LeadershipSection section={content.leadership} />
+      
       <CompanyProfile profile={content.companyProfile} facts={content.companyFacts} />
       <CompanyFacts facts={content.companyFacts} />
+      <LeadershipSection section={content.leadership} />
       <TimelineSection timeline={content.timeline} />
       <PhilosophySection philosophy={content.philosophy} />
       <CapabilitiesSection capabilities={content.whatWeDo} />
-      <IndustrialUnits section={content.manufacturingInfrastructure} scope="about" />
+      <ManufacturingUnits section={content.manufacturingInfrastructure} scope="about" />
       <ProductEcosystem section={content.productEcosystem} />
       <EngineeringStrength section={content.engineeringStrength} />
       <ManufacturingStrength section={content.manufacturingStrength} />

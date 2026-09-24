@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { AboutProductEcosystem } from "@/lib/about";
 
@@ -15,16 +15,16 @@ export function ProductEcosystem({
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <header className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent-tint">
+          <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent-tint">
             {section.eyebrow}
           </p>
           <h2
             id="ecosystem-title"
-            className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-white sm:text-4xl"
+            className="mt-5 text-balance text-4xl font-semibold leading-[1.15] text-white sm:text-5xl"
           >
             {section.title}
           </h2>
-          <p className="mt-5 text-pretty text-base leading-relaxed text-navy-muted sm:text-lg">
+          <p className="mt-5 text-pretty text-lg leading-relaxed text-navy-muted sm:text-xl">
             {section.description}
           </p>
         </header>
@@ -46,15 +46,15 @@ export function ProductEcosystem({
                   <Icon icon={category.icon} size={20} />
                 </span>
                 <span className="flex-1">
-                  <span className="block text-xl font-semibold text-white transition-colors duration-200 group-hover:text-accent-tint sm:text-2xl">
+                  <span className="block text-2xl font-semibold text-white transition-colors duration-200 group-hover:text-accent-tint sm:text-3xl">
                     {category.name}
                   </span>
-                  <span className="mt-1 block text-pretty text-sm leading-relaxed text-navy-muted">
+                  <span className="mt-1 block text-pretty text-base leading-relaxed text-navy-muted">
                     {category.description}
                   </span>
                 </span>
                 <Icon
-                  icon="mdi:arrow-right"
+                  icon="lucide:arrow-right"
                   size={22}
                   className="shrink-0 text-navy-muted transition-transform duration-300 group-hover:translate-x-1 group-hover:text-accent-tint"
                 />

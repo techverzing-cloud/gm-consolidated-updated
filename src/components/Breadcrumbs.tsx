@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 
 export interface BreadcrumbItem {
@@ -16,7 +16,7 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
             <li key={item.label} className="flex items-center gap-1.5">
               {index > 0 && (
                 <Icon
-                  icon="mdi:chevron-right"
+                  icon="lucide:chevron-right"
                   size={15}
                   className="text-foreground/40"
                 />

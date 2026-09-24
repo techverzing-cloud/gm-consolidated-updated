@@ -1,0 +1,199 @@
+{
+  "privacyPolicy": {
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy for G.M. Consolidated - how we collect, use, store and protect the information you share with us through our website and business enquiries."
+    },
+    "header": {
+      "eyebrow": "Privacy Policy",
+      "title": "Your privacy matters to us.",
+      "intro": "G.M. Consolidated and its manufacturing units (A.R. Industries and Rao Industries) respect your privacy. This policy explains what information we collect through this website, how we use it and the choices you have. It was last updated on 1 April 2026."
+    },
+    "sections": [
+      {
+        "heading": "1. Who we are",
+        "paragraphs": [
+          "G.M. Consolidated is a home appliance OEM and ODM manufacturer operating two manufacturing units in Kala Amb, Himachal Pradesh, with a head office at Bawana Road, Delhi. We manufacture dry and steam irons, electric kettles, water heaters, room heaters, hair dryers, mosquito rackets and associated components - including in-house tooling, pressure die casting, injection moulding, thermostats and heating elements.",
+          "Throughout this policy, references to \"we\", \"us\" or \"our\" mean G.M. Consolidated and its associated units."
+        ]
+      },
+      {
+        "heading": "2. Information we collect",
+        "paragraphs": [
+          "We collect only the information you choose to give us, primarily through our enquiry form and direct business communications. The information we may collect includes:",
+          "We also collect limited technical information automatically when you browse this website, as described in Section 4."
+        ],
+        "list": [
+          "Your name and the company you represent",
+          "Your work email address and phone number",
+          "Details of your enquiry - product or category of interest, expected quantities and timelines",
+          "Your message content and any documents you share with us during correspondence"
+        ]
+      },
+      {
+        "heading": "3. How we use your information",
+        "paragraphs": [
+          "We use the information you provide only for legitimate business purposes, including:",
+          "We do not sell, rent or trade your personal information to third parties."
+        ],
+        "list": [
+          "Responding to your OEM, ODM, private-label or bulk enquiries",
+          "Preparing quotations, samples and product recommendations",
+          "Communicating about your business relationship with us",
+          "Improving our website and the accuracy of the information we publish",
+          "Meeting any legal or regulatory obligations that apply to us"
+        ]
+      },
+      {
+        "heading": "4. Cookies and browsing data",
+        "paragraphs": [
+          "This website may use cookies and similar technologies to understand how visitors use our site - for example, which pages are visited and how long they are viewed. This helps us keep the site useful and well organised.",
+          "Most browsers let you control cookies through their settings. If you choose to disable them, our site will continue to work, though some optional features may behave differently."
+        ]
+      },
+      {
+        "heading": "5. How we protect your information",
+        "paragraphs": [
+          "We take reasonable organisational and technical measures to protect the information you share with us against unauthorised access, alteration, disclosure or loss. Access to your details is limited to the team members who need it to respond to your enquiry."
+        ]
+      },
+      {
+        "heading": "6. How long we keep your information",
+        "paragraphs": [
+          "We keep your information only as long as needed for the purpose it was collected - for example, to continue a business relationship, or as required by tax, accounting or other legal obligations. When it is no longer needed, it is securely deleted or anonymised."
+        ]
+      },
+      {
+        "heading": "7. Information we share",
+        "paragraphs": [
+          "We may share your information with:",
+          "Where we use service providers, they are required to handle your information in line with this policy and applicable law."
+        ],
+        "list": [
+          "Our own team members who need it to respond to your enquiry",
+          "Trusted service providers who support our business - such as email, hosting or courier services - under confidentiality obligations",
+          "Authorities, courts or regulators, only where required by law"
+        ]
+      },
+      {
+        "heading": "8. Your rights",
+        "paragraphs": [
+          "You may ask us at any time to confirm what information we hold about you, correct any inaccuracy, or request that we delete or stop processing your information. We will respond within a reasonable time and in line with applicable law."
+        ]
+      },
+      {
+        "heading": "9. External websites",
+        "paragraphs": [
+          "This website contains links to third-party websites, such as map directions. We are not responsible for the privacy practices of those websites, and we encourage you to review their own policies."
+        ]
+      },
+      {
+        "heading": "10. Changes to this policy",
+        "paragraphs": [
+          "We may update this policy from time to time to reflect changes in our operations or the law. Any changes will be posted on this page with an updated revision date. We encourage you to review this page periodically."
+        ]
+      },
+      {
+        "heading": "11. Contact us",
+        "paragraphs": [
+          "If you have any question about this policy or how we handle your information, please write to us at delhiho@arind.in or reach us on +91 99711 88883."
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Have an enquiry?",
+      "text": "Tell us what you're looking to build and our team can discuss the next steps.",
+      "links": [
+        { "label": "Start an Enquiry", "href": "/contact#enquiry", "variant": "navy-solid" },
+        { "label": "Explore Manufacturing", "href": "/manufacturing", "variant": "navy-ghost" }
+      ]
+    }
+  },
+  "terms": {
+    "metadata": {
+      "title": "Terms & Conditions",
+      "description": "Terms and conditions for using the G.M. Consolidated website - your agreement on how the site, its content and business enquiries on this website are governed."
+    },
+    "header": {
+      "eyebrow": "Terms & Conditions",
+      "title": "Clear terms for a clear engagement.",
+      "intro": "These terms govern your use of the G.M. Consolidated website and the information, products and services we describe on it. By using this website, you agree to these terms. They were last updated on 1 April 2026."
+    },
+    "sections": [
+      {
+        "heading": "1. About this website",
+        "paragraphs": [
+          "This website is operated by G.M. Consolidated, a home appliance OEM and ODM manufacturer with manufacturing units in Kala Amb, Himachal Pradesh and a head office on Bawana Road, Delhi. The website describes our engineering, manufacturing, quality and product capabilities for business customers, including brands, importers, distributors and retailers."
+        ]
+      },
+      {
+        "heading": "2. Use of this website",
+        "paragraphs": [
+          "You agree to use this website only for lawful purposes and in a way that does not damage, disable or impair the site or interfere with any other user's use of it. You may not attempt to gain unauthorised access to any part of the site, its servers or its data."
+        ]
+      },
+      {
+        "heading": "3. Information published here",
+        "paragraphs": [
+          "We make every effort to keep the information on this website - product descriptions, specifications, images and capacities - accurate and current. This information is provided in good faith for general business information, and we may update or withdraw it at any time without notice. For a binding specification, always confirm details with our team before proceeding."
+        ]
+      },
+      {
+        "heading": "4. Enquiries and quotations",
+        "paragraphs": [
+          "Information you submit through our enquiry forms or direct correspondence helps us understand your requirement. Submitting an enquiry does not create a contract between us. Any quotation, sample, commercial offer or delivery commitment is made separately by our team and is subject to our written confirmation."
+        ]
+      },
+      {
+        "heading": "5. Products and services",
+        "paragraphs": [
+          "Our products are described after manufacturing to the relevant standards and quality plans. Custom OEM and ODM programmes - including printing, packaging, tooling and technical specifications - are agreed individually and documented in writing. References on this site to standards, capacity or performance should be confirmed against the specific agreed specification for your programme."
+        ]
+      },
+      {
+        "heading": "6. Intellectual property",
+        "paragraphs": [
+          "The content of this website - including text, images, logos, product photographs and layout - is owned by or licensed to G.M. Consolidated and is protected by copyright and other intellectual property laws. You may view and download material for your own business reference, but you may not reproduce, distribute or use it commercially without our written permission."
+        ]
+      },
+      {
+        "heading": "7. Limitation of liability",
+        "paragraphs": [
+          "To the extent permitted by law, we accept no liability for any loss or damage arising from your use of this website, or from reliance on information published here, including indirect or consequential losses. Nothing in these terms limits liability that cannot lawfully be limited."
+        ]
+      },
+      {
+        "heading": "8. External links",
+        "paragraphs": [
+          "This website may link to third-party websites for your convenience, such as map and direction services. We do not control and are not responsible for their content or availability."
+        ]
+      },
+      {
+        "heading": "9. Governing law",
+        "paragraphs": [
+          "These terms are governed by the laws of India. Any dispute arising from your use of this website is subject to the jurisdiction of the courts at Delhi."
+        ]
+      },
+      {
+        "heading": "10. Changes to these terms",
+        "paragraphs": [
+          "We may revise these terms from time to time. The current version is always available on this page, and your continued use of the website after changes are posted means you accept the revised terms."
+        ]
+      },
+      {
+        "heading": "11. Contact us",
+        "paragraphs": [
+          "If you have any question about these terms, please write to us at delhiho@arind.in or reach us on +91 99711 88883."
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ready to discuss a project?",
+      "text": "Tell us what you're looking to build and our team can discuss the next steps.",
+      "links": [
+        { "label": "Start an Enquiry", "href": "/contact#enquiry", "variant": "navy-solid" },
+        { "label": "Explore Manufacturing", "href": "/manufacturing", "variant": "navy-ghost" }
+      ]
+    }
+  }
+}

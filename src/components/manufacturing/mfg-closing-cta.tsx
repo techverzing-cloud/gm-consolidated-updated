@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { ManufacturingClosing } from "@/lib/manufacturing";
@@ -14,7 +14,7 @@ export function ClosingCta({ closing }: { closing: ManufacturingClosing }) {
         <div data-mfg-parallax className="absolute inset-0">
           <Image
             src="/images/mfg-closing-cta.jpg"
-            alt="Manufacturing floor of the G.M. Consolidated industrial units"
+            alt="Manufacturing floor of the G.M. Consolidated manufacturing units"
             fill
             sizes="100vw"
             className="object-cover object-center"
@@ -44,7 +44,7 @@ export function ClosingCta({ closing }: { closing: ManufacturingClosing }) {
               className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"
             >
               {closing.primaryLabel}
-              <Icon icon="mdi:arrow-right" size={16} />
+              <Icon icon="lucide:arrow-right" size={16} />
             </Link>
             <Link
               href={closing.secondaryHref}

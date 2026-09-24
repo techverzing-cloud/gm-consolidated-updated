@@ -27,7 +27,7 @@ export function AboutHero({ hero }: { hero: AboutHeroContent }) {
         <div className="max-w-2xl">
           <p
             data-about-hero-eyebrow
-            className="text-sm font-semibold uppercase tracking-[0.16em] text-accent"
+            className="text-base font-semibold uppercase tracking-[0.16em] text-accent"
           >
             {hero.eyebrow}
           </p>
@@ -42,7 +42,7 @@ export function AboutHero({ hero }: { hero: AboutHeroContent }) {
 
           <p
             data-about-hero-copy
-            className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
+            className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl"
           >
             {hero.description}
           </p>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import { Icon } from "@/components/ui/Icon";
 
 const CHECKPOINTS = [
@@ -36,17 +36,17 @@ const CHECKPOINTS = [
 
 const TRUST_INDICATORS = [
   {
-    icon: "mdi:check-decagram-outline",
+    icon: "lucide:badge-check",
     label: "ISO 9001:2015",
     text: "A.R. Industries and Rao Industries certified to the ISO 9001:2015 quality-management standard.",
   },
   {
-    icon: "mdi:shield-check-outline",
+    icon: "lucide:shield-check",
     label: "BIS licensed",
     text: "Product lines carry BIS licensing, manufactured to the applicable Indian Standards.",
   },
   {
-    icon: "mdi:test-tube",
+    icon: "lucide:test-tube",
     label: "In-house test laboratory",
     text: "A BIS-based laboratory conducts electrical type tests in-house.",
   },
@@ -117,7 +117,7 @@ export function Quality() {
                     aria-hidden="true"
                     className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent text-white"
                   >
-                    <Icon icon="mdi:check-bold" size={14} />
+                    <Icon icon="lucide:check" size={14} />
                   </span>
                   <div data-check-text>
                     <h3 className="text-base font-semibold text-foreground">

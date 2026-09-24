@@ -1,12 +1,9 @@
-"use client";
-
 import Link from "next/link";
-import { CatalogCarousel } from "@/components/catalog/CatalogCarousel";
 
 const HERO = {
   eyebrow: "Five Engineered Ranges",
   titleLines: ["Our Catalogue.", "Five Engineered Ranges."],
-  copy: "Garment care, water heating, heating and comfort, personal care and specialty electronics - every product designed, tooled and built in-house for OEM, ODM and private-label programmes.",
+  copy: "Garment care, Water Heater, heating and comfort, personal care and specialty electronics - every product designed, tooled and built in-house for OEM, ODM and private-label programmes.",
   meta: "OEM • ODM • Private label",
   primary: { label: "Explore Ranges", href: "/catalog/garment-care" },
   secondary: { label: "Request Enquiry", href: "/contact#enquiry" },
@@ -45,12 +42,6 @@ export function CatalogHero() {
               {HERO.secondary.label}
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section aria-roledescription="carousel" aria-label="Featured highlights" className="bg-white">
-        <div className="mx-auto max-w-[1320px] px-4 pb-14 pt-6 sm:px-6 sm:pb-20 lg:px-8">
-          <CatalogCarousel />
         </div>
       </section>
     </div>

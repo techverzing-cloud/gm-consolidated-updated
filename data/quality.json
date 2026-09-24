@@ -8,7 +8,7 @@
     "title": "Every Unit Is Tested. Not Just Sampled.",
     "description": "Quality is engineered into the manufacturing flow, with checkpoints across production and routine testing before finished products are released.",
     "image": "/images/quality-hero.jpg",
-    "imageAlt": "Production floor at the G.M. Consolidated industrial units, Kala Amb"
+    "imageAlt": "Production floor at the G.M. Consolidated manufacturing units, Kala Amb"
   },
   "philosophy": {
     "eyebrow": "Quality Philosophy",
@@ -19,43 +19,43 @@
     "eyebrow": "Inspection Process",
     "title": "Six checkpoints from material to release.",
     "image": "/images/quality-inspection.jpg",
-    "imageAlt": "Quality inspection process at the G.M. Consolidated industrial units, Kala Amb",
+    "imageAlt": "Quality inspection process at the G.M. Consolidated manufacturing units, Kala Amb",
     "steps": [
       {
         "number": "01",
         "title": "Incoming Material Inspection",
         "description": "Inspection of incoming materials before they enter production.",
-        "icon": "mdi:package-check"
+        "icon": "lucide:package-check"
       },
       {
         "number": "02",
         "title": "In-Process Checkpoints",
         "description": "Quality checkpoints throughout manufacturing.",
-        "icon": "mdi:clipboard-check-outline"
+        "icon": "lucide:clipboard-check"
       },
       {
         "number": "03",
         "title": "Electrical Type Tests",
         "description": "Electrical testing as part of the quality process.",
-        "icon": "mdi:flash-outline"
+        "icon": "lucide:zap"
       },
       {
         "number": "04",
         "title": "Assembly Line Checks",
         "description": "Checks performed during appliance assembly.",
-        "icon": "mdi:factory"
+        "icon": "lucide:factory"
       },
       {
         "number": "05",
         "title": "Routine Test",
         "description": "Finished products undergo routine testing.",
-        "icon": "mdi:test-tube"
+        "icon": "lucide:test-tube"
       },
       {
         "number": "06",
         "title": "Packing & Release",
         "description": "Final release before packing and dispatch.",
-        "icon": "mdi:package-check"
+        "icon": "lucide:package-check"
       }
     ]
   },
@@ -66,17 +66,17 @@
       {
         "title": "ISO 9001:2015",
         "description": "A.R. Industries and Rao Industries certified to ISO 9001:2015.",
-        "icon": "mdi:certificate-outline"
+        "icon": "lucide:award"
       },
       {
         "title": "BIS Licensed Product Lines",
         "description": "BIS licensed product lines.",
-        "icon": "mdi:shield-check-outline"
+        "icon": "lucide:shield-check"
       },
       {
         "title": "In-House Testing Laboratory",
         "description": "In-house testing laboratory functioning as per BIS.",
-        "icon": "mdi:flask-outline"
+        "icon": "lucide:flask-conical"
       }
     ]
   },
@@ -96,6 +96,6 @@
     "secondaryLabel": "Explore OEM / ODM",
     "secondaryHref": "/oem-odm",
     "image": "/images/factory/rao-industry-original.jpg",
-    "imageAlt": "Production floor of the G.M. Consolidated industrial units, Kala Amb"
+    "imageAlt": "Production floor of the G.M. Consolidated manufacturing units, Kala Amb"
   }
 }

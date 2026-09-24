@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { AboutClosingStatement } from "@/lib/about";
@@ -25,16 +25,16 @@ export function AboutCta({ closing }: { closing: AboutClosingStatement }) {
 
       <div className="relative mx-auto max-w-[1320px] px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
         <div data-about-cta-content className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent-tint">
+          <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent-tint">
             {closing.eyebrow}
           </p>
           <h2
             id="cta-title"
-            className="mt-5 text-balance text-4xl font-semibold leading-[1.08] text-white sm:text-5xl"
+            className="mt-5 text-balance text-5xl font-semibold leading-[1.08] text-white sm:text-6xl"
           >
             {closing.title}
           </h2>
-          <p className="mt-6 text-pretty text-base leading-relaxed text-navy-muted sm:text-lg">
+          <p className="mt-6 text-pretty text-lg leading-relaxed text-navy-muted sm:text-xl">
             {closing.description}
           </p>
 
@@ -44,7 +44,7 @@ export function AboutCta({ closing }: { closing: AboutClosingStatement }) {
               className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"
             >
               {closing.primaryLabel}
-              <Icon icon="mdi:arrow-right" size={16} />
+              <Icon icon="lucide:arrow-right" size={16} />
             </Link>
             <Link
               href={closing.secondaryHref}

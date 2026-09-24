@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import type { FaqContent } from "@/lib/faq";
 
 export function FaqSection({ content }: { content: FaqContent }) {
@@ -16,20 +16,20 @@ export function FaqSection({ content }: { content: FaqContent }) {
         >
           <p
             data-reveal-child
-            className="text-sm font-semibold uppercase tracking-[0.16em] text-accent"
+            className="text-base font-semibold uppercase tracking-[0.16em] text-accent"
           >
             {content.eyebrow}
           </p>
           <h2
             id="faq-title"
             data-reveal-child
-            className="mt-4 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+            className="mt-4 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
           >
             {content.title}
           </h2>
           <p
             data-reveal-child
-            className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
+            className="mt-5 text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl"
           >
             {content.description}
           </p>
@@ -49,17 +49,17 @@ export function FaqSection({ content }: { content: FaqContent }) {
               className="group rounded-sm border border-border bg-background-alt open:bg-white"
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-5 [&::-webkit-details-marker]:hidden">
-                <h3 className="text-base font-semibold leading-snug text-foreground sm:text-lg">
+                <h3 className="text-lg font-semibold leading-snug text-foreground sm:text-xl">
                   {item.question}
                 </h3>
                 <span
                   aria-hidden="true"
                   className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border text-accent transition-transform duration-300 group-open:rotate-45"
                 >
-                  <Icon icon="mdi:plus" size={18} />
+                  <Icon icon="lucide:plus" size={18} />
                 </span>
               </summary>
-              <p className="px-6 pb-6 text-pretty text-base leading-relaxed text-foreground-secondary">
+              <p className="px-6 pb-6 text-pretty text-lg leading-relaxed text-foreground-secondary">
                 {item.answer}
               </p>
             </details>

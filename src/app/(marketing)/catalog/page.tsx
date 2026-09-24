@@ -6,7 +6,7 @@ import { getCategories } from "@/lib/catalog";
 export const metadata: Metadata = {
   title: "Catalog",
   description:
-    "Explore the G.M. Consolidated catalogue - garment care, water heating, heating and comfort, personal care and specialty electronics, designed, tooled and built in-house.",
+    "Explore the G.M. Consolidated catalogue - garment care, Water Heater, heating and comfort, personal care and specialty electronics, designed, tooled and built in-house.",
 };
 
 export default function CatalogPage() {

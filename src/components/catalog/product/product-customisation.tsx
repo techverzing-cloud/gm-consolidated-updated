@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { CatalogProduct } from "@/lib/catalog";
 
@@ -51,7 +51,7 @@ export function ProductCustomisation({
                 className="flex items-start gap-3 rounded-sm border border-navy-border bg-navy/60 p-4"
               >
                 <Icon
-                  icon="mdi:vector-square"
+                  icon="lucide:square-dashed"
                   size={18}
                   className="mt-0.5 shrink-0 text-accent-tint"
                 />
@@ -89,7 +89,7 @@ export function ProductCustomisation({
               className="btn-navy-solid px-6 py-3 text-sm"
             >
               Explore OEM / ODM
-              <Icon icon="mdi:arrow-right" size={16} />
+              <Icon icon="lucide:arrow-right" size={16} />
             </Link>
             <Link
               href={product.enquiry?.href ?? "/contact#enquiry"}

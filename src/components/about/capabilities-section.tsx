@@ -17,19 +17,19 @@ export function CapabilitiesSection({
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+            <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
               {capabilities.eyebrow}
             </p>
             <h2
               id="capabilities-title"
-              className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+              className="mt-5 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
             >
               {capabilities.title}
             </h2>
           </div>
 
           <div className="lg:col-span-8">
-            <p className="max-w-xl text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
+            <p className="max-w-xl text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl">
               {capabilities.description}
             </p>
 
@@ -51,10 +51,10 @@ export function CapabilitiesSection({
                     {capability.number}
                   </span>
                   <span className="flex-1">
-                    <h3 className="text-lg font-semibold text-foreground">
+                    <h3 className="text-xl font-semibold text-foreground">
                       {capability.title}
                     </h3>
-                    <p className="mt-1 text-pretty text-sm leading-relaxed text-foreground-secondary sm:text-base">
+                    <p className="mt-1 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
                       {capability.description}
                     </p>
                   </span>

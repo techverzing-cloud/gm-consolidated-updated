@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { CatalogProduct } from "@/lib/catalog";
 
@@ -34,7 +34,7 @@ export function ProductClosingCta({ product }: { product: CatalogProduct }) {
               className="btn-navy-solid w-full px-6 py-3 text-base sm:w-auto"
             >
               Request Product Enquiry
-              <Icon icon="mdi:arrow-right" size={16} />
+              <Icon icon="lucide:arrow-right" size={16} />
             </Link>
             <Link
               href="/catalog"

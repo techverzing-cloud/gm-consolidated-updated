@@ -1,5 +1,6 @@
 import engineeringData from "../../data/engineering.json";
 import contactData from "../../data/contact.json";
+import legalData from "../../data/legal.json";
 
 export interface ContentLink {
   label: string;
@@ -48,6 +49,19 @@ export interface ContactChannel {
   title: string;
   icon: string;
   text: string;
+}
+
+export interface LegalSection {
+  heading: string;
+  paragraphs: string[];
+  list?: string[];
+}
+
+export interface LegalPage {
+  metadata: ContentPageMetadata;
+  header: PageHeaderContent;
+  sections: LegalSection[];
+  cta: ContentCTA;
 }
 
 export interface EngineeringPage {
@@ -158,6 +172,10 @@ export interface ContactPage {
 
 const engineering = engineeringData as unknown as EngineeringPage;
 const contact = contactData as unknown as ContactPage;
+const legal = legalData as unknown as {
+  privacyPolicy: LegalPage;
+  terms: LegalPage;
+};
 
 export function getEngineeringContent(): EngineeringPage {
   return engineering;
@@ -165,4 +183,12 @@ export function getEngineeringContent(): EngineeringPage {
 
 export function getContactContent(): ContactPage {
   return contact;
+}
+
+export function getPrivacyPolicyContent(): LegalPage {
+  return legal.privacyPolicy;
+}
+
+export function getTermsContent(): LegalPage {
+  return legal.terms;
 }

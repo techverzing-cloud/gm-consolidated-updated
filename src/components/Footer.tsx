@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import { SITE_INFO, SOCIALS } from "@/data/site";
@@ -13,8 +13,8 @@ const QUICK_LINKS = [
 ];
 
 const LEGAL_LINKS = [
-  { label: "Privacy Policy", href: "#" },
-  { label: "Terms", href: "#" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms", href: "/terms" },
   { label: "Sitemap", href: "/sitemap.xml" },
 ];
 
@@ -87,10 +87,10 @@ export function Footer() {
                 alt="G.M. Consolidated logo"
                 width={591}
                 height={326}
-                className="h-9 w-auto"
+                className="h-16 w-auto"
               />
               <p className="mt-5 max-w-sm text-sm leading-relaxed text-navy-muted">
-                Two industrial units in Kala Amb, Himachal Pradesh,
+                Two manufacturing units in Kala Amb, Himachal Pradesh,
                 manufacturing home appliances for OEM, ODM and private-label
                 programmes since 1983.
               </p>
@@ -122,7 +122,7 @@ export function Footer() {
                       href={link.href}
                       className="link-underline inline-flex items-center gap-2 text-sm text-navy-muted transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                     >
-                      <Icon icon="mdi:chevron-right" size={15} />
+                      <Icon icon="lucide:chevron-right" size={15} />
                       {link.label}
                     </Link>
                   </li>
@@ -141,7 +141,7 @@ export function Footer() {
                       href={`/catalog/${category.slug}`}
                       className="link-underline inline-flex items-center gap-2 text-sm text-navy-muted transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                     >
-                      <Icon icon="mdi:chevron-right" size={15} />
+                      <Icon icon="lucide:chevron-right" size={15} />
                       {category.name}
                     </Link>
                   </li>
@@ -157,7 +157,7 @@ export function Footer() {
                 <li>
                   <p className="flex items-start gap-3 text-sm text-navy-muted">
                     <Icon
-                      icon="mdi:phone-outline"
+                      icon="lucide:phone"
                       size={18}
                       className="mt-0.5 shrink-0 text-white/80"
                     />
@@ -172,7 +172,7 @@ export function Footer() {
                 <li>
                   <p className="flex items-start gap-3 text-sm text-navy-muted">
                     <Icon
-                      icon="mdi:email-outline"
+                      icon="lucide:mail"
                       size={18}
                       className="mt-0.5 shrink-0 text-white/80"
                     />
@@ -195,7 +195,7 @@ export function Footer() {
                 <li>
                   <p className="flex items-start gap-3 text-sm leading-relaxed text-navy-muted">
                     <Icon
-                      icon="mdi:map-marker-outline"
+                      icon="lucide:map-pin"
                       size={18}
                       className="mt-0.5 shrink-0 text-white/80"
                     />
@@ -240,7 +240,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-navy-border">
-          <div className="mx-auto flex max-w-[1320px] flex-col items-center gap-1 px-4 py-5 text-center text-sm text-navy-muted sm:flex-row sm:justify-between sm:px-6 sm:text-left lg:px-8">
+          <div className="mx-auto flex max-w-[1320px] flex-col items-center gap-3 px-4 py-5 text-center text-sm text-navy-muted sm:flex-row sm:justify-between sm:gap-1 sm:px-6 sm:text-left lg:px-8">
             <p className="text-sm text-navy-muted">
               &copy; 2026 G.M. Consolidated. All rights reserved.
             </p>

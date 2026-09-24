@@ -16,8 +16,10 @@ const STATIC_ROUTES: StaticRoute[] = [
   { path: "/engineering", priority: 0.8 },
   { path: "/manufacturing", priority: 0.8 },
   { path: "/oem-odm", priority: 0.8 },
+  { path: "/privacy-policy", priority: 0.6 },
   { path: "/quality", priority: 0.8 },
   { path: "/rao-industries", priority: 0.8 },
+  { path: "/terms", priority: 0.6 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

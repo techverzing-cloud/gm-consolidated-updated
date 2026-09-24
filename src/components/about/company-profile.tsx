@@ -18,7 +18,7 @@ export function CompanyProfile({ profile, facts }: CompanyProfileProps) {
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div data-about-profile className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+            <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
               {profile.eyebrow}
             </p>
             <p className="mt-10 text-8xl font-semibold leading-none tracking-tight text-foreground sm:mt-14 sm:text-9xl">
@@ -30,7 +30,7 @@ export function CompanyProfile({ profile, facts }: CompanyProfileProps) {
           <div className="lg:col-span-7">
             <h2
               id="profile-title"
-              className="text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+              className="text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
             >
               {profile.title}
             </h2>
@@ -38,7 +38,7 @@ export function CompanyProfile({ profile, facts }: CompanyProfileProps) {
               {profile.paragraphs.map((paragraph) => (
                 <p
                   key={paragraph}
-                  className="text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
+                  className="text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl"
                 >
                   {paragraph}
                 </p>

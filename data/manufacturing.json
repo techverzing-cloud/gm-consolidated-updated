@@ -1,25 +1,25 @@
 {
   "metadata": {
     "title": "Manufacturing Infrastructure | G.M. Consolidated",
-    "description": "Two industrial units in Kala Amb, Himachal Pradesh supporting integrated appliance engineering, die casting, injection moulding, tooling, finishing, assembly and routine testing."
+    "description": "Two manufacturing units in Kala Amb, Himachal Pradesh supporting integrated appliance engineering, die casting, injection moulding, tooling, finishing, assembly and routine testing."
   },
   "hero": {
     "eyebrow": "Manufacturing Infrastructure",
     "title": "From Material to Finished Product.",
-    "description": "Two industrial units in Kala Amb, Himachal Pradesh, supporting integrated appliance engineering, manufacturing, finishing, assembly and testing.",
+    "description": "Two manufacturing units in Kala Amb, Himachal Pradesh, supporting integrated appliance engineering, manufacturing, finishing, assembly and testing.",
     "image": "/images/manufacturing-hero.jpg",
-    "imageAlt": "Production floor of the G.M. Consolidated industrial units, Kala Amb"
+    "imageAlt": "Production floor of the G.M. Consolidated manufacturing units, Kala Amb"
   },
   "intro": {
     "eyebrow": "Our Manufacturing Strength",
     "title": "Built Around Integrated Manufacturing.",
-    "description": "G.M. Consolidated operates across two specialized industrial units in Kala Amb, with capabilities spanning tooling, forming, moulding, component manufacturing, finishing, assembly and routine testing."
+    "description": "G.M. Consolidated operates across two specialized manufacturing units in Kala Amb, with capabilities spanning tooling, forming, moulding, component manufacturing, finishing, assembly and routine testing."
   },
   "metrics": [
     {
       "value": "2",
       "suffix": "",
-      "label": "Industrial Units"
+      "label": "Manufacturing Units"
     },
     {
       "value": "120–250",
@@ -156,37 +156,37 @@
       {
         "number": "01",
         "title": "Pressure Die Casting",
-        "icon": "mdi:factory",
+        "icon": "lucide:factory",
         "details": ["120–250 ton PDC machines", "Soleplate manufacturing"]
       },
       {
         "number": "02",
         "title": "Plastic Injection Moulding",
-        "icon": "mdi:tune",
+        "icon": "lucide:sliders-horizontal",
         "details": ["25 machines, 80–400 ton range", "PC", "PA6 / PA66", "PBT", "ABS", "PP", "Insert moulding"]
       },
       {
         "number": "03",
         "title": "Press Shop",
-        "icon": "mdi:hammer",
+        "icon": "lucide:hammer",
         "details": ["Automatic sheet feeders", "Progressive tooling"]
       },
       {
         "number": "04",
         "title": "Tool Room",
-        "icon": "mdi:cog-outline",
+        "icon": "lucide:cog",
         "details": ["CNC vertical machining", "EDM", "20+ years of experience"]
       },
       {
         "number": "05",
         "title": "Thermostat Manufacturing",
-        "icon": "mdi:thermometer-lines",
+        "icon": "lucide:thermometer",
         "details": ["4 million annual capacity", "Semi-automatic riveting lines", "Hydro-pneumatic riveting presses", "Brass terminals"]
       },
       {
         "number": "06",
         "title": "Supporting Operations",
-        "icon": "mdi:tools",
+        "icon": "lucide:wrench",
         "details": ["Riveting", "Laser / pad printing", "Painting", "Auto-conveyorised assembly"]
       }
     ]
@@ -199,50 +199,50 @@
     "stages": [
       {
         "title": "Engineering",
-        "icon": "mdi:vector-square"
+        "icon": "lucide:square-dashed"
       },
       {
         "title": "Tooling",
-        "icon": "mdi:tools"
+        "icon": "lucide:wrench"
       },
       {
         "title": "Component Manufacturing",
-        "icon": "mdi:factory"
+        "icon": "lucide:factory"
       },
       {
         "title": "Finishing",
-        "icon": "mdi:spray"
+        "icon": "lucide:spray-can"
       },
       {
         "title": "Assembly",
-        "icon": "mdi:robot-industrial"
+        "icon": "lucide:bot"
       },
       {
         "title": "Testing",
-        "icon": "mdi:test-tube"
+        "icon": "lucide:test-tube"
       }
     ]
   },
   "units": {
-    "eyebrow": "Two Industrial Units",
+    "eyebrow": "Two Manufacturing Units",
     "title": "One Manufacturing Ecosystem.",
-    "description": "Two specialized industrial units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
+    "description": "Two specialized manufacturing units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
     "units": [
       {
         "number": "01",
         "name": "A. R. Industries",
         "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
-        "image": "/images/factory/ar-industry.jpg",
-        "imageAlt": "A. R. Industries production line inside the G.M. Consolidated Kala Amb unit"
+        "image": "/images/factory/assembly-unit.jpg",
+        "imageAlt": "A. R. Industries small domestic appliance assembly line inside the G.M. Consolidated Kala Amb unit"
       },
       {
         "number": "02",
         "name": "Rao Industries",
         "location": "Mogi Nand, Himachal Pradesh 173030",
-        "focus": "Water heating systems production",
-        "image": "/images/factory/rao-industry.jpg",
-        "imageAlt": "Rao Industries production floor for water heating appliance systems"
+        "focus": "Water Heater systems production",
+        "image": "/images/factory/pdc.webp",
+        "imageAlt": "Rao Industries pressure die casting line for Water Heater appliance systems"
       }
     ]
   },

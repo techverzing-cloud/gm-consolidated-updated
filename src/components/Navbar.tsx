@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -148,7 +148,7 @@ export function Navbar() {
             >
               Catalog
               <Icon
-                icon="mdi:chevron-down"
+                icon="lucide:chevron-down"
                 size={16}
                 className={`transition-transform duration-200 ${
                   catalogOpen ? "rotate-180" : ""
@@ -200,7 +200,7 @@ export function Navbar() {
                     className="flex items-center justify-between rounded-sm px-3 py-2.5 text-sm font-semibold text-accent transition-colors hover:bg-background-alt hover:text-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
                     View full catalogue
-                    <Icon icon="mdi:arrow-right" size={16} />
+                    <Icon icon="lucide:arrow-right" size={16} />
                   </Link>
                 </li>
               </ul>
@@ -340,7 +340,7 @@ export function Navbar() {
             href={`tel:${SITE_INFO.phone.replace(/[^+\d]/g, "")}`}
             className="mt-3 flex items-center justify-center gap-2 px-3 py-2 text-center text-sm font-semibold text-accent transition-colors hover:text-accent-hover"
           >
-            <Icon icon="mdi:phone-outline" size={16} />
+            <Icon icon="lucide:phone" size={16} />
             {SITE_INFO.phone}
           </a>
         </nav>

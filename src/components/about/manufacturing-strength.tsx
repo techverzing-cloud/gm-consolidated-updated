@@ -13,16 +13,16 @@ export function ManufacturingStrength({
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <header className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+          <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
             {section.eyebrow}
           </p>
           <h2
             id="metrics-title"
-            className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+            className="mt-5 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
           >
             {section.title}
           </h2>
-          <p className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
+          <p className="mt-5 text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl">
             {section.description}
           </p>
         </header>
@@ -36,10 +36,10 @@ export function ManufacturingStrength({
                 data-about-metric
                 className="flex flex-col bg-white p-8 text-center"
               >
-                <dt className="order-2 mt-4 text-sm font-medium text-foreground-secondary">
+                <dt className="order-2 mt-4 text-base font-medium text-foreground-secondary">
                   {metric.label}
                 </dt>
-                <dd className="order-1 text-2xl font-semibold leading-none tracking-tight text-accent sm:text-3xl">
+                <dd className="order-1 text-3xl font-semibold leading-none tracking-tight text-accent sm:text-4xl">
                   {parts ? (
                     <span
                       data-about-count

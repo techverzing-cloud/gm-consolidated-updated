@@ -37,7 +37,7 @@ export default async function CategoryPage({
   return (
     <div>
       <section className="bg-background-alt">
-        <div className="mx-auto max-w-330 px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <Breadcrumbs
             items={[
               { label: "Home", href: "/" },
@@ -63,7 +63,7 @@ export default async function CategoryPage({
       </section>
 
       <section className="bg-white" aria-label={`${category.name} products`}>
-        <div className="mx-auto max-w-330 px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {category.products.map((product) => (
               <ProductCard

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { AboutQualityPositioning } from "@/lib/about";
 
@@ -16,16 +16,16 @@ export function QualityPositioning({
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+            <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
               {section.eyebrow}
             </p>
             <h2
               id="quality-title"
-              className="mt-5 text-balance text-3xl font-semibold leading-[1.15] text-foreground sm:text-4xl"
+              className="mt-5 text-balance text-4xl font-semibold leading-[1.15] text-foreground sm:text-5xl"
             >
               {section.title}
             </h2>
-            <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
+            <p className="mt-5 max-w-xl text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl">
               {section.description}
             </p>
           </div>
@@ -45,13 +45,13 @@ export function QualityPositioning({
                   />
                   <span className="flex items-center gap-3">
                     <Icon icon={point.icon} size={20} className="text-accent" />
-                    <h3 className="text-lg font-semibold text-foreground">
+                    <h3 className="text-xl font-semibold text-foreground">
                       <span className="text-foreground-secondary">{String(index + 1).padStart(2, "0")}</span>
                       {" "}
                       {point.title}
                     </h3>
                   </span>
-                  <p className="mt-2 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
+                  <p className="mt-2 text-pretty text-lg leading-relaxed text-foreground-secondary sm:text-xl">
                     {point.description}
                   </p>
                 </li>
@@ -64,7 +64,7 @@ export function QualityPositioning({
                 className="mt-10 inline-flex items-center gap-2 rounded-sm bg-navy px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
               >
                 {section.ctaLabel}
-                <Icon icon="mdi:arrow-right" size={16} className="text-accent-tint" />
+                <Icon icon="lucide:arrow-right" size={16} className="text-accent-tint" />
               </Link>
             )}
           </div>

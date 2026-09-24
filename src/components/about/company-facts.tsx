@@ -13,7 +13,7 @@ export function CompanyFacts({ facts }: { facts: AboutFact[] }) {
             const parts = parseMetric(fact.value, fact.suffix);
             return (
               <div key={fact.label} data-about-fact className="flex flex-col">
-                <dt className="order-2 mt-4 text-sm font-medium uppercase tracking-[0.12em] text-foreground-secondary">
+                <dt className="order-2 mt-4 text-base font-medium uppercase tracking-[0.12em] text-foreground-secondary">
                   {fact.label}
                 </dt>
                 <dd className="order-1 text-5xl font-semibold leading-none tracking-tight text-foreground sm:text-6xl">

@@ -28,13 +28,13 @@ export default function EngineeringPage() {
 
       <section className="bg-white" aria-labelledby="process-heading">
         <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
-          <p
-            id="process-heading"
-            className="text-sm font-semibold uppercase tracking-[0.14em] text-accent"
-          >
+          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-accent">
             {content.process.label}
           </p>
-          <h2 className="mt-3 max-w-2xl text-balance text-2xl font-semibold text-foreground sm:text-3xl">
+          <h2
+            id="process-heading"
+            className="mt-3 max-w-2xl text-balance text-3xl font-semibold text-foreground sm:text-4xl"
+          >
             {content.process.title}
           </h2>
           <div className="mt-8">
@@ -46,13 +46,13 @@ export default function EngineeringPage() {
       <section className="bg-background-alt" aria-labelledby="capabilities-heading">
         <div className="mx-auto max-w-[1320px] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-2xl">
-            <p
-              id="capabilities-heading"
-              className="text-sm font-semibold uppercase tracking-[0.14em] text-accent"
-            >
+            <p className="text-sm font-semibold uppercase tracking-[0.14em] text-accent">
               {content.capabilities.label}
             </p>
-            <h2 className="mt-3 text-balance text-2xl font-semibold text-foreground sm:text-3xl">
+            <h2
+              id="capabilities-heading"
+              className="mt-3 text-balance text-3xl font-semibold text-foreground sm:text-4xl"
+            >
               {content.capabilities.title}
             </h2>
           </div>

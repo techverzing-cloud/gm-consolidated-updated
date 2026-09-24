@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import type { ProcessStep } from "@/lib/content";
 
 const CARD_COLS: Record<number, string> = {
@@ -27,7 +27,7 @@ export function StepGrid({
               aria-hidden="true"
               className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent text-white"
             >
-              <Icon icon="mdi:check-bold" size={14} />
+              <Icon icon="lucide:check" size={14} />
             </span>
             <div>
               <p className="text-sm font-semibold tracking-wide text-accent">

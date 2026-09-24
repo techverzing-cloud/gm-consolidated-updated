@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { ContactCta as ContactCtaContent } from "@/lib/content";
@@ -49,7 +49,7 @@ export function ContactCta({ cta }: { cta: ContactCtaContent }) {
               className={`${BUTTON_STYLES[cta.primaryVariant]} px-7 py-3.5 text-base`}
             >
               {cta.primaryLabel}
-              <Icon icon="mdi:arrow-right" size={20} />
+              <Icon icon="lucide:arrow-right" size={20} />
             </Link>
             <Link
               href={cta.secondaryHref}

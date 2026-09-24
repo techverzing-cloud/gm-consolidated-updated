@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "About G.M. Consolidated | Appliance Engineering & Manufacturing",
-    "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across two industrial units in Kala Amb, Himachal Pradesh."
+    "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across two manufacturing units in Kala Amb, Himachal Pradesh."
   },
   "hero": {
     "eyebrow": "G.M. Consolidated",
@@ -13,7 +13,7 @@
   "corporateStatement": {
     "eyebrow": "Corporate Statement",
     "title": "Setting Tomorrow's Standards. Built Beyond Expectations.",
-    "description": "Since 1983, G.M. Consolidated has evolved from a pioneer in aluminum pressure die casting into a leading OEM provider of domestic appliances, grooming kits and heating appliances - delivering superior products that consistently exceed customer expectations."
+    "description": "Since 1983, G.M. Consolidated has evolved from a pioneer in aluminum pressure die casting into a leading OEM provider of domestic appliances, grooming kits, and heating appliances - delivering superior products that consistently exceed customer expectations."
   },
   "companyProfile": {
     "eyebrow": "About G.M. Consolidated",
@@ -38,7 +38,7 @@
     {
       "value": "2",
       "suffix": "",
-      "label": "Industrial Units"
+      "label": "Manufacturing Units"
     },
     {
       "value": "500+",
@@ -142,19 +142,19 @@
         "number": "01",
         "title": "Design Precision",
         "description": "A focus on accurate product development and engineering from concept through manufacturing.",
-        "icon": "mdi:target"
+        "icon": "lucide:target"
       },
       {
         "number": "02",
         "title": "Modern Aesthetics",
         "description": "Products are developed with attention to clean, contemporary form and practical usability.",
-        "icon": "mdi:shape-outline"
+        "icon": "lucide:shapes"
       },
       {
         "number": "03",
         "title": "Product Durability",
         "description": "Engineering and quality processes are focused on dependable, commercial-ready products.",
-        "icon": "mdi:shield-check-outline"
+        "icon": "lucide:shield-check"
       }
     ]
   },
@@ -167,77 +167,77 @@
         "number": "01",
         "title": "Product Design & Development",
         "description": "Appliance design, development and engineering for domestic and personal-care products.",
-        "icon": "mdi:lightbulb-outline"
+        "icon": "lucide:lightbulb"
       },
       {
         "number": "02",
         "title": "Engineering & CAD",
         "description": "Internal capability to move from blueprint and 3D CAD modelling toward customized tooling structures.",
-        "icon": "mdi:vector-square"
+        "icon": "lucide:square-dashed"
       },
       {
         "number": "03",
         "title": "Tooling",
         "description": "In-house tooling capability supporting the transition from product development to production.",
-        "icon": "mdi:tools"
+        "icon": "lucide:wrench"
       },
       {
         "number": "04",
         "title": "Manufacturing",
-        "description": "Two specialized industrial units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
-        "icon": "mdi:factory"
+        "description": "Two specialized manufacturing units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
+        "icon": "lucide:factory"
       },
       {
         "number": "05",
         "title": "Quality Control",
         "description": "Multi-stage safety and functional inspections supporting reliable commercial-ready products.",
-        "icon": "mdi:clipboard-check-outline"
+        "icon": "lucide:clipboard-check"
       }
     ]
   },
   "manufacturingInfrastructure": {
     "eyebrow": "Our Manufacturing Infrastructure",
-    "title": "Two Industrial Units. One Manufacturing Ecosystem.",
-    "description": "G.M. Consolidated operates alongside specialized industrial units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow."
+    "title": "Two Manufacturing Units. One Manufacturing Ecosystem.",
+    "description": "G.M. Consolidated operates alongside specialized manufacturing units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow."
   },
   "productEcosystem": {
     "eyebrow": "Our Product Ecosystem",
     "title": "Small Domestic Appliances & Personal Care Electronics.",
-    "description": "The company's current appliance portfolio spans garment care, water heating, heating and comfort, personal care and specialty electronics.",
+    "description": "The company's current appliance portfolio spans garment care, water heaters, heating and comfort, personal care, and specialty electronics.",
     "categories": [
       {
         "number": "01",
         "name": "Garment Care",
         "description": "Dry irons and steam irons.",
-        "icon": "mdi:iron",
+        "icon": "lucide:shirt",
         "href": "/catalog/garment-care"
       },
       {
         "number": "02",
-        "name": "Water Heating",
+        "name": "Water Heaters",
         "description": "Water geysers and heating systems.",
-        "icon": "mdi:water-boiler",
+        "icon": "lucide:shower-head",
         "href": "/catalog/water-heating"
       },
       {
         "number": "03",
         "name": "Heating / Comfort",
         "description": "Fan heater systems.",
-        "icon": "mdi:heat-wave",
+        "icon": "lucide:flame",
         "href": "/catalog/heating-comfort"
       },
       {
         "number": "04",
         "name": "Personal Care",
         "description": "Hair dryer products.",
-        "icon": "mdi:hair-dryer",
+        "icon": "lucide:air-vent",
         "href": "/catalog/personal-care"
       },
       {
         "number": "05",
         "name": "Specialty Electronics",
         "description": "Rechargeable mosquito racket products.",
-        "icon": "mdi:flash-outline",
+        "icon": "lucide:zap",
         "href": "/catalog/specialty-electronics"
       }
     ]
@@ -260,7 +260,7 @@
   "manufacturingStrength": {
     "eyebrow": "Manufacturing Strength",
     "title": "Manufacturing Capabilities Built Around Integration.",
-    "description": "Two specialized industrial units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
+    "description": "Two specialized manufacturing units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
     "metrics": [
       {
         "value": "25",
@@ -292,17 +292,17 @@
       {
         "title": "Multi-Stage Inspection",
         "description": "Quality checks are performed across the manufacturing process.",
-        "icon": "mdi:clipboard-check-outline"
+        "icon": "lucide:clipboard-check"
       },
       {
         "title": "Safety & Functional Checks",
         "description": "Products undergo safety and functional inspection processes.",
-        "icon": "mdi:shield-check-outline"
+        "icon": "lucide:shield-check"
       },
       {
         "title": "Commercial-Ready Output",
         "description": "The quality approach is focused on dependable finished products.",
-        "icon": "mdi:check-decagram-outline"
+        "icon": "lucide:badge-check"
       }
     ],
     "ctaLabel": "Explore Quality",
@@ -316,22 +316,22 @@
       {
         "title": "OEM",
         "description": "Manufacturing to customer requirements and specifications.",
-        "icon": "mdi:factory"
+        "icon": "lucide:factory"
       },
       {
         "title": "ODM",
         "description": "Product development from requirement through engineering, prototype, tooling and production.",
-        "icon": "mdi:vector-combine"
+        "icon": "lucide:combine"
       },
       {
         "title": "Private Label",
         "description": "Appliance programmes developed for businesses operating under their own brand.",
-        "icon": "mdi:label-outline"
+        "icon": "lucide:tag"
       },
       {
         "title": "Bulk Requirements",
         "description": "Existing catalogue ranges for distribution, retail and commercial requirements.",
-        "icon": "mdi:package-variant-closed"
+        "icon": "lucide:package"
       }
     ],
     "ctaLabel": "Explore OEM / ODM",

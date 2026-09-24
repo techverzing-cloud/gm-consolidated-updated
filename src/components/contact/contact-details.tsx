@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { ContactDetail, ContactIntro } from "@/lib/content";
 
@@ -48,7 +48,7 @@ export function ContactDetails({ intro, details, note }: ContactDetailsProps) {
                     aria-hidden="true"
                     className="mt-0.5 shrink-0 text-accent"
                   >
-                    <Icon icon="mdi:check-circle-outline" size={22} />
+                    <Icon icon="lucide:circle-check-big" size={22} />
                   </span>
                   <span className="font-medium text-foreground">{point}</span>
                 </li>

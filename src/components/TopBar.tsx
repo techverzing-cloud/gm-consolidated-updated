@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import { SITE_INFO } from "@/data/site";
 
 export function TopBar() {
@@ -10,7 +10,7 @@ export function TopBar() {
             href={`tel:${SITE_INFO.phone.replace(/[^+\d]/g, "")}`}
             className="flex items-center gap-2 text-xs font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white sm:text-[13px]"
           >
-            <Icon icon="mdi:phone-outline" size={16} />
+            <Icon icon="lucide:phone" size={16} />
             {SITE_INFO.phone}
           </a>
         </div>
@@ -19,7 +19,7 @@ export function TopBar() {
             href={`mailto:${SITE_INFO.supportEmail}`}
             className="flex items-center gap-2 text-xs font-medium text-white/90 transition-[color,opacity] duration-200 hover:text-white sm:text-sm"
           >
-            <Icon icon="mdi:email-outline" size={16} />
+            <Icon icon="lucide:mail" size={16} />
             {SITE_INFO.supportEmail}
           </a>
         </div>

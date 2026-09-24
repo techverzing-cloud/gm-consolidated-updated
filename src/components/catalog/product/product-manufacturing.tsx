@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import { SectionHeading } from "@/components/catalog/product/section-heading";
@@ -54,7 +54,7 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
                         className="flex items-start gap-3"
                       >
                         <Icon
-                          icon="mdi:factory"
+                          icon="lucide:factory"
                           size={18}
                           className="mt-0.5 shrink-0 text-accent"
                         />
@@ -80,7 +80,7 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
                         className="flex items-start gap-3"
                       >
                         <Icon
-                          icon="mdi:clipboard-check-outline"
+                          icon="lucide:clipboard-check"
                           size={18}
                           className="mt-0.5 shrink-0 text-accent"
                         />
@@ -100,14 +100,14 @@ export function ProductManufacturing({ product }: { product: CatalogProduct }) {
                 className="link-underline inline-flex items-center gap-1.5 text-sm font-semibold text-accent transition-colors hover:text-accent-hover"
               >
                 Explore our manufacturing
-                <Icon icon="mdi:arrow-right" size={15} />
+                <Icon icon="lucide:arrow-right" size={15} />
               </Link>
               <Link
                 href="/quality"
                 className="link-underline inline-flex items-center gap-1.5 text-sm font-semibold text-accent transition-colors hover:text-accent-hover"
               >
                 Explore quality & testing
-                <Icon icon="mdi:arrow-right" size={15} />
+                <Icon icon="lucide:arrow-right" size={15} />
               </Link>
             </div>
           </div>

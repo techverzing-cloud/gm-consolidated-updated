@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import type { OemOdmAudience } from "@/lib/oem-odm";
 
 export function Audience({ audience }: { audience: OemOdmAudience }) {
@@ -27,7 +27,7 @@ export function Audience({ audience }: { audience: OemOdmAudience }) {
               data-odm-audience-item
               className="flex items-center gap-2.5 rounded-full border border-navy-border bg-white/5 py-2.5 pl-4 pr-5"
             >
-              <Icon icon="mdi:check" size={16} className="text-accent-tint" />
+              <Icon icon="lucide:check" size={16} className="text-accent-tint" />
               <span className="text-sm font-medium text-white">{item}</span>
             </li>
           ))}

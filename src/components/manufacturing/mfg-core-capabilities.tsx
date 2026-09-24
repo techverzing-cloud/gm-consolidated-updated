@@ -1,4 +1,4 @@
-import { Icon } from "@/components/ui/Icon";
+﻿import { Icon } from "@/components/ui/Icon";
 import type { ManufacturingCoreCapabilities } from "@/lib/manufacturing";
 
 export function CoreCapabilities({
@@ -58,7 +58,7 @@ export function CoreCapabilities({
                     className="inline-flex items-center gap-1.5 rounded-sm border border-border bg-background-alt px-2.5 py-1 text-sm font-medium text-foreground"
                   >
                     <Icon
-                      icon="mdi:check"
+                      icon="lucide:check"
                       size={13}
                       className="text-accent"
                       aria-hidden="true"

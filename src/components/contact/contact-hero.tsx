@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 import type { ContactHero as ContactHeroContent } from "@/lib/content";
@@ -57,7 +57,7 @@ export function ContactHero({ hero }: { hero: ContactHeroContent }) {
           >
             <Link href={hero.primaryHref} className="btn-primary px-7 py-3.5 text-base">
               {hero.primaryLabel}
-              <Icon icon="mdi:arrow-right" size={20} />
+              <Icon icon="lucide:arrow-right" size={20} />
             </Link>
             <Link
               href={hero.secondaryHref}
