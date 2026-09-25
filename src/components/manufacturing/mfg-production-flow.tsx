@@ -19,6 +19,7 @@ function StageCollage({ step }: { step: ManufacturingStep }) {
   const count = step.images.length;
   const portrait =
     count === 1 && step.images[0].includes("press-shop");
+  const columns = step.imageLayout === "columns";
 
   return (
     <div
@@ -33,7 +34,11 @@ function StageCollage({ step }: { step: ManufacturingStep }) {
           key={src}
           className={
             "relative overflow-hidden " +
-            (portrait ? "col-span-2 aspect-[3/4]" : tileClass(index, count))
+            (portrait
+              ? "col-span-2 aspect-[3/4]"
+              : columns
+                ? "aspect-[4/3]"
+                : tileClass(index, count))
           }
         >
           <Image

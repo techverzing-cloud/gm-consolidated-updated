@@ -30,6 +30,7 @@ export interface ManufacturingStep {
   title: string;
   description: string;
   images: string[];
+  imageLayout?: "columns";
 }
 
 export interface ManufacturingGroup {

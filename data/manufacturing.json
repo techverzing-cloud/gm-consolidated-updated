@@ -91,10 +91,10 @@
         "title": "PTFE Coating",
         "description": "Specialized PTFE coating operations supporting appliance components.",
         "images": [
-          "/manufacturing/ptfe-coating/ptfe-coating-1.jpg",
-          "/manufacturing/ptfe-coating/ptfe-coating-2.jpg",
-          "/manufacturing/ptfe-coating/ptfe-coating-3.jpg"
-        ]
+          "/manufacturing/ptfe-coating/coating_1.jpeg",
+          "/manufacturing/ptfe-coating/coating_2.jpg"
+        ],
+        "imageLayout": "columns"
       },
       {
         "number": "06",
