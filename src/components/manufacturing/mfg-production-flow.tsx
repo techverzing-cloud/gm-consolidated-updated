@@ -20,6 +20,7 @@ function StageCollage({ step }: { step: ManufacturingStep }) {
   const portrait =
     count === 1 && step.images[0].includes("press-shop");
   const columns = step.imageLayout === "columns";
+  const wideFirst = step.imageLayout === "wideFirst";
 
   return (
     <div
@@ -38,7 +39,9 @@ function StageCollage({ step }: { step: ManufacturingStep }) {
               ? "col-span-2 aspect-[3/4]"
               : columns
                 ? "aspect-[4/3]"
-                : tileClass(index, count))
+                : wideFirst && index === 0
+                  ? "col-span-2 aspect-8/3"
+                  : tileClass(index, count))
           }
         >
           <Image

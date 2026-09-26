@@ -64,7 +64,8 @@
         "images": [
           "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-1.jpg",
           "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-3.jpg"
-        ]
+        ],
+        "imageLayout": "wideFirst"
       },
       {
         "number": "03",
