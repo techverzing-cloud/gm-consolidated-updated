@@ -51,7 +51,7 @@ export function HeroContent() {
                 aria-hidden="true"
                 className="h-1.5 w-1.5 rounded-full bg-accent-tint"
               />
-              OEM / ODM &middot; Home Appliance Manufacturer
+              Home Appliance Manufacturer
             </p>
 
             <h1
@@ -76,7 +76,7 @@ export function HeroContent() {
               className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-navy-muted sm:text-lg"
             >
               Dry irons, steam irons, storage geysers, fan heaters, hair dryers
-              and rechargeable mosquito rackets &mdash; designed, tooled and
+              and rechargeable mosquito rackets - designed, tooled and
               built in-house across two ISO-certified manufacturing units in
               Kala Amb, Himachal Pradesh. OEM, ODM and private label, under your
               brand.
