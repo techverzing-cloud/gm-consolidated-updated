@@ -234,7 +234,7 @@
         "name": "A. R. Industries",
         "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
-        "image": "/images/factory/assembly-unit.jpg",
+        "image": "/Company/A_R_IMAGE.jpeg",
         "imageAlt": "A. R. Industries small domestic appliance assembly line inside the G.M. Consolidated Kala Amb unit"
       },
       {
@@ -242,7 +242,7 @@
         "name": "Rao Industries",
         "location": "Mogi Nand, Himachal Pradesh 173030",
         "focus": "Water Heater systems production",
-        "image": "/images/factory/pdc.webp",
+        "image": "/Company/Rao_Image.jpeg",
         "imageAlt": "Rao Industries pressure die casting line for Water Heater appliance systems"
       }
     ]

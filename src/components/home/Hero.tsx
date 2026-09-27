@@ -14,42 +14,42 @@ type HeroSlide = {
 const HERO_SLIDES: HeroSlide[] = [
   {
     name: "hero-1",
-    fallback: "/hero/all_prod.jpeg",
+    fallback: "/hero/all_prod.png",
     position: "object-center",
   },
   {
     name: "hero-2",
-    fallback: "/hero/bat_1.jpeg",
+    fallback: "/hero/bat_1.png",
     position: "object-center",
   },
   {
     name: "hero-3",
-    fallback: "/hero/geyser.jpeg",
+    fallback: "/hero/geyser.png",
     position: "object-center",
   },
   {
     name: "hero-4",
-    fallback: "/hero/hdryer.jpeg",
+    fallback: "/hero/hdryer.png",
     position: "object-center",
   },
   {
     name: "hero-5",
-    fallback: "/hero/Iron_1.jpeg",
+    fallback: "/hero/Iron_1.png",
     position: "object-center",
   },
     {
     name: "hero-6",
-    fallback: "/hero/hdryer_2.jpeg",
+    fallback: "/hero/hdryer_2.png",
     position: "object-center",
   },
       {
     name: "hero-7",
-    fallback: "/hero/Iron_2.jpeg",
+    fallback: "/hero/Iron_2.png",
     position: "object-center",
   },
       {
     name: "hero-8",
-    fallback: "/hero/heater.jpeg",
+    fallback: "/hero/heater.png",
     position: "object-center",
   },
 ];
@@ -209,7 +209,7 @@ export function Hero() {
       ref={scopeRef}
       data-hero
       aria-label="G.M. Consolidated home appliance manufacturer"
-      className="relative isolate flex min-h-[calc(100dvh_-_4.5rem)] items-center overflow-hidden  border-white/10 bg-navy-deep"
+      className="relative isolate flex aspect-5/2 items-center overflow-hidden border-white/10 bg-navy-deep lg:aspect-auto lg:min-h-[calc(100dvh_-_4.5rem)]"
     >
       <div
         data-hero-bg
