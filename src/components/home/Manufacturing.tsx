@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CAPABILITY_METRICS = [
-  { to: "25", prefix: "", suffix: "", label: "Injection machines" },
   { to: "250", prefix: "120–", suffix: "T", label: "PDC capacity" },
   { to: "4", prefix: "", suffix: "M", label: "Thermostats / year" },
   { to: "20", prefix: "", suffix: "+ yrs", label: "Tool room exports" },
@@ -10,7 +9,6 @@ const CAPABILITY_METRICS = [
 
 const PRODUCTION_LINE = [
   "Pressure die casting",
-  "Injection moulding",
   "Press shop",
   "Tool room",
   "PTFE coating",
@@ -90,7 +88,7 @@ export function Manufacturing() {
             </p>
 
             <dl
-              className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-4"
+              className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-3"
               data-reveal
               data-reveal-stagger
             >
@@ -127,7 +125,7 @@ export function Manufacturing() {
             className="text-sm font-semibold uppercase tracking-[0.14em] text-accent"
             data-reveal
           >
-            The production line • Sec 01 – 09
+            The production line • Sec 01 – 08
           </p>
           <ol
             className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-border bg-border md:grid-cols-3 lg:grid-cols-9"

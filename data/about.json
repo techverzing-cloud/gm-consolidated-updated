@@ -263,11 +263,6 @@
     "description": "Two specialized manufacturing units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
     "metrics": [
       {
-        "value": "25",
-        "suffix": "",
-        "label": "Injection Moulding Machines"
-      },
-      {
         "value": "4",
         "suffix": "M",
         "label": "Thermostat Capacity / Year"

@@ -44,8 +44,8 @@
   ],
   "productionFlow": {
     "eyebrow": "The Production Line",
-    "title": "Nine Stages. One Finished Product.",
-    "description": "From die casting and injection moulding to thermostat production and conveyorised assembly, every stage of the manufacturing sequence runs in-house across the two units.",
+    "title": "Eight Stages. One Finished Product.",
+    "description": "From die casting and press shop to thermostat production and conveyorised assembly, every stage of the manufacturing sequence runs in-house across the two units.",
     "steps": [
       {
         "number": "01",
@@ -57,18 +57,8 @@
           "/manufacturing/pressure-die-casting/pressure-die-casting-3.jpg"
         ]
       },
-      {
+{
         "number": "02",
-        "title": "Plastic Injection Moulding",
-        "description": "25 injection moulding machines ranging from 80–400 ton, supporting engineering plastics and insert moulding.",
-        "images": [
-          "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-1.jpg",
-          "/manufacturing/plastic-injection-moulding/plastic-injection-moulding-3.jpg"
-        ],
-        "imageLayout": "wideFirst"
-      },
-      {
-        "number": "03",
         "title": "Press Shop",
         "description": "Automatic sheet feeding and progressive tooling for formed components.",
         "images": [
@@ -76,7 +66,7 @@
         ]
       },
       {
-        "number": "04",
+        "number": "03",
         "title": "Tool Room",
         "description": "CNC vertical machining and EDM capability supporting in-house tooling requirements.",
         "images": [
@@ -88,7 +78,7 @@
         ]
       },
       {
-        "number": "05",
+        "number": "04",
         "title": "PTFE Coating",
         "description": "Specialized PTFE coating operations supporting appliance components.",
         "images": [
@@ -98,7 +88,7 @@
         "imageLayout": "columns"
       },
       {
-        "number": "06",
+        "number": "05",
         "title": "Thermostat Manufacturing",
         "description": "Dedicated thermostat manufacturing capability with approximately 4 million annual capacity.",
         "images": [
@@ -112,7 +102,7 @@
         ]
       },
       {
-        "number": "07",
+        "number": "06",
         "title": "Heating Elements",
         "description": "In-house heating element manufacturing supporting appliance production.",
         "images": [
@@ -125,7 +115,7 @@
         ]
       },
       {
-        "number": "08",
+        "number": "07",
         "title": "Conveyorised Assembly",
         "description": "Auto-conveyorised assembly operations for finished appliance production.",
         "images": [
@@ -137,7 +127,7 @@
         ]
       },
       {
-        "number": "09",
+        "number": "08",
         "title": "Routine Testing",
         "description": "Finished products undergo routine testing before release.",
         "images": [
@@ -162,30 +152,24 @@
       },
       {
         "number": "02",
-        "title": "Plastic Injection Moulding",
-        "icon": "lucide:sliders-horizontal",
-        "details": ["25 machines, 80–400 ton range", "PC", "PA6 / PA66", "PBT", "ABS", "PP", "Insert moulding"]
-      },
-      {
-        "number": "03",
         "title": "Press Shop",
         "icon": "lucide:hammer",
         "details": ["Automatic sheet feeders", "Progressive tooling"]
       },
       {
-        "number": "04",
+        "number": "03",
         "title": "Tool Room",
         "icon": "lucide:cog",
         "details": ["CNC vertical machining", "EDM", "20+ years of experience"]
       },
       {
-        "number": "05",
+        "number": "04",
         "title": "Thermostat Manufacturing",
         "icon": "lucide:thermometer",
         "details": ["4 million annual capacity", "Semi-automatic riveting lines", "Hydro-pneumatic riveting presses", "Brass terminals"]
       },
       {
-        "number": "06",
+        "number": "05",
         "title": "Supporting Operations",
         "icon": "lucide:wrench",
         "details": ["Riveting", "Laser / pad printing", "Painting", "Auto-conveyorised assembly"]
