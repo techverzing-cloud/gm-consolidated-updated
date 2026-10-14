@@ -123,7 +123,7 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
         </header>
 
         {/* Desktop - alternating editorial timeline around a central spine */}
-        <div className="relative mt-20 hidden lg:block">
+        {/* <div className="relative mt-20 hidden lg:block">
           <span
             data-about-timeline-spine
             aria-hidden="true"
@@ -167,10 +167,10 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
               </div>
             </li>
           </ol>
-        </div>
+        </div> */}
 
         {/* Mobile - left-aligned spine timeline */}
-        <div className="mt-14 lg:hidden">
+        {/* <div className="mt-14 lg:hidden">
           <ol
             data-about-timeline
             className="relative space-y-9 before:absolute before:bottom-6 before:left-2.5 before:top-1 before:w-px before:bg-border"
@@ -214,7 +214,7 @@ export function TimelineSection({ timeline }: { timeline: AboutTimeline }) {
               </div>
             </li>
           </ol>
-        </div>
+        </div> */}
       </div>
     </section>
   );

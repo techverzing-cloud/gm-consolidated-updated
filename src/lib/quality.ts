@@ -60,8 +60,8 @@ export interface QualityClosing {
   description: string;
   label: string;
   href: string;
-  secondaryLabel: string;
-  secondaryHref: string;
+  secondaryLabel?: string;
+  secondaryHref?: string;
   image: string;
   imageAlt: string;
 }

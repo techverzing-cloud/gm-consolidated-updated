@@ -15,7 +15,6 @@ const STATIC_ROUTES: StaticRoute[] = [
   { path: "/contact", priority: 0.8 },
   { path: "/engineering", priority: 0.8 },
   { path: "/manufacturing", priority: 0.8 },
-  { path: "/oem-odm", priority: 0.8 },
   { path: "/privacy-policy", priority: 0.6 },
   { path: "/quality", priority: 0.8 },
   { path: "/rao-industries", priority: 0.8 },

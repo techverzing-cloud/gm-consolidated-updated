@@ -4,6 +4,7 @@ import { ManufacturingHero } from "@/components/manufacturing/mfg-hero";
 import { ManufacturingIntro } from "@/components/manufacturing/mfg-intro";
 import { ManufacturingMetrics } from "@/components/manufacturing/mfg-metrics";
 import { ProductionFlow } from "@/components/manufacturing/mfg-production-flow";
+import { ProductMatrix } from "@/components/shared/product-matrix";
 import { CoreCapabilities } from "@/components/manufacturing/mfg-core-capabilities";
 import { IntegratedOperations } from "@/components/manufacturing/mfg-integrated-operations";
 import { QualityBridge } from "@/components/manufacturing/mfg-quality-bridge";
@@ -25,6 +26,7 @@ export default function ManufacturingPage() {
       <ManufacturingIntro intro={content.intro} />
       <ManufacturingMetrics metrics={content.metrics} />
       <ProductionFlow section={content.productionFlow} />
+      <ProductMatrix period="yearly" />
       <CoreCapabilities section={content.coreCapabilities} />
       <IntegratedOperations section={content.integration} />
       <ManufacturingUnits section={content.units} scope="mfg" />

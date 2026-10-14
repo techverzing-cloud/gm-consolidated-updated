@@ -47,7 +47,7 @@ export function OemOdm() {
       className="scroll-mt-20 bg-white"
       aria-labelledby="oem-odm-heading"
     >
-      <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      {/* <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div
           className="mx-auto max-w-2xl text-center"
           data-reveal
@@ -172,7 +172,7 @@ export function OemOdm() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

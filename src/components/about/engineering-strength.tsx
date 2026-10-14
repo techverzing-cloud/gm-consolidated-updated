@@ -61,7 +61,7 @@ export function EngineeringStrength({
           </div>
         </div>
 
-        <div className="mt-14 rounded-sm border border-border bg-white p-8 sm:p-10">
+        {/* <div className="mt-14 rounded-sm border border-border bg-white p-8 sm:p-10">
           <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
             From concept to production
           </p>
@@ -109,7 +109,7 @@ export function EngineeringStrength({
               </li>
             ))}
           </ol>
-        </div>
+        </div> */}
       </div>
     </section>
   );

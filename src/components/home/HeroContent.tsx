@@ -9,7 +9,7 @@ const HEADLINE: { text: string; accent?: boolean }[] = [
 const FACTS = [
   { value: "1983", label: "Established" },
   { value: "40+", label: "Years of manufacturing" },
-  { value: "2", label: "Units in Kala Amb" },
+  { value: "Multiple", label: "Units in Kala Amb" },
   { value: "20+", label: "Brand partners" },
 ];
 

@@ -18,6 +18,7 @@ import { FaqSection } from "@/components/about/faq-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
 import { ManufacturingUnits } from "@/components/shared/manufacturing-units";
+import { ProductMatrix } from "@/components/shared/product-matrix";
 import { getAboutContent } from "@/lib/about";
 import { getClientsContent } from "@/lib/clients";
 import { getFaqContent } from "@/lib/faq";
@@ -46,6 +47,7 @@ export default function AboutPage() {
       <ManufacturingUnits section={content.manufacturingInfrastructure} scope="about" />
       <ProductEcosystem section={content.productEcosystem} />
       <EngineeringStrength section={content.engineeringStrength} />
+      <ProductMatrix period="yearly" />
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
       <BusinessPositioning section={content.businessPositioning} />

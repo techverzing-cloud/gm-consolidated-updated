@@ -2,14 +2,14 @@
   "dataNote": "Catalogue data derived from the OFFICIAL CATALOG 2026 (G.M. Consolidated) source. Where the 2026 PPTX and the PDF catalog conflicted, the PPTX was treated as authoritative and the conflicting PDF-only models were excluded. Some descriptive marketing copy is written for the site and is non-technical.",
   "categories": [
     {
-      "id": "garment-care",
-      "name": "Garment Care",
-      "slug": "garment-care",
+      "id": "dry-garment-care",
+      "name": "Dry Garment Care",
+      "slug": "dry-garment-care",
       "number": "01",
-      "tag": "Ironing systems",
-      "shortDescription": "Dry and steam ironing systems.",
-      "description": "Dry and steam irons engineered for reliable heating, performance and everyday use - with non-stick soleplate coating, snap-action thermostats, fast and uniform heat distribution and 360° swivel cords.",
-      "image": "/images/products/garment-care/gm18.png",
+      "tag": "Dry irons",
+      "shortDescription": "Dry ironing systems.",
+      "description": "Dry irons engineered for reliable heating, performance and everyday use - with non-stick soleplate coating, snap-action thermostats, fast and uniform heat distribution and 360° swivel cords.",
+      "image": "/images/products/garment-care/gm2.png",
       "imageAlt": "G.M. Consolidated dry iron",
       "featured": true,
       "products": [
@@ -18,7 +18,7 @@
           "slug": "gm-01",
           "name": "Dry Iron",
           "code": "GM-01",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Classic Elite dry iron - double-layer Weilburger non-stick soleplate over a durable metal body.",
           "description": "The GM-01 leads the Classic Elite range as a dry iron built on a double-layer WeilBurger non-stick soleplate with a durable metal body. A snap-action thermostat with silver-layered contacts keeps heat steady session after session, while the 360° swivel cord and fast & uniform heat distribution deliver consistent results across domestic and commercial workloads.",
           "image": "/images/products/garment-care/gm2.png",
@@ -135,7 +135,7 @@
           "slug": "gm-02",
           "name": "Dry Iron",
           "code": "GM-02",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Comfort Premium dry iron - Weilburger non-stick glide with a cool-touch plastic body.",
           "description": "The GM-02 pairs a Comfort Premium build with a German Weilburger non-stick soleplate on a cool-touch plastic body. A high-grade PBT insulator and G-shaped heating element sit behind the snap-action thermostat, so the handle stays comfortable even as the plate heats up fast and evenly.",
           "specifications": [
@@ -197,7 +197,7 @@
           "slug": "gm-03",
           "name": "Dry Iron",
           "code": "GM-03",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Comfort Premium dry iron - cool-touch body with Weilburger non-stick glide and thermal fuse protection.",
           "description": "The GM-03 is a Comfort Premium dry iron built around a German Weilburger non-stick soleplate and cool-touch plastic body. The high-grade PBT insulator keeps outer heat low while the snap-action thermostat holds temperature steady, and a thermal fuse adds a safety cutoff for dependable everyday household ironing.",
           "specifications": [
@@ -254,7 +254,7 @@
           "slug": "gm-04",
           "name": "Dry Iron",
           "code": "GM-04",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Comfort Premium dry iron - G-shaped heating core with cool-touch body and smooth non-stick glide.",
           "description": "The GM-04 runs a Comfort Premium heating system with a G-shaped element under a German Weilburger non-stick soleplate, warming up fast and evenly across the plate face. The cool-touch plastic body, high-grade PBT insulator and snap-action thermostat keep the unit comfortable and controlled through back-to-back ironing sessions.",
           "specifications": [
@@ -316,7 +316,7 @@
           "slug": "gm-05",
           "name": "Dry Iron",
           "code": "GM-05",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Comfort Premium dry iron - heavy-gauge non-stick soleplate seated in a durable metal body.",
           "description": "The GM-05 brings a Comfort Premium dry iron with a heavy-gauge non-stick soleplate and durable metal body. Silver-layered thermostat contacts hold temperature reliably, while the energy-efficient build, 360° swivel cord and uniform heat output make it a solid workhorse for sustained everyday pressing.",
           "specifications": [
@@ -373,7 +373,7 @@
           "slug": "gm-06",
           "name": "Dry Iron",
           "code": "GM-06",
-          "categorySlug": "garment-care",
+          "categorySlug": "dry-garment-care",
           "shortDescription": "Comfort Premium dry iron - Weilburger-coated soleplate with silver-layered thermostat contacts.",
           "description": "The GM-06 is offered as a Comfort Premium dry iron with a German Weilburger non-stick soleplate coating across a durable metal / cool-touch body. Silver-layered thermostat contacts keep temperature steady while fast & uniform heat distribution and a 360° swivel cord smooth out heavier ironing sessions.",
           "specifications": [
@@ -424,603 +424,26 @@
             "gm-44",
             "gm-45"
           ]
-        },
-        {
-          "id": "gm-07",
-          "slug": "gm-07",
-          "name": "Dry Iron",
-          "code": "GM-07",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - G-shaped heating element with high-grade PBT insulation.",
-          "description": "The GM-07 is a Comfort Premium dry iron driven by a G-shaped heating element with a high-grade PBT insulator and German Weilburger non-stick soleplate coating. Tuned for energy-efficient performance, its snap-action thermostat and 360° swivel cord keep everyday ironing fast, even and low-drag.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Insulator",
-              "value": "High-Grade PBT Insulator"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            },
-            {
-              "label": "Performance",
-              "value": "Energy Efficient Performance"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "High Power Heating",
-            "High-Grade PBT Insulator",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "Energy Efficient Performance",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm8.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-08",
-          "slug": "gm-08",
-          "name": "Dry Iron",
-          "code": "GM-08",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - metal-body build with G-shaped heating element and thermal fuse protection.",
-          "description": "The GM-08 is a Comfort Premium dry iron with a German Weilburger non-stick soleplate on a durable metal body. A G-shaped heating element paired with silver-layered thermostat contacts gives consistent heat, while thermal fuse protection and a 360° swivel cord round out a safety-minded everyday iron.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            },
-            {
-              "label": "Safety",
-              "value": "Thermal Fuse Protection"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating",
-            "Silver-Layered Thermostat Contacts",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "Thermal Fuse Protection",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm9.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-09",
-          "slug": "gm-09",
-          "name": "Dry Iron",
-          "code": "GM-09",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - energy-efficient metal-body iron with fast, uniform heat.",
-          "description": "The GM-09 is a Comfort Premium metal-body dry iron with a German Weilburger non-stick soleplate. Silver-layered thermostat contacts maintain a steady plate temperature, and fast & uniform heat distribution with energy-efficient performance and a 360° swivel cord make it a lean, reliable pick for frequent ironing.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal Body Construction"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            },
-            {
-              "label": "Performance",
-              "value": "Energy Efficient Performance"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate",
-            "Snap Action Thermostat",
-            "Durable Metal Body Construction",
-            "High Power Heating",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "Energy Efficient Performance",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm10.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-10",
-          "slug": "gm-10",
-          "name": "Dry Iron",
-          "code": "GM-10",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - cool-touch control with a Weilburger-coated soleplate glide.",
-          "description": "The GM-10 is a Comfort Premium dry iron with a German Weilburger non-stick soleplate coating and cool-touch plastic body. Behind the snap-action thermostat sits a G-shaped element insulated by high-grade PBT, so the handle runs cool even as the plate heats quickly and evenly.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Body",
-              "value": "Cool-Touch Plastic Body"
-            },
-            {
-              "label": "Insulator",
-              "value": "High-Grade PBT Insulator"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Cool-Touch Plastic Body",
-            "High Power Heating",
-            "High-Grade PBT Insulator",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm11.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-11",
-          "slug": "gm-11",
-          "name": "Dry Iron",
-          "code": "GM-11",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - Weilburger coating with an energy-efficient G-shaped core.",
-          "description": "The GM-11 is a Comfort Premium dry iron with a German Weilburger non-stick soleplate coating over an energy-efficient G-shaped heating core with a high-grade PBT insulator. Its snap-action thermostat and 360° swivel cord keep heat steady and movement free during bigger loads.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Insulator",
-              "value": "High-Grade PBT Insulator"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            },
-            {
-              "label": "Performance",
-              "value": "Energy Efficient Performance"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "High Power Heating",
-            "High-Grade PBT Insulator",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "Energy Efficient Performance",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm12.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-12",
-          "slug": "gm-12",
-          "name": "Dry Iron",
-          "code": "GM-12",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - insulated G-shaped core for steady, energy-efficient pressing.",
-          "description": "The GM-12 is a Comfort Premium dry iron built around a G-shaped heating element, high-grade PBT insulator and German Weilburger non-stick soleplate coating. It is tuned for energy-efficient performance, with a snap-action thermostat and 360° swivel cord that suit continuous everyday use.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Insulator",
-              "value": "High-Grade PBT Insulator"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            },
-            {
-              "label": "Performance",
-              "value": "Energy Efficient Performance"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "High Power Heating",
-            "High-Grade PBT Insulator",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "Energy Efficient Performance",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm13.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-13",
-          "slug": "gm-13",
-          "name": "Dry Iron",
-          "code": "GM-13",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - Weilburger-coated soleplate with snap-action temperature control.",
-          "description": "The GM-13 is a Comfort Premium dry iron combining a G-shaped heating element and high-grade PBT insulator under a German Weilburger non-stick soleplate coating. Snap-action thermostat control and energy-efficient output keep heat consistent, while the 360° swivel cord stays comfortable through busy ironing sessions.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Insulator",
-              "value": "High-Grade PBT Insulator"
-            },
-            {
-              "label": "Heating element",
-              "value": "G-Shaped Heating Element"
-            },
-            {
-              "label": "Performance",
-              "value": "Energy Efficient Performance"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "High Power Heating",
-            "High-Grade PBT Insulator",
-            "G-Shaped Heating Element",
-            "360° Swivel Cord",
-            "Energy Efficient Performance",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm14.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-14",
-          "slug": "gm-14",
-          "name": "Dry Iron",
-          "code": "GM-14",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - metal / cool-touch body with silver-layered thermostat contacts.",
-          "description": "The GM-14 is a Comfort Premium dry iron on a durable metal / cool-touch body with a German Weilburger non-stick soleplate coating. Silver-layered thermostat contacts hold heat steady, and fast & uniform heat distribution with a 360° swivel cord make it a balanced performer for household and commercial use.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal / Cool-Touch Body"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal / Cool-Touch Body",
-            "High Power Heating",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm15.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-15",
-          "slug": "gm-15",
-          "name": "Dry Iron",
-          "code": "GM-15",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - uniform-heat metal body iron with Weilburger-coated soleplate.",
-          "description": "The GM-15 brings a Comfort Premium dry iron with a German Weilburger non-stick soleplate coating over a durable metal / cool-touch body. Silver-layered thermostat contacts and fast & uniform heat distribution keep plate temperature even, while the 360° swivel cord reduces pull during extended ironing.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal / Cool-Touch Body"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal / Cool-Touch Body",
-            "High Power Heating",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm16.png",
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
-        {
-          "id": "gm-16",
-          "slug": "gm-16",
-          "name": "Dry Iron",
-          "code": "GM-16",
-          "categorySlug": "garment-care",
-          "shortDescription": "Comfort Premium dry iron - dual-body construction with fast, even heat spread.",
-          "description": "The GM-16 is a Comfort Premium dry iron combining a durable metal / cool-touch body with a German Weilburger non-stick soleplate coating. Silver-layered thermostat contacts keep temperature on target and fast & uniform heat distribution helps it cope with long ironing sessions, supported by a 360° swivel cord.",
-          "specifications": [
-            {
-              "label": "Series",
-              "value": "Comfort Premium"
-            },
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate Coating"
-            },
-            {
-              "label": "Thermostat contacts",
-              "value": "Silver-Layered Thermostat Contacts"
-            },
-            {
-              "label": "Body",
-              "value": "Durable Metal / Cool-Touch Body"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate Coating",
-            "Snap Action Thermostat",
-            "Durable Metal / Cool-Touch Body",
-            "High Power Heating",
-            "Silver-Layered Thermostat Contacts",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Warranty",
-            "Polished Vintage Chrome Protective Shroud",
-            "High Density Shockproof System Cable",
-            "Weighted High Mass Cast Core Block",
-            "Shock-Resistant Engineering Polymer Outer Cover",
-            "Exclusive Matte Texture Handle Grip Finish",
-            "Enlarged Easy-to-Read Fabric Adjustment Dial",
-            "Sub-Second Fast Heating Element Initialization",
-            "Ultra-Light Build Reduces User Arm Strain",
-            "Dual-Insulated Structural Wire Lines"
-          ],
-          "image": "/images/products/garment-care/gm17.png",
-          "images": [
-            {
-              "src": "/images/products/garment-care/gm17.png",
-              "alt": "GM-16 Comfort Premium dry iron - side profile"
-            },
-            {
-              "src": "/images/products/garment-care/dry-iron-ironing.webp",
-              "alt": "GM-16 Comfort Premium dry iron in use"
-            }
-          ],
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "steam-garment-care",
+      "name": "Steam Garment Care",
+      "slug": "steam-garment-care",
+      "number": "02",
+      "tag": "Steam irons",
+      "shortDescription": "Steam ironing systems.",
+      "description": "Steam irons built for smooth gliding, consistent performance and everyday use - with non-stick soleplates, snap-action thermostats and 360° swivel cords.",
+      "image": "/images/products/garment-care/gm18.png",
+      "imageAlt": "G.M. Consolidated steam iron",
+      "products": [
         {
           "id": "gm-17",
           "slug": "gm-17",
           "name": "Steam Iron",
           "code": "GM-17",
-          "categorySlug": "garment-care",
+          "categorySlug": "steam-garment-care",
           "shortDescription": "Comfort Premium steam iron - heavy-gauge non-stick soleplate with G-shaped heating core.",
           "description": "The GM-17 is a Comfort Premium steam iron built on a heavy-gauge non-stick soleplate over a durable metal body. Silver-layered thermostat contacts and a G-shaped heating element keep temperature steady, while thermal fuse protection and a 360° swivel cord support reliable everyday use.",
           "specifications": [
@@ -1092,7 +515,7 @@
           "slug": "gm-18",
           "name": "Steam Iron",
           "code": "GM-18",
-          "categorySlug": "garment-care",
+          "categorySlug": "steam-garment-care",
           "shortDescription": "HydroBurst Pro steam iron with burst steam and self-clean care for effortless crease removal.",
           "description": "The GM-18 is a steam iron built around self-clean core / anti-drip. Continuous Steam Output and Steam Boost Technology help handle everything from light touch-ups to heavier creases, with a self-flushing design that keeps performance consistent between sessions.",
           "specifications": [
@@ -1131,53 +554,6 @@
             "gm-44",
             "gm-45"
           ]
-        },
-        {
-          "id": "gm-19",
-          "slug": "gm-19",
-          "name": "Dry Iron",
-          "code": "GM-19",
-          "categorySlug": "garment-care",
-          "shortDescription": "G.M. dry iron - Weilburger non-stick soleplate with snap-action thermostat and 360° swivel cord.",
-          "description": "The GM-19 is a dry iron from the G.M. garment-care range built on a German Weilburger non-stick soleplate that glides smoothly across fabrics. A snap-action thermostat holds a steady set temperature, and the 360° swivel cord with fast & uniform heat distribution keeps longer ironing sessions easy and predictable.",
-          "image": "/images/products/garment-care/gm19.png",
-          "images": [
-            {
-              "src": "/images/products/garment-care/gm19.png",
-              "alt": "G.M. Consolidated GM-19 Dry Iron - product photo"
-            }
-          ],
-          "specifications": [
-            {
-              "label": "Soleplate",
-              "value": "German Weilburger Non-Stick Soleplate"
-            },
-            {
-              "label": "Thermostat",
-              "value": "Snap Action Thermostat"
-            },
-            {
-              "label": "Cord",
-              "value": "360° Swivel Cord"
-            },
-            {
-              "label": "Heat distribution",
-              "value": "Fast & Uniform Heat Distribution"
-            }
-          ],
-          "features": [
-            "German Weilburger Non-Stick Soleplate",
-            "Snap Action Thermostat",
-            "360° Swivel Cord",
-            "Fast & Uniform Heat Distribution",
-            "2 Years Product Warranty"
-          ],
-          "relatedProducts": [
-            "gm-01",
-            "gm-43",
-            "gm-44",
-            "gm-45"
-          ]
         }
       ]
     },
@@ -1185,18 +561,18 @@
       "id": "water-heating",
       "name": "Water Heater",
       "slug": "water-heating",
-      "number": "02",
-      "tag": "Storage geysers",
-      "shortDescription": "Storage water geysers.",
-      "description": "Storage geysers engineered with SS304 stainless steel tanks, copper heating elements and triple safety protection.",
+      "number": "03",
+      "tag": "Instant water heater",
+      "shortDescription": "Storage Instant water heaters.",
+      "description": "Instant water heater engineered with SS304 stainless steel tanks, copper heating elements and triple safety protection.",
       "image": "/images/products/water-heating/gm32.png",
-      "imageAlt": "G.M. Consolidated water geyser",
+      "imageAlt": "G.M. Consolidated Instant water heater",
       "featured": false,
       "products": [
         {
           "id": "gm-32",
           "slug": "gm-32",
-          "name": "Water Geyser",
+          "name": "Instant water heater",
           "code": "GM-32",
           "categorySlug": "water-heating",
           "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
@@ -1337,7 +713,7 @@
         {
           "id": "gm-33",
           "slug": "gm-33",
-          "name": "Water Geyser",
+          "name": "Instant water heater",
           "code": "GM-33",
           "categorySlug": "water-heating",
           "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
@@ -1409,7 +785,7 @@
         {
           "id": "gm-34",
           "slug": "gm-34",
-          "name": "Water Geyser",
+          "name": "Instant water heater",
           "code": "GM-34",
           "categorySlug": "water-heating",
           "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
@@ -1476,7 +852,7 @@
         {
           "id": "gm-37",
           "slug": "gm-37",
-          "name": "Water Geyser",
+          "name": "Instant water heater",
           "code": "GM-37",
           "categorySlug": "water-heating",
           "shortDescription": "Elite Capsule Series storage geyser with stainless steel tank and insulated heat retention.",
@@ -1546,7 +922,7 @@
       "id": "heating-comfort",
       "name": "Heating / Comfort",
       "slug": "heating-comfort",
-      "number": "03",
+      "number": "04",
       "tag": "Fan heaters",
       "shortDescription": "Fan heaters for room comfort.",
       "description": "Fan heaters built with 100% copper motors, dual heating modes plus fan mode, and 4-level safety protection.",
@@ -1762,7 +1138,7 @@
       "id": "personal-care",
       "name": "Personal Care",
       "slug": "personal-care",
-      "number": "04",
+      "number": "05",
       "tag": "Hair dryers",
       "shortDescription": "Hair dryers for everyday grooming.",
       "description": "Hair dryers built with powerful motors, a cool shot function and adjustable heat and speed for everyday grooming.",
@@ -1977,9 +1353,9 @@
     },
     {
       "id": "specialty-electronics",
-      "name": "Specialty Electronics",
+      "name": "Consumer Electronics",
       "slug": "specialty-electronics",
-      "number": "05",
+      "number": "06",
       "tag": "Rechargeable mosquito rackets",
       "shortDescription": "Rechargeable mosquito rackets.",
       "description": "Rechargeable mosquito rackets with a Li-Ion battery, manual and auto-kill modes and UV light attraction.",

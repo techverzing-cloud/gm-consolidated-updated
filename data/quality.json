@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Quality & Testing | G.M. Consolidated",
+    "title": "Quality & Testing ",
     "description": "Quality engineered into the manufacturing flow - checkpoints across production and routine testing before finished products are released."
   },
   "hero": {
@@ -94,7 +94,7 @@
     "label": "Discuss Your Requirements",
     "href": "/contact#enquiry",
     "secondaryLabel": "Explore OEM / ODM",
-    "secondaryHref": "/oem-odm",
+    "secondaryHref": "/contact#enquiry",
     "image": "/images/factory/rao-industry-original.jpg",
     "imageAlt": "Production floor of the G.M. Consolidated manufacturing units, Kala Amb"
   }

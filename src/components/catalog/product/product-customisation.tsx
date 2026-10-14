@@ -85,7 +85,7 @@ export function ProductCustomisation({
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/oem-odm"
+              href="/contact#enquiry"
               className="btn-navy-solid px-6 py-3 text-sm"
             >
               Explore OEM / ODM

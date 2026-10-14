@@ -164,8 +164,8 @@ export interface AboutClosingStatement {
   imageAlt: string;
   primaryLabel: string;
   primaryHref: string;
-  secondaryLabel: string;
-  secondaryHref: string;
+  secondaryLabel?: string;
+  secondaryHref?: string;
 }
 
 export interface AboutData {
@@ -214,7 +214,7 @@ export interface MetricParts {
  *
  *   "1983"        → { prefix: "",  count: 1983, suffix: "" }
  *   "40+" "years" → { prefix: "",  count: 40,   suffix: "+ years" }
- *   "120–250" "T" → { prefix: "120–", count: 250, suffix: "T" }
+ *   "100-300" "T" → { prefix: "120–", count: 250, suffix: "T" }
  */
 export function parseMetric(value: string, suffix = ""): MetricParts | null {
   const match = value.match(/^([^\d]*)(\d+)(.*)$/);

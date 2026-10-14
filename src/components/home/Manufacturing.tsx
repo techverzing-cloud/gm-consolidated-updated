@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CAPABILITY_METRICS = [
-  { to: "250", prefix: "120–", suffix: "T", label: "PDC capacity" },
+  { to: "300", prefix: "100-", suffix: "T", label: "PDC capacity" },
   { to: "4", prefix: "", suffix: "M", label: "Thermostats / year" },
   { to: "20", prefix: "", suffix: "+ yrs", label: "Tool room exports" },
 ];
@@ -46,7 +46,7 @@ export function Manufacturing() {
                 data-reveal-child
                 className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg"
               >
-                Two manufacturing units in Kala Amb, Himachal Pradesh, house
+                Manufacturing units in Kala Amb, Himachal Pradesh, house
                 dedicated product-specific lines - from die casting and
                 injection moulding to in-house tooling, thermostat
                 manufacturing, finishing and auto-conveyorised assembly.
@@ -58,7 +58,7 @@ export function Manufacturing() {
                 <Link href="/contact#enquiry" className="btn-primary px-6 py-3 text-base">
                   Discuss Your Project
                 </Link>
-                <Link href="/oem-odm" className="btn-secondary px-6 py-3 text-base">
+                <Link href="/manufacturing" className="btn-secondary px-6 py-3 text-base">
                   Explore Manufacturing
                 </Link>
               </div>
@@ -118,9 +118,9 @@ export function Manufacturing() {
           </div>
         </div>
 
-        <div aria-hidden="true" data-grow="x" className="mt-16 h-px origin-left bg-border" />
+        {/* <div aria-hidden="true" data-grow="x" className="mt-16 h-px origin-left bg-border" /> */}
 
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <p
             className="text-sm font-semibold uppercase tracking-[0.14em] text-accent"
             data-reveal
@@ -147,7 +147,7 @@ export function Manufacturing() {
               </li>
             ))}
           </ol>
-        </div>
+        </div> */}
       </div>
     </section>
   );

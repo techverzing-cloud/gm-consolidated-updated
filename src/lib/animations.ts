@@ -107,12 +107,19 @@ export function setupParallax(scope: ParentNode): void {
  * - `data-count-to`     end value
  * - `data-count-prefix` text before the number
  * - `data-count-suffix` text after the number
+ * - `data-count-format` optional; "grouped" adds locale thousands separators
  */
 export function setupCounters(scope: ParentNode): void {
   gsap.utils.toArray<HTMLElement>("[data-count]", scope).forEach((el) => {
     const to = parseFloat(el.dataset.countTo ?? "0") || 0;
     const prefix = el.dataset.countPrefix ?? "";
     const suffix = el.dataset.countSuffix ?? "";
+    const formatter =
+      el.dataset.countFormat === "grouped"
+        ? new Intl.NumberFormat("en-IN")
+        : null;
+    const format = (value: number) =>
+      formatter ? formatter.format(value) : String(value);
     const state = { value: 0 };
     gsap.fromTo(
       state,
@@ -123,7 +130,7 @@ export function setupCounters(scope: ParentNode): void {
         ease: "power2.out",
         scrollTrigger: { trigger: el, start: "top 88%", once: true },
         onUpdate: () => {
-          el.textContent = `${prefix}${Math.round(state.value)}${suffix}`;
+          el.textContent = `${prefix}${format(Math.round(state.value))}${suffix}`;
         },
       },
     );

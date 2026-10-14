@@ -135,28 +135,42 @@ export function Engineering() {
         </ol>
 
         <div
-          className="mt-12 rounded-sm border border-border bg-background-alt p-6 sm:p-8"
+          className="mt-12 rounded-sm bg-navy px-6 py-10 sm:px-10 sm:py-12"
           data-reveal
           data-reveal-stagger
         >
           <p
             data-reveal-child
-            className="text-sm font-semibold uppercase tracking-[0.14em] text-accent"
+            className="text-sm font-semibold uppercase tracking-[0.16em] text-accent-tint"
           >
             Core in-house capabilities
           </p>
+          <h3
+            data-reveal-child
+            className="mt-4 text-balance text-2xl font-semibold leading-[1.15] text-white sm:text-3xl"
+          >
+            Mould &middot; Metal &middot; Assembly.
+          </h3>
+          <p
+            data-reveal-child
+            className="mt-4 max-w-2xl text-pretty text-base leading-relaxed text-navy-muted"
+          >
+            Eight capabilities run under one roof across the two units - from
+            pressure die casting and precision tooling to thermostats, heating
+            elements and fully conveyorised assembly.
+          </p>
           <ul
             data-reveal-child
-                className="mt-5 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4"
+            className="mt-9 grid grid-cols-1 gap-x-8 sm:grid-cols-2 lg:grid-cols-4"
           >
             {CAPABILITIES.map((capability) => (
               <li
                 key={capability}
-                className="flex items-center gap-3 text-sm font-medium text-foreground"
+                className="flex items-center gap-3 border-t border-navy-border py-3.5 text-base font-medium text-white"
               >
                 <span
                   aria-hidden="true"
-                  className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
+                  className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent-tint"
                 />
                 {capability}
               </li>

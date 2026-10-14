@@ -9,7 +9,6 @@ const QUICK_LINKS = [
   { label: "Manufacturing", href: "/manufacturing" },
   { label: "Engineering", href: "/engineering" },
   { label: "Quality", href: "/quality" },
-  { label: "OEM / ODM", href: "/oem-odm" },
 ];
 
 const LEGAL_LINKS = [
@@ -60,7 +59,7 @@ export function Footer() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href="/oem-odm"
+                href="/contact#enquiry"
                 className="btn-navy-solid btn-pulse-hover px-6 py-3 text-base"
               >
                 Request OEM / ODM Enquiry
@@ -90,12 +89,12 @@ export function Footer() {
                 className="h-16 w-auto"
               />
               <p className="mt-5 max-w-sm text-sm leading-relaxed text-navy-muted">
-                Two manufacturing units in Kala Amb, Himachal Pradesh,
-                manufacturing home appliances for OEM, ODM and private-label
-                programmes since 1983.
+                Manufacturing units in Kala Amb, Himachal Pradesh,
+                manufacturing home appliances for private-label programmes since
+                1983.
               </p>
               <p className="mt-4 text-sm font-medium text-white/90">
-                Home Appliance Manufacturing &nbsp;&middot;&nbsp; OEM / ODM
+                Home Appliance Manufacturing
               </p>
               <div className="mt-6 flex items-center gap-2">
                 {SOCIALS.map((social) => (

@@ -1,0 +1,77 @@
+{
+  "eyebrow": "Our Capabilities",
+  "subtitle": "Transforming Ideas into Reality with Our Expertise",
+  "periods": {
+    "monthly": {
+      "title": "Monthly Production Capacities"
+    },
+    "yearly": {
+      "title": "Yearly Production Capacities"
+    }
+  },
+  "products": [
+    {
+      "id": "induction-cooktop",
+      "quantity": { "monthly": "150K+", "yearly": "1.8M+" },
+      "label": "Induction Cooktop",
+      "image": "/images/products/capacity/induction-cooktop.svg",
+      "imageAlt": "Induction cooktop"
+    },
+    {
+      "id": "electric-kettle",
+      "quantity": { "monthly": "50K+", "yearly": "600K+" },
+      "label": "Electric Kettle",
+      "image": "/images/products/capacity/electric-kettle.svg",
+      "imageAlt": "Electric kettle"
+    },
+    {
+      "id": "mixers-range",
+      "quantity": { "monthly": "50K+", "yearly": "600K+" },
+      "label": "Mixers Range",
+      "image": "/images/products/capacity/mixer.svg",
+      "imageAlt": "Mixer and juicer appliances"
+    },
+    {
+      "id": "rice-cooker",
+      "quantity": { "monthly": "30K+", "yearly": "360K+" },
+      "label": "Rice Cooker",
+      "image": "/images/products/capacity/rice-cooker.svg",
+      "imageAlt": "Rice cooker"
+    },
+    {
+      "id": "iron",
+      "quantity": { "monthly": "200K+", "yearly": "2.4M+" },
+      "label": "Iron",
+      "image": "/images/products/garment-care/gm18.png",
+      "imageAlt": "Steam iron"
+    },
+    {
+      "id": "room-heater",
+      "quantity": { "monthly": "80K+", "yearly": "960K+" },
+      "label": "Room Heater",
+      "image": "/images/products/heating/fan-heater.webp",
+      "imageAlt": "Room heater"
+    },
+    {
+      "id": "infrared-cooktop",
+      "quantity": { "monthly": "150K+", "yearly": "1.8M+" },
+      "label": "Infrared Cooktop",
+      "image": "/images/products/capacity/infrared-cooktop.svg",
+      "imageAlt": "Infrared cooktop"
+    },
+    {
+      "id": "mini-fan",
+      "quantity": { "monthly": "25K+", "yearly": "300K+" },
+      "label": "Mini Fan",
+      "image": "/images/products/capacity/mini-fan.svg",
+      "imageAlt": "Mini table fan"
+    },
+    {
+      "id": "air-fryer",
+      "quantity": { "monthly": "10K+", "yearly": "120K+" },
+      "label": "Air Fryer",
+      "image": "/images/products/capacity/air-fryer.svg",
+      "imageAlt": "Air fryer"
+    }
+  ]
+}

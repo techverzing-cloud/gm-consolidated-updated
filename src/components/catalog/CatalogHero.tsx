@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const HERO = {
-  eyebrow: "Five Engineered Ranges",
-  titleLines: ["Our Catalogue.", "Five Engineered Ranges."],
-  copy: "Garment care, Water Heater, heating and comfort, personal care and specialty electronics - every product designed, tooled and built in-house for OEM, ODM and private-label programmes.",
+  eyebrow: "Six Engineered Ranges",
+  titleLines: ["Our Catalogue.", "Six Engineered Ranges."],
+  copy: "Dry irons, steam irons, Water Heater, heating and comfort, personal care and specialty electronics - every product designed, tooled and built in-house for OEM, ODM and private-label programmes.",
   meta: "OEM • ODM • Private label",
-  primary: { label: "Explore Ranges", href: "/catalog/garment-care" },
+  primary: { label: "Explore Ranges", href: "/catalog/dry-garment-care" },
   secondary: { label: "Request Enquiry", href: "/contact#enquiry" },
 };
 

@@ -1,28 +1,28 @@
 {
   "metadata": {
-    "title": "Manufacturing Infrastructure | G.M. Consolidated",
-    "description": "Two manufacturing units in Kala Amb, Himachal Pradesh supporting integrated appliance engineering, die casting, injection moulding, tooling, finishing, assembly and routine testing."
+    "title": "Manufacturing Infrastructure",
+    "description": "Manufacturing units in Kala Amb, Himachal Pradesh supporting integrated appliance engineering, die casting, injection moulding, tooling, finishing, assembly and routine testing."
   },
   "hero": {
     "eyebrow": "Manufacturing Infrastructure",
     "title": "From Material to Finished Product.",
-    "description": "Two manufacturing units in Kala Amb, Himachal Pradesh, supporting integrated appliance engineering, manufacturing, finishing, assembly and testing.",
+    "description": "Manufacturing units in Kala Amb, Himachal Pradesh, supporting integrated appliance engineering, manufacturing, finishing, assembly and testing.",
     "image": "/images/manufacturing-hero.jpg",
     "imageAlt": "Production floor of the G.M. Consolidated manufacturing units, Kala Amb"
   },
   "intro": {
     "eyebrow": "Our Manufacturing Strength",
     "title": "Built Around Integrated Manufacturing.",
-    "description": "G.M. Consolidated operates across two specialized manufacturing units in Kala Amb, with capabilities spanning tooling, forming, moulding, component manufacturing, finishing, assembly and routine testing."
+    "description": "G.M. Consolidated operates across specialized manufacturing units in Kala Amb, with capabilities spanning tooling, forming, moulding, component manufacturing, finishing, assembly and routine testing."
   },
   "metrics": [
     {
-      "value": "2",
+      "value": "Multiple",
       "suffix": "",
       "label": "Manufacturing Units"
     },
     {
-      "value": "120–250",
+      "value": "100-300",
       "suffix": "T",
       "label": "Pressure Die Casting Capacity"
     },
@@ -50,7 +50,7 @@
       {
         "number": "01",
         "title": "Pressure Die Casting",
-        "description": "120–250 ton pressure die casting capability supporting component and soleplate manufacturing.",
+        "description": "100-300 ton pressure die casting capability supporting component and soleplate manufacturing.",
         "images": [
           "/manufacturing/pressure-die-casting/pressure-die-casting-1.jpg",
           "/manufacturing/pressure-die-casting/pressure-die-casting-2.jpg",
@@ -128,7 +128,7 @@
       },
       {
         "number": "08",
-        "title": "Routine Testing",
+        "title": "DIS Approve Testing",
         "description": "Finished products undergo routine testing before release.",
         "images": [
           "/manufacturing/routine-testing/routine-testing-1.jpg",
@@ -148,7 +148,7 @@
         "number": "01",
         "title": "Pressure Die Casting",
         "icon": "lucide:factory",
-        "details": ["120–250 ton PDC machines", "Soleplate manufacturing"]
+        "details": ["100-300 ton PDC machines", "Soleplate manufacturing"]
       },
       {
         "number": "02",
@@ -211,7 +211,7 @@
   "units": {
     "eyebrow": "Two Manufacturing Units",
     "title": "One Manufacturing Ecosystem.",
-    "description": "Two specialized manufacturing units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
+    "description": "Specialized manufacturing units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
     "units": [
       {
         "number": "01",
@@ -243,7 +243,7 @@
     "title": "Built to Support Your Appliance Programme.",
     "description": "From tooling and component manufacturing to assembly and testing, our integrated capabilities support OEM, ODM, private-label and bulk manufacturing requirements.",
     "primaryLabel": "Explore OEM / ODM",
-    "primaryHref": "/oem-odm",
+    "primaryHref": "/contact#enquiry",
     "secondaryLabel": "Explore Products",
     "secondaryHref": "/catalog"
   }

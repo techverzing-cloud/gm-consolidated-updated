@@ -13,7 +13,7 @@ export function BusinessPositioning({
       className="bg-white"
       aria-labelledby="business-title"
     >
-      <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <header className="max-w-2xl">
           <p className="text-base font-semibold uppercase tracking-[0.16em] text-accent">
             {section.eyebrow}
@@ -63,7 +63,7 @@ export function BusinessPositioning({
             </Link>
           </div>
         )}
-      </div>
+      </div> */}
     </section>
   );
 }

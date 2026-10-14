@@ -89,8 +89,8 @@ export interface ManufacturingClosing {
   eyebrow: string;
   title: string;
   description: string;
-  primaryLabel: string;
-  primaryHref: string;
+  primaryLabel?: string;
+  primaryHref?: string;
   secondaryLabel: string;
   secondaryHref: string;
 }
@@ -125,7 +125,7 @@ export interface MetricParts {
  * prefix/suffix. Returns null when the value contains no digits.
  *
  *   "3"          → { prefix: "",  count: 3,    suffix: "" }
- *   "120–250" "T" → { prefix: "120–", count: 250, suffix: "T" }
+ *   "100-300" "T" → { prefix: "120–", count: 250, suffix: "T" }
  *   "4M"         → { prefix: "",  count: 4,    suffix: "M" }
  *   "20+" " years" → { prefix: "",  count: 20,   suffix: "+ years" }
  */

@@ -3,6 +3,7 @@ import { HeroContent } from "@/components/home/HeroContent";
 import { Engineering } from "@/components/home/Engineering";
 import { Catalog } from "@/components/home/Catalog";
 import { Manufacturing } from "@/components/home/Manufacturing";
+import { ProductMatrix } from "@/components/shared/product-matrix";
 import { Quality } from "@/components/home/Quality";
 import { OemOdm } from "@/components/home/OemOdm";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Catalog />
       <Engineering />
       <Manufacturing />
+      <ProductMatrix period="monthly" />
       <Quality />
       <OemOdm />
     </>

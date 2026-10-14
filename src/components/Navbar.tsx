@@ -10,7 +10,6 @@ import { SITE_INFO } from "@/data/site";
 
 const NAV_LINKS = [
   { label: "Manufacturing", href: "/manufacturing" },
-  { label: "OEM / ODM", href: "/oem-odm" },
   { label: "Quality", href: "/quality" },
   { label: "Contact", href: "/contact" },
 ];

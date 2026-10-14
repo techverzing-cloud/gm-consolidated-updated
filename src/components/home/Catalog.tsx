@@ -29,7 +29,7 @@ export function Catalog() {
             data-reveal-child
             className="mt-4 text-balance text-3xl font-semibold leading-[1.1] text-foreground sm:text-4xl"
           >
-            Five Engineered Ranges. One Ecosystem.
+            Six Engineered Ranges. One Ecosystem.
           </h2>
           <p
             data-reveal-child

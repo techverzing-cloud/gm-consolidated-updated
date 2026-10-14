@@ -39,13 +39,15 @@ export function ClosingCta({ closing }: { closing: ManufacturingClosing }) {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link
-              href={closing.primaryHref}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"
-            >
-              {closing.primaryLabel}
-              <Icon icon="lucide:arrow-right" size={16} />
-            </Link>
+            {closing.primaryHref && closing.primaryLabel ? (
+              <Link
+                href={closing.primaryHref}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"
+              >
+                {closing.primaryLabel}
+                <Icon icon="lucide:arrow-right" size={16} />
+              </Link>
+            ) : null}
             <Link
               href={closing.secondaryHref}
               className="inline-flex w-full items-center justify-center gap-2 rounded-sm border border-navy-border px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent-tint sm:w-auto"

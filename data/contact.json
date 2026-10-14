@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Contact | G.M. Consolidated",
+    "title": "Contact",
     "description": "Start a B2B appliance enquiry with G.M. Consolidated - OEM, ODM, private-label and bulk requirements. Talk to our team about your next appliance programme."
   },
   "hero": {
@@ -157,7 +157,7 @@
     "addressShort": "Bawana Road, Delhi – 110042",
     "units": "Kala Amb, Himachal Pradesh"
   },
-  "note": "Official contact details to be published.",
+  "note": "",
   "channels": [
     {
       "title": "Head Office",
@@ -167,7 +167,7 @@
     {
       "title": "Manufacturing Units",
       "icon": "lucide:factory",
-      "text": "Two manufacturing units, Kala Amb - Himachal Pradesh"
+      "text": "Manufacturing units, Kala Amb - Himachal Pradesh"
     },
     {
       "title": "Tool Room",

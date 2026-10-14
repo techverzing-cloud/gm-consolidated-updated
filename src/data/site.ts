@@ -23,7 +23,7 @@ export const SITE_INFO = {
 };
 
 export const SOCIALS = [
-  { label: "LinkedIn", icon: "lucide:linkedin", href: "#" },
-  { label: "Facebook", icon: "lucide:facebook", href: "#" },
-  { label: "Instagram", icon: "lucide:instagram", href: "#" },
+  // { label: "LinkedIn", icon: "lucide:linkedin", href: "#" },
+  // { label: "Facebook", icon: "lucide:facebook", href: "#" },
+  // { label: "Instagram", icon: "lucide:instagram", href: "#" },
 ];

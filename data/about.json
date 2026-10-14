@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "About G.M. Consolidated | Appliance Engineering & Manufacturing",
+    "title": "About | Appliance Engineering & Manufacturing",
     "description": "Learn about G.M. Consolidated, established in 1983, with appliance engineering, tooling and manufacturing capabilities across two manufacturing units in Kala Amb, Himachal Pradesh."
   },
   "hero": {
@@ -36,9 +36,9 @@
       "label": "Manufacturing Experience"
     },
     {
-      "value": "2",
+      "value": "Kalam",
       "suffix": "",
-      "label": "Manufacturing Units"
+      "label": "Manufacturing Base"
     },
     {
       "value": "500+",
@@ -51,7 +51,7 @@
       "label": "Brand Partners"
     },
     {
-      "value": "Kala Amb",
+      "value": "Delhi",
       "suffix": "",
       "label": "Manufacturing Base"
     }
@@ -184,7 +184,7 @@
       {
         "number": "04",
         "title": "Manufacturing",
-        "description": "Two specialized manufacturing units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
+        "description": "Specialized manufacturing units operating production and assembly capabilities in Kala Amb, Himachal Pradesh.",
         "icon": "lucide:factory"
       },
       {
@@ -196,46 +196,53 @@
     ]
   },
   "manufacturingInfrastructure": {
-    "eyebrow": "Our Manufacturing Infrastructure",
+    "eyebrow": "Built for Precision. Designed for Scale.",
     "title": "Two Manufacturing Units. One Manufacturing Ecosystem.",
     "description": "G.M. Consolidated operates alongside specialized manufacturing units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow."
   },
   "productEcosystem": {
     "eyebrow": "Our Product Ecosystem",
     "title": "Small Domestic Appliances & Personal Care Electronics.",
-    "description": "The company's current appliance portfolio spans garment care, water heaters, heating and comfort, personal care, and specialty electronics.",
+    "description": "The company's current appliance portfolio dry and steam irons, water heaters, heating and comfort, personal care, and specialty electronics.",
     "categories": [
       {
         "number": "01",
-        "name": "Garment Care",
-        "description": "Dry irons and steam irons.",
+        "name": "Dry Garment Care",
+        "description": "Dry irons.",
         "icon": "lucide:shirt",
-        "href": "/catalog/garment-care"
+        "href": "/catalog/dry-garment-care"
       },
       {
         "number": "02",
+        "name": "Steam Garment Care",
+        "description": "Steam irons.",
+        "icon": "lucide:wind",
+        "href": "/catalog/steam-garment-care"
+      },
+      {
+        "number": "03",
         "name": "Water Heaters",
-        "description": "Water geysers and heating systems.",
+        "description": "Instant water heaters and heating systems.",
         "icon": "lucide:shower-head",
         "href": "/catalog/water-heating"
       },
       {
-        "number": "03",
+        "number": "04",
         "name": "Heating / Comfort",
         "description": "Fan heater systems.",
         "icon": "lucide:flame",
         "href": "/catalog/heating-comfort"
       },
       {
-        "number": "04",
+        "number": "05",
         "name": "Personal Care",
         "description": "Hair dryer products.",
         "icon": "lucide:air-vent",
         "href": "/catalog/personal-care"
       },
       {
-        "number": "05",
-        "name": "Specialty Electronics",
+        "number": "06",
+        "name": "Consumer Electronics",
         "description": "Rechargeable mosquito racket products.",
         "icon": "lucide:zap",
         "href": "/catalog/specialty-electronics"
@@ -260,7 +267,7 @@
   "manufacturingStrength": {
     "eyebrow": "Manufacturing Strength",
     "title": "Manufacturing Capabilities Built Around Integration.",
-    "description": "Two specialized manufacturing units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
+    "description": "Specialized manufacturing units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
     "metrics": [
       {
         "value": "4",
@@ -330,7 +337,7 @@
       }
     ],
     "ctaLabel": "Explore OEM / ODM",
-    "ctaHref": "/oem-odm"
+    "ctaHref": "/contact#enquiry"
   },
   "leadership": {
     "eyebrow": "Leadership",
@@ -346,7 +353,7 @@
           "width": 1086,
           "height": 1448
         },
-        "bio": "Tushar Gupta leads day-to-day operations at G.M. Consolidated, steering product development, commercial strategy and supplier partnerships. With over three decades in the appliance industry, he keeps the organisation focused on dependable delivery and manufacturing excellence.",
+        "bio": "Tushar Gupta leads day-to-day operations at G.M. Consolidated, steering product development, commercial strategy, and supplier partnerships. With over three decades of experience in the appliance industry and an academic background in Economics Honours from Delhi University, he combines business insight with industry expertise to drive operational efficiency and manufacturing excellence.",
         "points": [
           "Steers OEM / ODM programme planning and commercial strategy",
           "Oversees toolroom development and new product launches",
@@ -389,6 +396,6 @@
     "primaryLabel": "Explore Catalog",
     "primaryHref": "/catalog",
     "secondaryLabel": "Start an OEM / ODM Discussion",
-    "secondaryHref": "/oem-odm"
+    "secondaryHref": "/contact#enquiry"
   }
 }
