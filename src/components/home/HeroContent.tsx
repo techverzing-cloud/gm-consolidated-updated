@@ -27,6 +27,7 @@ export function HeroContent() {
       aria-labelledby="hero-content-heading"
       className="relative isolate scroll-mt-20 overflow-hidden bg-navy-deep"
     >
+      //nothing to commit
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 z-0"
