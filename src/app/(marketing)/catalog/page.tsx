@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import { CatalogHero } from "@/components/catalog/CatalogHero";
 import { CategoryCard } from "@/components/catalog/CategoryCard";
 import { getCategories } from "@/lib/catalog";
+import { buildPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Catalog",
+export const metadata: Metadata = buildPageMetadata({
+  title: "Catalogue | Home Appliance Ranges",
   description:
-    "Explore the G.M. Consolidated catalogue - dry and steam garment care, water heaters, heating and comfort, personal care and consumer electronics, designed, tooled and built in-house.",
-};
+    "Explore the G.M. Consolidated catalogue - dry and steam garment care, water heaters, heating and comfort, personal care, consumer electronics, infrared, garment steamers and hair straighteners, designed, tooled and built in-house.",
+  path: "/catalog",
+});
 
 export default function CatalogPage() {
   const categories = getCategories();

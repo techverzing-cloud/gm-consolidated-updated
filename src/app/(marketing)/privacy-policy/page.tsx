@@ -3,13 +3,15 @@ import { PageHeader } from "@/components/content/PageHeader";
 import { LegalDocument } from "@/components/content/LegalDocument";
 import { CTASection } from "@/components/content/CTASection";
 import { getPrivacyPolicyContent } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const document = getPrivacyPolicyContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: document.metadata.title,
   description: document.metadata.description,
-};
+  path: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (

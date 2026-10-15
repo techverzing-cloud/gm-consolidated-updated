@@ -67,7 +67,7 @@ export function Quality() {
               className="relative overflow-hidden rounded-sm border border-border"
             >
               <Image
-                src="/images/quality-lab.jpg"
+                src="/images/quality-lab.png"
                 alt="Electrical routine testing line at the G.M. Consolidated factory, Kala Amb"
                 width={391}
                 height={285}

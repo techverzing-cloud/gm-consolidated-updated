@@ -146,6 +146,33 @@ export interface AboutBusinessPositioning extends AboutSubSection {
   models: AboutBusinessModel[];
 }
 
+export interface AboutCertificationStandard {
+  code: string;
+  label: string;
+  description: string;
+}
+
+export interface AboutCertificationUnit {
+  name: string;
+  certification: string;
+  scope: string;
+  location: string;
+  icon: string;
+}
+
+export interface AboutCertificationProduct {
+  title: string;
+  spec: string;
+  icon: string;
+}
+
+export interface AboutCertifications extends AboutSubSection {
+  standard: AboutCertificationStandard;
+  units: AboutCertificationUnit[];
+  productsLabel: string;
+  products: AboutCertificationProduct[];
+}
+
 export interface AboutCorporateOffice {
   eyebrow: string;
   title: string;
@@ -183,6 +210,7 @@ export interface AboutData {
   manufacturingStrength: AboutManufacturingStrength;
   qualityPositioning: AboutQualityPositioning;
   businessPositioning: AboutBusinessPositioning;
+  certifications: AboutCertifications;
   leadership: AboutLeadership;
   corporateOffice: AboutCorporateOffice;
   closingStatement: AboutClosingStatement;

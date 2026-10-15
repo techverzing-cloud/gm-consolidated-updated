@@ -5,6 +5,38 @@ gsap.registerPlugin(ScrollTrigger);
 
 export { gsap, ScrollTrigger };
 
+let animationsReleased = false;
+let safetyTimer: number | undefined;
+
+/**
+ * Freezes GSAP's global timeline so every entrance animation created on mount
+ * (reveals, hero timeline, per-page controllers) waits behind the initial page
+ * loader instead of playing out unseen. `releaseAnimations()` resumes playback.
+ *
+ * The `from`/`fromTo` start states are still written immediately, so content
+ * stays hidden (not flashed) while the loader is up.
+ */
+export function holdAnimations(): void {
+  if (animationsReleased) return;
+  gsap.globalTimeline.pause();
+  if (typeof window !== "undefined" && safetyTimer === undefined) {
+    safetyTimer = window.setTimeout(releaseAnimations, 8000);
+  }
+}
+
+/** Resumes the global timeline held by `holdAnimations()`. */
+export function releaseAnimations(): void {
+  if (animationsReleased) return;
+  animationsReleased = true;
+  if (safetyTimer !== undefined) {
+    window.clearTimeout(safetyTimer);
+    safetyTimer = undefined;
+  }
+  gsap.globalTimeline.resume();
+}
+
+holdAnimations();
+
 export function isReducedMotion(): boolean {
   return (
     typeof window !== "undefined" &&

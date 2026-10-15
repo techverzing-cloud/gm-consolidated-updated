@@ -5,13 +5,15 @@ import { FeatureGrid } from "@/components/content/FeatureGrid";
 import { ChipList } from "@/components/content/ChipList";
 import { CTASection } from "@/components/content/CTASection";
 import { getEngineeringContent } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const content = getEngineeringContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: content.metadata.title,
   description: content.metadata.description,
-};
+  path: "/engineering",
+});
 
 export default function EngineeringPage() {
   return (

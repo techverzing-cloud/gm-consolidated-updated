@@ -7,13 +7,15 @@ import { Systems } from "@/components/quality/quality-systems";
 import { Laboratory } from "@/components/quality/quality-laboratory";
 import { ClosingCta } from "@/components/quality/quality-closing-cta";
 import { getQualityPageContent } from "@/lib/quality";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const content = getQualityPageContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: content.metadata.title,
   description: content.metadata.description,
-};
+  path: "/quality",
+});
 
 export default function QualityPage() {
   return (

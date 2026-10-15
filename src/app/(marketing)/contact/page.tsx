@@ -7,13 +7,15 @@ import { MapSection } from "@/components/contact/map-section";
 import { ContactCta } from "@/components/contact/contact-cta";
 import { getContactContent } from "@/lib/content";
 import { getCategories } from "@/lib/catalog";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const content = getContactContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: content.metadata.title,
   description: content.metadata.description,
-};
+  path: "/contact",
+});
 
 export default function ContactPage() {
   const categories = getCategories();

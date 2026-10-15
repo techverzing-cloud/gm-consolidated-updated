@@ -6,8 +6,8 @@ interface ProductMatrixProps {
 }
 
 export function ProductMatrix({ period }: ProductMatrixProps) {
-  const { eyebrow, subtitle, periods, products } = getProductMatrix();
-  const { title } = periods[period];
+  const { eyebrow, subtitle, periods } = getProductMatrix();
+  const { title, products } = periods[period];
   const key = `product-matrix-${period}`;
 
   return (
@@ -64,7 +64,7 @@ export function ProductMatrix({ period }: ProductMatrixProps) {
               </span>
               <span className="min-w-0">
                 <span className="block text-[22px] font-bold leading-none tracking-tight text-white">
-                  {product.quantity[period]}
+                  {product.quantity}
                 </span>
                 <span className="mt-1.5 block truncate text-xs font-semibold text-[#D0DFE7]">
                   {product.label}

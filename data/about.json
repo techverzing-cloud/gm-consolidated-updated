@@ -113,7 +113,7 @@
       {
         "year": "2019",
         "title": "Multi-line expansion",
-        "description": "Added multiple assembly lines for products such as water heaters, room heaters and injection moulding."
+        "description": "Added assembly lines for water heaters and room heaters, and expanded injection moulding."
       },
       {
         "year": "2021",
@@ -203,7 +203,7 @@
   "productEcosystem": {
     "eyebrow": "Our Product Ecosystem",
     "title": "Small Domestic Appliances & Personal Care Electronics.",
-    "description": "The company's current appliance portfolio dry and steam irons, water heaters, heating and comfort, personal care, and specialty electronics.",
+    "description": "The company's current appliance portfolio dry and steam irons, water heaters, heating and comfort, personal care, specialty electronics, infrared, garment steamers and hair straighteners.",
     "categories": [
       {
         "number": "01",
@@ -246,6 +246,41 @@
         "description": "Rechargeable mosquito racket products.",
         "icon": "lucide:zap",
         "href": "/catalog/specialty-electronics"
+      },
+      {
+        "number": "07",
+        "name": "Infrared",
+        "description": "Infrared heating appliances.",
+        "icon": "lucide:heater",
+        "href": "/catalog/infrared"
+      },
+      {
+        "number": "08",
+        "name": "Standing Garment Steamer",
+        "description": "Standing garment steamer systems.",
+        "icon": "lucide:waves",
+        "href": "/catalog/standing-garment-steamer"
+      },
+      {
+        "number": "09",
+        "name": "Handy Garment Steamer",
+        "description": "Handheld garment steamer systems.",
+        "icon": "lucide:spray-can",
+        "href": "/catalog/handy-garment-steamer"
+      },
+      {
+        "number": "10",
+        "name": "Tankless Water Geyser",
+        "description": "Tankless on-demand water geysers.",
+        "icon": "lucide:droplets",
+        "href": "/catalog/tankless-water-geyser"
+      },
+      {
+        "number": "11",
+        "name": "Hair Straightener",
+        "description": "Hair straightener products.",
+        "icon": "lucide:sparkles",
+        "href": "/catalog/hair-straightener"
       }
     ]
   },
@@ -270,12 +305,12 @@
     "description": "Specialized manufacturing units in Kala Amb support production and assembly operations across the company's appliance ecosystem.",
     "metrics": [
       {
-        "value": "4",
+        "value": "6",
         "suffix": "M",
         "label": "Thermostat Capacity / Year"
       },
       {
-        "value": "4",
+        "value": "6",
         "suffix": "M",
         "label": "Heating Element Capacity / Year"
       },
@@ -338,6 +373,75 @@
     ],
     "ctaLabel": "Explore OEM / ODM",
     "ctaHref": "/contact#enquiry"
+  },
+  "certifications": {
+    "eyebrow": "Certifications",
+    "title": "Certifications & Product Expertise",
+    "description": "Both manufacturing units operate under an ISO 9001:2015 quality management system, supporting a certified portfolio of small domestic and personal-care appliances.",
+    "standard": {
+      "code": "ISO 9001:2015",
+      "label": "Quality Management System",
+      "description": "A.R. Industries and Rao Industries are certified to the ISO 9001:2015 quality management standard - covering design, development and manufacture across the appliance portfolio."
+    },
+    "units": [
+      {
+        "name": "A.R. Industries",
+        "certification": "ISO 9001:2015",
+        "scope": "Design, development and manufacture of small domestic appliances.",
+        "location": "Kala Amb, Himachal Pradesh",
+        "icon": "lucide:badge-check"
+      },
+      {
+        "name": "Rao Industries",
+        "certification": "ISO 9001:2015",
+        "scope": "Manufacture of heating and personal-care appliances.",
+        "location": "Kala Amb, Himachal Pradesh",
+        "icon": "lucide:shield-check"
+      }
+    ],
+    "productsLabel": "Product Range & Ratings",
+    "products": [
+      {
+        "title": "Instant Water Heater",
+        "spec": "3 L / 5 L · 3 kW & 4.5 kW",
+        "icon": "lucide:shower-head"
+      },
+      {
+        "title": "Thermostat Electric Iron",
+        "spec": "600–1200 W",
+        "icon": "lucide:shirt"
+      },
+      {
+        "title": "Steam Iron",
+        "spec": "1250–3100 W",
+        "icon": "lucide:wind"
+      },
+      {
+        "title": "Water Heater Element",
+        "spec": "Heating element assemblies",
+        "icon": "lucide:zap"
+      },
+      {
+        "title": "Geyser Thermostat",
+        "spec": "Precision thermal control",
+        "icon": "lucide:thermometer"
+      },
+      {
+        "title": "Heater Convector",
+        "spec": "1000 W & 2000 W",
+        "icon": "lucide:fan"
+      },
+      {
+        "title": "Plug Molded",
+        "spec": "Moulded power plugs",
+        "icon": "lucide:plug"
+      },
+      {
+        "title": "Hair Dryer · Infrared · Mosquito Racket",
+        "spec": "Personal care & specialty electronics",
+        "icon": "lucide:air-vent"
+      }
+    ]
   },
   "leadership": {
     "eyebrow": "Leadership",

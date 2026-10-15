@@ -96,18 +96,20 @@ export function Footer() {
               <p className="mt-4 text-sm font-medium text-white/90">
                 Home Appliance Manufacturing
               </p>
-              <div className="mt-6 flex items-center gap-2">
-                {SOCIALS.map((social) => (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    aria-label={`G.M. Consolidated on ${social.label}`}
-                    className="flex h-9 w-9 items-center justify-center rounded-sm text-navy-muted transition-[color,transform] duration-200 hover:-rotate-6 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                  >
-                    <Icon icon={social.icon} size={17} />
-                  </a>
-                ))}
-              </div>
+              {SOCIALS.length > 0 && (
+                <div className="mt-6 flex items-center gap-2">
+                  {SOCIALS.map((social) => (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      aria-label={`G.M. Consolidated on ${social.label}`}
+                      className="flex h-9 w-9 items-center justify-center rounded-sm text-navy-muted transition-[color,transform] duration-200 hover:-rotate-6 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    >
+                      <Icon icon={social.icon} size={17} />
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div>

@@ -3,13 +3,15 @@ import { PageHeader } from "@/components/content/PageHeader";
 import { LegalDocument } from "@/components/content/LegalDocument";
 import { CTASection } from "@/components/content/CTASection";
 import { getTermsContent } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const document = getTermsContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: document.metadata.title,
   description: document.metadata.description,
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

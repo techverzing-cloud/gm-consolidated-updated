@@ -4,7 +4,7 @@ export type CapacityPeriod = "monthly" | "yearly";
 
 export interface ProductCapacityItem {
   id: string;
-  quantity: Record<CapacityPeriod, string>;
+  quantity: string;
   label: string;
   image: string;
   imageAlt: string;
@@ -12,13 +12,13 @@ export interface ProductCapacityItem {
 
 export interface CapacityPeriodCopy {
   title: string;
+  products: ProductCapacityItem[];
 }
 
 export interface ProductMatrixData {
   eyebrow: string;
   subtitle: string;
   periods: Record<CapacityPeriod, CapacityPeriodCopy>;
-  products: ProductCapacityItem[];
 }
 
 const productMatrix = productMatrixData as ProductMatrixData;

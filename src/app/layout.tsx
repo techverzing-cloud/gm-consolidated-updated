@@ -1,7 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { PageLoader } from "@/components/ui/PageLoader";
 import { BASE_URL } from "@/data/site";
+import {
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_TITLE,
+  SHARE_IMAGE,
+} from "@/lib/metadata";
 import "./globals.css";
 
 const inter = Inter({
@@ -14,11 +21,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer",
-    template: "%s | G.M. Consolidated",
+    default: SITE_TITLE,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    "Reliable home appliance OEM and ODM manufacturing. From product development to quality control, we deliver home appliances for brands and businesses.",
+  description: SITE_DESCRIPTION,
   keywords: [
     "home appliances",
     "OEM manufacturing",
@@ -28,13 +34,18 @@ export const metadata: Metadata = {
     "home appliances supplier",
   ],
   openGraph: {
-    title: "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer",
-    description:
-      "Reliable home appliance OEM and ODM manufacturing for brands and businesses.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     type: "website",
     locale: "en_IN",
-    siteName: "G.M. Consolidated",
-    images: ["/fav/android-chrome-512x512.png"],
+    siteName: SITE_NAME,
+    images: [SHARE_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [SHARE_IMAGE.url],
   },
   icons: {
     icon: [
@@ -67,6 +78,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           Skip to main content
         </a>
+        <PageLoader />
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: "<style>.page-loader{display:none !important}</style>",
+          }}
+        />
         {children}
       </body>
     </html>

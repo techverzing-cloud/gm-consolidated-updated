@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/catalog/ProductCard";
 import { getCategories, getCategory } from "@/lib/catalog";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
   return getCategories().map((category) => ({ slug: category.slug }));
@@ -19,10 +20,13 @@ export async function generateMetadata({
   if (!category) {
     return { title: "Catalog" };
   }
-  return {
-    title: `${category.name} Catalogue`,
-    description: `${category.description} Explore the range.`,
-  };
+  const title = `${category.name} Catalogue`;
+  const description = `${category.description} Explore the range.`;
+  return buildPageMetadata({
+    title,
+    description,
+    path: `/catalog/${category.slug}`,
+  });
 }
 
 export default async function CategoryPage({

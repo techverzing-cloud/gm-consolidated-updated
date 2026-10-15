@@ -12,10 +12,7 @@ export function ProductHero({
   category: CatalogCategory;
   product: CatalogProduct;
 }) {
-  const galleryImages =
-    product.images && product.images.length > 0
-      ? product.images
-      : [{ src: product.image, alt: product.name }];
+  const galleryImages = [{ src: product.image, alt: product.name }];
 
   return (
     <section

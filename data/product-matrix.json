@@ -3,75 +3,84 @@
   "subtitle": "Transforming Ideas into Reality with Our Expertise",
   "periods": {
     "monthly": {
-      "title": "Monthly Production Capacities"
+      "title": "Monthly Production Capacities",
+      "products": [
+        {
+          "id": "dry-iron",
+          "quantity": "500K+",
+          "label": "Dry Iron",
+          "image": "/images/products/garment-care/gm2.png",
+          "imageAlt": "Dry iron"
+        },
+        {
+          "id": "steam-iron",
+          "quantity": "200K+",
+          "label": "Steam Iron",
+          "image": "/images/products/garment-care/gm18.png",
+          "imageAlt": "Steam iron"
+        },
+        {
+          "id": "water-heater",
+          "quantity": "75K+",
+          "label": "Water Heater",
+          "image": "/images/products/water-heating/gm32.png",
+          "imageAlt": "Water heater"
+        },
+        {
+          "id": "infrared-cooktop",
+          "quantity": "50K+",
+          "label": "Infrared Cooktop",
+          "image": "/images/products/infrared/gm-50.png",
+          "imageAlt": "Infrared cooktop"
+        },
+        {
+          "id": "mosquito-racket",
+          "quantity": "100K+",
+          "label": "Mosquito Racket",
+          "image": "/images/products/specialty/mosquito-racket.webp",
+          "imageAlt": "Mosquito racket"
+        }
+      ]
     },
     "yearly": {
-      "title": "Yearly Production Capacities"
+      "title": "Yearly Production Capacities",
+      "products": [
+        {
+          "id": "dry-iron",
+          "quantity": "6M+",
+          "label": "Dry Iron",
+          "image": "/images/products/garment-care/gm2.png",
+          "imageAlt": "Dry iron"
+        },
+        {
+          "id": "steam-iron",
+          "quantity": "2.4M+",
+          "label": "Steam Iron",
+          "image": "/images/products/garment-care/gm18.png",
+          "imageAlt": "Steam iron"
+        },
+        {
+          "id": "water-heater",
+          "quantity": "900K+",
+          "label": "Water Heater",
+          "image": "/images/products/water-heating/gm32.png",
+          "imageAlt": "Water heater"
+        },
+        {
+          "id": "infrared-cooktop",
+          "quantity": "600K+",
+          "label": "Infrared Cooktop",
+          "image": "/images/products/infrared/gm-50.png",
+          "imageAlt": "Infrared cooktop"
+        },
+        {
+          "id": "mosquito-racket",
+          "quantity": "1.2M+",
+          "label": "Mosquito Racket",
+          "image": "/images/products/specialty/mosquito-racket.webp",
+          "imageAlt": "Mosquito racket"
+        }
+      ]
     }
-  },
-  "products": [
-    {
-      "id": "induction-cooktop",
-      "quantity": { "monthly": "150K+", "yearly": "1.8M+" },
-      "label": "Induction Cooktop",
-      "image": "/images/products/capacity/induction-cooktop.svg",
-      "imageAlt": "Induction cooktop"
-    },
-    {
-      "id": "electric-kettle",
-      "quantity": { "monthly": "50K+", "yearly": "600K+" },
-      "label": "Electric Kettle",
-      "image": "/images/products/capacity/electric-kettle.svg",
-      "imageAlt": "Electric kettle"
-    },
-    {
-      "id": "mixers-range",
-      "quantity": { "monthly": "50K+", "yearly": "600K+" },
-      "label": "Mixers Range",
-      "image": "/images/products/capacity/mixer.svg",
-      "imageAlt": "Mixer and juicer appliances"
-    },
-    {
-      "id": "rice-cooker",
-      "quantity": { "monthly": "30K+", "yearly": "360K+" },
-      "label": "Rice Cooker",
-      "image": "/images/products/capacity/rice-cooker.svg",
-      "imageAlt": "Rice cooker"
-    },
-    {
-      "id": "iron",
-      "quantity": { "monthly": "200K+", "yearly": "2.4M+" },
-      "label": "Iron",
-      "image": "/images/products/garment-care/gm18.png",
-      "imageAlt": "Steam iron"
-    },
-    {
-      "id": "room-heater",
-      "quantity": { "monthly": "80K+", "yearly": "960K+" },
-      "label": "Room Heater",
-      "image": "/images/products/heating/fan-heater.webp",
-      "imageAlt": "Room heater"
-    },
-    {
-      "id": "infrared-cooktop",
-      "quantity": { "monthly": "150K+", "yearly": "1.8M+" },
-      "label": "Infrared Cooktop",
-      "image": "/images/products/capacity/infrared-cooktop.svg",
-      "imageAlt": "Infrared cooktop"
-    },
-    {
-      "id": "mini-fan",
-      "quantity": { "monthly": "25K+", "yearly": "300K+" },
-      "label": "Mini Fan",
-      "image": "/images/products/capacity/mini-fan.svg",
-      "imageAlt": "Mini table fan"
-    },
-    {
-      "id": "air-fryer",
-      "quantity": { "monthly": "10K+", "yearly": "120K+" },
-      "label": "Air Fryer",
-      "image": "/images/products/capacity/air-fryer.svg",
-      "imageAlt": "Air fryer"
-    }
-  ]
+  }
 }

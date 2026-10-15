@@ -13,7 +13,7 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
         {items.map((item, index) => {
           const isCurrent = index === items.length - 1;
           return (
-            <li key={item.label} className="flex items-center gap-1.5">
+            <li key={`${index}-${item.label}`} className="flex items-center gap-1.5">
               {index > 0 && (
                 <Icon
                   icon="lucide:chevron-right"

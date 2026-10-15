@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { UnitPage } from "@/components/units/unit-page";
 import { getUnit } from "@/lib/units";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const unit = getUnit("rao-industries");
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: unit.metadata.title,
   description: unit.metadata.description,
-};
+  path: "/rao-industries",
+});
 
 export default function RaoIndustriesPage() {
   return <UnitPage unit={unit} />;

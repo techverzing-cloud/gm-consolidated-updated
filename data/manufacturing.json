@@ -27,12 +27,12 @@
       "label": "Pressure Die Casting Capacity"
     },
     {
-      "value": "4M",
+      "value": "6M",
       "suffix": "",
       "label": "Thermostat Capacity / Year"
     },
     {
-      "value": "4M",
+      "value": "6M",
       "suffix": "",
       "label": "Heating Element Capacity / Year"
     },
@@ -216,7 +216,7 @@
       {
         "number": "01",
         "name": "A. R. Industries",
-        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt-Sirmour, Kala Amb (HP) – 173030.",
+        "location": "Mauza Rampur Jattan, Dhakwala Moginand, Tehsil Nahan, Distt. Sirmour, Kala Amb (HP) – 173030.",
         "focus": "Small domestic appliances core assembly",
         "image": "/Company/A_R_IMAGE.jpeg",
         "imageAlt": "A. R. Industries small domestic appliance assembly line inside the G.M. Consolidated Kala Amb unit"

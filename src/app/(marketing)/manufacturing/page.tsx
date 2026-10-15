@@ -11,13 +11,15 @@ import { QualityBridge } from "@/components/manufacturing/mfg-quality-bridge";
 import { ClosingCta } from "@/components/manufacturing/mfg-closing-cta";
 import { ManufacturingUnits } from "@/components/shared/manufacturing-units";
 import { getManufacturingContent } from "@/lib/manufacturing";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const content = getManufacturingContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: content.metadata.title,
   description: content.metadata.description,
-};
+  path: "/manufacturing",
+});
 
 export default function ManufacturingPage() {
   return (

@@ -22,7 +22,13 @@ export const SITE_INFO = {
   units: contact.primaryContact.units,
 };
 
-export const SOCIALS = [
+export type Social = {
+  label: string;
+  icon: string;
+  href: string;
+};
+
+export const SOCIALS: Social[] = [
   // { label: "LinkedIn", icon: "lucide:linkedin", href: "#" },
   // { label: "Facebook", icon: "lucide:facebook", href: "#" },
   // { label: "Instagram", icon: "lucide:instagram", href: "#" },

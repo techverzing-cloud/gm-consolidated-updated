@@ -10,27 +10,28 @@ import { ProductEcosystem } from "@/components/about/product-ecosystem";
 import { EngineeringStrength } from "@/components/about/engineering-strength";
 import { ManufacturingStrength } from "@/components/about/manufacturing-strength";
 import { QualityPositioning } from "@/components/about/quality-positioning";
+import { CertificationsExpertise } from "@/components/about/certifications-expertise";
 import { BusinessPositioning } from "@/components/about/business-positioning";
 import { LeadershipSection } from "@/components/about/leadership-section";
 import { TimelineSection } from "@/components/about/about-timeline";
-import { ClientsLogos } from "@/components/about/clients-logos";
 import { FaqSection } from "@/components/about/faq-section";
 import { CorporateOffice } from "@/components/about/corporate-office";
 import { AboutCta } from "@/components/about/about-cta";
+import { Brands } from "@/components/shared/brands";
 import { ManufacturingUnits } from "@/components/shared/manufacturing-units";
 import { ProductMatrix } from "@/components/shared/product-matrix";
 import { getAboutContent } from "@/lib/about";
-import { getClientsContent } from "@/lib/clients";
 import { getFaqContent } from "@/lib/faq";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const content = getAboutContent();
-const clients = getClientsContent();
 const faq = getFaqContent();
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: content.metadata.title,
   description: content.metadata.description,
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
@@ -50,8 +51,9 @@ export default function AboutPage() {
       <ProductMatrix period="yearly" />
       <ManufacturingStrength section={content.manufacturingStrength} />
       <QualityPositioning section={content.qualityPositioning} />
+      <CertificationsExpertise section={content.certifications} />
       <BusinessPositioning section={content.businessPositioning} />
-      {/* <ClientsLogos content={clients} /> */}
+      <Brands id="about-brands" />
       <CorporateOffice office={content.corporateOffice} />
       <FaqSection content={faq} />
       <AboutCta closing={content.closingStatement} />

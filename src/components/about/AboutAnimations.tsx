@@ -31,6 +31,7 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
     const ecosystem = scope.querySelector("#about-ecosystem");
     const engineering = scope.querySelector("#about-engineering");
     const quality = scope.querySelector("#about-quality");
+    const certifications = scope.querySelector("#about-certifications");
     const business = scope.querySelector("#about-business");
     const leadership = scope.querySelector("#about-leadership");
     const clients = scope.querySelector("#about-clients");
@@ -362,6 +363,56 @@ export function AboutAnimations({ children }: { children: ReactNode }) {
             },
           );
         }
+      }
+
+      if (certifications) {
+        gsap.fromTo(
+          "[data-about-cert-panel]",
+          { autoAlpha: 0, y: 28 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.7,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: certifications,
+              start: "top 78%",
+              once: true,
+            },
+          },
+        );
+        gsap.fromTo(
+          "[data-about-cert-unit]",
+          { autoAlpha: 0, y: 20 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.55,
+            ease: "power3.out",
+            stagger: 0.1,
+            scrollTrigger: {
+              trigger: certifications,
+              start: "top 78%",
+              once: true,
+            },
+          },
+        );
+        gsap.fromTo(
+          "[data-about-cert-product]",
+          { autoAlpha: 0, y: 20 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.5,
+            ease: "power3.out",
+            stagger: 0.05,
+            scrollTrigger: {
+              trigger: certifications,
+              start: "top 78%",
+              once: true,
+            },
+          },
+        );
       }
 
       if (business) {

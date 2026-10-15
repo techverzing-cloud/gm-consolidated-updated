@@ -9,10 +9,14 @@ export function CompanyFacts({ facts }: { facts: AboutFact[] }) {
     >
       <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <dl className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {facts.map((fact) => {
+          {facts.map((fact, index) => {
             const parts = parseMetric(fact.value, fact.suffix);
             return (
-              <div key={fact.label} data-about-fact className="flex flex-col">
+              <div
+                key={`${fact.label}-${index}`}
+                data-about-fact
+                className="flex flex-col"
+              >
                 <dt className="order-2 mt-4 text-base font-medium uppercase tracking-[0.12em] text-foreground-secondary">
                   {fact.label}
                 </dt>
