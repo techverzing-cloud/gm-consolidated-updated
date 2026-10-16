@@ -6,7 +6,7 @@ export const SITE_TITLE =
   "G.M. Consolidated | Home Appliance OEM/ODM Manufacturer";
 
 export const SITE_DESCRIPTION =
-  "Reliable home appliance OEM and ODM manufacturing. From product development to quality control, we deliver home appliances for brands and businesses.";
+  "Reliable home appliance  manufacturing. From product development to quality control, we deliver home appliances for brands and businesses.";
 
 export const SHARE_IMAGE = {
   url: "/logo/gm-logo.png",

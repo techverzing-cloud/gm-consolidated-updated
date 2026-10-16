@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Contact | OEM & ODM Appliance Enquiries",
+    "title": "Contact |  Appliance Enquiries",
     "description": "Start a B2B appliance enquiry with G.M. Consolidated - OEM, ODM, private-label and bulk requirements. Talk to our team about your next appliance programme."
   },
   "hero": {
@@ -61,9 +61,9 @@
   "form": {
     "title": "Start a Conversation",
     "description": "Tell us what you're looking to build and our team can discuss the next steps.",
-    "enquiryTypes": ["OEM", "ODM", "Private Label", "Bulk Requirement", "General Enquiry"],
+    "enquiryTypes": ["Private Label", "Bulk Requirement", "General Enquiry"],
     "submitLabel": "Send Enquiry",
-    "requiredNote": "* Required",
+    "requiredNote": "Required",
     "fallbackTitle": "Enquiry channel is being connected",
     "fallbackText": "Your details were validated but delivery isn't connected yet. Our team is wiring direct email - until then, please reach us at",
     "invalidMessage": "Please check the highlighted fields and try again.",

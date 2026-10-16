@@ -111,7 +111,7 @@
               "Standard colour box",
               "Retail / gift box",
               "Bulk master carton",
-              "Custom OEM packaging"
+              "Custom packaging"
             ]
           },
           "customization": [
@@ -1044,7 +1044,7 @@
             "options": [
               "Retail colour box",
               "Bulk master carton",
-              "Custom OEM packaging"
+              "Custom packaging"
             ]
           },
           "customization": [
@@ -1261,7 +1261,7 @@
               "Retail colour box",
               "Gift / branded box",
               "Bulk master carton",
-              "Custom OEM packaging"
+              "Custom packaging"
             ]
           },
           "customization": [
@@ -1478,7 +1478,7 @@
               "Retail colour box",
               "Gift / branded box",
               "Bulk master carton",
-              "Custom OEM packaging"
+              "Custom packaging"
             ]
           },
           "customization": [
