@@ -7,8 +7,8 @@
     "eyebrow": "QUALITY & TESTING",
     "title": "Every Unit Is Tested. Not Just Sampled.",
     "description": "Quality is engineered into the manufacturing flow, with checkpoints across production and routine testing before finished products are released.",
-    "image": "/images/quality-hero.jpg",
-    "imageAlt": "Production floor at the G.M. Consolidated manufacturing units, Kala Amb"
+    "image": "/quality page hero section.png",
+    "imageAlt": "G.M. Consolidated quality testing"
   },
   "philosophy": {
     "eyebrow": "Quality Philosophy",
@@ -47,7 +47,7 @@
       },
       {
         "number": "05",
-        "title": "Routine Test",
+        "title": "BIS Approved Routine Test",
         "description": "Finished products undergo routine testing.",
         "icon": "lucide:test-tube"
       },

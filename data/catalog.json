@@ -1139,11 +1139,11 @@
       "name": "Personal Care",
       "slug": "personal-care",
       "number": "05",
-      "tag": "Hair dryers",
-      "shortDescription": "Hair dryers for everyday grooming.",
-      "description": "Hair dryers built with powerful motors, a cool shot function and adjustable heat and speed for everyday grooming.",
-      "image": "/images/products/personal-care/gm44.png",
-      "imageAlt": "G.M. Consolidated hair dryer",
+      "tag": "Hair care",
+      "shortDescription": "Hair dryers and hair straighteners for everyday styling.",
+      "description": "Hair care appliances with powerful motors, a cool shot function and adjustable heat and speed, plus hair straighteners with fast-heating ceramic plates and adjustable temperature for smooth, everyday styling.",
+      "image": "/images/products/hair-straightener/gm-58.png",
+      "imageAlt": "G.M. Consolidated hair straightener",
       "featured": false,
       "products": [
         {
@@ -1347,6 +1347,61 @@
             "gm-43",
             "gm-44",
             "gm-45"
+          ]
+        },
+        {
+          "id": "gm-58",
+          "slug": "gm-58",
+          "name": "Hair Straightener",
+          "code": "GM-58",
+          "categorySlug": "personal-care",
+          "shortDescription": "Hair straightener with fast-heating ceramic plates and adjustable temperature.",
+          "description": "The GM-58 is a hair straightener built around fast-heating ceramic plates for smooth, even glide. Adjustable temperature settings suit different hair types, while a lightweight, cool-touch body and swivel cord keep styling comfortable.",
+          "image": "/images/products/hair-straightener/gm-58.png",
+          "images": [
+            {
+              "src": "/images/products/hair-straightener/gm-58.png",
+              "alt": "G.M. Consolidated GM-58 Hair Straightener - product photo"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Special Range"
+            },
+            {
+              "label": "Plates",
+              "value": "Ceramic-Coated Plates"
+            },
+            {
+              "label": "Heat-up",
+              "value": "Fast Heat-Up"
+            },
+            {
+              "label": "Controls",
+              "value": "Adjustable Temperature"
+            },
+            {
+              "label": "Cord",
+              "value": "360° Swivel Cord"
+            },
+            {
+              "label": "Warranty",
+              "value": "1 Year Core Warranty"
+            }
+          ],
+          "features": [
+            "Ceramic-Coated Plates",
+            "Fast Heat-Up",
+            "Adjustable Temperature",
+            "360° Swivel Cord",
+            "Cool-Touch Body",
+            "1 Year Core Warranty"
+          ],
+          "relatedProducts": [
+            "gm-44",
+            "gm-47",
+            "gm-51"
           ]
         }
       ]
@@ -1564,15 +1619,15 @@
       ]
     },
     {
-      "id": "standing-garment-steamer",
-      "name": "Standing Garment Steamer",
-      "slug": "standing-garment-steamer",
+      "id": "garment-steamer",
+      "name": "Garment Steamer",
+      "slug": "garment-steamer",
       "number": "08",
-      "tag": "Standing steamers",
-      "shortDescription": "Standing garment steamers.",
-      "description": "Standing garment steamers with a large water tank and continuous steam output for crease-free finishing on heavy fabrics and long sessions.",
+      "tag": "Standing & handheld steamers",
+      "shortDescription": "Standing and handheld garment steamers.",
+      "description": "Standing garment steamers with a large water tank and continuous steam output for crease-free finishing on heavy fabrics and long sessions, plus handheld garment steamers with quick heat-up and a compact build for fast touch-ups at home or on the move.",
       "image": "/images/products/standing-garment-steamer/gm-51.png",
-      "imageAlt": "G.M. Consolidated standing garment steamer",
+      "imageAlt": "G.M. Consolidated garment steamer",
       "featured": false,
       "products": [
         {
@@ -1580,7 +1635,7 @@
           "slug": "gm-51",
           "name": "Standing Garment Steamer",
           "code": "GM-51",
-          "categorySlug": "standing-garment-steamer",
+          "categorySlug": "garment-steamer",
           "shortDescription": "Standing garment steamer with a large tank and continuous steam.",
           "description": "The GM-51 is a standing garment steamer built around a large-capacity water tank and continuous steam output. An adjustable pole and wide steam head make it easy to finish suits, curtains and heavy fabrics without a board, while the fast heat-up keeps long sessions moving.",
           "image": "/images/products/standing-garment-steamer/gm-51.png",
@@ -1640,7 +1695,7 @@
           "slug": "gm-52",
           "name": "Standing Garment Steamer",
           "code": "GM-52",
-          "categorySlug": "standing-garment-steamer",
+          "categorySlug": "garment-steamer",
           "shortDescription": "Standing garment steamer with a large tank and continuous steam.",
           "description": "The GM-52 is a standing garment steamer with a large-capacity water tank and continuous steam output. The height-adjustable pole and wide steam head make it easy to freshen tailored garments and upholstery, with a fast heat-up for steady, back-to-back use.",
           "image": "/images/products/standing-garment-steamer/gm-52.png",
@@ -1694,27 +1749,13 @@
             "gm-53",
             "gm-18"
           ]
-        }
-      ]
-    },
-    {
-      "id": "handy-garment-steamer",
-      "name": "Handy Garment Steamer",
-      "slug": "handy-garment-steamer",
-      "number": "09",
-      "tag": "Handheld steamers",
-      "shortDescription": "Handheld garment steamers.",
-      "description": "Handheld garment steamers with quick heat-up and a compact build for fast touch-ups at home or on the move.",
-      "image": "/images/products/handy-garment-steamer/gm-53.png",
-      "imageAlt": "G.M. Consolidated handheld garment steamer",
-      "featured": false,
-      "products": [
+        },
         {
           "id": "gm-53",
           "slug": "gm-53",
           "name": "Handy Garment Steamer",
           "code": "GM-53",
-          "categorySlug": "handy-garment-steamer",
+          "categorySlug": "garment-steamer",
           "shortDescription": "Compact handheld steamer with quick heat-up and continuous steam.",
           "description": "The GM-53 is a handheld garment steamer built for quick touch-ups. A compact, lightweight body and quick heat-up make it easy to refresh garments on a hanger, while the continuous steam output smooths creases on most fabric groups.",
           "image": "/images/products/handy-garment-steamer/gm-53.png",
@@ -1773,7 +1814,7 @@
           "slug": "gm-54",
           "name": "Handy Garment Steamer",
           "code": "GM-54",
-          "categorySlug": "handy-garment-steamer",
+          "categorySlug": "garment-steamer",
           "shortDescription": "Compact handheld steamer with quick heat-up and continuous steam.",
           "description": "The GM-54 is a handheld garment steamer with quick heat-up and continuous steam output. Its lightweight, compact body makes it easy to steam garments on a hanger, and the easy-fill tank keeps it ready for quick touch-ups.",
           "image": "/images/products/handy-garment-steamer/gm-54.png",
@@ -1832,7 +1873,7 @@
           "slug": "gm-55",
           "name": "Handy Garment Steamer",
           "code": "GM-55",
-          "categorySlug": "handy-garment-steamer",
+          "categorySlug": "garment-steamer",
           "shortDescription": "Compact handheld steamer with quick heat-up and continuous steam.",
           "description": "The GM-55 is a handheld garment steamer built for fast, everyday touch-ups. Quick heat-up and continuous steam output work with a compact, lightweight body, so garments can be refreshed quickly at home or on the move.",
           "image": "/images/products/handy-garment-steamer/gm-55.png",
@@ -1886,33 +1927,33 @@
     },
     {
       "id": "tankless-water-geyser",
-      "name": "Tankless Water Geyser",
+      "name": "Tankless Water Heater",
       "slug": "tankless-water-geyser",
-      "number": "10",
+      "number": "09",
       "tag": "Tankless geysers",
       "shortDescription": "Tankless water geysers.",
       "description": "Tankless water geysers that heat on demand - no storage tank, instant hot water and a compact, wall-mounted footprint.",
       "image": "/images/products/tankless-water-geyser/gm-56.png",
-      "imageAlt": "G.M. Consolidated tankless water geyser",
+      "imageAlt": "G.M. Consolidated Tankless Water Heater",
       "featured": false,
       "products": [
         {
           "id": "gm-56",
           "slug": "gm-56",
-          "name": "Tankless Water Geyser",
+          "name": "Tankless Water Heater",
           "code": "GM-56",
           "categorySlug": "tankless-water-geyser",
           "shortDescription": "Tankless geyser that heats water on demand with no storage tank.",
-          "description": "The GM-56 is a tankless water geyser that heats water on demand with no storage tank to wait on. A copper heating element and high-precision thermostat deliver consistent outlet temperature, while the compact wall-mounted body frees up space and reduces standing heat loss.",
+          "description": "The GM-56 is a Tankless Water Heater that heats water on demand with no storage tank to wait on. A copper heating element and high-precision thermostat deliver consistent outlet temperature, while the compact wall-mounted body frees up space and reduces standing heat loss.",
           "image": "/images/products/tankless-water-geyser/gm-56.png",
           "images": [
             {
               "src": "/images/products/tankless-water-geyser/gm-56.png",
-              "alt": "G.M. Consolidated GM-56 Tankless Water Geyser - product photo"
+              "alt": "G.M. Consolidated GM-56 Tankless Water Heater - product photo"
             },
             {
-              "src": "/images/products/tankless-water-geyser/gm-56-alt.png",
-              "alt": "G.M. Consolidated tankless water geyser - alternate view"
+              "src": "/images/products/tankless-water-geyser/gm-56-2.png",
+              "alt": "G.M. Consolidated Tankless Water Heater - alternate view"
             }
           ],
           "specifications": [
@@ -1922,7 +1963,7 @@
             },
             {
               "label": "Type",
-              "value": "Tankless Water Geyser"
+              "value": "Tankless Water Heater"
             },
             {
               "label": "Heating element",
@@ -1959,20 +2000,20 @@
         {
           "id": "gm-57",
           "slug": "gm-57",
-          "name": "Tankless Water Geyser",
+          "name": "Tankless Water Heater",
           "code": "GM-57",
           "categorySlug": "tankless-water-geyser",
           "shortDescription": "Tankless geyser that heats water on demand with no storage tank.",
-          "description": "The GM-57 is a tankless water geyser that heats water on demand rather than storing it. A copper heating element and high-precision thermostat hold a steady outlet temperature, and the compact wall-mounted design suits bathrooms and utility spaces with limited room.",
+          "description": "The GM-57 is a Tankless Water Heater that heats water on demand rather than storing it. A copper heating element and high-precision thermostat hold a steady outlet temperature, and the compact wall-mounted design suits bathrooms and utility spaces with limited room.",
           "image": "/images/products/tankless-water-geyser/gm-57.png",
           "images": [
             {
               "src": "/images/products/tankless-water-geyser/gm-57.png",
-              "alt": "G.M. Consolidated GM-57 Tankless Water Geyser - product photo"
+              "alt": "G.M. Consolidated GM-57 Tankless Water Heater - product photo"
             },
             {
-              "src": "/images/products/tankless-water-geyser/gm-57-alt.png",
-              "alt": "G.M. Consolidated tankless water geyser - alternate view"
+              "src": "/images/products/tankless-water-geyser/gm-57-2.png",
+              "alt": "G.M. Consolidated Tankless Water Heater - alternate view"
             }
           ],
           "specifications": [
@@ -1982,7 +2023,7 @@
             },
             {
               "label": "Type",
-              "value": "Tankless Water Geyser"
+              "value": "Tankless Water Heater"
             },
             {
               "label": "Heating element",
@@ -2015,74 +2056,115 @@
             "gm-33",
             "gm-37"
           ]
-        }
-      ]
-    },
-    {
-      "id": "hair-straightener",
-      "name": "Hair Straightener",
-      "slug": "hair-straightener",
-      "number": "11",
-      "tag": "Hair straighteners",
-      "shortDescription": "Hair straighteners.",
-      "description": "Hair straighteners with fast-heating ceramic plates and adjustable temperature for smooth, everyday styling.",
-      "image": "/images/products/hair-straightener/gm-58.png",
-      "imageAlt": "G.M. Consolidated hair straightener",
-      "featured": false,
-      "products": [
+        },
         {
           "id": "gm-58",
           "slug": "gm-58",
-          "name": "Hair Straightener",
+          "name": "Tankless Water Heater",
           "code": "GM-58",
-          "categorySlug": "hair-straightener",
-          "shortDescription": "Hair straightener with fast-heating ceramic plates and adjustable temperature.",
-          "description": "The GM-58 is a hair straightener built around fast-heating ceramic plates for smooth, even glide. Adjustable temperature settings suit different hair types, while a lightweight, cool-touch body and swivel cord keep styling comfortable.",
-          "image": "/images/products/hair-straightener/gm-58.png",
+          "categorySlug": "tankless-water-geyser",
+          "shortDescription": "Tankless geyser that heats water on demand with no storage tank.",
+          "description": "The GM-58 is a Tankless Water Heater that heats water on demand rather than storing it. A copper heating element and high-precision thermostat hold a steady outlet temperature, and the compact wall-mounted design suits bathrooms and utility spaces with limited room.",
+          "image": "/images/products/tankless-water-geyser/gm-56-2.png",
           "images": [
             {
-              "src": "/images/products/hair-straightener/gm-58.png",
-              "alt": "G.M. Consolidated GM-58 Hair Straightener - product photo"
+              "src": "/images/products/tankless-water-geyser/gm-56-2.png",
+              "alt": "G.M. Consolidated GM-58 Tankless Water Heater - product photo"
             }
           ],
           "specifications": [
             {
               "label": "Series",
-              "value": "Special Range"
+              "value": "Instant Series"
             },
             {
-              "label": "Plates",
-              "value": "Ceramic-Coated Plates"
+              "label": "Type",
+              "value": "Tankless Water Heater"
             },
             {
-              "label": "Heat-up",
-              "value": "Fast Heat-Up"
+              "label": "Heating element",
+              "value": "Copper Heating Element"
             },
             {
-              "label": "Controls",
-              "value": "Adjustable Temperature"
+              "label": "Thermostat",
+              "value": "High Precision Thermostat"
             },
             {
-              "label": "Cord",
-              "value": "360° Swivel Cord"
+              "label": "Safety",
+              "value": "Triple Safety Protection"
             },
             {
               "label": "Warranty",
-              "value": "1 Year Core Warranty"
+              "value": "2 Year Product Warranty"
             }
           ],
           "features": [
-            "Ceramic-Coated Plates",
-            "Fast Heat-Up",
-            "Adjustable Temperature",
-            "360° Swivel Cord",
-            "Cool-Touch Body",
-            "1 Year Core Warranty"
+            "Tankless On-Demand Heating",
+            "Copper Heating Element",
+            "High Precision Thermostat",
+            "Triple Safety Protection",
+            "Compact Wall-Mounted Body",
+            "Power Indicator",
+            "2 Years Product Warranty"
           ],
           "relatedProducts": [
-            "gm-44",
-            "gm-47",
-            "gm-51"
+            "gm-56",
+            "gm-57"
+          ]
+        },
+        {
+          "id": "gm-59",
+          "slug": "gm-59",
+          "name": "Tankless Water Heater",
+          "code": "GM-59",
+          "categorySlug": "tankless-water-geyser",
+          "shortDescription": "Tankless geyser that heats water on demand with no storage tank.",
+          "description": "The GM-59 is a Tankless Water Heater that heats water on demand rather than storing it. A copper heating element and high-precision thermostat hold a steady outlet temperature, and the compact wall-mounted design suits bathrooms and utility spaces with limited room.",
+          "image": "/images/products/tankless-water-geyser/gm-57-2.png",
+          "images": [
+            {
+              "src": "/images/products/tankless-water-geyser/gm-57-2.png",
+              "alt": "G.M. Consolidated GM-59 Tankless Water Heater - product photo"
+            }
+          ],
+          "specifications": [
+            {
+              "label": "Series",
+              "value": "Instant Series"
+            },
+            {
+              "label": "Type",
+              "value": "Tankless Water Heater"
+            },
+            {
+              "label": "Heating element",
+              "value": "Copper Heating Element"
+            },
+            {
+              "label": "Thermostat",
+              "value": "High Precision Thermostat"
+            },
+            {
+              "label": "Safety",
+              "value": "Triple Safety Protection"
+            },
+            {
+              "label": "Warranty",
+              "value": "2 Year Product Warranty"
+            }
+          ],
+          "features": [
+            "Tankless On-Demand Heating",
+            "Copper Heating Element",
+            "High Precision Thermostat",
+            "Triple Safety Protection",
+            "Compact Wall-Mounted Body",
+            "Power Indicator",
+            "2 Years Product Warranty"
+          ],
+          "relatedProducts": [
+            "gm-56",
+            "gm-57"
           ]
         }
       ]

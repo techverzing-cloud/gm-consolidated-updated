@@ -29,6 +29,7 @@ Every checklist item was verified against the actual implementation. Statuses us
 3. A true 1200×630 share image (current choice: site logo, which is 591×326).
 4. Confirmation of correct GM-18/GM-17 image files (cannot view images to verify).
 5. Real social profile URLs (optional, Task 2).
+6. Resend credentials to connect the contact form: `RESEND_API_KEY`, a **domain verified in Resend** for `RESEND_FROM_EMAIL`, and the sales inbox for `RESEND_TO_EMAIL`. Code is wired (`src/app/(marketing)/contact/actions.ts` → `submitEnquiry`), but no `.env` exists locally and the three vars are unset, so every submission currently returns `delivery_failed` and shows the fallback message. The same three values must also be set in Vercel → Environment Variables (Production). See the checklist in `.env.example`.
 
 ## Decisions Recorded
 

@@ -21,7 +21,7 @@ export async function generateMetadata({
     return { title: "Catalog" };
   }
   const title = `${category.name} Catalogue`;
-  const description = `${category.description} Explore the range.`;
+  const description = `${category.shortDescription} Explore the range.`;
   return buildPageMetadata({
     title,
     description,
@@ -57,7 +57,7 @@ export default async function CategoryPage({
               {category.name}
             </h1>
             <p className="mt-5 text-pretty text-base leading-relaxed text-foreground-secondary sm:text-lg">
-              {category.description}
+              {category.shortDescription}
             </p>
             {/* <p className="mt-4 text-sm font-medium text-foreground-secondary">
               {category.tag} &nbsp;&middot;&nbsp; Model codes {category.range}

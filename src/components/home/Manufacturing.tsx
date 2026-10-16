@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CAPABILITY_METRICS = [
   { to: "300", prefix: "100-", suffix: "T", label: "PDC capacity" },
-  { to: "4", prefix: "", suffix: "M", label: "Thermostats / year" },
+  { to: "6", prefix: "", suffix: "M", label: "Thermostats / year" },
   { to: "20", prefix: "", suffix: "+ yrs", label: "Tool room exports" },
 ];
 

@@ -18,30 +18,9 @@ const HEADLINE = [
 const SUPPORT =
   "From product development and tooling to precision manufacturing and assembly, we help brands bring home appliances to market through our manufacturing units in Kala Amb, Himachal Pradesh.";
 
-// Hero carousel — drop image files in public/home/hero and list them here to update the hero.
-const HERO_PRODUCTS = [
-  {
-    src: "/home/hero/hair-straightener.png",
-    alt: "Hair straightener",
-    width: 1024,
-    height: 1024,
-  },
-  { src: "/home/hero/fan-heater.png", alt: "Fan heater", width: 897, height: 715 },
-  {
-    src: "/home/hero/water-heater.png",
-    alt: "Instant water heater",
-    width: 1005,
-    height: 917,
-  },
-  {
-    src: "/home/hero/mosquito-racket.png",
-    alt: "Mosquito racket",
-    width: 1280,
-    height: 962,
-  },
-] as const;
+export type HeroProduct = { src: string; alt: string };
 
-export function CinematicHero() {
+export function CinematicHero({ products }: { products: HeroProduct[] }) {
   const scopeRef = useRef<HTMLElement>(null);
   const reduced = usePrefersReducedMotion();
 
@@ -398,17 +377,16 @@ export function CinematicHero() {
                     data-hero-product-tilt
                     className="relative aspect-square [transform-style:preserve-3d]"
                   >
-                    {HERO_PRODUCTS.map((product, index) => (
+                    {products.map((product, index) => (
                       <Image
                         key={product.src}
                         data-hero-product-img
                         src={product.src}
                         alt={product.alt}
-                        width={product.width}
-                        height={product.height}
+                        fill
                         priority={index === 0}
                         sizes="(min-width: 1024px) 494px, (min-width: 640px) 247px, 195px"
-                        className={`absolute inset-0 h-full w-full object-contain drop-shadow-[0_46px_60px_rgba(3,12,30,0.62)] ${
+                        className={`object-contain drop-shadow-[0_46px_60px_rgba(3,12,30,0.62)] ${
                           index === 0 ? "" : "opacity-0"
                         }`}
                       />

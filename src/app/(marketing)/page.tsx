@@ -12,6 +12,7 @@ import {
   SITE_DESCRIPTION,
   SITE_TITLE,
 } from "@/lib/metadata";
+import { getCategories } from "@/lib/catalog";
 
 export const metadata: Metadata = buildPageMetadata({
   title: SITE_TITLE,
@@ -21,9 +22,14 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function Home() {
+  const heroProducts = getCategories().map((category) => ({
+    src: category.image,
+    alt: category.imageAlt,
+  }));
+
   return (
     <>
-      <CinematicHero />
+      <CinematicHero products={heroProducts} />
       <Brands />
       <Catalog />
       <Engineering />
