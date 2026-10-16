@@ -42,7 +42,7 @@ export default function AboutPage() {
       <CompanyProfile profile={content.companyProfile} facts={content.companyFacts} />
       <CompanyFacts facts={content.companyFacts} />
       <LeadershipSection section={content.leadership} />
-      <TimelineSection timeline={content.timeline} />
+      {/* <TimelineSection timeline={content.timeline} /> */}
       <PhilosophySection philosophy={content.philosophy} />
       <CapabilitiesSection capabilities={content.whatWeDo} />
       <ManufacturingUnits section={content.manufacturingInfrastructure} scope="about" />

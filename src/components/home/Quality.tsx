@@ -24,7 +24,7 @@ const CHECKPOINTS = [
   },
   {
     step: "05",
-    title: "Routine test",
+    title: "BIS approved routine test",
     text: "Every single finished product is checked on a routine test line before packaging.",
   },
   {

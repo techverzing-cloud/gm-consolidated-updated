@@ -36,7 +36,7 @@
       "label": "Manufacturing Experience"
     },
     {
-      "value": "Kalam",
+      "value": "Kala Amb",
       "suffix": "",
       "label": "Manufacturing Base"
     },
@@ -189,7 +189,7 @@
       },
       {
         "number": "05",
-        "title": "Quality Control",
+        "title": "BIS Approved Quality Control ",
         "description": "Multi-stage safety and functional inspections supporting reliable commercial-ready products.",
         "icon": "lucide:clipboard-check"
       }
@@ -197,7 +197,7 @@
   },
   "manufacturingInfrastructure": {
     "eyebrow": "Built for Precision. Designed for Scale.",
-    "title": "Two Manufacturing Units. One Manufacturing Ecosystem.",
+    "title": "Our Specialized Manufacturing Units",
     "description": "G.M. Consolidated operates alongside specialized manufacturing units in Kala Amb, Himachal Pradesh - each unit focused on a defined part of the appliance manufacturing flow."
   },
   "productEcosystem": {
@@ -236,7 +236,7 @@
       {
         "number": "05",
         "name": "Personal Care",
-        "description": "Hair dryer products.",
+        "description": "Hair dryer and hair straightener products.",
         "icon": "lucide:air-vent",
         "href": "/catalog/personal-care"
       },
@@ -256,31 +256,17 @@
       },
       {
         "number": "08",
-        "name": "Standing Garment Steamer",
-        "description": "Standing garment steamer systems.",
+        "name": "Garment Steamer",
+        "description": "Standing and handheld garment steamer systems.",
         "icon": "lucide:waves",
-        "href": "/catalog/standing-garment-steamer"
+        "href": "/catalog/garment-steamer"
       },
       {
         "number": "09",
-        "name": "Handy Garment Steamer",
-        "description": "Handheld garment steamer systems.",
-        "icon": "lucide:spray-can",
-        "href": "/catalog/handy-garment-steamer"
-      },
-      {
-        "number": "10",
-        "name": "Tankless Water Geyser",
+        "name": "Tankless Water Heater",
         "description": "Tankless on-demand water geysers.",
         "icon": "lucide:droplets",
         "href": "/catalog/tankless-water-geyser"
-      },
-      {
-        "number": "11",
-        "name": "Hair Straightener",
-        "description": "Hair straightener products.",
-        "icon": "lucide:sparkles",
-        "href": "/catalog/hair-straightener"
       }
     ]
   },

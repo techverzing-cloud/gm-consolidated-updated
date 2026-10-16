@@ -90,7 +90,7 @@
       {
         "number": "05",
         "title": "Thermostat Manufacturing",
-        "description": "Dedicated thermostat manufacturing capability with approximately 4 million annual capacity.",
+        "description": "Dedicated thermostat manufacturing capability with approximately 6 million annual capacity.",
         "images": [
           "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-1.jpg",
           "/manufacturing/thermostat-manufacturing/thermostat-manufacturing-2.jpg",
@@ -128,7 +128,7 @@
       },
       {
         "number": "08",
-        "title": "DIS Approve Testing",
+        "title": "BIS Approve Testing",
         "description": "Finished products undergo routine testing before release.",
         "images": [
           "/manufacturing/routine-testing/routine-testing-1.jpg",
@@ -166,7 +166,7 @@
         "number": "04",
         "title": "Thermostat Manufacturing",
         "icon": "lucide:thermometer",
-        "details": ["4 million annual capacity", "Semi-automatic riveting lines", "Hydro-pneumatic riveting presses", "Brass terminals"]
+        "details": ["6 million annual capacity", "Semi-automatic riveting lines", "Hydro-pneumatic riveting presses", "Brass terminals"]
       },
       {
         "number": "05",
@@ -209,7 +209,7 @@
     ]
   },
   "units": {
-    "eyebrow": "Two Manufacturing Units",
+    "eyebrow": "Our Manufacturing Units",
     "title": "One Manufacturing Ecosystem.",
     "description": "Specialized manufacturing units in Kala Amb, Himachal Pradesh - each focused on a defined part of the appliance manufacturing flow.",
     "units": [

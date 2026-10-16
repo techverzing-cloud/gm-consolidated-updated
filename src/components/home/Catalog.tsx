@@ -29,7 +29,7 @@ export function Catalog() {
             data-reveal-child
             className="mt-4 text-balance text-3xl font-semibold leading-[1.1] text-foreground sm:text-4xl"
           >
-            Eleven Engineered Ranges. One Ecosystem.
+            Nine Engineered Ranges. One Ecosystem.
           </h2>
           <p
             data-reveal-child
@@ -67,9 +67,6 @@ export function Catalog() {
                 <h3 className="mt-1 text-xl font-semibold text-foreground">
                   {category.name}
                 </h3>
-                <p className="mt-1 text-sm font-medium text-foreground-secondary">
-                  {category.tag}
-                </p>
                 <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
                   {category.shortDescription}
                 </p>

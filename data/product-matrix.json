@@ -27,6 +27,13 @@
           "imageAlt": "Water heater"
         },
         {
+          "id": "heater",
+          "quantity": "100K+",
+          "label": "Room Heater",
+          "image": "/images/products/heating/gm46.png",
+          "imageAlt": "Heater"
+        },
+        {
           "id": "infrared-cooktop",
           "quantity": "50K+",
           "label": "Infrared Cooktop",
@@ -65,6 +72,13 @@
           "label": "Water Heater",
           "image": "/images/products/water-heating/gm32.png",
           "imageAlt": "Water heater"
+        },
+        {
+          "id": "heater",
+          "quantity": "1.2M+",
+          "label": "Room Heater",
+          "image": "/images/products/heating/gm46.png",
+          "imageAlt": "Heater"
         },
         {
           "id": "infrared-cooktop",

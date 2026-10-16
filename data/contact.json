@@ -28,7 +28,7 @@
     {
       "id": "business",
       "label": "Business Enquiries",
-      "value": "OEM / ODM / Private Label / Bulk",
+      "value": "OEM / ODM / Bulk",
       "description": "For OEM, ODM, private-label and bulk requirements.",
       "icon": "lucide:briefcase",
       "href": ""
