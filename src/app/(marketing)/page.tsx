@@ -13,6 +13,7 @@ import {
   SITE_TITLE,
 } from "@/lib/metadata";
 import { getCategories } from "@/lib/catalog";
+//nothing to commit
 
 export const metadata: Metadata = buildPageMetadata({
   title: SITE_TITLE,
